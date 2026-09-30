@@ -1,6 +1,21 @@
 # Menu artwork and image sources
 
-`leone-menu.png` is the original illustrated menu supplied by the restaurant owner. The file is unchanged. The interface displays individual pizza illustrations using SVG viewports and explicit clipping defined in `public/menu-art.js`. The hero uses the Margherita illustration. No separate dish photographs were supplied for cooked ham and mozzarella or the drinks; these use the neutral Leone placeholder until the owner uploads an image.
+`leone-menu.png` is the original illustrated menu supplied by the restaurant owner. The file is unchanged. The interface displays individual pizza illustrations using SVG viewports and explicit clipping defined in `public/menu-art.js`. The hero uses the Margherita illustration; stuffed focaccia reuses the original focaccia illustration.
+
+## Generated dish illustrations
+
+Ten illustrations were generated with the built-in imagegen tool in the supplied menu's watercolor/doodle style. Original PNG outputs are stored in `public/assets/` in the local application (`assets/` in this public export) and displayed without cropping. The full prompt set is retained in the local project's `IMAGE-PROMPTS.md`.
+
+- `tiramisu-doodle.png`
+- `cold-pasta-doodle.png`
+- `onion-frittata-doodle.png`
+- `ham-mozzarella-doodle.png` (crostino pizza)
+- `aperol-spritz-doodle.png`
+- `moscato-doodle.png`
+- `limoncello-doodle.png`
+- `bolgheri-rosso-doodle.png`
+- `blood-orange-doodle.png`
+- `italian-lemonade-doodle.png`
 
 ## Original demonstration photos
 

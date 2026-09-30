@@ -34,6 +34,7 @@ export function productImage(source, alt = '', className = '', loading = 'lazy')
     const clip = `menu-illustration-${++illustrationId}`;
     return `<svg class="menu-art ${escapeHTML(className)}" viewBox="${viewport.join(' ')}" role="img" aria-label="${escapeHTML(alt)}" focusable="false" preserveAspectRatio="xMidYMid meet"><defs><clipPath id="${clip}" clipPathUnits="userSpaceOnUse"><rect x="${viewport[0]}" y="${viewport[1]}" width="${viewport[2]}" height="${viewport[3]}" /></clipPath></defs><image href="${escapeHTML(file)}" width="1060" height="1484" clip-path="url(#${clip})" /></svg>`;
   }
-  return `<img class="${escapeHTML(className)}" src="${escapeHTML(image)}" alt="${escapeHTML(alt)}" loading="${loading}">`;
+  const doodleClass = /\/assets\/[a-z0-9-]+-doodle\.png$/.test(file) ? ' dish-doodle' : '';
+  return `<img class="${escapeHTML(className)}${doodleClass}" src="${escapeHTML(image)}" alt="${escapeHTML(alt)}" loading="${loading}">`;
 }
 document.addEventListener('error', event => { if (event.target instanceof HTMLImageElement && event.target.src !== placeholderURL) event.target.src = placeholderURL; }, true);

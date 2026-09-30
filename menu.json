@@ -3,6 +3,29 @@
   "groups": {
     "food": [
       {
+        "id": "3c3ce173-a035-4ccd-b474-00da262f3a4e",
+        "name": "Cold Pasta Salad",
+        "description": "Cold fusilli pasta with cherry tomatoes, mozzarella pearls, fresh basil and extra virgin olive oil.",
+        "translations": {
+          "zh": {
+            "name": "意式冷意面",
+            "description": "清爽螺旋意面，搭配小番茄、迷你马苏里拉奶酪球、新鲜罗勒和特级初榨橄榄油。"
+          },
+          "it": {
+            "name": "Pasta fredda",
+            "description": "Fusilli freddi con pomodorini, mozzarelline, basilico fresco e olio extravergine d’oliva."
+          },
+          "ja": {
+            "name": "冷製パスタ",
+            "description": "冷たいフジッリに、ミニトマト、ひと口モッツァレラ、フレッシュバジル、エキストラバージンオリーブオイルを合わせました。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/cold-pasta-doodle.png",
+        "available": true,
+        "section": "first_courses"
+      },
+      {
         "id": "d6f2a38b-07e3-4308-9e4f-3742b3071096",
         "name": "Roman Pizza Slice – Margherita",
         "description": "A slice of Roman-style pizza with tomato, mozzarella and basil.",
@@ -22,7 +45,8 @@
         },
         "price": 28,
         "image": "./assets/leone-menu.png#margherita",
-        "available": true
+        "available": true,
+        "section": "pizza"
       },
       {
         "id": "f81edefe-c25c-414c-b6d5-3e4467ef34f7",
@@ -44,7 +68,31 @@
         },
         "price": 28,
         "image": "./assets/leone-menu.png#marinara",
-        "available": true
+        "available": true,
+        "section": "pizza"
+      },
+      {
+        "id": "31b4b675-b0ca-44ff-9f79-1fa35b985c77",
+        "name": "Stuffed Focaccia",
+        "description": "Italian focaccia with the filling of the day, served by the piece. Ask our team about today's filling.",
+        "translations": {
+          "zh": {
+            "name": "意式夹心佛卡夏",
+            "description": "意式佛卡夏搭配当日夹馅，按块供应。今日夹馅请咨询店员。"
+          },
+          "it": {
+            "name": "Focaccia ripiena",
+            "description": "Focaccia italiana con la farcitura del giorno, servita al pezzo. Chiedi al nostro staff il ripieno di oggi."
+          },
+          "ja": {
+            "name": "フォカッチャサンド",
+            "description": "本日の具材をはさんだイタリアンフォカッチャ。1個ずつご提供します。具材はスタッフにお尋ねください。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/leone-menu.png#focaccia",
+        "available": true,
+        "section": "focaccia"
       },
       {
         "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
@@ -66,7 +114,8 @@
         },
         "price": 28,
         "image": "./assets/leone-menu.png#pumpkin",
-        "available": true
+        "available": true,
+        "section": "pizza"
       },
       {
         "id": "85274e3d-1d86-44d7-ab4d-1b44e7571d46",
@@ -88,7 +137,8 @@
         },
         "price": 28,
         "image": "./assets/leone-menu.png#truffle",
-        "available": true
+        "available": true,
+        "section": "pizza"
       },
       {
         "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
@@ -109,8 +159,32 @@
           }
         },
         "price": 28,
-        "image": "./placeholder.svg",
-        "available": true
+        "image": "./assets/ham-mozzarella-doodle.png",
+        "available": true,
+        "section": "pizza"
+      },
+      {
+        "id": "a9666780-b690-4406-820a-03ae819c0c11",
+        "name": "Onion Frittata",
+        "description": "An Italian egg frittata with onions, cooked until golden and served by the portion.",
+        "translations": {
+          "zh": {
+            "name": "意式洋葱烘蛋",
+            "description": "鸡蛋搭配洋葱，烹至金黄，按份供应。"
+          },
+          "it": {
+            "name": "Frittata di cipolle",
+            "description": "Frittata di uova e cipolle, cotta fino a doratura e servita in porzione."
+          },
+          "ja": {
+            "name": "玉ねぎのフリッタータ",
+            "description": "卵と玉ねぎをこんがり焼き上げたイタリア風オムレツ。1人前でご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/onion-frittata-doodle.png",
+        "available": true,
+        "section": "mains"
       }
     ],
     "drinks": [
@@ -133,7 +207,7 @@
           }
         },
         "price": 38,
-        "image": "./placeholder.svg",
+        "image": "./assets/aperol-spritz-doodle.png",
         "available": true
       },
       {
@@ -155,7 +229,7 @@
           }
         },
         "price": 32,
-        "image": "./placeholder.svg",
+        "image": "./assets/moscato-doodle.png",
         "available": true
       },
       {
@@ -177,7 +251,7 @@
           }
         },
         "price": 28,
-        "image": "./placeholder.svg",
+        "image": "./assets/limoncello-doodle.png",
         "available": true
       },
       {
@@ -199,7 +273,7 @@
           }
         },
         "price": 32,
-        "image": "./placeholder.svg",
+        "image": "./assets/bolgheri-rosso-doodle.png",
         "available": true
       },
       {
@@ -221,7 +295,7 @@
           }
         },
         "price": 28,
-        "image": "./placeholder.svg",
+        "image": "./assets/blood-orange-doodle.png",
         "available": true
       },
       {
@@ -243,10 +317,33 @@
           }
         },
         "price": 28,
-        "image": "./placeholder.svg",
+        "image": "./assets/italian-lemonade-doodle.png",
         "available": true
       }
     ],
-    "desserts": []
+    "desserts": [
+      {
+        "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
+        "name": "Tiramisu",
+        "description": "An Italian dessert with coffee-soaked sponge biscuits, mascarpone cream and a dusting of cocoa.",
+        "translations": {
+          "zh": {
+            "name": "提拉米苏",
+            "description": "经典意式甜点：咖啡浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒可可粉。"
+          },
+          "it": {
+            "name": "Tiramisù",
+            "description": "Dolce italiano con savoiardi al caffè, crema al mascarpone e una spolverata di cacao."
+          },
+          "ja": {
+            "name": "ティラミス",
+            "description": "コーヒーをしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、ココアをふったイタリアのデザート。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/tiramisu-doodle.png",
+        "available": true
+      }
+    ]
   }
 }
