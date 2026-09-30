@@ -1,4 +1,8 @@
-# Demonstration image sources
+# Menu artwork and image sources
+
+`leone-menu.png` is the original illustrated menu supplied by the restaurant owner. The file is unchanged. The interface displays individual pizza illustrations using SVG viewports and explicit clipping defined in `public/menu-art.js`. The hero uses the Margherita illustration. No separate dish photographs were supplied for cooked ham and mozzarella or the drinks; these use the neutral Leone placeholder until the owner uploads an image.
+
+## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
 

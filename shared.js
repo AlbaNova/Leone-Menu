@@ -1,3 +1,4 @@
+import { menuArt } from './menu-art.js';
 export const icons = {
   food: '<path d="M5 3v7m3-7v7M3 3v5a4 4 0 0 0 8 0V3M7 12v9M20 21V3c-5 3-5 10 0 10"/>',
   coffee: '<path d="M4 8h12v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Zm12 1h2a3 3 0 0 1 0 6h-2M3 22h16M7 2v2m6-2v2"/>',
@@ -24,4 +25,15 @@ export async function request(url, options = {}) {
   return result;
 }
 export const placeholderURL = new URL('./placeholder.svg', import.meta.url).href;
+let illustrationId = 0;
+export function productImage(source, alt = '', className = '', loading = 'lazy') {
+  const image = source || placeholderURL;
+  const [file, key] = image.split('#');
+  const viewport = /(?:^|\/)assets\/leone-menu\.png$/.test(file) && menuArt[key];
+  if (viewport) {
+    const clip = `menu-illustration-${++illustrationId}`;
+    return `<svg class="menu-art ${escapeHTML(className)}" viewBox="${viewport.join(' ')}" role="img" aria-label="${escapeHTML(alt)}" focusable="false" preserveAspectRatio="xMidYMid meet"><defs><clipPath id="${clip}" clipPathUnits="userSpaceOnUse"><rect x="${viewport[0]}" y="${viewport[1]}" width="${viewport[2]}" height="${viewport[3]}" /></clipPath></defs><image href="${escapeHTML(file)}" width="1060" height="1484" clip-path="url(#${clip})" /></svg>`;
+  }
+  return `<img class="${escapeHTML(className)}" src="${escapeHTML(image)}" alt="${escapeHTML(alt)}" loading="${loading}">`;
+}
 document.addEventListener('error', event => { if (event.target instanceof HTMLImageElement && event.target.src !== placeholderURL) event.target.src = placeholderURL; }, true);

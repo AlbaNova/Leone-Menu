@@ -3,229 +3,250 @@
   "groups": {
     "food": [
       {
-        "id": "3c3ce173-a035-4ccd-b474-00da262f3a4e",
-        "name": "Tomato & Basil Fusilli",
-        "description": "Spirals of pasta, sweet cherry tomatoes and fragrant basil in a light tomato sauce.",
+        "id": "d6f2a38b-07e3-4308-9e4f-3742b3071096",
+        "name": "Roman Pizza Slice – Margherita",
+        "description": "A slice of Roman-style pizza with tomato, mozzarella and basil.",
         "translations": {
           "zh": {
-            "name": "番茄罗勒螺旋面",
-            "description": "螺旋意面搭配甜美樱桃番茄与清香罗勒，裹上清爽番茄酱汁。"
+            "name": "罗马方形披萨（单块）· 玛格丽特",
+            "description": "罗马风味方形披萨，搭配番茄、马苏里拉奶酪和罗勒，按块供应。"
           },
           "it": {
-            "name": "Fusilli al pomodoro e basilico",
-            "description": "Fusilli con dolci pomodorini e basilico profumato, avvolti in un leggero sugo di pomodoro."
+            "name": "Trancio di pizza romana – Margherita",
+            "description": "Trancio di pizza romana con pomodoro, mozzarella e basilico."
           },
           "ja": {
-            "name": "トマトとバジルのフジッリ",
-            "description": "らせん状のパスタに、甘いチェリートマトと香り豊かなバジル。軽やかなトマトソースで仕上げました。"
+            "name": "ローマ風カットピザ · マルゲリータ",
+            "description": "トマト、モッツァレラ、バジルをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 68,
-        "image": "./assets/burrata.jpg",
+        "price": 28,
+        "image": "./assets/leone-menu.png#margherita",
         "available": true
       },
       {
-        "id": "1e22195d-810a-4dac-b528-2d46106d031f",
-        "name": "Mushroom Tagliatelle",
-        "description": "Golden ribbons of pasta with sautéed mushrooms, cherry tomatoes and fresh herbs.",
+        "id": "f81edefe-c25c-414c-b6d5-3e4467ef34f7",
+        "name": "Roman Pizza Slice – Marinara",
+        "description": "A slice of Roman-style pizza with tomato, garlic and oregano.",
         "translations": {
           "zh": {
-            "name": "蘑菇宽面",
-            "description": "金黄宽面搭配香煎蘑菇、樱桃番茄与新鲜香草。"
+            "name": "罗马方形披萨（单块）· 玛丽娜拉",
+            "description": "罗马风味方形披萨，搭配番茄、大蒜和牛至，按块供应。"
           },
           "it": {
-            "name": "Tagliatelle ai funghi",
-            "description": "Tagliatelle dorate con funghi saltati, pomodorini ed erbe aromatiche fresche."
+            "name": "Trancio di pizza romana – Marinara",
+            "description": "Trancio di pizza romana con pomodoro, aglio e origano."
           },
           "ja": {
-            "name": "きのこのタリアテッレ",
-            "description": "黄金色の平打ちパスタに、ソテーしたきのこ、チェリートマト、フレッシュハーブを合わせました。"
+            "name": "ローマ風カットピザ · マリナーラ",
+            "description": "トマト、にんにく、オレガノをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 88,
-        "image": "./assets/pasta.jpg",
-        "available": false
+        "price": 28,
+        "image": "./assets/leone-menu.png#marinara",
+        "available": true
       },
       {
-        "id": "d6f2a38b-07e3-4308-9e4f-3742b3071096",
-        "name": "Margherita Pizza",
-        "description": "Tomato, milky mozzarella and fragrant basil on a crisp, hand-stretched base.",
+        "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
+        "name": "Roman Pizza Slice – Pumpkin, Homemade Ricotta & Walnuts",
+        "description": "A slice of Roman-style pizza with pumpkin, homemade ricotta and walnuts.",
         "translations": {
           "zh": {
-            "name": "玛格丽特披萨",
-            "description": "手工拉制的香脆饼底，搭配番茄、奶香马苏里拉芝士与清香罗勒。"
+            "name": "罗马方形披萨（单块）· 南瓜、自制里科塔与核桃",
+            "description": "罗马风味方形披萨，搭配南瓜、自制里科塔乳清奶酪和核桃，按块供应。"
           },
           "it": {
-            "name": "Pizza Margherita",
-            "description": "Pomodoro, mozzarella e basilico profumato su una base croccante stesa a mano."
+            "name": "Trancio di pizza romana – Zucca, ricotta fatta in casa e noci",
+            "description": "Trancio di pizza romana con zucca, ricotta fatta in casa e noci."
           },
           "ja": {
-            "name": "マルゲリータピザ",
-            "description": "手でのばした香ばしい生地に、トマト、ミルキーなモッツァレラ、香り豊かなバジル。"
+            "name": "ローマ風カットピザ · かぼちゃ、自家製リコッタ、くるみ",
+            "description": "かぼちゃ、自家製リコッタ、くるみをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 78,
-        "image": "./assets/pizza.jpg",
-        "available": false
+        "price": 28,
+        "image": "./assets/leone-menu.png#pumpkin",
+        "available": true
       },
       {
-        "id": "3876ddda-dd94-417f-820b-7adfee085c36",
-        "name": "Basil Pesto Farfalle",
-        "description": "Bow-tie pasta with fragrant basil pesto, cherry tomatoes and fresh garden leaves.",
+        "id": "85274e3d-1d86-44d7-ab4d-1b44e7571d46",
+        "name": "Roman Pizza Slice – Truffle, Mushrooms & Mozzarella",
+        "description": "A slice of Roman-style pizza with truffle, mushrooms and mozzarella.",
         "translations": {
           "zh": {
-            "name": "罗勒青酱蝴蝶面",
-            "description": "蝴蝶意面拌清香罗勒青酱，搭配樱桃番茄与新鲜嫩叶。"
+            "name": "罗马方形披萨（单块）· 松露、蘑菇与马苏里拉",
+            "description": "罗马风味方形披萨，搭配松露、蘑菇和马苏里拉奶酪，按块供应。"
           },
           "it": {
-            "name": "Farfalle al pesto di basilico",
-            "description": "Farfalle con pesto di basilico profumato, pomodorini e fresche foglie d’insalata."
+            "name": "Trancio di pizza romana – Tartufo, funghi e mozzarella",
+            "description": "Trancio di pizza romana con tartufo, funghi e mozzarella."
           },
           "ja": {
-            "name": "バジルペーストのファルファッレ",
-            "description": "蝶の形のパスタを香り高いバジルペーストで和え、チェリートマトと新鮮な葉野菜を添えました。"
+            "name": "ローマ風カットピザ · トリュフ、きのこ、モッツァレラ",
+            "description": "トリュフ、きのこ、モッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 82,
-        "image": "./assets/risotto.jpg",
-        "available": false
+        "price": 28,
+        "image": "./assets/leone-menu.png#truffle",
+        "available": true
+      },
+      {
+        "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
+        "name": "Roman Pizza Slice – Cooked Ham & Mozzarella",
+        "description": "A slice of Roman-style pizza with cooked ham and mozzarella.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 熟火腿与马苏里拉",
+            "description": "罗马风味方形披萨，搭配熟火腿和马苏里拉奶酪，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Prosciutto cotto e mozzarella",
+            "description": "Trancio di pizza romana con prosciutto cotto e mozzarella."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · 加熱ハムとモッツァレラ",
+            "description": "加熱ハムとモッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./placeholder.svg",
+        "available": true
       }
     ],
     "drinks": [
       {
-        "id": "c91f5ef9-2a52-49df-9df6-8b7a29f70d0c",
-        "name": "Classic Cappuccino",
-        "description": "A double shot of espresso, warm milk and a cloud of silky foam.",
+        "id": "b4d4319a-b1fd-418d-8721-739d27806d07",
+        "name": "Aperol Spritz",
+        "description": "An Aperol Spritz cocktail, served by the glass. Contains alcohol.",
         "translations": {
           "zh": {
-            "name": "经典卡布奇诺",
-            "description": "双份浓缩咖啡搭配温热牛奶，覆以云朵般细腻绵密的奶泡。"
+            "name": "阿佩罗斯普利兹鸡尾酒",
+            "description": "Aperol Spritz 意式开胃鸡尾酒，按杯供应。含酒精。"
           },
           "it": {
-            "name": "Cappuccino classico",
-            "description": "Un doppio espresso, latte caldo e una nuvola di schiuma vellutata."
+            "name": "Aperol Spritz",
+            "description": "Cocktail Aperol Spritz servito al bicchiere. Bevanda alcolica."
           },
           "ja": {
-            "name": "クラシックカプチーノ",
-            "description": "ダブルショットのエスプレッソに温かいミルクと、雲のようになめらかなフォームを。"
-          }
-        },
-        "price": 32,
-        "image": "./assets/coffee.jpg",
-        "available": false
-      },
-      {
-        "id": "efadefa9-af9f-4249-ab6d-9708b7d4c456",
-        "name": "Iced Latte",
-        "description": "Our signature espresso poured over chilled milk and ice. Smooth and refreshing.",
-        "translations": {
-          "zh": {
-            "name": "冰拿铁",
-            "description": "招牌浓缩咖啡注入冰牛奶与冰块，口感顺滑，清爽怡人。"
-          },
-          "it": {
-            "name": "Latte macchiato freddo",
-            "description": "Il nostro espresso versato su latte freddo e ghiaccio. Morbido e rinfrescante."
-          },
-          "ja": {
-            "name": "アイスラテ",
-            "description": "冷たいミルクと氷に、こだわりのエスプレッソを注ぎました。なめらかで爽やかな一杯。"
-          }
-        },
-        "price": 36,
-        "image": "./assets/latte.jpg",
-        "available": false
-      },
-      {
-        "id": "148a434c-cc0e-47ad-9090-60a769676339",
-        "name": "Italian Citrus Spritz",
-        "description": "Sparkling citrus, fresh orange and plenty of ice. A bright, alcohol-free aperitivo.",
-        "translations": {
-          "zh": {
-            "name": "意式柑橘气泡饮",
-            "description": "清爽柑橘气泡饮，搭配新鲜橙子与满满冰块。一杯明快的无酒精开胃饮。"
-          },
-          "it": {
-            "name": "Spritz analcolico agli agrumi",
-            "description": "Agrumi frizzanti, arancia fresca e tanto ghiaccio. Un aperitivo vivace e senza alcol."
-          },
-          "ja": {
-            "name": "イタリアンシトラススプリッツ",
-            "description": "柑橘の炭酸にフレッシュオレンジとたっぷりの氷。爽やかなノンアルコールの食前ドリンクです。"
-          }
-        },
-        "price": 42,
-        "image": "./assets/spritz.jpg",
-        "available": false
-      }
-    ],
-    "desserts": [
-      {
-        "id": "a394cb06-5a0a-4383-b82f-16d316e40784",
-        "name": "Our Tiramisu",
-        "description": "Espresso-soaked ladyfingers, delicate mascarpone cream and a dusting of cocoa.",
-        "translations": {
-          "zh": {
-            "name": "招牌提拉米苏",
-            "description": "浸润浓缩咖啡的手指饼干，层叠细腻马斯卡彭奶油，轻撒可可粉。"
-          },
-          "it": {
-            "name": "Il nostro tiramisù",
-            "description": "Savoiardi imbevuti di espresso, delicata crema al mascarpone e una spolverata di cacao."
-          },
-          "ja": {
-            "name": "Leone のティラミス",
-            "description": "エスプレッソを染み込ませたフィンガービスケットに、繊細なマスカルポーネクリーム。ココアをふんわりと。"
-          }
-        },
-        "price": 48,
-        "image": "./assets/tiramisu.jpg",
-        "available": false
-      },
-      {
-        "id": "d4bed294-634e-4352-81bd-400f803890d5",
-        "name": "Chocolate Cookie Sundae",
-        "description": "Layers of chocolate and vanilla cream, crunchy cookie pieces and rich chocolate sauce.",
-        "translations": {
-          "zh": {
-            "name": "巧克力曲奇圣代",
-            "description": "巧克力与香草奶油层层交织，搭配酥脆曲奇碎和浓郁巧克力酱。"
-          },
-          "it": {
-            "name": "Coppa al cioccolato e biscotti",
-            "description": "Strati di crema al cioccolato e alla vaniglia, biscotti croccanti e una ricca salsa al cioccolato."
-          },
-          "ja": {
-            "name": "チョコクッキーサンデー",
-            "description": "チョコレートとバニラのクリームを重ね、サクサクのクッキーと濃厚なチョコソースで仕上げました。"
+            "name": "アペロール・スプリッツ",
+            "description": "アペロール・スプリッツをグラスでご提供します。アルコールを含みます。"
           }
         },
         "price": 38,
-        "image": "./assets/gelato.jpg",
-        "available": false
+        "image": "./placeholder.svg",
+        "available": true
       },
       {
-        "id": "47280def-6cd9-4f2e-b63d-64681d8d9b6b",
-        "name": "Vanilla Panna Cotta",
-        "description": "A softly set vanilla cream with a spoonful of bright seasonal berry compote.",
+        "id": "dbedc1b0-29fe-48e2-9e7d-74a29c54ccdd",
+        "name": "Moscato d'Asti – By the Glass",
+        "description": "Moscato d'Asti wine, served by the glass. Contains alcohol.",
         "translations": {
           "zh": {
-            "name": "香草意式奶冻",
-            "description": "柔滑细腻的香草奶冻，搭配一勺酸甜明快的时令莓果酱。"
+            "name": "阿斯蒂莫斯卡托葡萄酒 · 杯装",
+            "description": "Moscato d’Asti 葡萄酒，按杯供应。含酒精。"
           },
           "it": {
-            "name": "Panna cotta alla vaniglia",
-            "description": "Una morbida panna cotta alla vaniglia, accompagnata da una vivace composta di frutti di bosco di stagione."
+            "name": "Moscato d’Asti – Alla mescita",
+            "description": "Vino Moscato d’Asti servito al bicchiere. Bevanda alcolica."
           },
           "ja": {
-            "name": "バニラパンナコッタ",
-            "description": "やわらかくなめらかなバニラのパンナコッタに、季節のベリーの甘酸っぱいコンポートを添えて。"
+            "name": "モスカート・ダスティ · グラス",
+            "description": "モスカート・ダスティのグラスワイン。アルコールを含みます。"
           }
         },
-        "price": 42,
-        "image": "./assets/pannacotta.jpg",
-        "available": false
+        "price": 32,
+        "image": "./placeholder.svg",
+        "available": true
+      },
+      {
+        "id": "a295cdfa-1d3b-4b72-9ecc-20d89282ce2c",
+        "name": "Artisan Limoncello – By the Glass",
+        "description": "Artisan lemon liqueur, served by the glass. Contains alcohol.",
+        "translations": {
+          "zh": {
+            "name": "手工柠檬利口酒 · 杯装",
+            "description": "手工制作的意式柠檬利口酒，按杯供应。含酒精。"
+          },
+          "it": {
+            "name": "Limoncello artigianale – Alla mescita",
+            "description": "Liquore di limone artigianale servito al bicchiere. Bevanda alcolica."
+          },
+          "ja": {
+            "name": "手作りリモンチェッロ · グラス",
+            "description": "手作りのレモンリキュールをグラスでご提供します。アルコールを含みます。"
+          }
+        },
+        "price": 28,
+        "image": "./placeholder.svg",
+        "available": true
+      },
+      {
+        "id": "223fae79-2674-48f6-bb99-723fa2afe3f2",
+        "name": "Bolgheri Rosso – By the Glass",
+        "description": "Bolgheri red wine, served by the glass. Contains alcohol.",
+        "translations": {
+          "zh": {
+            "name": "博尔格里红葡萄酒 · 杯装",
+            "description": "Bolgheri 红葡萄酒，按杯供应。含酒精。"
+          },
+          "it": {
+            "name": "Bolgheri rosso – Alla mescita",
+            "description": "Vino rosso Bolgheri servito al bicchiere. Bevanda alcolica."
+          },
+          "ja": {
+            "name": "ボルゲリ・ロッソ · グラス",
+            "description": "ボルゲリの赤ワインをグラスでご提供します。アルコールを含みます。"
+          }
+        },
+        "price": 32,
+        "image": "./placeholder.svg",
+        "available": true
+      },
+      {
+        "id": "1cd64908-5119-41ef-bc1a-6e82e3aeebde",
+        "name": "Fresh Blood Orange Juice – By the Glass",
+        "description": "Freshly squeezed blood orange juice, served by the glass.",
+        "translations": {
+          "zh": {
+            "name": "鲜榨血橙汁 · 杯装",
+            "description": "鲜榨血橙汁，按杯供应。"
+          },
+          "it": {
+            "name": "Spremuta d’arancia rossa – Alla mescita",
+            "description": "Spremuta d’arancia rossa servita al bicchiere."
+          },
+          "ja": {
+            "name": "搾りたてブラッドオレンジジュース · グラス",
+            "description": "搾りたてのブラッドオレンジジュースをグラスでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./placeholder.svg",
+        "available": true
+      },
+      {
+        "id": "a5a271a7-c9d6-4f91-8ef3-4092beb19ad8",
+        "name": "Italian Lemonade – By the Glass",
+        "description": "Italian-style lemonade, served by the glass.",
+        "translations": {
+          "zh": {
+            "name": "意式柠檬饮 · 杯装",
+            "description": "意式风味柠檬饮，按杯供应。"
+          },
+          "it": {
+            "name": "Limonata all’italiana – Alla mescita",
+            "description": "Limonata all’italiana servita al bicchiere."
+          },
+          "ja": {
+            "name": "イタリアンレモネード · グラス",
+            "description": "イタリア風レモネードをグラスでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./placeholder.svg",
+        "available": true
       }
-    ]
+    ],
+    "desserts": []
   }
 }
