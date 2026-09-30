@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f8f6ef"><meta name="description" content="在 Leone Caffè Cucina，品味意式美食、香醇咖啡与日常的小美好。">
+  <title>菜单 · Leone Caffè Cucina</title>
+  <meta name="menu-source" content="./menu.json">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css"><script type="module" src="./menu.js"></script>
+  <link rel="canonical" href="https://leonecaffecucina.net/">
+</head>
+<body class="public-body">
+  <a class="skip-link" href="#menu" data-i18n="skip">跳转到菜单</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Leone Caffè Cucina 首页" data-i18n-aria-label="brandHome"><span class="brand-words" lang="it">
+      <span>Leone</span>
+      <span>Caffè</span>
+      <span>Cucina</span>
+    </span><span class="italian-stripe" aria-hidden="true"><i></i><i></i><i></i></span></a>
+    <div class="header-caption" data-i18n="headerCaption">意式风味，日常美好。</div>
+    <div class="header-actions">
+      <nav class="language-switch" aria-label="选择语言" data-i18n-aria-label="languageLabel">
+        <button type="button" data-language="zh" lang="zh-CN" aria-pressed="true">中文</button>
+        <button type="button" data-language="en" lang="en" aria-pressed="false">English</button>
+        <button type="button" data-language="it" lang="it" aria-pressed="false">Italiano</button>
+        <button type="button" data-language="ja" lang="ja" aria-pressed="false">日本語</button>
+      </nav>
+      <a class="header-menu" href="#menu" data-i18n-aria-label="explore"><span data-i18n="explore">浏览菜单</span> <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><div class="eyebrow"><span class="tiny-line"></span><span data-i18n="heroEyebrow">品味意式生活</span></div>
+        <h1 id="hero-title"><span data-i18n="heroLine1">美味佳肴。</span><br><span data-i18n="heroLine2">香醇咖啡。</span><br><em data-i18n="heroLine3">美好时光。</em></h1>
+        <p><span data-i18n="heroLead1">请坐，让生活慢下来。</span><br><span data-i18n="heroLead2">一份小美好，正在这里等你。</span></p>
+        <a class="button primary" href="#menu"><span data-i18n="discover">探索我们的菜单</span><span aria-hidden="true">↓</span></a>
+        <div class="hero-footnote"><span class="little-sun" aria-hidden="true">✳</span><span data-i18n="heroFootnote">用心制作，一起分享。</span></div>
+      </div>
+      <div class="hero-photo"><img src="./assets/pasta.jpg" alt="一盘香气四溢、适合分享的意大利面" data-i18n-alt="heroPhotoAlt" fetchpriority="high"><div class="photo-shade"></div><div class="hero-photo-caption"><span><span data-i18n="photoCaption1">简单的美味，</span><br><span data-i18n="photoCaption2">用心做好。</span></span><span class="photo-number">01 — LEONE</span></div><div class="round-seal" aria-hidden="true"><span data-i18n="sealTop">一口品味</span><strong data-i18n="sealItaly">意大利</strong><span data-i18n="sealBottom">美好就在此刻</span></div></div>
+    </section>
+    <div class="values-strip wrap"><span data-i18n="valueFresh">新鲜食材</span><span aria-hidden="true">✦</span><span data-i18n="valueItalian">意式灵感</span><span aria-hidden="true">✦</span><span data-i18n="valueWelcome">暖心相待</span></div>
+    <section class="menu-section wrap" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading"><div><div class="eyebrow" data-i18n="menuEyebrow">每个时刻，都有好滋味</div><h2 id="menu-title"><span data-i18n="menuTitle">菜单</span><span class="serif-dot">.</span></h2></div><p><span data-i18n="menuIntro1">一口美食，一杯好饮。</span><br><span data-i18n="menuIntro2">找到你的新心头好。</span></p></div>
+      <div class="menu-controls">
+        <nav class="category-tabs" aria-label="菜单分类" data-i18n-aria-label="categoriesLabel">
+          <button class="category-tab active" data-category="food" aria-pressed="true"><span data-icon="food"></span><span data-i18n="food">美食</span><span class="tab-count" id="food-count"></span></button>
+          <button class="category-tab" data-category="drinks" aria-pressed="false"><span data-icon="coffee"></span><span data-i18n="drinks">饮品</span><span class="tab-count" id="drinks-count"></span></button>
+          <button class="category-tab" data-category="desserts" aria-pressed="false"><span data-icon="dessert"></span><span data-i18n="desserts">甜品</span><span class="tab-count" id="desserts-count"></span></button>
+        </nav>
+        <label class="search-box"><span data-icon="search"></span><input id="menu-search" type="search" placeholder="寻找心仪的美味…" aria-label="搜索所有菜品" data-i18n-placeholder="searchPlaceholder" data-i18n-aria-label="searchLabel"></label>
+      </div>
+      <div class="category-heading"><div><h3 id="category-title">来自我们的厨房</h3><p id="category-description">真材实料，经典滋味，满满意式心意。</p></div><span id="result-count" aria-live="polite"></span></div>
+      <div class="product-grid" id="products" aria-live="polite"><div class="loading-state" data-i18n="loading">美味正在准备中…</div></div>
+      <div id="connection-message" class="connection-message" role="status" hidden></div>
+    </section>
+    <aside class="hospitality wrap"><span class="hospitality-flower" aria-hidden="true">✳</span><div><h3 data-i18n="careTitle">多一份关心，多一份安心。</h3><p data-i18n="careText">如有食物过敏或特殊饮食需求，请在点单前告知店员。</p></div><span class="hospitality-signature" data-i18n="signature">Leone，用心相伴</span></aside>
+  </main>
+  <footer class="site-footer wrap"><div><a class="brand footer-brand" href="./" aria-label="Leone Caffè Cucina"><span class="brand-words" lang="it">
+      <span>Leone</span>
+      <span>Caffè</span>
+      <span>Cucina</span>
+    </span><span class="italian-stripe" aria-hidden="true"><i></i><i></i><i></i></span></a><p data-i18n="footerHome">一隅意大利风情，一份家的温暖。</p></div><div class="footer-note"><span data-i18n="footerCaption">相聚好时光，共享好滋味。</span><p data-i18n="footerNote">慢慢享用，这里是 Leone。</p></div></footer>
+  <dialog id="product-dialog" class="product-dialog"><button class="icon-button dialog-close" aria-label="关闭菜品详情" data-i18n-aria-label="closeDetails" data-close-dialog>×</button><div id="product-detail"></div></dialog>
+  <noscript><p class="noscript">请启用 JavaScript 以查看菜单。<br>Please enable JavaScript to view the menu.<br>Abilita JavaScript per vedere il menu.<br>メニューを見るには JavaScript を有効にしてください。</p></noscript>
+</body>
+</html>

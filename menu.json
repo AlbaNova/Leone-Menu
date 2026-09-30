@@ -1,0 +1,231 @@
+{
+  "currency": "CNY",
+  "groups": {
+    "food": [
+      {
+        "id": "3c3ce173-a035-4ccd-b474-00da262f3a4e",
+        "name": "Tomato & Basil Fusilli",
+        "description": "Spirals of pasta, sweet cherry tomatoes and fragrant basil in a light tomato sauce.",
+        "translations": {
+          "zh": {
+            "name": "番茄罗勒螺旋面",
+            "description": "螺旋意面搭配甜美樱桃番茄与清香罗勒，裹上清爽番茄酱汁。"
+          },
+          "it": {
+            "name": "Fusilli al pomodoro e basilico",
+            "description": "Fusilli con dolci pomodorini e basilico profumato, avvolti in un leggero sugo di pomodoro."
+          },
+          "ja": {
+            "name": "トマトとバジルのフジッリ",
+            "description": "らせん状のパスタに、甘いチェリートマトと香り豊かなバジル。軽やかなトマトソースで仕上げました。"
+          }
+        },
+        "price": 68,
+        "image": "./assets/burrata.jpg",
+        "available": true
+      },
+      {
+        "id": "1e22195d-810a-4dac-b528-2d46106d031f",
+        "name": "Mushroom Tagliatelle",
+        "description": "Golden ribbons of pasta with sautéed mushrooms, cherry tomatoes and fresh herbs.",
+        "translations": {
+          "zh": {
+            "name": "蘑菇宽面",
+            "description": "金黄宽面搭配香煎蘑菇、樱桃番茄与新鲜香草。"
+          },
+          "it": {
+            "name": "Tagliatelle ai funghi",
+            "description": "Tagliatelle dorate con funghi saltati, pomodorini ed erbe aromatiche fresche."
+          },
+          "ja": {
+            "name": "きのこのタリアテッレ",
+            "description": "黄金色の平打ちパスタに、ソテーしたきのこ、チェリートマト、フレッシュハーブを合わせました。"
+          }
+        },
+        "price": 88,
+        "image": "./assets/pasta.jpg",
+        "available": false
+      },
+      {
+        "id": "d6f2a38b-07e3-4308-9e4f-3742b3071096",
+        "name": "Margherita Pizza",
+        "description": "Tomato, milky mozzarella and fragrant basil on a crisp, hand-stretched base.",
+        "translations": {
+          "zh": {
+            "name": "玛格丽特披萨",
+            "description": "手工拉制的香脆饼底，搭配番茄、奶香马苏里拉芝士与清香罗勒。"
+          },
+          "it": {
+            "name": "Pizza Margherita",
+            "description": "Pomodoro, mozzarella e basilico profumato su una base croccante stesa a mano."
+          },
+          "ja": {
+            "name": "マルゲリータピザ",
+            "description": "手でのばした香ばしい生地に、トマト、ミルキーなモッツァレラ、香り豊かなバジル。"
+          }
+        },
+        "price": 78,
+        "image": "./assets/pizza.jpg",
+        "available": false
+      },
+      {
+        "id": "3876ddda-dd94-417f-820b-7adfee085c36",
+        "name": "Basil Pesto Farfalle",
+        "description": "Bow-tie pasta with fragrant basil pesto, cherry tomatoes and fresh garden leaves.",
+        "translations": {
+          "zh": {
+            "name": "罗勒青酱蝴蝶面",
+            "description": "蝴蝶意面拌清香罗勒青酱，搭配樱桃番茄与新鲜嫩叶。"
+          },
+          "it": {
+            "name": "Farfalle al pesto di basilico",
+            "description": "Farfalle con pesto di basilico profumato, pomodorini e fresche foglie d’insalata."
+          },
+          "ja": {
+            "name": "バジルペーストのファルファッレ",
+            "description": "蝶の形のパスタを香り高いバジルペーストで和え、チェリートマトと新鮮な葉野菜を添えました。"
+          }
+        },
+        "price": 82,
+        "image": "./assets/risotto.jpg",
+        "available": false
+      }
+    ],
+    "drinks": [
+      {
+        "id": "c91f5ef9-2a52-49df-9df6-8b7a29f70d0c",
+        "name": "Classic Cappuccino",
+        "description": "A double shot of espresso, warm milk and a cloud of silky foam.",
+        "translations": {
+          "zh": {
+            "name": "经典卡布奇诺",
+            "description": "双份浓缩咖啡搭配温热牛奶，覆以云朵般细腻绵密的奶泡。"
+          },
+          "it": {
+            "name": "Cappuccino classico",
+            "description": "Un doppio espresso, latte caldo e una nuvola di schiuma vellutata."
+          },
+          "ja": {
+            "name": "クラシックカプチーノ",
+            "description": "ダブルショットのエスプレッソに温かいミルクと、雲のようになめらかなフォームを。"
+          }
+        },
+        "price": 32,
+        "image": "./assets/coffee.jpg",
+        "available": false
+      },
+      {
+        "id": "efadefa9-af9f-4249-ab6d-9708b7d4c456",
+        "name": "Iced Latte",
+        "description": "Our signature espresso poured over chilled milk and ice. Smooth and refreshing.",
+        "translations": {
+          "zh": {
+            "name": "冰拿铁",
+            "description": "招牌浓缩咖啡注入冰牛奶与冰块，口感顺滑，清爽怡人。"
+          },
+          "it": {
+            "name": "Latte macchiato freddo",
+            "description": "Il nostro espresso versato su latte freddo e ghiaccio. Morbido e rinfrescante."
+          },
+          "ja": {
+            "name": "アイスラテ",
+            "description": "冷たいミルクと氷に、こだわりのエスプレッソを注ぎました。なめらかで爽やかな一杯。"
+          }
+        },
+        "price": 36,
+        "image": "./assets/latte.jpg",
+        "available": false
+      },
+      {
+        "id": "148a434c-cc0e-47ad-9090-60a769676339",
+        "name": "Italian Citrus Spritz",
+        "description": "Sparkling citrus, fresh orange and plenty of ice. A bright, alcohol-free aperitivo.",
+        "translations": {
+          "zh": {
+            "name": "意式柑橘气泡饮",
+            "description": "清爽柑橘气泡饮，搭配新鲜橙子与满满冰块。一杯明快的无酒精开胃饮。"
+          },
+          "it": {
+            "name": "Spritz analcolico agli agrumi",
+            "description": "Agrumi frizzanti, arancia fresca e tanto ghiaccio. Un aperitivo vivace e senza alcol."
+          },
+          "ja": {
+            "name": "イタリアンシトラススプリッツ",
+            "description": "柑橘の炭酸にフレッシュオレンジとたっぷりの氷。爽やかなノンアルコールの食前ドリンクです。"
+          }
+        },
+        "price": 42,
+        "image": "./assets/spritz.jpg",
+        "available": false
+      }
+    ],
+    "desserts": [
+      {
+        "id": "a394cb06-5a0a-4383-b82f-16d316e40784",
+        "name": "Our Tiramisu",
+        "description": "Espresso-soaked ladyfingers, delicate mascarpone cream and a dusting of cocoa.",
+        "translations": {
+          "zh": {
+            "name": "招牌提拉米苏",
+            "description": "浸润浓缩咖啡的手指饼干，层叠细腻马斯卡彭奶油，轻撒可可粉。"
+          },
+          "it": {
+            "name": "Il nostro tiramisù",
+            "description": "Savoiardi imbevuti di espresso, delicata crema al mascarpone e una spolverata di cacao."
+          },
+          "ja": {
+            "name": "Leone のティラミス",
+            "description": "エスプレッソを染み込ませたフィンガービスケットに、繊細なマスカルポーネクリーム。ココアをふんわりと。"
+          }
+        },
+        "price": 48,
+        "image": "./assets/tiramisu.jpg",
+        "available": false
+      },
+      {
+        "id": "d4bed294-634e-4352-81bd-400f803890d5",
+        "name": "Chocolate Cookie Sundae",
+        "description": "Layers of chocolate and vanilla cream, crunchy cookie pieces and rich chocolate sauce.",
+        "translations": {
+          "zh": {
+            "name": "巧克力曲奇圣代",
+            "description": "巧克力与香草奶油层层交织，搭配酥脆曲奇碎和浓郁巧克力酱。"
+          },
+          "it": {
+            "name": "Coppa al cioccolato e biscotti",
+            "description": "Strati di crema al cioccolato e alla vaniglia, biscotti croccanti e una ricca salsa al cioccolato."
+          },
+          "ja": {
+            "name": "チョコクッキーサンデー",
+            "description": "チョコレートとバニラのクリームを重ね、サクサクのクッキーと濃厚なチョコソースで仕上げました。"
+          }
+        },
+        "price": 38,
+        "image": "./assets/gelato.jpg",
+        "available": false
+      },
+      {
+        "id": "47280def-6cd9-4f2e-b63d-64681d8d9b6b",
+        "name": "Vanilla Panna Cotta",
+        "description": "A softly set vanilla cream with a spoonful of bright seasonal berry compote.",
+        "translations": {
+          "zh": {
+            "name": "香草意式奶冻",
+            "description": "柔滑细腻的香草奶冻，搭配一勺酸甜明快的时令莓果酱。"
+          },
+          "it": {
+            "name": "Panna cotta alla vaniglia",
+            "description": "Una morbida panna cotta alla vaniglia, accompagnata da una vivace composta di frutti di bosco di stagione."
+          },
+          "ja": {
+            "name": "バニラパンナコッタ",
+            "description": "やわらかくなめらかなバニラのパンナコッタに、季節のベリーの甘酸っぱいコンポートを添えて。"
+          }
+        },
+        "price": 42,
+        "image": "./assets/pannacotta.jpg",
+        "available": false
+      }
+    ]
+  }
+}

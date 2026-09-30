@@ -2,6 +2,10 @@
 
 Public menu in Chinese, English, Italian and Japanese.
 
-Custom domain: https://leonecaffecucina.net/
+Website: https://leonecaffecucina.net/
 
-The public site is being prepared. Product management remains on the owner's computer.
+This repository contains only the exported public site. Product editing and data storage stay on the owner's computer. To update the online menu, run **Export GitHub Pages.cmd** in the local application and publish the resulting files to this repository.
+
+GitHub Pages settings: Deploy from a branch → main → / (root). Custom domain: leonecaffecucina.net. Enable **Enforce HTTPS** after the certificate is available.
+
+Generated: 2026-09-30T17:02:50.086Z
