@@ -43,7 +43,7 @@
             "description": "トマト、モッツァレラ、バジルをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 28,
+        "price": 22,
         "image": "./assets/leone-menu.png#margherita",
         "available": true,
         "section": "pizza"
@@ -66,8 +66,31 @@
             "description": "トマト、にんにく、オレガノをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 28,
+        "price": 21,
         "image": "./assets/leone-menu.png#marinara",
+        "available": true,
+        "section": "pizza"
+      },
+      {
+        "id": "2913a8a9-13e1-43f5-b434-6243ca834588",
+        "name": "Roman Pizza Slice – Potato & Rosemary",
+        "description": "A slice of Roman-style pizza with potatoes and rosemary.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 土豆与迷迭香",
+            "description": "罗马风味方形披萨，搭配土豆和迷迭香，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Patate e rosmarino",
+            "description": "Trancio di pizza romana con patate e rosmarino."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · じゃがいもとローズマリー",
+            "description": "じゃがいもとローズマリーをのせたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/leone-menu.png#potato-rosemary",
         "available": true,
         "section": "pizza"
       },
@@ -181,7 +204,7 @@
             "description": "卵と玉ねぎをこんがり焼き上げたイタリア風オムレツ。1人前でご提供します。"
           }
         },
-        "price": 28,
+        "price": 18,
         "image": "./assets/onion-frittata-doodle.png",
         "available": true,
         "section": "mains"
@@ -250,7 +273,7 @@
             "description": "手作りのレモンリキュールをグラスでご提供します。アルコールを含みます。"
           }
         },
-        "price": 28,
+        "price": 16,
         "image": "./assets/limoncello-doodle.png",
         "available": true
       },
@@ -319,6 +342,94 @@
         "price": 28,
         "image": "./assets/italian-lemonade-doodle.png",
         "available": true
+      },
+      {
+        "id": "15afe933-69a8-4469-8755-67773e36997f",
+        "name": "Pumpkin Spice Latte",
+        "description": "Espresso and milk with pumpkin and warming spices, finished with a soft milk foam.",
+        "translations": {
+          "zh": {
+            "name": "南瓜香料拿铁",
+            "description": "浓缩咖啡与牛奶，搭配南瓜和芳香香料，覆上柔滑奶泡。"
+          },
+          "it": {
+            "name": "Pumpkin Spice Latte",
+            "description": "Espresso e latte con zucca e spezie aromatiche, completati da una morbida schiuma di latte."
+          },
+          "ja": {
+            "name": "パンプキンスパイスラテ",
+            "description": "エスプレッソとミルクに、かぼちゃと香り豊かなスパイスを合わせ、やわらかなミルクフォームで仕上げました。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/pumpkin-spice-latte-doodle.png",
+        "available": true
+      },
+      {
+        "id": "ed336ed6-d3f7-4505-bd0d-a818afc1f7af",
+        "name": "Hojicha Latte",
+        "description": "Japanese roasted green tea with milk, bringing together toasted tea aromas and a smooth, creamy finish.",
+        "translations": {
+          "zh": {
+            "name": "焙茶拿铁",
+            "description": "日式焙茶与牛奶融合，烘焙茶香醇厚，口感柔滑。"
+          },
+          "it": {
+            "name": "Hojicha Latte",
+            "description": "Tè verde giapponese tostato e latte, per una bevanda cremosa dal profumo avvolgente."
+          },
+          "ja": {
+            "name": "ほうじ茶ラテ",
+            "description": "香ばしいほうじ茶にミルクを合わせた、まろやかでやさしい味わいのラテ。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/hojicha-latte-doodle.png",
+        "available": true
+      },
+      {
+        "id": "720b4c52-a34d-4c51-8c8e-11997a3f424e",
+        "name": "Matcha Latte",
+        "description": "Japanese matcha green tea blended with milk for a smooth, creamy latte with a delicate tea flavour.",
+        "translations": {
+          "zh": {
+            "name": "抹茶拿铁",
+            "description": "日式抹茶与牛奶融合，口感细腻柔滑，茶香清雅。"
+          },
+          "it": {
+            "name": "Matcha Latte",
+            "description": "Tè verde matcha giapponese e latte, per una bevanda morbida e cremosa dal delicato aroma di tè."
+          },
+          "ja": {
+            "name": "抹茶ラテ",
+            "description": "日本の抹茶とミルクを合わせた、なめらかでクリーミーなラテ。やさしいお茶の香りをお楽しみください。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/matcha-latte-doodle.png",
+        "available": true
+      },
+      {
+        "id": "21a725e7-d7f5-4313-b753-5d4c00484f6d",
+        "name": "Organic Japanese Green Tea",
+        "description": "Organic Japanese green tea with a delicate, fresh aroma, served by the cup.",
+        "translations": {
+          "zh": {
+            "name": "日本有机绿茶",
+            "description": "日本有机绿茶，清香淡雅，按杯供应。"
+          },
+          "it": {
+            "name": "Tè verde giapponese biologico",
+            "description": "Tè verde giapponese biologico dal profumo fresco e delicato, servito in tazza."
+          },
+          "ja": {
+            "name": "日本産オーガニック緑茶",
+            "description": "日本産の有機緑茶。すっきりとした繊細な香りを、一杯ずつお楽しみください。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/organic-japanese-green-tea-doodle.png",
+        "available": true
       }
     ],
     "desserts": [
@@ -340,8 +451,30 @@
             "description": "コーヒーをしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、ココアをふったイタリアのデザート。"
           }
         },
-        "price": 28,
+        "price": 32,
         "image": "./assets/tiramisu-doodle.png",
+        "available": true
+      },
+      {
+        "id": "2768f1e9-326f-4130-b2d2-17bdf9d84fbc",
+        "name": "Orange Granita",
+        "description": "Italian-style orange granita with delicate ice crystals and a refreshing citrus flavour.",
+        "translations": {
+          "zh": {
+            "name": "香橙格兰尼塔冰沙",
+            "description": "意式香橙冰沙，细碎冰晶搭配清爽柑橘果香。"
+          },
+          "it": {
+            "name": "Granita all’arancia",
+            "description": "Granita all’arancia in stile italiano, con delicati cristalli di ghiaccio e un fresco gusto agrumato."
+          },
+          "ja": {
+            "name": "オレンジのグラニータ",
+            "description": "オレンジのさわやかな風味と繊細な氷の粒を楽しむ、イタリアの氷菓。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/orange-granita-doodle.png",
         "available": true
       }
     ]

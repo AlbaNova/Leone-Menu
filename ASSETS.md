@@ -4,7 +4,7 @@
 
 ## Generated dish illustrations
 
-Ten illustrations were generated with the built-in imagegen tool in the supplied menu's watercolor/doodle style. Original PNG outputs are stored in `public/assets/` in the local application (`assets/` in this public export) and displayed without cropping. The full prompt set is retained in the local project's `IMAGE-PROMPTS.md`.
+Fifteen illustrations were generated with the built-in imagegen tool in the supplied menu's watercolor/doodle style. Original PNG outputs are stored in `public/assets/` in the local application (`assets/` in this public export) and displayed without cropping. The full prompt set is retained in the local project's `IMAGE-PROMPTS.md`.
 
 - `tiramisu-doodle.png`
 - `cold-pasta-doodle.png`
@@ -16,6 +16,11 @@ Ten illustrations were generated with the built-in imagegen tool in the supplied
 - `bolgheri-rosso-doodle.png`
 - `blood-orange-doodle.png`
 - `italian-lemonade-doodle.png`
+- `pumpkin-spice-latte-doodle.png`
+- `hojicha-latte-doodle.png`
+- `matcha-latte-doodle.png`
+- `organic-japanese-green-tea-doodle.png`
+- `orange-granita-doodle.png`
 
 ## Original demonstration photos
 
