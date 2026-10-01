@@ -89,7 +89,7 @@
             "description": "じゃがいもとローズマリーをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 28,
+        "price": 22,
         "image": "./assets/leone-menu.png#potato-rosemary",
         "available": true,
         "section": "pizza"
@@ -158,7 +158,7 @@
             "description": "トリュフ、きのこ、モッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 28,
+        "price": 30,
         "image": "./assets/leone-menu.png#truffle",
         "available": true,
         "section": "pizza"
@@ -185,29 +185,6 @@
         "image": "./assets/ham-mozzarella-doodle.png",
         "available": true,
         "section": "pizza"
-      },
-      {
-        "id": "a9666780-b690-4406-820a-03ae819c0c11",
-        "name": "Onion Frittata",
-        "description": "An Italian egg frittata with onions, cooked until golden and served by the portion.",
-        "translations": {
-          "zh": {
-            "name": "意式洋葱烘蛋",
-            "description": "鸡蛋搭配洋葱，烹至金黄，按份供应。"
-          },
-          "it": {
-            "name": "Frittata di cipolle",
-            "description": "Frittata di uova e cipolle, cotta fino a doratura e servita in porzione."
-          },
-          "ja": {
-            "name": "玉ねぎのフリッタータ",
-            "description": "卵と玉ねぎをこんがり焼き上げたイタリア風オムレツ。1人前でご提供します。"
-          }
-        },
-        "price": 18,
-        "image": "./assets/onion-frittata-doodle.png",
-        "available": true,
-        "section": "mains"
       }
     ],
     "drinks": [
@@ -346,19 +323,19 @@
       {
         "id": "15afe933-69a8-4469-8755-67773e36997f",
         "name": "Pumpkin Spice Latte",
-        "description": "Espresso and milk with pumpkin and warming spices, finished with a soft milk foam.",
+        "description": "Milk with pumpkin and warming spices, finished with a soft milk foam.",
         "translations": {
           "zh": {
             "name": "南瓜香料拿铁",
-            "description": "浓缩咖啡与牛奶，搭配南瓜和芳香香料，覆上柔滑奶泡。"
+            "description": "牛奶搭配南瓜和芳香香料，覆上柔滑奶泡。"
           },
           "it": {
             "name": "Pumpkin Spice Latte",
-            "description": "Espresso e latte con zucca e spezie aromatiche, completati da una morbida schiuma di latte."
+            "description": "Latte con zucca e spezie aromatiche, completati da una morbida schiuma di latte."
           },
           "ja": {
             "name": "パンプキンスパイスラテ",
-            "description": "エスプレッソとミルクに、かぼちゃと香り豊かなスパイスを合わせ、やわらかなミルクフォームで仕上げました。"
+            "description": "ミルクに、かぼちゃと香り豊かなスパイスを合わせ、やわらかなミルクフォームで仕上げました。"
           }
         },
         "price": 28,
@@ -412,11 +389,11 @@
       {
         "id": "21a725e7-d7f5-4313-b753-5d4c00484f6d",
         "name": "Organic Japanese Green Tea",
-        "description": "Organic Japanese green tea with a delicate, fresh aroma, served by the cup.",
+        "description": "Organic Japanese green tea with a delicate, fresh aroma, served by the pot.",
         "translations": {
           "zh": {
             "name": "有机宇治玉露茶",
-            "description": "产自京都有机农园绿茶，清香淡雅，按杯供应。"
+            "description": "产自京都有机农园绿茶，清香淡雅，按壶供应"
           },
           "it": {
             "name": "Tè verde giapponese biologico",
@@ -424,7 +401,7 @@
           },
           "ja": {
             "name": "日本産オーガニック緑茶",
-            "description": "日本産の有機緑茶。すっきりとした繊細な香りを、一杯ずつお楽しみください。"
+            "description": "日本産の有機緑茶。すっきりとした繊細な香りを、お楽しみください。"
           }
         },
         "price": 28,
@@ -438,7 +415,7 @@
         "translations": {
           "zh": {
             "name": "有机宇治红茶",
-            "description": "源自京都有机农园的红茶，按壶供应。"
+            "description": "源自京都有机农园红茶，按壶供应。"
           },
           "it": {
             "name": "Tè nero biologico di Uji",
@@ -451,6 +428,50 @@
         },
         "price": 32,
         "image": "./assets/organic-uji-black-tea-teapot-doodle.png",
+        "available": true
+      },
+      {
+        "id": "cfd9fbda-f8f6-4ad1-9988-96808fc86bbc",
+        "name": "Organic Hojicha",
+        "description": "Served by the pot, pure organic hojicha imported from Kyoto",
+        "translations": {
+          "zh": {
+            "name": "有机烘焙茶",
+            "description": "源自京都森井农园"
+          },
+          "it": {
+            "name": "Hojicha organico da Kyoto",
+            "description": "Hojicha organico importato da Kyoto, 1 caraffa."
+          },
+          "ja": {
+            "name": "日本産オーガニックほうじ茶",
+            "description": ""
+          }
+        },
+        "price": 32,
+        "image": "./uploads/782f1d8e-4696-47d1-9909-8972238f7094.png",
+        "available": true
+      },
+      {
+        "id": "5af0aa05-2864-4ed1-ac99-91b4849c5a92",
+        "name": "Chai Latte",
+        "description": "Black tea and milk with aromatic spices, blended into a smooth, creamy latte.",
+        "translations": {
+          "zh": {
+            "name": "印度香料奶茶",
+            "description": "红茶与牛奶融合芳香香料，口感柔滑温润。"
+          },
+          "it": {
+            "name": "Chai Latte",
+            "description": "Tè nero e latte con spezie aromatiche, per una bevanda morbida e cremosa."
+          },
+          "ja": {
+            "name": "チャイラテ",
+            "description": "紅茶とミルクに香り豊かなスパイスを合わせた、まろやかなチャイラテ。"
+          }
+        },
+        "price": 26,
+        "image": "./assets/chai-latte-doodle.png",
         "available": true
       }
     ],
