@@ -415,8 +415,8 @@
         "description": "Organic Japanese green tea with a delicate, fresh aroma, served by the cup.",
         "translations": {
           "zh": {
-            "name": "日本有机绿茶",
-            "description": "日本有机绿茶，清香淡雅，按杯供应。"
+            "name": "有机宇治玉露茶",
+            "description": "产自京都有机农园绿茶，清香淡雅，按杯供应。"
           },
           "it": {
             "name": "Tè verde giapponese biologico",
@@ -429,6 +429,28 @@
         },
         "price": 28,
         "image": "./assets/organic-japanese-green-tea-doodle.png",
+        "available": true
+      },
+      {
+        "id": "e4d748df-5b3f-45fe-be6f-f107b99d4a64",
+        "name": "Organic Uji Black Tea",
+        "description": "Organic black tea from Kyoto, served by the teapot.",
+        "translations": {
+          "zh": {
+            "name": "有机宇治红茶",
+            "description": "源自京都有机农园的红茶，按壶供应。"
+          },
+          "it": {
+            "name": "Tè nero biologico di Uji",
+            "description": "Tè nero da coltivazioni biologiche di Kyoto, servito in teiera."
+          },
+          "ja": {
+            "name": "宇治有機紅茶",
+            "description": "京都の有機茶園で育まれた紅茶を、ティーポットでご提供します。"
+          }
+        },
+        "price": 32,
+        "image": "./assets/organic-uji-black-tea-teapot-doodle.png",
         "available": true
       }
     ],
