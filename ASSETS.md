@@ -4,7 +4,7 @@
 
 ## Generated dish illustrations
 
-Seventeen illustrations were generated with the built-in imagegen tool in the supplied menu's watercolor/doodle style. Original PNG outputs are stored in `public/assets/` in the local application (`assets/` in this public export) and displayed without cropping. The full prompt set is retained in the local project's `IMAGE-PROMPTS.md`.
+Twenty-three illustrations were generated with the built-in imagegen tool in the supplied menu's watercolor/doodle style. Original PNG outputs are stored in `public/assets/` in the local application (`assets/` in this public export) and displayed without cropping. Only images referenced by the current public menu are included in each export. The full prompt set is retained in the local project's `IMAGE-PROMPTS.md`.
 
 - `tiramisu-doodle.png`
 - `cold-pasta-doodle.png`
@@ -23,6 +23,12 @@ Seventeen illustrations were generated with the built-in imagegen tool in the su
 - `orange-granita-doodle.png`
 - `organic-uji-black-tea-teapot-doodle.png` (served by the teapot)
 - `chai-latte-doodle.png`
+- `gyokuro-tea-glass-doodle.png`
+- `gyokuro-tea-carafe-doodle.png`
+- `black-tea-glass-doodle.png`
+- `black-tea-carafe-doodle.png`
+- `hojicha-tea-glass-doodle.png`
+- `hojicha-tea-carafe-doodle.png`
 
 ## Original demonstration photos
 

@@ -95,29 +95,6 @@
         "section": "pizza"
       },
       {
-        "id": "31b4b675-b0ca-44ff-9f79-1fa35b985c77",
-        "name": "Stuffed Focaccia",
-        "description": "Italian focaccia with the filling of the day, served by the piece. Ask our team about today's filling.",
-        "translations": {
-          "zh": {
-            "name": "意式夹心佛卡夏",
-            "description": "意式佛卡夏搭配当日夹馅，按块供应。今日夹馅请咨询店员。"
-          },
-          "it": {
-            "name": "Focaccia ripiena",
-            "description": "Focaccia italiana con la farcitura del giorno, servita al pezzo. Chiedi al nostro staff il ripieno di oggi."
-          },
-          "ja": {
-            "name": "フォカッチャサンド",
-            "description": "本日の具材をはさんだイタリアンフォカッチャ。1個ずつご提供します。具材はスタッフにお尋ねください。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/leone-menu.png#focaccia",
-        "available": true,
-        "section": "focaccia"
-      },
-      {
         "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
         "name": "Roman Pizza Slice – Pumpkin, Homemade Ricotta & Walnuts",
         "description": "A slice of Roman-style pizza with pumpkin, homemade ricotta and walnuts.",
@@ -160,29 +137,6 @@
         },
         "price": 30,
         "image": "./assets/leone-menu.png#truffle",
-        "available": true,
-        "section": "pizza"
-      },
-      {
-        "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
-        "name": "Roman Pizza Slice – Cooked Ham & Mozzarella",
-        "description": "A slice of Roman-style pizza with cooked ham and mozzarella.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 熟火腿与马苏里拉",
-            "description": "罗马风味方形披萨，搭配熟火腿和马苏里拉奶酪，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Prosciutto cotto e mozzarella",
-            "description": "Trancio di pizza romana con prosciutto cotto e mozzarella."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · 加熱ハムとモッツァレラ",
-            "description": "加熱ハムとモッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/ham-mozzarella-doodle.png",
         "available": true,
         "section": "pizza"
       }
@@ -300,8 +254,8 @@
       },
       {
         "id": "a5a271a7-c9d6-4f91-8ef3-4092beb19ad8",
-        "name": "Italian Lemonade – By the Glass",
-        "description": "Italian-style lemonade, served by the glass.",
+        "name": "Italian Lemonade soda – By the Glass",
+        "description": "Italian-style lemonade soda, served by the glass.",
         "translations": {
           "zh": {
             "name": "意式柠檬饮 · 杯装",
@@ -388,68 +342,134 @@
       },
       {
         "id": "21a725e7-d7f5-4313-b753-5d4c00484f6d",
-        "name": "Organic Japanese Green Tea",
-        "description": "Organic Japanese green tea with a delicate, fresh aroma, served by the pot.",
+        "name": "Organic Japanese Green Tea – Carafe",
+        "description": "Organic Japanese green tea with a delicate, fresh aroma. Served by the carafe. Price per carafe.",
         "translations": {
           "zh": {
-            "name": "有机宇治玉露茶",
-            "description": "产自京都有机农园绿茶，清香淡雅，按壶供应"
+            "name": "有机宇治玉露茶 · 壶装",
+            "description": "产自京都有机农园的绿茶，清香淡雅。按壶供应，标价为每壶价格。"
           },
           "it": {
-            "name": "Tè verde giapponese biologico",
-            "description": "Tè verde giapponese biologico dal profumo fresco e delicato, servito in tazza."
+            "name": "Tè verde giapponese biologico · Caraffa",
+            "description": "Tè verde giapponese biologico dal profumo fresco e delicato. Servito in caraffa. Prezzo per caraffa."
           },
           "ja": {
-            "name": "日本産オーガニック緑茶",
-            "description": "日本産の有機緑茶。すっきりとした繊細な香りを、お楽しみください。"
+            "name": "日本産オーガニック緑茶 · カラフェ",
+            "description": "日本産の有機緑茶。すっきりとした繊細な香りをお楽しみください。カラフェでご提供します。表示価格はカラフェ1つ分です。"
           }
         },
-        "price": 28,
-        "image": "./assets/organic-japanese-green-tea-doodle.png",
+        "price": 32,
+        "image": "./assets/gyokuro-tea-carafe-doodle.png",
+        "available": true
+      },
+      {
+        "id": "8c890921-8add-42ac-b92d-221a7c593678",
+        "name": "Organic Japanese Green Tea – Glass",
+        "description": "Organic Japanese green tea with a delicate, fresh aroma. Served by the glass. Price per glass.",
+        "translations": {
+          "zh": {
+            "name": "有机宇治玉露茶 · 杯装",
+            "description": "产自京都有机农园的绿茶，清香淡雅。按杯供应，标价为每杯价格。"
+          },
+          "it": {
+            "name": "Tè verde giapponese biologico · Bicchiere",
+            "description": "Tè verde giapponese biologico dal profumo fresco e delicato. Servito al bicchiere. Prezzo per bicchiere."
+          },
+          "ja": {
+            "name": "日本産オーガニック緑茶 · グラス",
+            "description": "日本産の有機緑茶。すっきりとした繊細な香りをお楽しみください。グラスでご提供します。表示価格はグラス1杯分です。"
+          }
+        },
+        "price": 16,
+        "image": "./assets/gyokuro-tea-glass-doodle.png",
         "available": true
       },
       {
         "id": "e4d748df-5b3f-45fe-be6f-f107b99d4a64",
-        "name": "Organic Uji Black Tea",
-        "description": "Organic black tea from Kyoto, served by the teapot.",
+        "name": "Organic Uji Black Tea – Carafe",
+        "description": "Organic black tea from Kyoto. Served by the carafe. Price per carafe.",
         "translations": {
           "zh": {
-            "name": "有机宇治红茶",
-            "description": "源自京都有机农园红茶，按壶供应。"
+            "name": "有机宇治红茶 · 壶装",
+            "description": "源自京都有机农园的红茶。按壶供应，标价为每壶价格。"
           },
           "it": {
-            "name": "Tè nero biologico di Uji",
-            "description": "Tè nero da coltivazioni biologiche di Kyoto, servito in teiera."
+            "name": "Tè nero biologico di Uji · Caraffa",
+            "description": "Tè nero da coltivazioni biologiche di Kyoto. Servito in caraffa. Prezzo per caraffa."
           },
           "ja": {
-            "name": "宇治有機紅茶",
-            "description": "京都の有機茶園で育まれた紅茶を、ティーポットでご提供します。"
+            "name": "宇治有機紅茶 · カラフェ",
+            "description": "京都の有機茶園で育まれた紅茶。カラフェでご提供します。表示価格はカラフェ1つ分です。"
           }
         },
         "price": 32,
-        "image": "./assets/organic-uji-black-tea-teapot-doodle.png",
+        "image": "./assets/black-tea-carafe-doodle.png",
+        "available": true
+      },
+      {
+        "id": "d7d14c6c-41f3-499c-b889-3cc56c8d66be",
+        "name": "Organic Uji Black Tea – Glass",
+        "description": "Organic black tea from Kyoto. Served by the glass. Price per glass.",
+        "translations": {
+          "zh": {
+            "name": "有机宇治红茶 · 杯装",
+            "description": "源自京都有机农园的红茶。按杯供应，标价为每杯价格。"
+          },
+          "it": {
+            "name": "Tè nero biologico di Uji · Bicchiere",
+            "description": "Tè nero da coltivazioni biologiche di Kyoto. Servito al bicchiere. Prezzo per bicchiere."
+          },
+          "ja": {
+            "name": "宇治有機紅茶 · グラス",
+            "description": "京都の有機茶園で育まれた紅茶。グラスでご提供します。表示価格はグラス1杯分です。"
+          }
+        },
+        "price": 16,
+        "image": "./assets/black-tea-glass-doodle.png",
         "available": true
       },
       {
         "id": "cfd9fbda-f8f6-4ad1-9988-96808fc86bbc",
-        "name": "Organic Hojicha",
-        "description": "Served by the pot, pure organic hojicha imported from Kyoto",
+        "name": "Organic Hojicha – Carafe",
+        "description": "Pure organic hojicha imported from Kyoto. Served by the carafe. Price per carafe.",
         "translations": {
           "zh": {
-            "name": "有机烘焙茶",
-            "description": "源自京都森井农园"
+            "name": "有机烘焙茶 · 壶装",
+            "description": "源自京都森井农园。按壶供应，标价为每壶价格。"
           },
           "it": {
-            "name": "Hojicha organico da Kyoto",
-            "description": "Hojicha organico importato da Kyoto, 1 caraffa."
+            "name": "Hojicha organico da Kyoto · Caraffa",
+            "description": "Hojicha organico importato da Kyoto. Servito in caraffa. Prezzo per caraffa."
           },
           "ja": {
-            "name": "日本産オーガニックほうじ茶",
-            "description": ""
+            "name": "日本産オーガニックほうじ茶 · カラフェ",
+            "description": "京都から届いた有機ほうじ茶。カラフェでご提供します。表示価格はカラフェ1つ分です。"
           }
         },
         "price": 32,
-        "image": "./uploads/782f1d8e-4696-47d1-9909-8972238f7094.png",
+        "image": "./assets/hojicha-tea-carafe-doodle.png",
+        "available": true
+      },
+      {
+        "id": "e66a3389-29c6-459a-83a7-77b596f843a0",
+        "name": "Organic Hojicha – Glass",
+        "description": "Pure organic hojicha imported from Kyoto. Served by the glass. Price per glass.",
+        "translations": {
+          "zh": {
+            "name": "有机烘焙茶 · 杯装",
+            "description": "源自京都森井农园。按杯供应，标价为每杯价格。"
+          },
+          "it": {
+            "name": "Hojicha organico da Kyoto · Bicchiere",
+            "description": "Hojicha organico importato da Kyoto. Servito al bicchiere. Prezzo per bicchiere."
+          },
+          "ja": {
+            "name": "日本産オーガニックほうじ茶 · グラス",
+            "description": "京都から届いた有機ほうじ茶。グラスでご提供します。表示価格はグラス1杯分です。"
+          }
+        },
+        "price": 16,
+        "image": "./assets/hojicha-tea-glass-doodle.png",
         "available": true
       },
       {
