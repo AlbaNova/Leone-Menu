@@ -139,6 +139,52 @@
         "image": "./assets/leone-menu.png#truffle",
         "available": true,
         "section": "pizza"
+      },
+      {
+        "id": "19a9a478-8913-4cd0-93b5-f2998f68a5c5",
+        "name": "Roman Pizza Slice – White Miso & Asparagus",
+        "description": "A slice of Roman-style pizza with white miso and asparagus, served by the slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 白味噌与芦笋",
+            "description": "罗马风味方形披萨，搭配白味噌和芦笋，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Miso bianco e asparagi",
+            "description": "Trancio di pizza romana con miso bianco e asparagi, servito al pezzo."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · 白味噌とアスパラガス",
+            "description": "白味噌とアスパラガスをのせたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/white-miso-asparagus-pizza-doodle.png",
+        "available": true,
+        "section": "pizza"
+      },
+      {
+        "id": "8adf60a6-0306-4877-8470-8cd3f063c331",
+        "name": "Roman Pizza Slice – Cherry Tomatoes & Rocket",
+        "description": "A slice of Roman-style pizza with cherry tomatoes, rocket and organic extra virgin olive oil, served by the slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 小番茄与芝麻菜",
+            "description": "罗马风味方形披萨，搭配小番茄、芝麻菜和有机特级初榨橄榄油，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Pomodorini e rucola",
+            "description": "Trancio di pizza romana con pomodorini, rucola e olio extravergine d’oliva biologico, servito al pezzo."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · ミニトマトとルッコラ",
+            "description": "ミニトマトとルッコラをのせ、有機エキストラバージンオリーブオイルで仕上げたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/cherry-tomato-rocket-pizza-doodle.png",
+        "available": true,
+        "section": "pizza"
       }
     ],
     "drinks": [
