@@ -3,29 +3,6 @@
   "groups": {
     "food": [
       {
-        "id": "3c3ce173-a035-4ccd-b474-00da262f3a4e",
-        "name": "Cold Pasta Salad",
-        "description": "Cold fusilli pasta with cherry tomatoes, mozzarella pearls, fresh basil and extra virgin olive oil.",
-        "translations": {
-          "zh": {
-            "name": "意式冷意面",
-            "description": "清爽螺旋意面，搭配小番茄、迷你马苏里拉奶酪球、新鲜罗勒和特级初榨橄榄油。"
-          },
-          "it": {
-            "name": "Pasta fredda",
-            "description": "Fusilli freddi con pomodorini, mozzarelline, basilico fresco e olio extravergine d’oliva."
-          },
-          "ja": {
-            "name": "冷製パスタ",
-            "description": "冷たいフジッリに、ミニトマト、ひと口モッツァレラ、フレッシュバジル、エキストラバージンオリーブオイルを合わせました。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/cold-pasta-doodle.png",
-        "available": true,
-        "section": "first_courses"
-      },
-      {
         "id": "d6f2a38b-07e3-4308-9e4f-3742b3071096",
         "name": "Roman Pizza Slice – Margherita",
         "description": "A slice of Roman-style pizza with tomato, mozzarella and basil.",
@@ -45,29 +22,6 @@
         },
         "price": 22,
         "image": "./assets/leone-menu.png#margherita",
-        "available": true,
-        "section": "pizza"
-      },
-      {
-        "id": "f81edefe-c25c-414c-b6d5-3e4467ef34f7",
-        "name": "Roman Pizza Slice – Marinara",
-        "description": "A slice of Roman-style pizza with tomato, garlic and oregano.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 玛丽娜拉",
-            "description": "罗马风味方形披萨，搭配番茄、大蒜和牛至，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Marinara",
-            "description": "Trancio di pizza romana con pomodoro, aglio e origano."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · マリナーラ",
-            "description": "トマト、にんにく、オレガノをのせたローマ風ピザ。1ピースでご提供します。"
-          }
-        },
-        "price": 21,
-        "image": "./assets/leone-menu.png#marinara",
         "available": true,
         "section": "pizza"
       },
@@ -96,24 +50,24 @@
       },
       {
         "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
-        "name": "Roman Pizza Slice – Pumpkin, Homemade Ricotta & Walnuts",
-        "description": "A slice of Roman-style pizza with pumpkin, homemade ricotta and walnuts.",
+        "name": "Roman Pizza Slice – Pumpkin, Mozzarella & Super Seed",
+        "description": "A slice of Roman-style pizza with pumpkin, mozzarella and Super Seed (mixed seeds), served by the slice.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨（单块）· 南瓜、自制里科塔与核桃",
-            "description": "罗马风味方形披萨，搭配南瓜、自制里科塔乳清奶酪和核桃，按块供应。"
+            "name": "罗马方形披萨（单块）· 南瓜、马苏里拉与混合籽",
+            "description": "罗马风味方形披萨，搭配南瓜、马苏里拉奶酪和 Super Seed 混合籽，按块供应。"
           },
           "it": {
-            "name": "Trancio di pizza romana – Zucca, ricotta fatta in casa e noci",
-            "description": "Trancio di pizza romana con zucca, ricotta fatta in casa e noci."
+            "name": "Trancio di pizza romana – Zucca, mozzarella e Super Seed",
+            "description": "Trancio di pizza romana con zucca, mozzarella e Super Seed (mix di semi), servito al pezzo."
           },
           "ja": {
-            "name": "ローマ風カットピザ · かぼちゃ、自家製リコッタ、くるみ",
-            "description": "かぼちゃ、自家製リコッタ、くるみをのせたローマ風ピザ。1ピースでご提供します。"
+            "name": "ローマ風カットピザ · かぼちゃ、モッツァレラ、ミックスシード",
+            "description": "かぼちゃ、モッツァレラ、Super Seed（ミックスシード）をのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
         "price": 28,
-        "image": "./assets/leone-menu.png#pumpkin",
+        "image": "./assets/pumpkin-mozzarella-super-seed-pizza-doodle.png",
         "available": true,
         "section": "pizza"
       },
@@ -141,25 +95,25 @@
         "section": "pizza"
       },
       {
-        "id": "19a9a478-8913-4cd0-93b5-f2998f68a5c5",
-        "name": "Roman Pizza Slice – White Miso & Asparagus",
-        "description": "A slice of Roman-style pizza with white miso and asparagus, served by the slice.",
+        "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
+        "name": "Roman Pizza Slice – Cooked Ham & Mozzarella",
+        "description": "A slice of Roman-style pizza with cooked ham and mozzarella.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨（单块）· 白味噌与芦笋",
-            "description": "罗马风味方形披萨，搭配白味噌和芦笋，按块供应。"
+            "name": "罗马方形披萨（单块）· 熟火腿与马苏里拉",
+            "description": "罗马风味方形披萨，搭配熟火腿和马苏里拉奶酪，按块供应。"
           },
           "it": {
-            "name": "Trancio di pizza romana – Miso bianco e asparagi",
-            "description": "Trancio di pizza romana con miso bianco e asparagi, servito al pezzo."
+            "name": "Trancio di pizza romana – Prosciutto cotto e mozzarella",
+            "description": "Trancio di pizza romana con prosciutto cotto e mozzarella."
           },
           "ja": {
-            "name": "ローマ風カットピザ · 白味噌とアスパラガス",
-            "description": "白味噌とアスパラガスをのせたローマ風ピザ。1ピースでご提供します。"
+            "name": "ローマ風カットピザ · 加熱ハムとモッツァレラ",
+            "description": "加熱ハムとモッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
         "price": 28,
-        "image": "./assets/white-miso-asparagus-pizza-doodle.png",
+        "image": "./assets/ham-mozzarella-doodle.png",
         "available": true,
         "section": "pizza"
       },
@@ -234,8 +188,8 @@
       },
       {
         "id": "a295cdfa-1d3b-4b72-9ecc-20d89282ce2c",
-        "name": "Artisan Limoncello – By the Glass",
-        "description": "Artisan lemon liqueur, served by the glass. Contains alcohol.",
+        "name": "Homemade Limoncello – By the Glass",
+        "description": "Homemade lemon liqueur, served by the glass. Contains alcohol.",
         "translations": {
           "zh": {
             "name": "手工柠檬利口酒 · 杯装",
@@ -272,7 +226,7 @@
             "description": "ボルゲリの赤ワインをグラスでご提供します。アルコールを含みます。"
           }
         },
-        "price": 32,
+        "price": 89,
         "image": "./assets/bolgheri-rosso-doodle.png",
         "available": true
       },
@@ -294,7 +248,7 @@
             "description": "搾りたてのブラッドオレンジジュースをグラスでご提供します。"
           }
         },
-        "price": 28,
+        "price": 32,
         "image": "./assets/blood-orange-doodle.png",
         "available": true
       },
@@ -584,6 +538,28 @@
         },
         "price": 28,
         "image": "./assets/orange-granita-doodle.png",
+        "available": true
+      },
+      {
+        "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
+        "name": "Orange & Extra Virgin Olive Oil Cake",
+        "description": "A slice of orange cake made with extra virgin olive oil.",
+        "translations": {
+          "zh": {
+            "name": "香橙特级初榨橄榄油蛋糕",
+            "description": "以香橙和特级初榨橄榄油制作的蛋糕，按片供应。"
+          },
+          "it": {
+            "name": "Torta all’arancia e olio EVO",
+            "description": "Una fetta di torta all’arancia preparata con olio extravergine d’oliva."
+          },
+          "ja": {
+            "name": "オレンジとエキストラバージンオリーブオイルのケーキ",
+            "description": "オレンジとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/orange-evo-cake-doodle.png",
         "available": true
       }
     ]
