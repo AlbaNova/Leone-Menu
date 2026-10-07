@@ -292,7 +292,7 @@
             "description": "ミルクに、かぼちゃと香り豊かなスパイスを合わせ、やわらかなミルクフォームで仕上げました。"
           }
         },
-        "price": 28,
+        "price": 19,
         "image": "./assets/pumpkin-spice-latte-doodle.png",
         "available": true
       },
@@ -314,7 +314,7 @@
             "description": "香ばしいほうじ茶にミルクを合わせた、まろやかでやさしい味わいのラテ。"
           }
         },
-        "price": 28,
+        "price": 19,
         "image": "./assets/hojicha-latte-doodle.png",
         "available": true
       },
@@ -336,7 +336,7 @@
             "description": "日本の抹茶とミルクを合わせた、なめらかでクリーミーなラテ。やさしいお茶の香りをお楽しみください。"
           }
         },
-        "price": 28,
+        "price": 19,
         "image": "./assets/matcha-latte-doodle.png",
         "available": true
       },
@@ -490,7 +490,7 @@
             "description": "紅茶とミルクに香り豊かなスパイスを合わせた、まろやかなチャイラテ。"
           }
         },
-        "price": 26,
+        "price": 19,
         "image": "./assets/chai-latte-doodle.png",
         "available": true
       }
