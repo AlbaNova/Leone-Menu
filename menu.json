@@ -277,28 +277,6 @@
         "available": true
       },
       {
-        "id": "1cd64908-5119-41ef-bc1a-6e82e3aeebde",
-        "name": "Fresh Blood Orange Juice – By the Glass",
-        "description": "Freshly squeezed blood orange juice, served by the glass.",
-        "translations": {
-          "zh": {
-            "name": "鲜榨血橙汁 · 杯装",
-            "description": "鲜榨血橙汁，按杯供应。"
-          },
-          "it": {
-            "name": "Spremuta d’arancia rossa – Alla mescita",
-            "description": "Spremuta d’arancia rossa servita al bicchiere."
-          },
-          "ja": {
-            "name": "搾りたてブラッドオレンジジュース · グラス",
-            "description": "搾りたてのブラッドオレンジジュースをグラスでご提供します。"
-          }
-        },
-        "price": 32,
-        "image": "./assets/blood-orange-doodle.png",
-        "available": true
-      },
-      {
         "id": "a5a271a7-c9d6-4f91-8ef3-4092beb19ad8",
         "name": "Italian Lemonade soda – By the Glass",
         "description": "Italian-style lemonade soda, served by the glass.",
