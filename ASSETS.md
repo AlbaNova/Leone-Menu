@@ -4,7 +4,7 @@
 
 ## Generated dish illustrations
 
-Twenty-seven illustrations were generated with the built-in imagegen tool in the supplied menu's watercolor/doodle style. Original PNG outputs are stored in `public/assets/` in the local application (`assets/` in this public export) and displayed without cropping. Only images referenced by the current public menu are included in each export. The full prompt set is retained in the local project's `IMAGE-PROMPTS.md`.
+Twenty-nine illustrations were generated with the built-in imagegen tool in the supplied menu's watercolor/doodle style. Original PNG outputs are stored in `public/assets/` in the local application (`assets/` in this public export) and displayed without cropping. Only images referenced by the current public menu are included in each export. The full prompt set is retained in the local project's `IMAGE-PROMPTS.md`.
 
 - `tiramisu-doodle.png`
 - `cold-pasta-doodle.png`
@@ -35,6 +35,9 @@ Twenty-seven illustrations were generated with the built-in imagegen tool in the
 
 - `pumpkin-mozzarella-super-seed-pizza-doodle.png` (current pumpkin pizza: mozzarella and mixed seeds)
 - `orange-evo-cake-doodle.png`
+
+- `bacon-corn-mozzarella-pizza-doodle.png`
+- `oven-roasted-potatoes-doodle.png`
 
 ## Original demonstration photos
 

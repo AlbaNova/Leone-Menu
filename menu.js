@@ -1,6 +1,6 @@
 import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js';
 import { languages, translate, productText } from './i18n.js';
-import { groupedFood } from './food-sections.js';
+import { groupedFood, isPizzaSection } from './food-sections.js';
 hydrateIcons();
 const languageKey = 'leone-menu-language';
 const menuSource = document.querySelector('meta[name="menu-source"]')?.content || '/api/menu';
@@ -51,10 +51,19 @@ function render() {
   for (const key of ['food', 'drinks', 'desserts']) document.querySelector(`#${key}-count`).textContent = menu.groups[key].length;
   const renderProduct = p => {
     const text = productText(p, language);
-    return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><h4 lang="${text.nameLang}">${esc(text.name)}</h4><span class="product-price">${price(p.price)}</span></div><p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
+    const titleTag = !query && category === 'food' && isPizzaSection(p.section) ? 'h6' : 'h4';
+    return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><${titleTag} lang="${text.nameLang}">${esc(text.name)}</${titleTag}><span class="product-price">${price(p.price)}</span></div><p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
   };
   const useSections = !query && category === 'food' && source.some(p => p.section);
-  grid.innerHTML = source.length ? useSections ? groupedFood(source).map(group => `<h4 class="food-section-heading" data-food-section="${group.section}">${esc(t(`section_${group.section || 'other'}`))}</h4>${group.products.map(renderProduct).join('')}`).join('') : source.map(renderProduct).join('') : `<div class="empty-state">${icon('search')}<h3>${esc(t(query ? 'emptySearchTitle' : 'emptyCategoryTitle'))}</h3><p>${esc(t(query ? 'emptySearchHint' : 'emptyCategoryHint'))}</p>${query ? `<button class="button secondary" id="clear-search">${esc(t('clearSearch'))}</button>` : ''}</div>`;
+  let pizzaHeadingShown = false;
+  const renderGroup = group => {
+    const pizza = isPizzaSection(group.section);
+    const parentHeading = pizza && !pizzaHeadingShown ? `<h4 class="food-section-heading" data-pizza-section>${esc(t('section_pizza'))}</h4>` : '';
+    if (pizza) pizzaHeadingShown = true;
+    const tag = pizza ? 'h5' : 'h4';
+    return `${parentHeading}<${tag} class="${pizza ? 'pizza-section-heading' : 'food-section-heading'}" data-food-section="${group.section}">${esc(t(`section_${group.section || 'other'}`))}</${tag}>${group.products.map(renderProduct).join('')}`;
+  };
+  grid.innerHTML = source.length ? useSections ? groupedFood(source).map(renderGroup).join('') : source.map(renderProduct).join('') : `<div class="empty-state">${icon('search')}<h3>${esc(t(query ? 'emptySearchTitle' : 'emptyCategoryTitle'))}</h3><p>${esc(t(query ? 'emptySearchHint' : 'emptyCategoryHint'))}</p>${query ? `<button class="button secondary" id="clear-search">${esc(t('clearSearch'))}</button>` : ''}</div>`;
   document.querySelector('#clear-search')?.addEventListener('click', () => { query = ''; document.querySelector('#menu-search').value = ''; render(); });
   if (openedId && dialog.open) { const p = allProducts().find(p => p.id === openedId); if (p) details(p); else dialog.close(); }
 }

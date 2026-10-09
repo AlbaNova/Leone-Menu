@@ -23,7 +23,7 @@
         "price": 22,
         "image": "./assets/leone-menu.png#margherita",
         "available": true,
-        "section": "pizza"
+        "section": "pizza_classic"
       },
       {
         "id": "2913a8a9-13e1-43f5-b434-6243ca834588",
@@ -46,7 +46,7 @@
         "price": 22,
         "image": "./assets/leone-menu.png#potato-rosemary",
         "available": true,
-        "section": "pizza"
+        "section": "pizza_classic"
       },
       {
         "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
@@ -69,7 +69,7 @@
         "price": 28,
         "image": "./assets/pumpkin-mozzarella-super-seed-pizza-doodle.png",
         "available": true,
-        "section": "pizza"
+        "section": "pizza_special"
       },
       {
         "id": "85274e3d-1d86-44d7-ab4d-1b44e7571d46",
@@ -92,7 +92,7 @@
         "price": 30,
         "image": "./assets/leone-menu.png#truffle",
         "available": true,
-        "section": "pizza"
+        "section": "pizza_special"
       },
       {
         "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
@@ -115,7 +115,7 @@
         "price": 28,
         "image": "./assets/ham-mozzarella-doodle.png",
         "available": true,
-        "section": "pizza"
+        "section": "pizza_classic"
       },
       {
         "id": "8adf60a6-0306-4877-8470-8cd3f063c331",
@@ -138,7 +138,53 @@
         "price": 28,
         "image": "./assets/cherry-tomato-rocket-pizza-doodle.png",
         "available": true,
-        "section": "pizza"
+        "section": "pizza_classic"
+      },
+      {
+        "id": "265b7653-dbe7-4894-b8fb-05442b1c84cc",
+        "name": "Roman Pizza Slice – Bacon, Sweetcorn Cream & Mozzarella",
+        "description": "A slice of Roman-style pizza with bacon, sweetcorn cream and mozzarella, served by the slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 培根、玉米酱与马苏里拉",
+            "description": "罗马风味方形披萨，搭配培根、玉米酱和马苏里拉奶酪，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Bacon, crema di mais e mozzarella",
+            "description": "Trancio di pizza romana con bacon, crema di mais e mozzarella, servito al pezzo."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · ベーコン、コーンクリーム、モッツァレラ",
+            "description": "ベーコン、コーンクリーム、モッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/bacon-corn-mozzarella-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "d44c4fa0-e795-4396-ae14-07d6e1af40ff",
+        "name": "Oven-roasted Potatoes",
+        "description": "Golden oven-roasted potatoes, served as a side dish.",
+        "translations": {
+          "zh": {
+            "name": "烤土豆",
+            "description": "烤至金黄的土豆，作为配菜供应。"
+          },
+          "it": {
+            "name": "Patate al forno",
+            "description": "Patate dorate al forno, servite come contorno."
+          },
+          "ja": {
+            "name": "オーブン焼きポテト",
+            "description": "オーブンでこんがり焼き上げたポテト。サイドディッシュとしてご提供します。"
+          }
+        },
+        "price": 22,
+        "image": "./assets/oven-roasted-potatoes-doodle.png",
+        "available": true,
+        "section": "sides"
       }
     ],
     "drinks": [
