@@ -26,96 +26,27 @@
         "section": "pizza_classic"
       },
       {
-        "id": "2913a8a9-13e1-43f5-b434-6243ca834588",
-        "name": "Roman Pizza Slice – Potato & Rosemary",
-        "description": "A slice of Roman-style pizza with potatoes and rosemary.",
+        "id": "4a3e13bb-ecf1-4469-bfea-919117fad60a",
+        "name": "Roman Pizza Slice – Seasonal Special",
+        "description": "A slice of Roman-style pizza with seasonal ingredients. Ask our team about today's toppings.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨（单块）· 土豆与迷迭香",
-            "description": "罗马风味方形披萨，搭配土豆和迷迭香，按块供应。"
+            "name": "罗马方形披萨（单块）· 时令特选",
+            "description": "根据时令食材制作的罗马风味方形披萨，按块供应。今日配料请咨询店员。"
           },
           "it": {
-            "name": "Trancio di pizza romana – Patate e rosmarino",
-            "description": "Trancio di pizza romana con patate e rosmarino."
+            "name": "Trancio di pizza romana – Gusto stagionale",
+            "description": "Trancio di pizza romana con ingredienti di stagione. Chiedi al nostro staff la proposta del giorno."
           },
           "ja": {
-            "name": "ローマ風カットピザ · じゃがいもとローズマリー",
-            "description": "じゃがいもとローズマリーをのせたローマ風ピザ。1ピースでご提供します。"
-          }
-        },
-        "price": 22,
-        "image": "./assets/leone-menu.png#potato-rosemary",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
-        "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
-        "name": "Roman Pizza Slice – Pumpkin, Mozzarella & Super Seed",
-        "description": "A slice of Roman-style pizza with pumpkin, mozzarella and Super Seed (mixed seeds), served by the slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 南瓜、马苏里拉与混合籽",
-            "description": "罗马风味方形披萨，搭配南瓜、马苏里拉奶酪和 Super Seed 混合籽，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Zucca, mozzarella e Super Seed",
-            "description": "Trancio di pizza romana con zucca, mozzarella e Super Seed (mix di semi), servito al pezzo."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · かぼちゃ、モッツァレラ、ミックスシード",
-            "description": "かぼちゃ、モッツァレラ、Super Seed（ミックスシード）をのせたローマ風ピザ。1ピースでご提供します。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/pumpkin-mozzarella-super-seed-pizza-doodle.png",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "85274e3d-1d86-44d7-ab4d-1b44e7571d46",
-        "name": "Roman Pizza Slice – Truffle, Mushrooms & Mozzarella",
-        "description": "A slice of Roman-style pizza with truffle, mushrooms and mozzarella.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 松露、蘑菇与马苏里拉",
-            "description": "罗马风味方形披萨，搭配松露、蘑菇和马苏里拉奶酪，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Tartufo, funghi e mozzarella",
-            "description": "Trancio di pizza romana con tartufo, funghi e mozzarella."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · トリュフ、きのこ、モッツァレラ",
-            "description": "トリュフ、きのこ、モッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
+            "name": "ローマ風カットピザ · 季節のおすすめ",
+            "description": "旬の食材を使ったローマ風ピザ。1ピースでご提供します。本日の具材はスタッフにお尋ねください。"
           }
         },
         "price": 30,
-        "image": "./assets/leone-menu.png#truffle",
+        "image": "./assets/leone-menu.png#seasonal",
         "available": true,
         "section": "pizza_special"
-      },
-      {
-        "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
-        "name": "Roman Pizza Slice – Cooked Ham & Mozzarella",
-        "description": "A slice of Roman-style pizza with cooked ham and mozzarella.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 熟火腿与马苏里拉",
-            "description": "罗马风味方形披萨，搭配熟火腿和马苏里拉奶酪，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Prosciutto cotto e mozzarella",
-            "description": "Trancio di pizza romana con prosciutto cotto e mozzarella."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · 加熱ハムとモッツァレラ",
-            "description": "加熱ハムとモッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/ham-mozzarella-doodle.png",
-        "available": true,
-        "section": "pizza_classic"
       },
       {
         "id": "a9666780-b690-4406-820a-03ae819c0c11",
@@ -139,29 +70,6 @@
         "image": "./assets/onion-frittata-doodle.png",
         "available": true,
         "section": "mains"
-      },
-      {
-        "id": "8adf60a6-0306-4877-8470-8cd3f063c331",
-        "name": "Roman Pizza Slice – Cherry Tomatoes & Rocket",
-        "description": "A slice of Roman-style pizza with cherry tomatoes, rocket and organic extra virgin olive oil, served by the slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 小番茄与芝麻菜",
-            "description": "罗马风味方形披萨，搭配小番茄、芝麻菜和有机特级初榨橄榄油，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Pomodorini e rucola",
-            "description": "Trancio di pizza romana con pomodorini, rucola e olio extravergine d’oliva biologico, servito al pezzo."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · ミニトマトとルッコラ",
-            "description": "ミニトマトとルッコラをのせ、有機エキストラバージンオリーブオイルで仕上げたローマ風ピザ。1ピースでご提供します。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/cherry-tomato-rocket-pizza-doodle.png",
-        "available": true,
-        "section": "pizza_classic"
       },
       {
         "id": "265b7653-dbe7-4894-b8fb-05442b1c84cc",
@@ -295,7 +203,7 @@
             "description": "ボルゲリの赤ワインをグラスでご提供します。アルコールを含みます。"
           }
         },
-        "price": 89,
+        "price": 148,
         "image": "./assets/bolgheri-rosso-doodle.png",
         "available": true
       },
