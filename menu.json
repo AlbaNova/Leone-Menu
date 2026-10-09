@@ -203,7 +203,7 @@
             "description": "ボルゲリの赤ワインをグラスでご提供します。アルコールを含みます。"
           }
         },
-        "price": 148,
+        "price": 98,
         "image": "./assets/bolgheri-rosso-doodle.png",
         "available": true
       },
@@ -475,23 +475,23 @@
       },
       {
         "id": "2768f1e9-326f-4130-b2d2-17bdf9d84fbc",
-        "name": "Orange Granita",
-        "description": "Italian-style orange granita with delicate ice crystals and a refreshing citrus flavour.",
+        "name": "Lemon Granita",
+        "description": "Italian-style lemon - orange granita with delicate ice crystals and a refreshing citrus flavour.",
         "translations": {
           "zh": {
             "name": "香橙格兰尼塔冰沙",
             "description": "意式香橙冰沙，细碎冰晶搭配清爽柑橘果香。"
           },
           "it": {
-            "name": "Granita all’arancia",
-            "description": "Granita all’arancia in stile italiano, con delicati cristalli di ghiaccio e un fresco gusto agrumato."
+            "name": "Granita al limone",
+            "description": "Granita al limone in stile italiano, con delicati cristalli di ghiaccio e un fresco gusto agrumato."
           },
           "ja": {
-            "name": "オレンジのグラニータ",
-            "description": "オレンジのさわやかな風味と繊細な氷の粒を楽しむ、イタリアの氷菓。"
+            "name": "レモンのグラニータ",
+            "description": "レモンのさわやかな風味と繊細な氷の粒を楽しむ、イタリアの氷菓。"
           }
         },
-        "price": 28,
+        "price": 18,
         "image": "./assets/orange-granita-doodle.png",
         "available": true
       }
