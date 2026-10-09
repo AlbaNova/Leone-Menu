@@ -118,6 +118,29 @@
         "section": "pizza_classic"
       },
       {
+        "id": "a9666780-b690-4406-820a-03ae819c0c11",
+        "name": "Onion Frittata",
+        "description": "An Italian egg frittata with onions, cooked until golden and served by the portion.",
+        "translations": {
+          "zh": {
+            "name": "意式洋葱烘蛋",
+            "description": "鸡蛋搭配洋葱，烹至金黄，按份供应。"
+          },
+          "it": {
+            "name": "Frittata di cipolle",
+            "description": "Frittata di uova e cipolle, cotta fino a doratura e servita in porzione."
+          },
+          "ja": {
+            "name": "玉ねぎのフリッタータ",
+            "description": "卵と玉ねぎをこんがり焼き上げたイタリア風オムレツ。1人前でご提供します。"
+          }
+        },
+        "price": 18,
+        "image": "./assets/onion-frittata-doodle.png",
+        "available": true,
+        "section": "mains"
+      },
+      {
         "id": "8adf60a6-0306-4877-8470-8cd3f063c331",
         "name": "Roman Pizza Slice – Cherry Tomatoes & Rocket",
         "description": "A slice of Roman-style pizza with cherry tomatoes, rocket and organic extra virgin olive oil, served by the slice.",
@@ -562,28 +585,6 @@
         },
         "price": 28,
         "image": "./assets/orange-granita-doodle.png",
-        "available": true
-      },
-      {
-        "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
-        "name": "Orange & Extra Virgin Olive Oil Cake",
-        "description": "A slice of orange cake made with extra virgin olive oil.",
-        "translations": {
-          "zh": {
-            "name": "香橙特级初榨橄榄油蛋糕",
-            "description": "以香橙和特级初榨橄榄油制作的蛋糕，按片供应。"
-          },
-          "it": {
-            "name": "Torta all’arancia e olio EVO",
-            "description": "Una fetta di torta all’arancia preparata con olio extravergine d’oliva."
-          },
-          "ja": {
-            "name": "オレンジとエキストラバージンオリーブオイルのケーキ",
-            "description": "オレンジとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/orange-evo-cake-doodle.png",
         "available": true
       }
     ]
