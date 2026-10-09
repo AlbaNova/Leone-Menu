@@ -187,11 +187,11 @@
       },
       {
         "id": "223fae79-2674-48f6-bb99-723fa2afe3f2",
-        "name": "Bolgheri Rosso – By the Glass",
+        "name": "Le serre nuove dell'ornellaia - Bolgheri – By the Glass",
         "description": "Bolgheri red wine, served by the glass. Contains alcohol.",
         "translations": {
           "zh": {
-            "name": "博尔格里红葡萄酒 · 杯装",
+            "name": "Le serre nuove dell'ornellaia - Bolgheri 博尔格里红葡萄酒 · 杯装",
             "description": "Bolgheri 红葡萄酒，按杯供应。含酒精。"
           },
           "it": {
@@ -199,7 +199,7 @@
             "description": "Vino rosso Bolgheri servito al bicchiere. Bevanda alcolica."
           },
           "ja": {
-            "name": "ボルゲリ・ロッソ · グラス",
+            "name": "Le serre nuove dell'ornellaia - ボルゲリ・ロッソ · グラス",
             "description": "ボルゲリの赤ワインをグラスでご提供します。アルコールを含みます。"
           }
         },
