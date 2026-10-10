@@ -36,7 +36,7 @@ Twenty-nine illustrations were generated with the built-in imagegen tool in the 
 - `pumpkin-mozzarella-super-seed-pizza-doodle.png` (current pumpkin pizza: mozzarella and mixed seeds)
 - `orange-evo-cake-doodle.png`
 
-- `bacon-corn-mozzarella-pizza-doodle.png`
+- `bacon-corn-mozzarella-pizza-doodle.png` (superseded by the original-menu style correction below)
 - `oven-roasted-potatoes-doodle.png` (superseded by the simpler rosemary doodle below)
 
 - `pinsa-romana-doodle.png` (superseded; the whole and half products now use separate illustrations below)
@@ -59,6 +59,12 @@ Generated with the built-in image_gen tool, using the original `public/assets/le
 - `fennel-orange-balsamic-salad-doodle.png`: sliced fennel, orange segments and a visible balsamic drizzle.
 
 Final prompts and asset paths are recorded locally in `output/imagegen/caprese-fennel-salad-prompts.json`.
+
+## Bacon and sweetcorn doodle correction — 10 October 2026
+
+- `bacon-corn-mozzarella-flat-doodle.png`: a flat top-down Roman pizza slice with simplified bacon pieces, sweetcorn cream and mozzarella. Redrawn with the built-in image_gen tool using `leone-menu.png` as the strict style reference, replacing the earlier detailed watercolor image.
+
+Prompt saved locally in `output/imagegen/bacon-corn-doodle-prompt.txt`.
 
 ## Original demonstration photos
 

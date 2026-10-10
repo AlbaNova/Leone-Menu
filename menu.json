@@ -90,7 +90,7 @@
           }
         },
         "price": 28,
-        "image": "./assets/bacon-corn-mozzarella-pizza-doodle.png",
+        "image": "./assets/bacon-corn-mozzarella-flat-doodle.png",
         "available": true,
         "section": "pizza_special"
       },
