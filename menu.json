@@ -116,6 +116,29 @@
         "image": "./assets/oven-roasted-potatoes-doodle.png",
         "available": true,
         "section": "sides"
+      },
+      {
+        "id": "1a9801bd-2e78-40d2-8b0d-8ad83e431b95",
+        "name": "Roman Pinsa – Whole or Half",
+        "description": "Choose your flavour. Available whole or half, ready in 10 minutes.",
+        "translations": {
+          "zh": {
+            "name": "罗马椭圆披萨（整份或半份）",
+            "description": "口味自选，可选整份或半份，10分钟即可做好。"
+          },
+          "it": {
+            "name": "Pinsa romana – Intera o metà",
+            "description": "Gusto a scelta. Disponibile intera o metà, pronta in 10 minuti."
+          },
+          "ja": {
+            "name": "ローマ風ピンサ（ホール・ハーフ）",
+            "description": "お好みの味をお選びいただけます。ホールまたはハーフで、10分でご用意します。"
+          }
+        },
+        "price": 68,
+        "image": "./assets/pinsa-romana-doodle.png",
+        "available": true,
+        "section": "pizza_special"
       }
     ],
     "drinks": [

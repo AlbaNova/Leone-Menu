@@ -39,6 +39,8 @@ Twenty-nine illustrations were generated with the built-in imagegen tool in the 
 - `bacon-corn-mozzarella-pizza-doodle.png`
 - `oven-roasted-potatoes-doodle.png`
 
+- `pinsa-romana-doodle.png` — Roman pinsa illustration generated with the built-in image_gen tool (10 October 2026); watercolor/gouache style, oval golden crust on a white background. Topping is illustrative: guests choose their flavour. Prompt saved locally in `output/imagegen/pinsa-romana-prompt.txt`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
