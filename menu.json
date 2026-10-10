@@ -162,6 +162,52 @@
         "image": "./assets/pinsa-half-doodle.png",
         "available": true,
         "section": "pizza_special"
+      },
+      {
+        "id": "0b3d133f-3e72-48b7-a2fe-403f80fc8d1b",
+        "name": "Tomato & Burrata Caprese",
+        "description": "Tomatoes and burrata dressed with Quattrociocchi Primolio extra virgin olive oil.",
+        "translations": {
+          "zh": {
+            "name": "番茄与布拉塔奶酪卡普雷塞沙拉",
+            "description": "番茄搭配布拉塔奶酪，佐以 Quattrociocchi Primolio 特级初榨橄榄油。"
+          },
+          "it": {
+            "name": "Caprese di pomodori e burrata",
+            "description": "Pomodori e burrata con olio extravergine di oliva Primolio Quattrociocchi."
+          },
+          "ja": {
+            "name": "トマトとブッラータのカプレーゼ",
+            "description": "トマトとブッラータに、Quattrociocchi Primolio のエキストラバージンオリーブオイルを合わせました。"
+          }
+        },
+        "price": 48,
+        "image": "./assets/tomato-burrata-caprese-doodle.png",
+        "available": true,
+        "section": "sides"
+      },
+      {
+        "id": "400dbb8a-1a24-42c4-9b20-52296c9c2ade",
+        "name": "Fennel & Orange Salad",
+        "description": "Fennel and orange salad dressed with Giusti balsamic vinegar.",
+        "translations": {
+          "zh": {
+            "name": "球茎茴香与香橙沙拉",
+            "description": "球茎茴香搭配香橙，佐以 Giusti 意式香醋。"
+          },
+          "it": {
+            "name": "Insalata di finocchi e arancia",
+            "description": "Finocchi e arancia con aceto balsamico Giusti."
+          },
+          "ja": {
+            "name": "フェンネルとオレンジのサラダ",
+            "description": "フェンネルとオレンジを、Giusti のバルサミコ酢で仕上げました。"
+          }
+        },
+        "price": 32,
+        "image": "./assets/fennel-orange-balsamic-salad-doodle.png",
+        "available": true,
+        "section": "sides"
       }
     ],
     "drinks": [

@@ -51,6 +51,15 @@ These illustrations were redrawn with the built-in image_gen tool using the owne
 
 Pinsa toppings are illustrative; both portions offer a choice of flavour. Generation prompts and final asset paths are recorded locally in `output/imagegen/pinsa-and-potatoes-doodle-prompts.json`.
 
+## Caprese and fennel side dishes — 10 October 2026
+
+Generated with the built-in image_gen tool, using the original `public/assets/leone-menu.png` as the reference for the simple flat painted doodle style.
+
+- `tomato-burrata-caprese-doodle.png`: tomatoes, a whole burrata and extra virgin olive oil.
+- `fennel-orange-balsamic-salad-doodle.png`: sliced fennel, orange segments and a visible balsamic drizzle.
+
+Final prompts and asset paths are recorded locally in `output/imagegen/caprese-fennel-salad-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
