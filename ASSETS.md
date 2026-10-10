@@ -37,9 +37,19 @@ Twenty-nine illustrations were generated with the built-in imagegen tool in the 
 - `orange-evo-cake-doodle.png`
 
 - `bacon-corn-mozzarella-pizza-doodle.png`
-- `oven-roasted-potatoes-doodle.png`
+- `oven-roasted-potatoes-doodle.png` (superseded by the simpler rosemary doodle below)
 
-- `pinsa-romana-doodle.png` — Roman pinsa illustration generated with the built-in image_gen tool (10 October 2026); watercolor/gouache style, oval golden crust on a white background. Topping is illustrative: guests choose their flavour. Prompt saved locally in `output/imagegen/pinsa-romana-prompt.txt`.
+- `pinsa-romana-doodle.png` (superseded; the whole and half products now use separate illustrations below)
+
+## Corrected original-menu doodle style — 10 October 2026
+
+These illustrations were redrawn with the built-in image_gen tool using the owner’s original `leone-menu.png` as the artistic reference: simple flat painted shapes, reduced detail and white backgrounds.
+
+- `pinsa-whole-doodle.png`: whole oval Roman pinsa.
+- `pinsa-half-doodle.png`: visibly cut half of the same pinsa.
+- `oven-roasted-potatoes-rosemary-doodle.png`: simple roasted-potato wedges with visible green rosemary sprigs.
+
+Pinsa toppings are illustrative; both portions offer a choice of flavour. Generation prompts and final asset paths are recorded locally in `output/imagegen/pinsa-and-potatoes-doodle-prompts.json`.
 
 ## Original demonstration photos
 

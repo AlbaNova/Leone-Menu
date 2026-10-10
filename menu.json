@@ -113,30 +113,53 @@
           }
         },
         "price": 22,
-        "image": "./assets/oven-roasted-potatoes-doodle.png",
+        "image": "./assets/oven-roasted-potatoes-rosemary-doodle.png",
         "available": true,
         "section": "sides"
       },
       {
         "id": "1a9801bd-2e78-40d2-8b0d-8ad83e431b95",
-        "name": "Roman Pinsa – Whole or Half",
-        "description": "Choose your flavour. Available whole or half, ready in 10 minutes.",
+        "name": "Roman Pinsa – Whole",
+        "description": "A whole Roman pinsa with your choice of flavour, ready in 10 minutes.",
         "translations": {
           "zh": {
-            "name": "罗马椭圆披萨（整份或半份）",
-            "description": "口味自选，可选整份或半份，10分钟即可做好。"
+            "name": "罗马椭圆披萨（整份）",
+            "description": "整份罗马椭圆披萨，口味自选，10分钟即可做好。"
           },
           "it": {
-            "name": "Pinsa romana – Intera o metà",
-            "description": "Gusto a scelta. Disponibile intera o metà, pronta in 10 minuti."
+            "name": "Pinsa romana – Intera",
+            "description": "Pinsa romana intera, gusto a scelta, pronta in 10 minuti."
           },
           "ja": {
-            "name": "ローマ風ピンサ（ホール・ハーフ）",
-            "description": "お好みの味をお選びいただけます。ホールまたはハーフで、10分でご用意します。"
+            "name": "ローマ風ピンサ（ホール）",
+            "description": "ローマ風ピンサをホールで。お好みの味をお選びいただけます。10分でご用意します。"
           }
         },
         "price": 68,
-        "image": "./assets/pinsa-romana-doodle.png",
+        "image": "./assets/pinsa-whole-doodle.png",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "5cbec694-e008-4400-aec3-4c3cce2e5278",
+        "name": "Roman Pinsa – Half",
+        "description": "Half a Roman pinsa with your choice of flavour, ready in 10 minutes.",
+        "translations": {
+          "zh": {
+            "name": "罗马椭圆披萨（半份）",
+            "description": "半份罗马椭圆披萨，口味自选，10分钟即可做好。"
+          },
+          "it": {
+            "name": "Pinsa romana – Metà",
+            "description": "Mezza pinsa romana, gusto a scelta, pronta in 10 minuti."
+          },
+          "ja": {
+            "name": "ローマ風ピンサ（ハーフ）",
+            "description": "ローマ風ピンサをハーフで。お好みの味をお選びいただけます。10分でご用意します。"
+          }
+        },
+        "price": 38,
+        "image": "./assets/pinsa-half-doodle.png",
         "available": true,
         "section": "pizza_special"
       }
