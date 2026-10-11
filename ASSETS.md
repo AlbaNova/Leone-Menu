@@ -66,6 +66,15 @@ Final prompts and asset paths are recorded locally in `output/imagegen/caprese-f
 
 Prompt saved locally in `output/imagegen/bacon-corn-doodle-prompt.txt`.
 
+## Lingua di pizza bianca portions — 11 October 2026
+
+Generated with the built-in image_gen tool, matching the original `leone-menu.png` flat painted doodles.
+
+- `pizza-bianca-whole-doodle.png`: one whole long, plain pizza bianca with rounded ends.
+- `pizza-bianca-half-doodle.png`: one half portion with a visible straight cut edge, derived from the whole illustration.
+
+Each portion has its own product and image. Final prompts and asset paths are saved locally in `output/imagegen/pizza-bianca-portions-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.

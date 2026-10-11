@@ -139,6 +139,52 @@
         "image": "./assets/tomato-burrata-caprese-doodle.png",
         "available": true,
         "section": "sides"
+      },
+      {
+        "id": "be421665-dae0-47b6-abb1-bbba78964a6d",
+        "name": "Lingua di Pizza Bianca – Half",
+        "description": "Half of our long, tongue-shaped pizza bianca flatbread.",
+        "translations": {
+          "zh": {
+            "name": "意式长条白披萨（半份）",
+            "description": "长舌形意式白披萨，半份。"
+          },
+          "it": {
+            "name": "Lingua di pizza bianca – Metà",
+            "description": "Mezza lingua di pizza bianca dalla caratteristica forma lunga e stretta."
+          },
+          "ja": {
+            "name": "細長いピッツァ・ビアンカ（ハーフ）",
+            "description": "細長い舌の形をしたピッツァ・ビアンカのハーフサイズ。"
+          }
+        },
+        "price": 19,
+        "image": "./assets/pizza-bianca-half-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
+        "id": "65ec41f0-7736-4acf-8c7d-e85460f1c33f",
+        "name": "Lingua di Pizza Bianca – Whole",
+        "description": "A whole long, tongue-shaped pizza bianca flatbread.",
+        "translations": {
+          "zh": {
+            "name": "意式长条白披萨（整份）",
+            "description": "长舌形意式白披萨，整份。"
+          },
+          "it": {
+            "name": "Lingua di pizza bianca – Intera",
+            "description": "Una lingua di pizza bianca intera, dalla caratteristica forma lunga e stretta."
+          },
+          "ja": {
+            "name": "細長いピッツァ・ビアンカ（ホール）",
+            "description": "細長い舌の形をしたピッツァ・ビアンカのホールサイズ。"
+          }
+        },
+        "price": 38,
+        "image": "./assets/pizza-bianca-whole-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
       }
     ],
     "drinks": [
