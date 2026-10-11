@@ -72,52 +72,6 @@
         "section": "mains"
       },
       {
-        "id": "265b7653-dbe7-4894-b8fb-05442b1c84cc",
-        "name": "Roman Pizza Slice – Bacon, Sweetcorn Cream & Mozzarella",
-        "description": "A slice of Roman-style pizza with bacon, sweetcorn cream and mozzarella, served by the slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 培根、玉米酱与马苏里拉",
-            "description": "罗马风味方形披萨，搭配培根、玉米酱和马苏里拉奶酪，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Bacon, crema di mais e mozzarella",
-            "description": "Trancio di pizza romana con bacon, crema di mais e mozzarella, servito al pezzo."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · ベーコン、コーンクリーム、モッツァレラ",
-            "description": "ベーコン、コーンクリーム、モッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/bacon-corn-mozzarella-flat-doodle.png",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "d44c4fa0-e795-4396-ae14-07d6e1af40ff",
-        "name": "Oven-roasted Potatoes",
-        "description": "Golden oven-roasted potatoes, served as a side dish.",
-        "translations": {
-          "zh": {
-            "name": "烤土豆",
-            "description": "烤至金黄的土豆，作为配菜供应。"
-          },
-          "it": {
-            "name": "Patate al forno",
-            "description": "Patate dorate al forno, servite come contorno."
-          },
-          "ja": {
-            "name": "オーブン焼きポテト",
-            "description": "オーブンでこんがり焼き上げたポテト。サイドディッシュとしてご提供します。"
-          }
-        },
-        "price": 22,
-        "image": "./assets/oven-roasted-potatoes-rosemary-doodle.png",
-        "available": true,
-        "section": "sides"
-      },
-      {
         "id": "1a9801bd-2e78-40d2-8b0d-8ad83e431b95",
         "name": "Roman Pinsa – Whole",
         "description": "A whole Roman pinsa with your choice of flavour, ready in 10 minutes.",
@@ -185,29 +139,6 @@
         "image": "./assets/tomato-burrata-caprese-doodle.png",
         "available": true,
         "section": "sides"
-      },
-      {
-        "id": "400dbb8a-1a24-42c4-9b20-52296c9c2ade",
-        "name": "Fennel & Orange Salad",
-        "description": "Fennel and orange salad dressed with Giusti balsamic vinegar.",
-        "translations": {
-          "zh": {
-            "name": "球茎茴香与香橙沙拉",
-            "description": "球茎茴香搭配香橙，佐以 Giusti 意式香醋。"
-          },
-          "it": {
-            "name": "Insalata di finocchi e arancia",
-            "description": "Finocchi e arancia con aceto balsamico Giusti."
-          },
-          "ja": {
-            "name": "フェンネルとオレンジのサラダ",
-            "description": "フェンネルとオレンジを、Giusti のバルサミコ酢で仕上げました。"
-          }
-        },
-        "price": 32,
-        "image": "./assets/fennel-orange-balsamic-salad-doodle.png",
-        "available": true,
-        "section": "sides"
       }
     ],
     "drinks": [
@@ -231,28 +162,6 @@
         },
         "price": 38,
         "image": "./assets/aperol-spritz-doodle.png",
-        "available": true
-      },
-      {
-        "id": "dbedc1b0-29fe-48e2-9e7d-74a29c54ccdd",
-        "name": "Moscato d'Asti – By the Glass",
-        "description": "Moscato d'Asti wine, served by the glass. Contains alcohol.",
-        "translations": {
-          "zh": {
-            "name": "阿斯蒂莫斯卡托葡萄酒 · 杯装",
-            "description": "Moscato d’Asti 葡萄酒，按杯供应。含酒精。"
-          },
-          "it": {
-            "name": "Moscato d’Asti – Alla mescita",
-            "description": "Vino Moscato d’Asti servito al bicchiere. Bevanda alcolica."
-          },
-          "ja": {
-            "name": "モスカート・ダスティ · グラス",
-            "description": "モスカート・ダスティのグラスワイン。アルコールを含みます。"
-          }
-        },
-        "price": 32,
-        "image": "./assets/moscato-doodle.png",
         "available": true
       },
       {
@@ -543,28 +452,6 @@
       }
     ],
     "desserts": [
-      {
-        "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
-        "name": "Tiramisu",
-        "description": "An Italian dessert with coffee-soaked sponge biscuits, mascarpone cream and a dusting of cocoa.",
-        "translations": {
-          "zh": {
-            "name": "提拉米苏",
-            "description": "经典意式甜点：咖啡浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒可可粉。"
-          },
-          "it": {
-            "name": "Tiramisù",
-            "description": "Dolce italiano con savoiardi al caffè, crema al mascarpone e una spolverata di cacao."
-          },
-          "ja": {
-            "name": "ティラミス",
-            "description": "コーヒーをしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、ココアをふったイタリアのデザート。"
-          }
-        },
-        "price": 32,
-        "image": "./assets/tiramisu-doodle.png",
-        "available": true
-      },
       {
         "id": "2768f1e9-326f-4130-b2d2-17bdf9d84fbc",
         "name": "Lemon Granita",
