@@ -257,6 +257,28 @@
         "available": true
       },
       {
+        "id": "dbedc1b0-29fe-48e2-9e7d-74a29c54ccdd",
+        "name": "Moscato d'Asti – By the Glass",
+        "description": "Moscato d'Asti wine, served by the glass. Contains alcohol.",
+        "translations": {
+          "zh": {
+            "name": "阿斯蒂莫斯卡托葡萄酒 · 杯装",
+            "description": "Moscato d’Asti 葡萄酒，按杯供应。含酒精。"
+          },
+          "it": {
+            "name": "Moscato d’Asti – Alla mescita",
+            "description": "Vino Moscato d’Asti servito al bicchiere. Bevanda alcolica."
+          },
+          "ja": {
+            "name": "モスカート・ダスティ · グラス",
+            "description": "モスカート・ダスティのグラスワイン。アルコールを含みます。"
+          }
+        },
+        "price": 32,
+        "image": "./assets/moscato-doodle.png",
+        "available": true
+      },
+      {
         "id": "a295cdfa-1d3b-4b72-9ecc-20d89282ce2c",
         "name": "Homemade Limoncello – By the Glass",
         "description": "Homemade lemon liqueur, served by the glass. Contains alcohol.",
@@ -340,7 +362,7 @@
             "description": "ミルクに、かぼちゃと香り豊かなスパイスを合わせ、やわらかなミルクフォームで仕上げました。"
           }
         },
-        "price": 19,
+        "price": 29,
         "image": "./assets/pumpkin-spice-latte-doodle.png",
         "available": true
       },
@@ -362,7 +384,7 @@
             "description": "香ばしいほうじ茶にミルクを合わせた、まろやかでやさしい味わいのラテ。"
           }
         },
-        "price": 19,
+        "price": 29,
         "image": "./assets/hojicha-latte-doodle.png",
         "available": true
       },
@@ -384,7 +406,7 @@
             "description": "日本の抹茶とミルクを合わせた、なめらかでクリーミーなラテ。やさしいお茶の香りをお楽しみください。"
           }
         },
-        "price": 19,
+        "price": 29,
         "image": "./assets/matcha-latte-doodle.png",
         "available": true
       },
