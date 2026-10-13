@@ -296,30 +296,8 @@
             "description": "手作りのレモンリキュールをグラスでご提供します。アルコールを含みます。"
           }
         },
-        "price": 16,
+        "price": 18,
         "image": "./assets/limoncello-doodle.png",
-        "available": true
-      },
-      {
-        "id": "223fae79-2674-48f6-bb99-723fa2afe3f2",
-        "name": "Le serre nuove dell'ornellaia - Bolgheri – By the Glass",
-        "description": "Bolgheri red wine, served by the glass. Contains alcohol.",
-        "translations": {
-          "zh": {
-            "name": "Le serre nuove dell'ornellaia - Bolgheri 博尔格里红葡萄酒 · 杯装",
-            "description": "Bolgheri 红葡萄酒，按杯供应。含酒精。"
-          },
-          "it": {
-            "name": "Bolgheri rosso – Alla mescita",
-            "description": "Vino rosso Bolgheri servito al bicchiere. Bevanda alcolica."
-          },
-          "ja": {
-            "name": "Le serre nuove dell'ornellaia - ボルゲリ・ロッソ · グラス",
-            "description": "ボルゲリの赤ワインをグラスでご提供します。アルコールを含みます。"
-          }
-        },
-        "price": 98,
-        "image": "./assets/bolgheri-rosso-doodle.png",
         "available": true
       },
       {
@@ -654,6 +632,28 @@
       }
     ],
     "desserts": [
+      {
+        "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
+        "name": "Tiramisu",
+        "description": "An Italian dessert with coffee-soaked sponge biscuits, mascarpone cream and a dusting of cocoa.",
+        "translations": {
+          "zh": {
+            "name": "提拉米苏",
+            "description": "经典意式甜点：咖啡浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒可可粉。"
+          },
+          "it": {
+            "name": "Tiramisù",
+            "description": "Dolce italiano con savoiardi al caffè, crema al mascarpone e una spolverata di cacao."
+          },
+          "ja": {
+            "name": "ティラミス",
+            "description": "コーヒーをしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、ココアをふったイタリアのデザート。"
+          }
+        },
+        "price": 32,
+        "image": "./assets/tiramisu-doodle.png",
+        "available": true
+      },
       {
         "id": "2768f1e9-326f-4130-b2d2-17bdf9d84fbc",
         "name": "Lemon Granita",
