@@ -563,6 +563,94 @@
         "price": 29,
         "image": "./assets/chai-latte-doodle.png",
         "available": true
+      },
+      {
+        "id": "76dfa2e7-d694-4159-8c1a-cc8b9de19ecd",
+        "name": "Zuegg Blood Orange Juice",
+        "description": "Zuegg blood orange juice, served in the bottle.",
+        "translations": {
+          "zh": {
+            "name": "Zuegg 血橙汁",
+            "description": "Zuegg 血橙汁，瓶装供应。"
+          },
+          "it": {
+            "name": "Succo Zuegg – Arancia sanguinella",
+            "description": "Succo Zuegg all'arancia sanguinella, servito in bottiglietta."
+          },
+          "ja": {
+            "name": "Zuegg ブラッドオレンジジュース",
+            "description": "Zueggのブラッドオレンジジュース。ボトルでご提供します。"
+          }
+        },
+        "price": 39,
+        "image": "./assets/zuegg-blood-orange-bottle-doodle.png",
+        "available": true
+      },
+      {
+        "id": "0e9ef9f9-58de-4120-ae9c-9e7e287adb24",
+        "name": "Zuegg Sweet Orange Juice",
+        "description": "Zuegg sweet orange juice, served in the bottle.",
+        "translations": {
+          "zh": {
+            "name": "Zuegg 甜橙汁",
+            "description": "Zuegg 甜橙汁，瓶装供应。"
+          },
+          "it": {
+            "name": "Succo Zuegg – Arancia dolce",
+            "description": "Succo Zuegg all'arancia dolce, servito in bottiglietta."
+          },
+          "ja": {
+            "name": "Zuegg スイートオレンジジュース",
+            "description": "Zueggのスイートオレンジジュース。ボトルでご提供します。"
+          }
+        },
+        "price": 39,
+        "image": "./assets/zuegg-sweet-orange-bottle-doodle.png",
+        "available": true
+      },
+      {
+        "id": "19e65ed8-e83c-4121-b6ff-b921e50fa59b",
+        "name": "Zuegg Apricot Juice",
+        "description": "Zuegg apricot juice, served in the bottle.",
+        "translations": {
+          "zh": {
+            "name": "Zuegg 杏汁",
+            "description": "Zuegg 杏汁，瓶装供应。"
+          },
+          "it": {
+            "name": "Succo Zuegg – Albicocca",
+            "description": "Succo Zuegg all'albicocca, servito in bottiglietta."
+          },
+          "ja": {
+            "name": "Zuegg アプリコットジュース",
+            "description": "Zueggのアプリコットジュース。ボトルでご提供します。"
+          }
+        },
+        "price": 39,
+        "image": "./assets/zuegg-apricot-bottle-doodle.png",
+        "available": true
+      },
+      {
+        "id": "f1b7321e-20fc-4fb0-aab4-010859495a80",
+        "name": "Zuegg Clear Apple Juice",
+        "description": "Zuegg clear apple juice, served in the bottle.",
+        "translations": {
+          "zh": {
+            "name": "Zuegg 清澈苹果汁",
+            "description": "Zuegg 清澈苹果汁，瓶装供应。"
+          },
+          "it": {
+            "name": "Succo Zuegg – Mela limpida",
+            "description": "Succo Zuegg alla mela limpida, servito in bottiglietta."
+          },
+          "ja": {
+            "name": "Zuegg クリアアップルジュース",
+            "description": "Zueggのクリアタイプのアップルジュース。ボトルでご提供します。"
+          }
+        },
+        "price": 39,
+        "image": "./assets/zuegg-clear-apple-bottle-doodle.png",
+        "available": true
       }
     ],
     "desserts": [

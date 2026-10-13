@@ -84,6 +84,17 @@ Generated with the built-in image_gen tool, using `leone-menu.png` as the refere
 
 Final prompts and asset paths are saved locally in `output/imagegen/mortadella-salami-pizza-prompts.json`.
 
+## Zuegg juice bottles — 13 October 2026
+
+Four illustrations generated with the built-in image_gen tool. The owner's supplied bottle photograph is the packaging reference; the original `leone-menu.png` supplies the simple flat painted doodle style.
+
+- `zuegg-blood-orange-bottle-doodle.png`: blood orange, with red-orange juice and blood-orange label artwork.
+- `zuegg-sweet-orange-bottle-doodle.png`: sweet orange, with yellow-orange juice and orange label artwork.
+- `zuegg-apricot-bottle-doodle.png`: apricot, with apricot label artwork.
+- `zuegg-clear-apple-bottle-doodle.png`: clear apple, with golden juice and apple label artwork.
+
+Each image depicts one Zuegg bottle with a navy cap, white label and its own fruit illustration. These are stylized product illustrations. Final prompts and saved asset paths are recorded locally in `output/imagegen/zuegg-juice-bottle-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
