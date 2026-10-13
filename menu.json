@@ -582,7 +582,7 @@
             "description": "Zueggのブラッドオレンジジュース。ボトルでご提供します。"
           }
         },
-        "price": 39,
+        "price": 33,
         "image": "./assets/zuegg-blood-orange-bottle-doodle.png",
         "available": true
       },
@@ -604,7 +604,7 @@
             "description": "Zueggのスイートオレンジジュース。ボトルでご提供します。"
           }
         },
-        "price": 39,
+        "price": 33,
         "image": "./assets/zuegg-sweet-orange-bottle-doodle.png",
         "available": true
       },
@@ -626,7 +626,7 @@
             "description": "Zueggのアプリコットジュース。ボトルでご提供します。"
           }
         },
-        "price": 39,
+        "price": 33,
         "image": "./assets/zuegg-apricot-bottle-doodle.png",
         "available": true
       },
@@ -648,7 +648,7 @@
             "description": "Zueggのクリアタイプのアップルジュース。ボトルでご提供します。"
           }
         },
-        "price": 39,
+        "price": 33,
         "image": "./assets/zuegg-clear-apple-bottle-doodle.png",
         "available": true
       }
