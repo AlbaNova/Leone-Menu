@@ -95,6 +95,12 @@ Four illustrations generated with the built-in image_gen tool. The owner's suppl
 
 Each image depicts one Zuegg bottle with a navy cap, white label and its own fruit illustration. These are stylized product illustrations. Final prompts and saved asset paths are recorded locally in `output/imagegen/zuegg-juice-bottle-prompts.json`.
 
+## Brachetto by the glass — 13 October 2026
+
+- `brachetto-ruby-wine-glass-doodle.png`: one stemmed glass of ruby-red Brachetto with a few small bubbles. Generated with the built-in image_gen tool, using `leone-menu.png` as the reference for a simple flat painted doodle.
+
+The final prompt and saved asset path are recorded locally in `output/imagegen/brachetto-wine-glass-prompt.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.

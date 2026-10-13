@@ -629,6 +629,28 @@
         "price": 33,
         "image": "./assets/zuegg-clear-apple-bottle-doodle.png",
         "available": true
+      },
+      {
+        "id": "cc6a9919-b803-48db-8c27-73b24ea2b7af",
+        "name": "Brachetto d’Acqui – By the Glass",
+        "description": "Sweet, lightly sparkling red wine with notes of rose, peach and cherry. Served by the glass.",
+        "translations": {
+          "zh": {
+            "name": "Brachetto d’Acqui 甜红葡萄酒（杯装）",
+            "description": "微起泡甜红葡萄酒，带有玫瑰、桃子和樱桃的香气。按杯供应。"
+          },
+          "it": {
+            "name": "Brachetto d’Acqui – Al calice",
+            "description": "Vino rosso dolce frizzante con sentori di rosa, pesca e ciliegia. Servito al bicchiere."
+          },
+          "ja": {
+            "name": "ブラケット・ダックイ（グラス）",
+            "description": "バラ、桃、チェリーの香りが広がる、甘口の微発泡赤ワイン。グラスでご提供します。"
+          }
+        },
+        "price": 36,
+        "image": "./assets/brachetto-ruby-wine-glass-doodle.png",
+        "available": true
       }
     ],
     "desserts": [
