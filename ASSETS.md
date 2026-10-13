@@ -75,6 +75,15 @@ Generated with the built-in image_gen tool, matching the original `leone-menu.pn
 
 Each portion has its own product and image. Final prompts and asset paths are saved locally in `output/imagegen/pizza-bianca-portions-prompts.json`.
 
+## Mortadella and salami pizzas — 13 October 2026
+
+Generated with the built-in image_gen tool, using `leone-menu.png` as the reference for the original simple flat painted doodle style.
+
+- `mortadella-burrata-stuffed-pizza-doodle.png`: a piece of pizza bianca split and filled with mortadella and burrata.
+- `tomato-mozzarella-salami-pizza-doodle.png`: a rectangular red pizza slice with tomato, mozzarella and salami.
+
+Final prompts and asset paths are saved locally in `output/imagegen/mortadella-salami-pizza-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.

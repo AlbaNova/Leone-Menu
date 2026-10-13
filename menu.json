@@ -185,6 +185,52 @@
         "image": "./assets/pizza-bianca-whole-doodle.png",
         "available": true,
         "section": "pizza_classic"
+      },
+      {
+        "id": "9ade5390-75b8-4135-b7e3-eff3e9a9c3cb",
+        "name": "Stuffed Pizza Bianca – Mortadella & Burrata",
+        "description": "Pizza bianca filled with mortadella and burrata, served by the piece.",
+        "translations": {
+          "zh": {
+            "name": "白披萨夹莫塔德拉香肠与布拉塔奶酪",
+            "description": "白披萨夹入莫塔德拉香肠和布拉塔奶酪，按块供应。"
+          },
+          "it": {
+            "name": "Pizza bianca ripiena di mortadella e burrata",
+            "description": "Pizza bianca ripiena di mortadella e burrata, servita al pezzo."
+          },
+          "ja": {
+            "name": "モルタデッラとブッラータのピッツァ・ビアンカサンド",
+            "description": "モルタデッラとブッラータを挟んだピッツァ・ビアンカ。1切れずつのご提供です。"
+          }
+        },
+        "price": 30,
+        "image": "./assets/mortadella-burrata-stuffed-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "f0aea3cb-4620-4605-8e7c-181924ff7f46",
+        "name": "Roman Pizza Slice – Tomato, Mozzarella & Salami",
+        "description": "Roman pizza with tomato sauce, mozzarella and salami, served by the slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）·马苏里拉与萨拉米",
+            "description": "罗马方形披萨，搭配番茄酱、马苏里拉奶酪和萨拉米香肠，按块供应。"
+          },
+          "it": {
+            "name": "Pizza rossa con mozzarella e salame",
+            "description": "Trancio di pizza rossa con pomodoro, mozzarella e salame."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ（1切れ）・モッツァレラとサラミ",
+            "description": "トマトソース、モッツァレラ、サラミをのせたローマ風ピッツァ。1切れずつのご提供です。"
+          }
+        },
+        "price": 30,
+        "image": "./assets/tomato-mozzarella-salami-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
       }
     ],
     "drinks": [
