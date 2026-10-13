@@ -697,6 +697,28 @@
         "price": 18,
         "image": "./assets/orange-granita-doodle.png",
         "available": true
+      },
+      {
+        "id": "1704a229-2aaf-4937-b87c-e4d9279ab48c",
+        "name": "Panna Cotta",
+        "description": "Classic Italian cream dessert with a smooth, delicate texture.",
+        "translations": {
+          "zh": {
+            "name": "意式奶冻",
+            "description": "经典意式奶油甜点，口感细腻柔滑。"
+          },
+          "it": {
+            "name": "Panna cotta",
+            "description": "Dolce italiano alla panna, dalla consistenza morbida e delicata."
+          },
+          "ja": {
+            "name": "パンナコッタ",
+            "description": "なめらかでやさしい口当たりの、クリームを使ったイタリアのデザート。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/panna-cotta-classic-doodle.png",
+        "available": true
       }
     ]
   }

@@ -101,6 +101,12 @@ Each image depicts one Zuegg bottle with a navy cap, white label and its own fru
 
 The final prompt and saved asset path are recorded locally in `output/imagegen/brachetto-wine-glass-prompt.json`.
 
+## Panna cotta — 13 October 2026
+
+- `panna-cotta-classic-doodle.png`: one plain ivory panna cotta on a small plate, without toppings. Generated with the built-in image_gen tool using the original `leone-menu.png` as the reference for the simple flat painted doodle style.
+
+The final prompt and saved asset path are recorded locally in `output/imagegen/panna-cotta-prompt.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
