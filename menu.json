@@ -632,28 +632,6 @@
     ],
     "desserts": [
       {
-        "id": "2768f1e9-326f-4130-b2d2-17bdf9d84fbc",
-        "name": "Lemon Granita",
-        "description": "Italian-style lemon - orange granita with delicate ice crystals and a refreshing citrus flavour.",
-        "translations": {
-          "zh": {
-            "name": "香橙格兰尼塔冰沙",
-            "description": "意式香橙冰沙，细碎冰晶搭配清爽柑橘果香。"
-          },
-          "it": {
-            "name": "Granita al limone",
-            "description": "Granita al limone in stile italiano, con delicati cristalli di ghiaccio e un fresco gusto agrumato."
-          },
-          "ja": {
-            "name": "レモンのグラニータ",
-            "description": "レモンのさわやかな風味と繊細な氷の粒を楽しむ、イタリアの氷菓。"
-          }
-        },
-        "price": 18,
-        "image": "./assets/orange-granita-doodle.png",
-        "available": true
-      },
-      {
         "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
         "name": "Carrot and Nuts Cake",
         "description": "A slice of Carrot and Nuts Cake made with extra virgin olive oil.",
@@ -695,28 +673,6 @@
         },
         "price": 28,
         "image": "./assets/panna-cotta-classic-doodle.png",
-        "available": true
-      },
-      {
-        "id": "fdb9d830-ece9-449f-b3ef-d5f8e01e2002",
-        "name": "Orange & Extra Virgin Olive Oil Cake",
-        "description": "A slice of orange cake made with extra virgin olive oil.",
-        "translations": {
-          "zh": {
-            "name": "香橙特级初榨橄榄油蛋糕",
-            "description": "以香橙和特级初榨橄榄油制作的蛋糕，按片供应。"
-          },
-          "it": {
-            "name": "Torta all’arancia e olio EVO",
-            "description": "Una fetta di torta all’arancia preparata con olio extravergine d’oliva."
-          },
-          "ja": {
-            "name": "オレンジとエキストラバージンオリーブオイルのケーキ",
-            "description": "オレンジとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/orange-evo-cake-flat-doodle.png",
         "available": true
       }
     ]
