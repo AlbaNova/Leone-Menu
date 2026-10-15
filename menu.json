@@ -667,12 +667,12 @@
             "description": "Una fetta di torta alle carote preparata con olio extravergine d’oliva."
           },
           "ja": {
-            "name": "オレンジとエキストラバージンオリーブオイルのケーキ",
-            "description": "オレンジとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
+            "name": "にんじんとくるみのケーキ",
+            "description": "にんじん、くるみ、シナモンとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
           }
         },
         "price": 28,
-        "image": "./assets/orange-evo-cake-doodle.png",
+        "image": "./assets/carrot-walnut-cake-flat-doodle.png",
         "available": true
       },
       {
@@ -695,6 +695,28 @@
         },
         "price": 28,
         "image": "./assets/panna-cotta-classic-doodle.png",
+        "available": true
+      },
+      {
+        "id": "fdb9d830-ece9-449f-b3ef-d5f8e01e2002",
+        "name": "Orange & Extra Virgin Olive Oil Cake",
+        "description": "A slice of orange cake made with extra virgin olive oil.",
+        "translations": {
+          "zh": {
+            "name": "香橙特级初榨橄榄油蛋糕",
+            "description": "以香橙和特级初榨橄榄油制作的蛋糕，按片供应。"
+          },
+          "it": {
+            "name": "Torta all’arancia e olio EVO",
+            "description": "Una fetta di torta all’arancia preparata con olio extravergine d’oliva."
+          },
+          "ja": {
+            "name": "オレンジとエキストラバージンオリーブオイルのケーキ",
+            "description": "オレンジとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/orange-evo-cake-flat-doodle.png",
         "available": true
       }
     ]

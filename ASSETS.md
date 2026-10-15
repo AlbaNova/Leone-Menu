@@ -107,6 +107,15 @@ The final prompt and saved asset path are recorded locally in `output/imagegen/b
 
 The final prompt and saved asset path are recorded locally in `output/imagegen/panna-cotta-prompt.json`.
 
+## Carrot and orange cakes — 15 October 2026
+
+Two cake illustrations edited with the built-in image_gen tool. The existing `orange-evo-cake-doodle.png` supplied the slice composition; the original `leone-menu.png` supplied the simple flat painted doodle style.
+
+- `carrot-walnut-cake-flat-doodle.png`: carrot and walnut cake, with walnut pieces and no citrus garnish. Corrects the orange illustration still assigned to the carrot cake.
+- `orange-evo-cake-flat-doodle.png`: a separate orange and extra virgin olive oil cake slice, with an orange half-slice on top.
+
+The original image is retained locally. Final prompts and saved asset paths are recorded in `output/imagegen/carrot-orange-cake-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
