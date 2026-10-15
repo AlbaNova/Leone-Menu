@@ -26,29 +26,6 @@
         "section": "pizza_classic"
       },
       {
-        "id": "4a3e13bb-ecf1-4469-bfea-919117fad60a",
-        "name": "Roman Pizza Slice – Seasonal Special",
-        "description": "A slice of Roman-style pizza with seasonal ingredients. Ask our team about today's toppings.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 时令特选",
-            "description": "根据时令食材制作的罗马风味方形披萨，按块供应。今日配料请咨询店员。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Gusto stagionale",
-            "description": "Trancio di pizza romana con ingredienti di stagione. Chiedi al nostro staff la proposta del giorno."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · 季節のおすすめ",
-            "description": "旬の食材を使ったローマ風ピザ。1ピースでご提供します。本日の具材はスタッフにお尋ねください。"
-          }
-        },
-        "price": 30,
-        "image": "./assets/leone-menu.png#seasonal",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
         "id": "a9666780-b690-4406-820a-03ae819c0c11",
         "name": "Onion Frittata",
         "description": "An Italian egg frittata with onions, cooked until golden and served by the portion.",
@@ -70,52 +47,6 @@
         "image": "./assets/onion-frittata-doodle.png",
         "available": true,
         "section": "mains"
-      },
-      {
-        "id": "1a9801bd-2e78-40d2-8b0d-8ad83e431b95",
-        "name": "Roman Pinsa – Whole",
-        "description": "A whole Roman pinsa with your choice of flavour, ready in 10 minutes.",
-        "translations": {
-          "zh": {
-            "name": "罗马椭圆披萨（整份）",
-            "description": "整份罗马椭圆披萨，口味自选，10分钟即可做好。"
-          },
-          "it": {
-            "name": "Pinsa romana – Intera",
-            "description": "Pinsa romana intera, gusto a scelta, pronta in 10 minuti."
-          },
-          "ja": {
-            "name": "ローマ風ピンサ（ホール）",
-            "description": "ローマ風ピンサをホールで。お好みの味をお選びいただけます。10分でご用意します。"
-          }
-        },
-        "price": 68,
-        "image": "./assets/pinsa-whole-doodle.png",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "5cbec694-e008-4400-aec3-4c3cce2e5278",
-        "name": "Roman Pinsa – Half",
-        "description": "Half a Roman pinsa with your choice of flavour, ready in 10 minutes.",
-        "translations": {
-          "zh": {
-            "name": "罗马椭圆披萨（半份）",
-            "description": "半份罗马椭圆披萨，口味自选，10分钟即可做好。"
-          },
-          "it": {
-            "name": "Pinsa romana – Metà",
-            "description": "Mezza pinsa romana, gusto a scelta, pronta in 10 minuti."
-          },
-          "ja": {
-            "name": "ローマ風ピンサ（ハーフ）",
-            "description": "ローマ風ピンサをハーフで。お好みの味をお選びいただけます。10分でご用意します。"
-          }
-        },
-        "price": 38,
-        "image": "./assets/pinsa-half-doodle.png",
-        "available": true,
-        "section": "pizza_special"
       },
       {
         "id": "be421665-dae0-47b6-abb1-bbba78964a6d",
