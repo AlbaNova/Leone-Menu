@@ -278,28 +278,6 @@
         "available": true
       },
       {
-        "id": "a5a271a7-c9d6-4f91-8ef3-4092beb19ad8",
-        "name": "Italian Lemonade soda – By the Glass",
-        "description": "Italian-style lemonade soda, served by the glass.",
-        "translations": {
-          "zh": {
-            "name": "意式柠檬饮 · 杯装",
-            "description": "意式风味柠檬饮，按杯供应。"
-          },
-          "it": {
-            "name": "Limonata all’italiana – Alla mescita",
-            "description": "Limonata all’italiana servita al bicchiere."
-          },
-          "ja": {
-            "name": "イタリアンレモネード · グラス",
-            "description": "イタリア風レモネードをグラスでご提供します。"
-          }
-        },
-        "price": 28,
-        "image": "./assets/italian-lemonade-doodle.png",
-        "available": true
-      },
-      {
         "id": "15afe933-69a8-4469-8755-67773e36997f",
         "name": "Pumpkin Spice Latte",
         "description": "Milk with pumpkin and warming spices, finished with a soft milk foam.",
