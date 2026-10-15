@@ -655,28 +655,6 @@
     ],
     "desserts": [
       {
-        "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
-        "name": "Tiramisu",
-        "description": "An Italian dessert with coffee-soaked sponge biscuits, mascarpone cream and a dusting of cocoa.",
-        "translations": {
-          "zh": {
-            "name": "提拉米苏",
-            "description": "经典意式甜点：咖啡浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒可可粉。"
-          },
-          "it": {
-            "name": "Tiramisù",
-            "description": "Dolce italiano con savoiardi al caffè, crema al mascarpone e una spolverata di cacao."
-          },
-          "ja": {
-            "name": "ティラミス",
-            "description": "コーヒーをしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、ココアをふったイタリアのデザート。"
-          }
-        },
-        "price": 32,
-        "image": "./assets/tiramisu-doodle.png",
-        "available": true
-      },
-      {
         "id": "2768f1e9-326f-4130-b2d2-17bdf9d84fbc",
         "name": "Lemon Granita",
         "description": "Italian-style lemon - orange granita with delicate ice crystals and a refreshing citrus flavour.",
@@ -696,6 +674,28 @@
         },
         "price": 18,
         "image": "./assets/orange-granita-doodle.png",
+        "available": true
+      },
+      {
+        "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
+        "name": "Carrot and Nuts Cake",
+        "description": "A slice of Carrot and Nuts Cake made with extra virgin olive oil.",
+        "translations": {
+          "zh": {
+            "name": "胡萝卜坚果蛋糕",
+            "description": "经典胡萝卜蛋糕充满混合香料的香气，添加特级初榨橄榄油制作的蛋糕，按块供应。"
+          },
+          "it": {
+            "name": "Torta alle carote, noci, cannella e olio EVO",
+            "description": "Una fetta di torta alle carote preparata con olio extravergine d’oliva."
+          },
+          "ja": {
+            "name": "オレンジとエキストラバージンオリーブオイルのケーキ",
+            "description": "オレンジとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/orange-evo-cake-doodle.png",
         "available": true
       },
       {
