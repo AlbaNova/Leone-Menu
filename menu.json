@@ -118,29 +118,6 @@
         "section": "pizza_special"
       },
       {
-        "id": "0b3d133f-3e72-48b7-a2fe-403f80fc8d1b",
-        "name": "Tomato & Burrata Caprese",
-        "description": "Tomatoes and burrata dressed with Quattrociocchi Primolio extra virgin olive oil.",
-        "translations": {
-          "zh": {
-            "name": "番茄与布拉塔奶酪卡普雷塞沙拉",
-            "description": "番茄搭配布拉塔奶酪，佐以 Quattrociocchi Primolio 特级初榨橄榄油。"
-          },
-          "it": {
-            "name": "Caprese di pomodori e burrata",
-            "description": "Pomodori e burrata con olio extravergine di oliva Primolio Quattrociocchi."
-          },
-          "ja": {
-            "name": "トマトとブッラータのカプレーゼ",
-            "description": "トマトとブッラータに、Quattrociocchi Primolio のエキストラバージンオリーブオイルを合わせました。"
-          }
-        },
-        "price": 48,
-        "image": "./assets/tomato-burrata-caprese-doodle.png",
-        "available": true,
-        "section": "sides"
-      },
-      {
         "id": "be421665-dae0-47b6-abb1-bbba78964a6d",
         "name": "Lingua di Pizza Bianca – Half",
         "description": "Half of our long, tongue-shaped pizza bianca flatbread.",
