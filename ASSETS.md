@@ -116,6 +116,15 @@ Two cake illustrations edited with the built-in image_gen tool. The existing `or
 
 The original image is retained locally. Final prompts and saved asset paths are recorded in `output/imagegen/carrot-orange-cake-prompts.json`.
 
+## Fusilli and spaghetti — 15 October 2026
+
+Two individual pasta dishes generated with the built-in image_gen tool, using the original `leone-menu.png` as the reference for the simple flat painted doodle style.
+
+- `fusilli-tomato-basil-doodle.png`: short spiral fusilli with tomato sauce and basil on a simple plate.
+- `spaghetti-bolognese-doodle.png`: long spaghetti with Bolognese meat ragù on a simple plate.
+
+Final prompts and saved asset paths are recorded locally in `output/imagegen/fusilli-spaghetti-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.

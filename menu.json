@@ -208,6 +208,52 @@
         "image": "./assets/tomato-mozzarella-salami-pizza-doodle.png",
         "available": true,
         "section": "pizza_classic"
+      },
+      {
+        "id": "0c6ff1ba-b67a-46b3-80bf-92b1b4b531e7",
+        "name": "Fusilli with Tomato & Basil",
+        "description": "Fusilli pasta with tomato sauce and basil.",
+        "translations": {
+          "zh": {
+            "name": "番茄罗勒螺旋意面",
+            "description": "螺旋意大利面，搭配番茄酱和罗勒。"
+          },
+          "it": {
+            "name": "Fusilli al pomodoro e basilico",
+            "description": "Fusilli con sugo di pomodoro e basilico."
+          },
+          "ja": {
+            "name": "トマトとバジルのフジッリ",
+            "description": "らせん状のパスタ、フジッリにトマトソースとバジルを合わせました。"
+          }
+        },
+        "price": 48,
+        "image": "./assets/fusilli-tomato-basil-doodle.png",
+        "available": true,
+        "section": "first_courses"
+      },
+      {
+        "id": "3965a24c-a4a2-4b41-93a3-41bcca24f33d",
+        "name": "Spaghetti Bolognese",
+        "description": "Spaghetti served with Bolognese meat ragù.",
+        "translations": {
+          "zh": {
+            "name": "博洛尼亚肉酱意大利长面",
+            "description": "意大利长面，搭配博洛尼亚风味肉酱。"
+          },
+          "it": {
+            "name": "Spaghetti al ragù bolognese",
+            "description": "Spaghetti con ragù di carne alla bolognese."
+          },
+          "ja": {
+            "name": "スパゲッティ・ボロネーゼ",
+            "description": "ボローニャ風のミートラグーを合わせたスパゲッティ。"
+          }
+        },
+        "price": 68,
+        "image": "./assets/spaghetti-bolognese-doodle.png",
+        "available": true,
+        "section": "first_courses"
       }
     ],
     "drinks": [
