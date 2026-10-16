@@ -20,7 +20,7 @@
             "description": "トマト、モッツァレラ、バジルをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
-        "price": 22,
+        "price": 25,
         "image": "./assets/leone-menu.png#margherita",
         "available": true,
         "section": "pizza_classic"
@@ -112,7 +112,7 @@
             "description": "ローマ風ピンサをホールで。お好みの味をお選びいただけます。10分でご用意します。"
           }
         },
-        "price": 68,
+        "price": 78,
         "image": "./assets/pinsa-whole-doodle.png",
         "available": true,
         "section": "pizza_special"
@@ -135,7 +135,7 @@
             "description": "ローマ風ピンサをハーフで。お好みの味をお選びいただけます。10分でご用意します。"
           }
         },
-        "price": 38,
+        "price": 42,
         "image": "./assets/pinsa-half-doodle.png",
         "available": true,
         "section": "pizza_special"
