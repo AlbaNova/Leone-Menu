@@ -26,6 +26,52 @@
         "section": "pizza_classic"
       },
       {
+        "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
+        "name": "Roman Pizza Slice – Pumpkin, Mozzarella & Super Seed",
+        "description": "A slice of Roman-style pizza with pumpkin, mozzarella and Super Seed (mixed seeds), served by the slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 南瓜、马苏里拉与混合籽",
+            "description": "罗马风味方形披萨，搭配南瓜、马苏里拉奶酪和 Super Seed 混合籽，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Zucca, mozzarella e Super Seed",
+            "description": "Trancio di pizza romana con zucca, mozzarella e Super Seed (mix di semi), servito al pezzo."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · かぼちゃ、モッツァレラ、ミックスシード",
+            "description": "かぼちゃ、モッツァレラ、Super Seed（ミックスシード）をのせたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/pumpkin-mozzarella-super-seed-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
+        "name": "Roman Pizza Slice – Cooked Ham & Mozzarella",
+        "description": "A slice of Roman-style pizza with cooked ham and mozzarella.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 熟火腿与马苏里拉",
+            "description": "罗马风味方形披萨，搭配熟火腿和马苏里拉奶酪，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Prosciutto cotto e mozzarella",
+            "description": "Trancio di pizza romana con prosciutto cotto e mozzarella."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · 加熱ハムとモッツァレラ",
+            "description": "加熱ハムとモッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 30,
+        "image": "./assets/ham-mozzarella-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
         "id": "a9666780-b690-4406-820a-03ae819c0c11",
         "name": "Onion Frittata",
         "description": "An Italian egg frittata with onions, cooked until golden and served by the portion.",
@@ -206,29 +252,6 @@
         },
         "price": 48,
         "image": "./assets/fusilli-tomato-basil-doodle.png",
-        "available": true,
-        "section": "first_courses"
-      },
-      {
-        "id": "3965a24c-a4a2-4b41-93a3-41bcca24f33d",
-        "name": "Spaghetti Bolognese",
-        "description": "Spaghetti served with Bolognese meat ragù.",
-        "translations": {
-          "zh": {
-            "name": "博洛尼亚肉酱意大利长面",
-            "description": "意大利长面，搭配博洛尼亚风味肉酱。"
-          },
-          "it": {
-            "name": "Spaghetti al ragù bolognese",
-            "description": "Spaghetti con ragù di carne alla bolognese."
-          },
-          "ja": {
-            "name": "スパゲッティ・ボロネーゼ",
-            "description": "ボローニャ風のミートラグーを合わせたスパゲッティ。"
-          }
-        },
-        "price": 68,
-        "image": "./assets/spaghetti-bolognese-doodle.png",
         "available": true,
         "section": "first_courses"
       }
