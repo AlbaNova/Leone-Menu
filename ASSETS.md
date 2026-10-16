@@ -125,6 +125,15 @@ Two individual pasta dishes generated with the built-in image_gen tool, using th
 
 Final prompts and saved asset paths are recorded locally in `output/imagegen/fusilli-spaghetti-prompts.json`.
 
+## Carbonara and pizza rossa — 16 October 2026
+
+Generated with the built-in image_gen tool, using the original `leone-menu.png` as the reference for the simple flat painted doodle style.
+
+- `spaghetti-carbonara-doodle.png`: spaghetti with egg-and-pecorino sauce, guanciale and black pepper; adapted from the existing spaghetti illustration. The product starts unavailable, so its image remains local until it is included in a public export.
+- `pizza-rossa-doodle.png`: one rectangular Roman pizza slice with tomato sauce.
+
+Final prompts and saved asset paths are recorded locally in `output/imagegen/carbonara-pizza-rossa-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.

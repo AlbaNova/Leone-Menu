@@ -254,6 +254,29 @@
         "image": "./assets/fusilli-tomato-basil-doodle.png",
         "available": true,
         "section": "first_courses"
+      },
+      {
+        "id": "666e7ba9-cf35-4e08-84ee-9f52c414fc6f",
+        "name": "Pizza Rossa – Roman Slice",
+        "description": "A slice of Roman-style pizza with tomato sauce.",
+        "translations": {
+          "zh": {
+            "name": "罗马番茄披萨（单块）",
+            "description": "罗马风味方形披萨，搭配番茄酱，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza rossa",
+            "description": "Trancio di pizza romana con salsa di pomodoro."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ・ロッサ（1切れ）",
+            "description": "トマトソースをのせたローマ風ピッツァ。1切れずつのご提供です。"
+          }
+        },
+        "price": 22,
+        "image": "./assets/pizza-rossa-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
       }
     ],
     "drinks": [
