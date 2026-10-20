@@ -300,6 +300,29 @@
         "image": "./assets/pizza-rossa-doodle.png",
         "available": true,
         "section": "pizza_classic"
+      },
+      {
+        "id": "5d0ca02f-448d-4891-937c-ba7ffab75f05",
+        "name": "Spaghetti with Garlic, Olive Oil, Chili & Parsley",
+        "description": "Spaghetti with olive oil, garlic, chili and parsley.",
+        "translations": {
+          "zh": {
+            "name": "蒜香辣椒欧芹意大利长面",
+            "description": "意大利长面，搭配橄榄油、大蒜、辣椒和欧芹。"
+          },
+          "it": {
+            "name": "Spaghetti aglio, olio, peperoncino e prezzemolo",
+            "description": "Spaghetti con olio d’oliva, aglio, peperoncino e prezzemolo."
+          },
+          "ja": {
+            "name": "にんにく、オリーブオイル、唐辛子とパセリのスパゲッティ",
+            "description": "オリーブオイル、にんにく、唐辛子、パセリで仕上げたスパゲッティ。"
+          }
+        },
+        "price": 48,
+        "image": "./assets/spaghetti-aglio-olio-doodle.png",
+        "available": true,
+        "section": "first_courses"
       }
     ],
     "drinks": [

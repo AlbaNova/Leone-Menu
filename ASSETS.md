@@ -134,6 +134,12 @@ Generated with the built-in image_gen tool, using the original `leone-menu.png` 
 
 Final prompts and saved asset paths are recorded locally in `output/imagegen/carbonara-pizza-rossa-prompts.json`.
 
+## Spaghetti aglio, olio, peperoncino e prezzemolo — 20 October 2026
+
+- `spaghetti-aglio-olio-doodle.png`: one plate of spaghetti with olive oil, garlic, red chili and parsley. Created with the built-in image_gen tool by adapting the existing spaghetti composition, with `leone-menu.png` as the original simple flat painted doodle style reference.
+
+The final prompt and saved asset path are recorded locally in `output/imagegen/spaghetti-aglio-olio-prompt.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
