@@ -26,6 +26,29 @@
         "section": "pizza_classic"
       },
       {
+        "id": "31b4b675-b0ca-44ff-9f79-1fa35b985c77",
+        "name": "Stuffed Focaccia",
+        "description": "Italian focaccia with the filling of the day, served by the piece. Ask our team about today's filling.",
+        "translations": {
+          "zh": {
+            "name": "意式夹心佛卡夏",
+            "description": "意式佛卡夏搭配当日夹馅，按块供应。今日夹馅请咨询店员。"
+          },
+          "it": {
+            "name": "Focaccia ripiena",
+            "description": "Focaccia italiana con la farcitura del giorno, servita al pezzo. Chiedi al nostro staff il ripieno di oggi."
+          },
+          "ja": {
+            "name": "フォカッチャサンド",
+            "description": "本日の具材をはさんだイタリアンフォカッチャ。1個ずつご提供します。具材はスタッフにお尋ねください。"
+          }
+        },
+        "price": 30,
+        "image": "./assets/leone-menu.png#focaccia",
+        "available": true,
+        "section": "focaccia"
+      },
+      {
         "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
         "name": "Roman Pizza Slice – Pumpkin, Mozzarella & Super Seed",
         "description": "A slice of Roman-style pizza with pumpkin, mozzarella and Super Seed (mixed seeds), served by the slice.",
@@ -45,6 +68,29 @@
         },
         "price": 28,
         "image": "./assets/pumpkin-mozzarella-super-seed-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "85274e3d-1d86-44d7-ab4d-1b44e7571d46",
+        "name": "Roman Pizza Slice – Truffle, Mushrooms & Mozzarella",
+        "description": "A slice of Roman-style pizza with truffle, mushrooms and mozzarella.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 松露、蘑菇与马苏里拉",
+            "description": "罗马风味方形披萨，搭配松露、蘑菇和马苏里拉奶酪，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Tartufo, funghi e mozzarella",
+            "description": "Trancio di pizza romana con tartufo, funghi e mozzarella."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · トリュフ、きのこ、モッツァレラ",
+            "description": "トリュフ、きのこ、モッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 33,
+        "image": "./assets/leone-menu.png#truffle",
         "available": true,
         "section": "pizza_special"
       },
@@ -158,7 +204,7 @@
             "description": "細長い舌の形をしたピッツァ・ビアンカのハーフサイズ。"
           }
         },
-        "price": 19,
+        "price": 22,
         "image": "./assets/pizza-bianca-half-doodle.png",
         "available": true,
         "section": "pizza_classic"
@@ -181,33 +227,10 @@
             "description": "細長い舌の形をしたピッツァ・ビアンカのホールサイズ。"
           }
         },
-        "price": 38,
+        "price": 40,
         "image": "./assets/pizza-bianca-whole-doodle.png",
         "available": true,
         "section": "pizza_classic"
-      },
-      {
-        "id": "9ade5390-75b8-4135-b7e3-eff3e9a9c3cb",
-        "name": "Stuffed Pizza Bianca – Mortadella & Basil",
-        "description": "Pizza bianca filled with mortadella , served by the piece.",
-        "translations": {
-          "zh": {
-            "name": "白披萨夹莫塔德拉香肠与布拉塔奶酪",
-            "description": "白披萨夹入莫塔德拉香肠和布拉塔奶酪，按块供应。"
-          },
-          "it": {
-            "name": "Pizza bianca ripiena di mortadella e burrata",
-            "description": "Pizza bianca ripiena di mortadella e burrata, servita al pezzo."
-          },
-          "ja": {
-            "name": "モルタデッラとブッラータのピッツァ・ビアンカサンド",
-            "description": "モルタデッラとブッラータを挟んだピッツァ・ビアンカ。1切れずつのご提供です。"
-          }
-        },
-        "price": 30,
-        "image": "./assets/mortadella-burrata-stuffed-pizza-doodle.png",
-        "available": true,
-        "section": "pizza_special"
       },
       {
         "id": "f0aea3cb-4620-4605-8e7c-181924ff7f46",
@@ -322,28 +345,6 @@
         },
         "price": 32,
         "image": "./assets/moscato-doodle.png",
-        "available": true
-      },
-      {
-        "id": "a295cdfa-1d3b-4b72-9ecc-20d89282ce2c",
-        "name": "Homemade Limoncello – By the Glass",
-        "description": "Homemade lemon liqueur, served by the glass. Contains alcohol.",
-        "translations": {
-          "zh": {
-            "name": "手工柠檬利口酒 · 杯装",
-            "description": "手工制作的意式柠檬利口酒，按杯供应。含酒精。"
-          },
-          "it": {
-            "name": "Limoncello artigianale – Alla mescita",
-            "description": "Liquore di limone artigianale servito al bicchiere. Bevanda alcolica."
-          },
-          "ja": {
-            "name": "手作りリモンチェッロ · グラス",
-            "description": "手作りのレモンリキュールをグラスでご提供します。アルコールを含みます。"
-          }
-        },
-        "price": 18,
-        "image": "./assets/limoncello-doodle.png",
         "available": true
       },
       {
