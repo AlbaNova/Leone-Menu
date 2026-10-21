@@ -699,6 +699,28 @@
         "price": 36,
         "image": "./assets/brachetto-ruby-wine-glass-doodle.png",
         "available": true
+      },
+      {
+        "id": "b30cd4da-3bed-4fef-a930-2aa9ab4d651a",
+        "name": "MoleCola – Italian Cola Made in Turin",
+        "description": "Italian cola made in Turin, served in a glass bottle.",
+        "translations": {
+          "zh": {
+            "name": "MoleCola – 意大利都灵可乐",
+            "description": "意大利都灵出品的可乐，玻璃瓶装。"
+          },
+          "it": {
+            "name": "MoleCola – Cola italiana made in Torino",
+            "description": "Cola italiana prodotta a Torino, servita in bottiglia di vetro."
+          },
+          "ja": {
+            "name": "MoleCola – イタリア・トリノ生まれのコーラ",
+            "description": "イタリア・トリノ生まれのコーラ。ガラス瓶でご提供します。"
+          }
+        },
+        "price": 20,
+        "image": "./assets/molecola-glass-bottle-doodle.png",
+        "available": true
       }
     ],
     "desserts": [

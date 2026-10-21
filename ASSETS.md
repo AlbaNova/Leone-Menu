@@ -140,6 +140,12 @@ Final prompts and saved asset paths are recorded locally in `output/imagegen/car
 
 The final prompt and saved asset path are recorded locally in `output/imagegen/spaghetti-aglio-olio-prompt.json`.
 
+## MoleCola — 21 October 2026
+
+- `molecola-glass-bottle-doodle.png`: a MoleCola glass bottle with a red cap and label, dark cola and simplified embossed glass details. Generated with the built-in image_gen tool, using the owner's bottle photograph as the packaging reference and `leone-menu.png` as the original simple flat painted doodle style reference.
+
+The original generated image is retained locally. The final prompt and saved asset path are recorded in `output/imagegen/molecola-prompt.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
