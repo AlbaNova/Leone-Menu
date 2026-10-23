@@ -155,6 +155,12 @@ Two individual illustrations generated with the built-in image_gen tool. Both us
 
 The original generated images are retained locally. Final prompts and saved asset paths are recorded in `output/imagegen/pomegranate-black-sesame-prompts.json`.
 
+## Potato, garlic, chili and parsley Roman pizza — 23 October 2026
+
+- `potato-garlic-chili-pizza-doodle.png`: one rectangular Roman pizza slice with potatoes, olive oil, garlic, chili and parsley. Generated with the built-in image_gen tool using `leone-menu.png` as the original simple flat painted doodle style reference. Edited with the same tool to add visible parsley at the owner's request.
+
+Both the original and the edited generated images are retained locally. The generation and edit prompts and final asset path are recorded in `output/imagegen/potato-garlic-chili-pizza-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.

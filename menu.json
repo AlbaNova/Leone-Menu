@@ -323,6 +323,29 @@
         "image": "./assets/spaghetti-aglio-olio-doodle.png",
         "available": true,
         "section": "first_courses"
+      },
+      {
+        "id": "8e66f864-b0d3-4999-a8fb-2766fd9734ae",
+        "name": "Roman Pizza Slice – Potatoes, Olive Oil, Garlic, Chili & Parsley",
+        "description": "A slice of Roman-style pizza with potatoes, olive oil, garlic, chili and parsley.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 土豆、橄榄油、大蒜、辣椒与欧芹",
+            "description": "罗马风味方形披萨，搭配土豆、橄榄油、大蒜、辣椒和欧芹，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Patate, olio, aglio, peperoncino e prezzemolo",
+            "description": "Trancio di pizza romana con patate, olio d’oliva, aglio, peperoncino e prezzemolo."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · じゃがいも、オリーブオイル、にんにく、唐辛子とパセリ",
+            "description": "じゃがいも、オリーブオイル、にんにく、唐辛子、パセリをのせたローマ風ピザ。1ピースでご提供します。"
+          }
+        },
+        "price": 25,
+        "image": "./assets/potato-garlic-chili-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
       }
     ],
     "drinks": [
