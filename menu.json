@@ -721,6 +721,50 @@
         "price": 20,
         "image": "./assets/molecola-glass-bottle-doodle.png",
         "available": true
+      },
+      {
+        "id": "5098df2a-2cd5-43cb-a9dc-da7203baed4d",
+        "name": "Pomegranate Soda",
+        "description": "A refreshing pomegranate drink with sparkling soda water.",
+        "translations": {
+          "zh": {
+            "name": "石榴苏打",
+            "description": "石榴风味饮品，搭配清爽苏打水。"
+          },
+          "it": {
+            "name": "Drink al melograno con soda",
+            "description": "Una bevanda rinfrescante al melograno con soda."
+          },
+          "ja": {
+            "name": "ザクロソーダ",
+            "description": "ザクロの風味にソーダを合わせた爽やかなドリンク。"
+          }
+        },
+        "price": 28,
+        "image": "./assets/pomegranate-soda-doodle.png",
+        "available": true
+      },
+      {
+        "id": "91502d7c-362d-43e9-ac57-9302ff3a7dd6",
+        "name": "Black Sesame Latte",
+        "description": "Black sesame blended with milk for a smooth, creamy drink.",
+        "translations": {
+          "zh": {
+            "name": "黑芝麻拿铁",
+            "description": "黑芝麻与牛奶融合，口感香浓顺滑。"
+          },
+          "it": {
+            "name": "Latte al sesamo nero",
+            "description": "Latte e sesamo nero, per una bevanda morbida e cremosa."
+          },
+          "ja": {
+            "name": "黒ごまラテ",
+            "description": "黒ごまとミルクを合わせた、香ばしくクリーミーなドリンク。"
+          }
+        },
+        "price": 29,
+        "image": "./assets/black-sesame-latte-doodle.png",
+        "available": true
       }
     ],
     "desserts": [

@@ -146,6 +146,15 @@ The final prompt and saved asset path are recorded locally in `output/imagegen/s
 
 The original generated image is retained locally. The final prompt and saved asset path are recorded in `output/imagegen/molecola-prompt.json`.
 
+## Pomegranate soda and black sesame latte — 23 October 2026
+
+Two individual illustrations generated with the built-in image_gen tool. Both use `leone-menu.png` as the reference for the original simple flat painted doodle style. The existing lemonade and matcha latte images guide only the serving vessel and composition.
+
+- `pomegranate-soda-doodle.png`: a ruby-red pomegranate soda in a clear glass, with bubbles and a small pomegranate wedge.
+- `black-sesame-latte-doodle.png`: a rounded ivory cup of creamy grey black sesame latte, with a simple milk foam swirl and visible black sesame seeds.
+
+The original generated images are retained locally. Final prompts and saved asset paths are recorded in `output/imagegen/pomegranate-black-sesame-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
