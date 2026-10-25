@@ -1140,6 +1140,240 @@
         "price": 88,
         "image": "./assets/giusti-fig-glaze-doodle.png",
         "available": true
+      },
+      {
+        "id": "669b6084-d26f-475d-938a-e11c3be832d0",
+        "name": "Quattrociocchi - Superbo Extra Virgin Olive Oil · 500 ml",
+        "description": "Superbo extra virgin olive oil in a single 500 ml bottle. Enjoy a drizzle over bruschetta, vegetables or grilled meat. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - Superbo 特级初榨橄榄油 · 500毫升",
+            "description": "Superbo 特级初榨橄榄油，500毫升单瓶装。适合直接淋在意式烤面包、蔬菜或烤肉上品尝。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Superbo Olio Extravergine d’Oliva · 500 ml",
+            "description": "Olio extravergine d’oliva Superbo in bottiglia singola da 500 ml. Da gustare a crudo su bruschette, verdure e carne alla griglia. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - Superbo エキストラバージンオリーブオイル · 500ml",
+            "description": "Superboのエキストラバージンオリーブオイル、500mlボトル1本。ブルスケッタ、野菜、グリルした肉の仕上げにおすすめです。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - Superbo 엑스트라 버진 올리브 오일 · 500ml",
+            "description": "Superbo 엑스트라 버진 올리브 오일 500ml 한 병입니다. 브루스케타, 채소, 구운 고기에 마지막으로 살짝 뿌려 즐겨보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 228,
+        "image": "./assets/quattrociocchi-superbo-500ml-doodle.png",
+        "available": true
+      },
+      {
+        "id": "6c633383-24d0-4671-b598-7033989ecb66",
+        "name": "Quattrociocchi - Olivastro Extra Virgin Olive Oil · 500 ml",
+        "description": "Olivastro extra virgin olive oil in a single 500 ml bottle. A refined finishing touch for tomatoes, fish and fresh cheeses. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - Olivastro 特级初榨橄榄油 · 500毫升",
+            "description": "Olivastro 特级初榨橄榄油，500毫升单瓶装。直接淋在番茄、鱼类或新鲜奶酪上，为菜肴添上精致风味。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Olivastro Olio Extravergine d’Oliva · 500 ml",
+            "description": "Olio extravergine d’oliva Olivastro in bottiglia singola da 500 ml. Un tocco raffinato a crudo su pomodori, pesce e formaggi freschi. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - Olivastro エキストラバージンオリーブオイル · 500ml",
+            "description": "Olivastroのエキストラバージンオリーブオイル、500mlボトル1本。トマト、魚、フレッシュチーズの仕上げに上品なひとしずくを。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - Olivastro 엑스트라 버진 올리브 오일 · 500ml",
+            "description": "Olivastro 엑스트라 버진 올리브 오일 500ml 한 병입니다. 토마토, 생선, 생치즈에 곁들여 우아한 풍미를 더해보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 228,
+        "image": "./assets/quattrociocchi-olivastro-500ml-doodle.png",
+        "available": true
+      },
+      {
+        "id": "0117acd5-6734-48f7-8273-a4d88d45c288",
+        "name": "Quattrociocchi - Primolio 2025 Extra Virgin Olive Oil · 500 ml",
+        "description": "Primolio 2025 (1° Olio) extra virgin olive oil in its distinctive white bottle. One 500 ml bottle, ideal for enjoying on bread or finishing a favourite dish. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - Primolio 2025 特级初榨橄榄油 · 500毫升",
+            "description": "Primolio 2025（1° Olio）特级初榨橄榄油，采用标志性的白色瓶身，500毫升单瓶装。适合搭配面包，或在喜爱的菜肴上直接淋洒。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Primolio 2025 Olio Extravergine d’Oliva · 500 ml",
+            "description": "Olio extravergine d’oliva Primolio 2025 (1° Olio) nella caratteristica bottiglia bianca. Bottiglia singola da 500 ml, da gustare sul pane o a crudo sui tuoi piatti preferiti. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - Primolio 2025 エキストラバージンオリーブオイル · 500ml",
+            "description": "Primolio 2025（1° Olio）のエキストラバージンオリーブオイル。特徴的な白い500mlボトル1本です。パンにつけたり、お好みの料理の仕上げにどうぞ。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - Primolio 2025 엑스트라 버진 올리브 오일 · 500ml",
+            "description": "특유의 흰색 병에 담긴 Primolio 2025(1° Olio) 엑스트라 버진 올리브 오일 500ml 한 병입니다. 빵과 함께 맛보거나 좋아하는 요리의 마무리에 사용해 보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 228,
+        "image": "./assets/quattrociocchi-primolio-2025-500ml-doodle.png",
+        "available": true
+      },
+      {
+        "id": "85edf8f7-1931-4b94-b181-0b424ed13d1f",
+        "name": "Quattrociocchi - Gift Pack · Olivastro · 100 ml",
+        "description": "A gift selection containing one 100 ml bottle of Olivastro extra virgin olive oil. A small taste of Italian excellence, perfect on bread, vegetables and salads. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - 100毫升礼品装 · Olivastro 特级初榨橄榄油",
+            "description": "礼品装内含一瓶100毫升 Olivastro 特级初榨橄榄油。小巧的一份意大利风味，适合搭配面包、蔬菜和沙拉。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Confezione Regalo · Olivastro · 100 ml",
+            "description": "Confezione regalo con una bottiglia da 100 ml di olio extravergine d’oliva Olivastro. Un piccolo assaggio di eccellenza italiana, da gustare su pane, verdure e insalate. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - ギフト · Olivastro · 100ml",
+            "description": "Olivastroのエキストラバージンオリーブオイル100mlを1本収めたギフト。パン、野菜、サラダとともに、イタリアの味わいを少しずつお楽しみください。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - 선물용 · Olivastro · 100ml",
+            "description": "Olivastro 엑스트라 버진 올리브 오일 100ml 한 병으로 구성된 선물 상품입니다. 빵, 채소, 샐러드와 함께 이탈리아의 풍미를 즐겨보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 88,
+        "image": "./assets/quattrociocchi-olivastro-gift-100ml-doodle.png",
+        "available": true
+      },
+      {
+        "id": "7df50e50-ae97-4df2-ae1b-853f6c254c81",
+        "name": "Quattrociocchi - Gift Pack · Truffle-Flavoured Oil · 100 ml",
+        "description": "A gift selection containing one 100 ml bottle of truffle-flavoured oil. Add a few drops to pasta, eggs or risotto for an aromatic finishing touch. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - 100毫升礼品装 · 松露风味调味油",
+            "description": "礼品装内含一瓶100毫升松露风味调味油。只需几滴，即可为意面、鸡蛋或意式烩饭增添馥郁香气。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Confezione Regalo · Olio Aromatizzato al Tartufo · 100 ml",
+            "description": "Confezione regalo con una bottiglia da 100 ml di olio aromatizzato al tartufo. Bastano poche gocce su pasta, uova o risotti per una finitura profumata. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - ギフト · トリュフ風味オイル · 100ml",
+            "description": "トリュフ風味オイル100mlを1本収めたギフト。パスタ、卵料理、リゾットに数滴加えて、香り豊かな仕上がりに。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - 선물용 · 트러플 풍미 오일 · 100ml",
+            "description": "트러플 풍미 오일 100ml 한 병으로 구성된 선물 상품입니다. 파스타, 달걀 요리, 리소토에 몇 방울 더해 향긋하게 마무리해 보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 88,
+        "image": "./assets/quattrociocchi-truffle-gift-100ml-doodle.png",
+        "available": true
+      },
+      {
+        "id": "e246171c-ea68-4193-8ae0-01775ed8321c",
+        "name": "Quattrociocchi - Gift Pack · Orange-Flavoured Oil · 100 ml",
+        "description": "A gift selection containing one 100 ml bottle of orange-flavoured oil. A citrus accent to drizzle over salads, fish or vegetables. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - 100毫升礼品装 · 香橙风味调味油",
+            "description": "礼品装内含一瓶100毫升香橙风味调味油。直接淋在沙拉、鱼类或蔬菜上，添上一抹柑橘清香。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Confezione Regalo · Olio Aromatizzato all’Arancio · 100 ml",
+            "description": "Confezione regalo con una bottiglia da 100 ml di olio aromatizzato all’arancio. Una nota agrumata da aggiungere a crudo su insalate, pesce e verdure. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - ギフト · オレンジ風味オイル · 100ml",
+            "description": "オレンジ風味オイル100mlを1本収めたギフト。サラダ、魚、野菜の仕上げに、柑橘の香りを添えて。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - 선물용 · 오렌지 풍미 오일 · 100ml",
+            "description": "오렌지 풍미 오일 100ml 한 병으로 구성된 선물 상품입니다. 샐러드, 생선, 채소에 살짝 뿌려 산뜻한 감귤 향을 더해보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 88,
+        "image": "./assets/quattrociocchi-orange-gift-100ml-doodle.png",
+        "available": true
+      },
+      {
+        "id": "3d5e898c-61c9-4341-80b6-9758c3f4be37",
+        "name": "Quattrociocchi - Gift Pack · Lemon-Flavoured Oil · 100 ml",
+        "description": "A gift selection containing one 100 ml bottle of lemon-flavoured oil. Bring a bright citrus note to fish, salads and grilled vegetables. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - 100毫升礼品装 · 柠檬风味调味油",
+            "description": "礼品装内含一瓶100毫升柠檬风味调味油。为鱼类、沙拉和烤蔬菜增添明快的柠檬香气。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Confezione Regalo · Olio Aromatizzato al Limone · 100 ml",
+            "description": "Confezione regalo con una bottiglia da 100 ml di olio aromatizzato al limone. Aggiungi una vivace nota agrumata a pesce, insalate e verdure grigliate. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - ギフト · レモン風味オイル · 100ml",
+            "description": "レモン風味オイル100mlを1本収めたギフト。魚、サラダ、グリル野菜に、爽やかな柑橘の香りをプラス。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - 선물용 · 레몬 풍미 오일 · 100ml",
+            "description": "레몬 풍미 오일 100ml 한 병으로 구성된 선물 상품입니다. 생선, 샐러드, 구운 채소에 상큼한 레몬 향을 더해보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 88,
+        "image": "./assets/quattrociocchi-lemon-gift-100ml-doodle.png",
+        "available": true
+      },
+      {
+        "id": "fad5c4dc-6497-483d-aa77-9c0bb7514925",
+        "name": "Quattrociocchi - Gift Pack · Basil-Flavoured Oil · 100 ml",
+        "description": "A gift selection containing one 100 ml bottle of basil-flavoured oil. An aromatic finishing drizzle for tomatoes, mozzarella, pasta or bruschetta. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - 100毫升礼品装 · 罗勒风味调味油",
+            "description": "礼品装内含一瓶100毫升罗勒风味调味油。直接淋在番茄、马苏里拉奶酪、意面或意式烤面包上，增添草本清香。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Confezione Regalo · Olio Aromatizzato al Basilico · 100 ml",
+            "description": "Confezione regalo con una bottiglia da 100 ml di olio aromatizzato al basilico. Un filo a crudo per profumare pomodori, mozzarella, pasta e bruschette. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - ギフト · バジル風味オイル · 100ml",
+            "description": "バジル風味オイル100mlを1本収めたギフト。トマト、モッツァレラ、パスタ、ブルスケッタの仕上げに、香りを添えるひとしずく。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - 선물용 · 바질 풍미 오일 · 100ml",
+            "description": "바질 풍미 오일 100ml 한 병으로 구성된 선물 상품입니다. 토마토, 모차렐라, 파스타, 브루스케타에 살짝 뿌려 향긋함을 더해보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 88,
+        "image": "./assets/quattrociocchi-basil-gift-100ml-doodle.png",
+        "available": true
+      },
+      {
+        "id": "d704449c-cb62-4d23-b3bd-0883f0273856",
+        "name": "Quattrociocchi - Gift Pack · Garlic & Chili-Flavoured Oil · 100 ml",
+        "description": "A gift selection containing one 100 ml bottle of garlic and chili-flavoured oil. Add an aromatic, spicy touch to pasta, pizza and grilled vegetables. Quattrociocchi is among the world's most awarded extra virgin olive oil producers, with over 100 national and international accolades. The estate is in the Flos Olei 2026 Hall of Fame, rated 100/100; its Olivastro won Premier and Best of Italy at OLIVE JAPAN 2026.",
+        "translations": {
+          "zh": {
+            "name": "Quattrociocchi - 100毫升礼品装 · 蒜香辣椒风味调味油",
+            "description": "礼品装内含一瓶100毫升蒜香辣椒风味调味油。为意面、披萨和烤蔬菜增添浓郁蒜香与辛辣风味。 Quattrociocchi 是全球获奖最多的特级初榨橄榄油生产商之一，累计获得逾100项意大利及国际荣誉。油坊以100/100分入选 Flos Olei 2026 名人堂；旗下 Olivastro 荣获 OLIVE JAPAN 2026 最高奖（Premier）及意大利最佳奖（Best of Italy）。"
+          },
+          "it": {
+            "name": "Quattrociocchi - Confezione Regalo · Olio Aromatizzato all’Aglio e Peperoncino · 100 ml",
+            "description": "Confezione regalo con una bottiglia da 100 ml di olio aromatizzato all’aglio e peperoncino. Un tocco profumato e piccante per pasta, pizza e verdure grigliate. Quattrociocchi è tra i produttori di olio extravergine d’oliva più premiati al mondo, con oltre 100 riconoscimenti nazionali e internazionali. Il frantoio è nella Hall of Fame Flos Olei 2026 con 100/100; Olivastro ha ottenuto Premier e Best of Italy a OLIVE JAPAN 2026."
+          },
+          "ja": {
+            "name": "Quattrociocchi - ギフト · ガーリック＆唐辛子風味オイル · 100ml",
+            "description": "ガーリックと唐辛子風味のオイル100mlを1本収めたギフト。パスタ、ピザ、グリル野菜に、香りとピリッとしたアクセントを。 Quattrociocchiは世界でも屈指の受賞歴を誇るエキストラバージンオリーブオイル生産者で、国内外で100以上の賞を獲得。生産者としてFlos Olei 2026の殿堂入りを果たし、100点満点を獲得しています。また、OlivastroはOLIVE JAPAN 2026で最優秀賞とBest of Italyを受賞しました。"
+          },
+          "ko": {
+            "name": "Quattrociocchi - 선물용 · 마늘·고추 풍미 오일 · 100ml",
+            "description": "마늘·고추 풍미 오일 100ml 한 병으로 구성된 선물 상품입니다. 파스타, 피자, 구운 채소에 향긋하고 매콤한 맛을 더해보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
+          }
+        },
+        "price": 88,
+        "image": "./assets/quattrociocchi-garlic-chili-gift-100ml-doodle.png",
+        "available": true
       }
     ]
   }

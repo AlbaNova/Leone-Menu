@@ -180,6 +180,22 @@ Three separate bottle illustrations generated with the built-in image_gen tool f
 
 Original generated files remain stored locally. The complete prompts and final asset paths are recorded in `output/imagegen/giusti-creams-prompts.json` in the local application workspace.
 
+## Quattrociocchi oils and gifts — 25 October 2026
+
+Nine individual bottle doodles generated with the built-in image_gen tool, using the owner's Quattrociocchi packaging photographs. All have an opaque white background. The 500 ml variants depict a single bottle, following the owner's requested size rather than the 250 ml pairs in the source photographs.
+
+- `quattrociocchi-superbo-500ml-doodle.png`: black Superbo bottle, red product name.
+- `quattrociocchi-olivastro-500ml-doodle.png`: black Olivastro bottle with the three supplied award badges.
+- `quattrociocchi-primolio-2025-500ml-doodle.png`: white Primolio 2025 bottle.
+- `quattrociocchi-olivastro-gift-100ml-doodle.png`: small Olivastro bottle with the same supplied badges.
+- `quattrociocchi-truffle-gift-100ml-doodle.png`: small truffle-flavoured bottle.
+- `quattrociocchi-orange-gift-100ml-doodle.png`: small orange-flavoured bottle.
+- `quattrociocchi-lemon-gift-100ml-doodle.png`: small lemon-flavoured bottle.
+- `quattrociocchi-basil-gift-100ml-doodle.png`: small basil-flavoured bottle.
+- `quattrociocchi-garlic-chili-gift-100ml-doodle.png`: small garlic-and-chili bottle.
+
+The Olivastro award designs reproduce the supplied Flos Olei 2026 Point 100, Olive Japan Premier 2026 and Gold 2026 badges. The other illustrations do not inherit Olivastro's badges. Full prompts, source outputs and final paths are saved locally in `output/imagegen/quattrociocchi-products-prompts.json`.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
