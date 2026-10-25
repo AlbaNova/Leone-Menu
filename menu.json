@@ -1062,6 +1062,85 @@
         "available": true
       }
     ],
-    "products": []
+    "products": [
+      {
+        "id": "c70af430-3e10-4804-ad35-d57751f164f6",
+        "name": "Acetaia Giusti - Truffle Glaze",
+        "description": "Giuseppe Giusti's glaze brings together Balsamic Vinegar of Modena PGI and the distinctive aroma of truffle. Its smooth texture balances gentle acidity with the sweetness of cooked grape must, adding an elegant finishing touch even to simple dishes. Drizzle over tartare, meat, raw or cooked fish, eggs and fresh or aged cheeses to create inviting contrasts of flavour.",
+        "translations": {
+          "zh": {
+            "name": "Acetaia Giusti - 松露意式香醋膏",
+            "description": "Giuseppe Giusti 将摩德纳 IGP 意式香醋与松露的独特香气融合，带来细腻柔滑的口感。温和酸度与熬煮葡萄汁的甜味相互平衡，让家常料理也多一分精致。适合点缀鞑靼、肉类、生鱼或熟鱼、鸡蛋，以及新鲜或熟成奶酪，为菜肴增添丰富的风味对比。"
+          },
+          "it": {
+            "name": "Acetaia Giusti - Crema al Tartufo",
+            "description": "La crema Giuseppe Giusti unisce l’Aceto Balsamico di Modena IGP al profumo caratteristico del tartufo. La consistenza vellutata e l’incontro tra una delicata acidità e la dolcezza del mosto d’uva cotto donano eleganza anche alle preparazioni più semplici. Ideale per rifinire tartare, carne, pesce crudo o cotto, uova e formaggi freschi o stagionati, creando piacevoli contrasti di gusto."
+          },
+          "ja": {
+            "name": "Acetaia Giusti - トリュフ入りバルサミコクリーム",
+            "description": "ジュゼッペ・ジュスティのクリームは、モデナ産バルサミコ酢IGPにトリュフの豊かな香りを合わせた調味料です。なめらかな口当たりと、穏やかな酸味、煮詰めたブドウ果汁の甘みが調和し、シンプルな料理も上品に仕上げます。タルタル、肉料理、生または加熱した魚、卵、フレッシュチーズや熟成チーズに添えて、味わいのコントラストをお楽しみください。"
+          },
+          "ko": {
+            "name": "Acetaia Giusti - 트러플 발사믹 글레이즈",
+            "description": "주세페 주스티의 글레이즈는 모데나산 IGP 발사믹 식초에 트러플 특유의 향을 더한 소스입니다. 부드러운 질감 속에 은은한 산미와 졸인 포도즙의 단맛이 조화를 이루어 간단한 요리에도 우아한 풍미를 더합니다. 타르타르, 육류, 생선회나 익힌 생선, 달걀, 생치즈 또는 숙성 치즈에 곁들여 다채로운 맛의 대비를 즐겨보세요."
+          }
+        },
+        "price": 88,
+        "image": "./assets/giusti-truffle-glaze-doodle.png",
+        "available": true
+      },
+      {
+        "id": "e9f9b3c6-3565-403e-bb01-c63f26a14fe8",
+        "name": "Acetaia Giusti - Raspberry Glaze",
+        "description": "Giuseppe Giusti's glaze pairs Balsamic Vinegar of Modena PGI with lively raspberry notes. Smooth and easy to drizzle, it combines mild acidity with the sweetness of cooked grape must for a fruity finishing touch. Add a little to tartare, meat, raw or cooked fish, eggs and fresh or aged cheeses: a versatile way to bring colour and sweet-tart contrast to everyday dishes.",
+        "translations": {
+          "zh": {
+            "name": "Acetaia Giusti - 覆盆子意式香醋膏",
+            "description": "这款 Giuseppe Giusti 香醋膏将摩德纳 IGP 意式香醋与明快的覆盆子果香结合。质地柔滑、方便淋洒，柔和酸度与熬煮葡萄汁的甜味相得益彰，为菜肴添上一抹果香。只需少许，即可点缀鞑靼、肉类、生鱼或熟鱼、鸡蛋，以及新鲜或熟成奶酪，让日常料理呈现诱人的色泽与酸甜层次。"
+          },
+          "it": {
+            "name": "Acetaia Giusti - Crema al Lampone",
+            "description": "L’Aceto Balsamico di Modena IGP incontra le vivaci note del lampone in questa crema Giuseppe Giusti. Morbida e facile da dosare, armonizza una lieve acidità con la dolcezza del mosto d’uva cotto, regalando una finitura fruttata. Bastano poche gocce su tartare, carne, pesce crudo o cotto, uova e formaggi freschi o stagionati per aggiungere colore e un piacevole contrasto agrodolce ai piatti di ogni giorno."
+          },
+          "ja": {
+            "name": "Acetaia Giusti - ラズベリー入りバルサミコクリーム",
+            "description": "モデナ産バルサミコ酢IGPと、華やかなラズベリーの風味を合わせたジュゼッペ・ジュスティのクリームです。なめらかでかけやすく、やさしい酸味と煮詰めたブドウ果汁の甘みが調和し、フルーティーなアクセントを添えます。タルタル、肉料理、生または加熱した魚、卵、フレッシュチーズや熟成チーズに少量かけるだけで、いつもの料理に彩りと甘酸っぱい味わいが広がります。"
+          },
+          "ko": {
+            "name": "Acetaia Giusti - 라즈베리 발사믹 글레이즈",
+            "description": "모데나산 IGP 발사믹 식초와 산뜻한 라즈베리 향이 만난 주세페 주스티의 글레이즈입니다. 부드럽고 뿌리기 편한 질감에 은은한 산미와 졸인 포도즙의 단맛이 어우러져 과일의 풍미를 더합니다. 타르타르, 육류, 생선회나 익힌 생선, 달걀, 생치즈 또는 숙성 치즈에 조금씩 곁들이면 일상의 요리에 색감과 새콤달콤한 맛의 대비를 더할 수 있습니다."
+          }
+        },
+        "price": 88,
+        "image": "./assets/giusti-raspberry-glaze-doodle.png",
+        "available": true
+      },
+      {
+        "id": "3cdc72c4-136d-442b-80c7-67261a4e0eec",
+        "name": "Acetaia Giusti - Fig Glaze",
+        "description": "Giuseppe Giusti's fig glaze combines Balsamic Vinegar of Modena PGI with the mellow, rounded flavour of figs. Its velvety texture blends gentle acidity and the sweetness of cooked grape must, making it easy to dress and finish a dish. Try it with tartare, meat, raw or cooked fish, eggs and fresh or aged cheeses for a rich fruity accent and a harmonious sweet-tart contrast.",
+        "translations": {
+          "zh": {
+            "name": "Acetaia Giusti - 无花果意式香醋膏",
+            "description": "Giuseppe Giusti 无花果香醋膏将摩德纳 IGP 意式香醋与无花果柔和饱满的滋味相融合。丝滑质地平衡了温和酸度与熬煮葡萄汁的甜味，轻松为菜肴调味或作最后点缀。搭配鞑靼、肉类、生鱼或熟鱼、鸡蛋，以及新鲜或熟成奶酪，带来浓郁果香与和谐的酸甜层次。"
+          },
+          "it": {
+            "name": "Acetaia Giusti - Crema ai Fichi",
+            "description": "La crema ai fichi Giuseppe Giusti accosta l’Aceto Balsamico di Modena IGP al gusto morbido e avvolgente dei fichi. La texture vellutata combina una delicata acidità con la dolcezza del mosto d’uva cotto, rendendola pratica per condire e rifinire ogni piatto. Provala su tartare, carne, pesce crudo o cotto, uova e formaggi freschi o stagionati: una nota fruttata intensa, con un armonioso equilibrio agrodolce."
+          },
+          "ja": {
+            "name": "Acetaia Giusti - イチジク入りバルサミコクリーム",
+            "description": "ジュゼッペ・ジュスティのイチジククリームは、モデナ産バルサミコ酢IGPにイチジクのまろやかで豊かな風味を合わせています。なめらかな質感に穏やかな酸味と煮詰めたブドウ果汁の甘みが溶け合い、味付けにも仕上げにも使いやすい一品です。タルタル、肉料理、生または加熱した魚、卵、フレッシュチーズや熟成チーズに添えて、果実の風味と調和のとれた甘酸っぱさをお楽しみください。"
+          },
+          "ko": {
+            "name": "Acetaia Giusti - 무화과 발사믹 글레이즈",
+            "description": "주세페 주스티의 무화과 글레이즈는 모데나산 IGP 발사믹 식초와 무화과의 부드럽고 풍부한 맛을 조화롭게 담았습니다. 벨벳처럼 매끄러운 질감에 은은한 산미와 졸인 포도즙의 단맛이 어우러져 요리의 간을 맞추거나 마무리하기에 좋습니다. 타르타르, 육류, 생선회나 익힌 생선, 달걀, 생치즈 또는 숙성 치즈에 곁들여 진한 과일 향과 균형 잡힌 새콤달콤함을 즐겨보세요."
+          }
+        },
+        "price": 88,
+        "image": "./assets/giusti-fig-glaze-doodle.png",
+        "available": true
+      }
+    ]
   }
 }

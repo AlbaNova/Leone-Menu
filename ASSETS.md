@@ -170,6 +170,16 @@ Two individual illustrations generated with the built-in image_gen tool using `l
 
 The original generated images are retained locally. Final prompts and saved asset paths are recorded in `output/imagegen/french-toast-matcha-misu-prompts.json`. The existing `tiramisu-doodle.png` remains assigned to the classic tiramisu.
 
+## Giusti balsamic creams — 25 October 2026
+
+Three separate bottle illustrations generated with the built-in image_gen tool from the owner's supplied Giusti packaging photographs. They share a simple painted doodle style on a white background, with gold caps and flavour-specific labels:
+
+- `giusti-truffle-glaze-doodle.png`: truffle, golden label.
+- `giusti-raspberry-glaze-doodle.png`: raspberry, pink label.
+- `giusti-fig-glaze-doodle.png`: fig, lilac label.
+
+Original generated files remain stored locally. The complete prompts and final asset paths are recorded in `output/imagegen/giusti-creams-prompts.json` in the local application workspace.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
