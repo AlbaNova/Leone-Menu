@@ -1,6 +1,6 @@
 # Leone Caffè Cucina
 
-Public menu in Chinese, English, Italian and Japanese.
+Public menu in Chinese, English, Italian, Japanese and Korean.
 
 Website: https://leonecaffecucina.net/
 
@@ -8,4 +8,4 @@ This repository contains only the exported public site. Product editing and data
 
 GitHub Pages settings: Deploy from a branch → main → / (root). Custom domain: leonecaffecucina.net. Enable **Enforce HTTPS** after the certificate is available.
 
-Generated: 2026-10-25T08:10:46.265Z
+Generated: 2026-10-25T14:44:39.112Z

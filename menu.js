@@ -44,11 +44,11 @@ function render() {
     document.querySelector('#category-description').textContent = t(`${category}Description`);
     return;
   }
-  const source = query ? allProducts().filter(p => normalize([p.name, p.description, ...Object.values(p.translations || {}).flatMap(text => [text.name, text.description])].join(' ')).includes(query)) : menu.groups[category];
+  const source = query ? allProducts().filter(p => normalize([p.name, p.description, ...Object.values(p.translations || {}).flatMap(text => [text.name, text.description])].join(' ')).includes(query)) : (menu.groups[category] || []);
   document.querySelector('#category-title').textContent = query ? t('searchTitle') : t(`${category}Title`);
   document.querySelector('#category-description').textContent = query ? t('searchResults', { query: document.querySelector('#menu-search').value.trim() }) : t(`${category}Description`);
   document.querySelector('#result-count').textContent = t(source.length === 1 ? 'itemCountOne' : 'itemCount', { count: source.length });
-  for (const key of ['food', 'drinks', 'desserts']) document.querySelector(`#${key}-count`).textContent = menu.groups[key].length;
+  for (const key of ['food', 'drinks', 'desserts', 'products']) document.querySelector(`#${key}-count`).textContent = (menu.groups[key] || []).length;
   const renderProduct = p => {
     const text = productText(p, language);
     const titleTag = !query && category === 'food' && isPizzaSection(p.section) ? 'h6' : 'h4';
@@ -63,7 +63,7 @@ function render() {
     const tag = pizza ? 'h5' : 'h4';
     return `${parentHeading}<${tag} class="${pizza ? 'pizza-section-heading' : 'food-section-heading'}" data-food-section="${group.section}">${esc(t(`section_${group.section || 'other'}`))}</${tag}>${group.products.map(renderProduct).join('')}`;
   };
-  grid.innerHTML = source.length ? useSections ? groupedFood(source).map(renderGroup).join('') : source.map(renderProduct).join('') : `<div class="empty-state">${icon('search')}<h3>${esc(t(query ? 'emptySearchTitle' : 'emptyCategoryTitle'))}</h3><p>${esc(t(query ? 'emptySearchHint' : 'emptyCategoryHint'))}</p>${query ? `<button class="button secondary" id="clear-search">${esc(t('clearSearch'))}</button>` : ''}</div>`;
+  grid.innerHTML = source.length ? useSections ? groupedFood(source).map(renderGroup).join('') : source.map(renderProduct).join('') : `<div class="empty-state">${icon('search')}<h3>${esc(t(query ? 'emptySearchTitle' : category === 'products' ? 'productsEmptyTitle' : 'emptyCategoryTitle'))}</h3><p>${esc(t(query ? 'emptySearchHint' : category === 'products' ? 'productsEmptyHint' : 'emptyCategoryHint'))}</p>${query ? `<button class="button secondary" id="clear-search">${esc(t('clearSearch'))}</button>` : ''}</div>`;
   document.querySelector('#clear-search')?.addEventListener('click', () => { query = ''; document.querySelector('#menu-search').value = ''; render(); });
   if (openedId && dialog.open) { const p = allProducts().find(p => p.id === openedId); if (p) details(p); else dialog.close(); }
 }

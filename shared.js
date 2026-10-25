@@ -1,5 +1,6 @@
 import { menuArt } from './menu-art.js';
 export const icons = {
+  bag: '<path d="M5 7h14l1 14H4L5 7Zm3 0V5a4 4 0 0 1 8 0v2"/>',
   food: '<path d="M5 3v7m3-7v7M3 3v5a4 4 0 0 0 8 0V3M7 12v9M20 21V3c-5 3-5 10 0 10"/>',
   coffee: '<path d="M4 8h12v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8Zm12 1h2a3 3 0 0 1 0 6h-2M3 22h16M7 2v2m6-2v2"/>',
   dessert: '<path d="m3 11 10-8 8 8H3Zm0 0v9h18v-9M3 15c3 4 6-3 9 0s6-3 9 0M13 3V1"/>',

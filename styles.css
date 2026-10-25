@@ -75,7 +75,7 @@ html:lang(zh) .photo-number, html:lang(ja) .photo-number { font-family: Arial, s
 .translation-language:last-child { margin-bottom: 0; }
 .translation-language legend { font-size: 12px; font-weight: 600; margin-bottom: 11px; color: var(--olive); }
 .translation-language .form-field + .form-field { margin-top: 12px; }
-.translation-language input, .translation-language textarea { font-family: 'Segoe UI', 'Microsoft YaHei', 'Yu Gothic', sans-serif; }
+.translation-language input, .translation-language textarea { font-family: 'Segoe UI', 'Microsoft YaHei', 'Yu Gothic', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
 @media(max-width:1150px) { .header-actions { gap: 18px; } }
 @media(max-width:850px) { .header-actions { gap: 14px; } .public-body .header-menu [data-i18n] { display: none; } .public-body .header-menu { gap: 0; } }
 @media(max-width:600px) {
@@ -109,3 +109,28 @@ html:lang(zh) .photo-number, html:lang(ja) .photo-number { font-family: Arial, s
 
 /* Pizza families share a single pizza section on the menu. */
 .pizza-section-heading{grid-column:1/-1;display:flex;align-items:center;gap:16px;font-family:var(--serif);font-size:23px;font-weight:500;color:var(--olive-dark);margin:8px 0 0;line-height:1.4;overflow-wrap:anywhere}.pizza-section-heading::after{content:"";height:1px;flex:1;min-width:24px;background:var(--line)}.food-section-heading[data-pizza-section]{margin-bottom:-6px}
+
+/* Korean text and the four public categories. */
+html:lang(ko) .public-body { font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif; --serif: 'Noto Serif KR', Batang, Georgia, serif; word-break: keep-all; overflow-wrap: anywhere; }
+html:lang(ko) .brand-words { font-family: Georgia, 'Times New Roman', serif; }
+html:lang(ko) .hero-copy h1 { font-size: clamp(32px, 3.8vw, 50px); line-height: 1.4; letter-spacing: 0; }
+html:lang(ko) h1 em { font-style: normal; letter-spacing: 0; }
+html:lang(ko) .eyebrow { letter-spacing: .06em; }
+html:lang(ko) .round-seal strong { font-size: 22px; font-style: normal; }
+html:lang(ko) .round-seal span { letter-spacing: 0; font-size: 8px; }
+html:lang(ko) .product-title-row :is(h4,h6) { line-height: 1.5; }
+.inventory-filters { flex-wrap: wrap; }
+@media(max-width:1000px) {
+  .public-body .menu-controls { flex-wrap: wrap; }
+  .public-body .category-tabs { width: 100%; }
+  .public-body .category-tab { flex: 1; justify-content: center; }
+  .public-body .menu-controls > .search-box { width: 100%; }
+}
+@media(max-width:600px) {
+  .language-switch button { flex: 1 1 0; min-width: 0; padding-inline: 4px; font-size: 11px; }
+  .public-body .category-tabs { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 4px; }
+  .public-body .category-tab { padding: 10px; gap: 8px; }
+  html:lang(ko) .hero-copy h1 { font-size: clamp(28px,7.6vw,36px); }
+  html:lang(ko) .round-seal strong { font-size: 18px; }
+  html:lang(ko) .round-seal span { font-size: 7px; }
+}
