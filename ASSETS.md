@@ -161,6 +161,15 @@ The original generated images are retained locally. Final prompts and saved asse
 
 Both the original and the edited generated images are retained locally. The generation and edit prompts and final asset path are recorded in `output/imagegen/potato-garlic-chili-pizza-prompts.json`.
 
+## French toast and Matcha-misu — 25 October 2026
+
+Two individual illustrations generated with the built-in image_gen tool using `leone-menu.png` as the original painted doodle style reference.
+
+- `french-toast-doodle.png`: golden French toast on a simple ivory plate.
+- `matcha-misu-doodle.png`: a rectangular matcha tiramisu slice with green biscuit layers, ivory mascarpone cream and matcha on top. The existing tiramisu illustration guides the composition and dessert structure.
+
+The original generated images are retained locally. Final prompts and saved asset paths are recorded in `output/imagegen/french-toast-matcha-misu-prompts.json`. The existing `tiramisu-doodle.png` remains assigned to the classic tiramisu.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.

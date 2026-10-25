@@ -303,20 +303,20 @@
       },
       {
         "id": "5d0ca02f-448d-4891-937c-ba7ffab75f05",
-        "name": "Spaghetti with Garlic, Olive Oil, Chili & Parsley",
-        "description": "Spaghetti with olive oil, garlic, chili and parsley.",
+        "name": "Spaghetti with Garlic, Extra Virgin Olive Oil, Chili & Parsley",
+        "description": "Spaghetti with extra virgin olive oil, garlic, chili and parsley.",
         "translations": {
           "zh": {
             "name": "蒜香辣椒欧芹意大利长面",
-            "description": "意大利长面，搭配橄榄油、大蒜、辣椒和欧芹。"
+            "description": "意大利长面，搭配特级初榨橄榄油、大蒜、辣椒和欧芹。"
           },
           "it": {
-            "name": "Spaghetti aglio, olio, peperoncino e prezzemolo",
-            "description": "Spaghetti con olio d’oliva, aglio, peperoncino e prezzemolo."
+            "name": "Spaghetti aglio, olio extravergine d’oliva, peperoncino e prezzemolo",
+            "description": "Spaghetti con olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
           },
           "ja": {
-            "name": "にんにく、オリーブオイル、唐辛子とパセリのスパゲッティ",
-            "description": "オリーブオイル、にんにく、唐辛子、パセリで仕上げたスパゲッティ。"
+            "name": "にんにく、エキストラバージンオリーブオイル、唐辛子とパセリのスパゲッティ",
+            "description": "エキストラバージンオリーブオイル、にんにく、唐辛子、パセリで仕上げたスパゲッティ。"
           }
         },
         "price": 48,
@@ -326,20 +326,20 @@
       },
       {
         "id": "8e66f864-b0d3-4999-a8fb-2766fd9734ae",
-        "name": "Roman Pizza Slice – Potatoes, Olive Oil, Garlic, Chili & Parsley",
-        "description": "A slice of Roman-style pizza with potatoes, olive oil, garlic, chili and parsley.",
+        "name": "Roman Pizza Slice – Potatoes, Extra Virgin Olive Oil, Garlic, Chili & Parsley",
+        "description": "A slice of Roman-style pizza with potatoes, extra virgin olive oil, garlic, chili and parsley.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨（单块）· 土豆、橄榄油、大蒜、辣椒与欧芹",
-            "description": "罗马风味方形披萨，搭配土豆、橄榄油、大蒜、辣椒和欧芹，按块供应。"
+            "name": "罗马方形披萨（单块）· 土豆、特级初榨橄榄油、大蒜、辣椒与欧芹",
+            "description": "罗马风味方形披萨，搭配土豆、特级初榨橄榄油、大蒜、辣椒和欧芹，按块供应。"
           },
           "it": {
-            "name": "Trancio di pizza romana – Patate, olio, aglio, peperoncino e prezzemolo",
-            "description": "Trancio di pizza romana con patate, olio d’oliva, aglio, peperoncino e prezzemolo."
+            "name": "Trancio di pizza romana – Patate, olio extravergine d’oliva, aglio, peperoncino e prezzemolo",
+            "description": "Trancio di pizza romana con patate, olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
           },
           "ja": {
-            "name": "ローマ風カットピザ · じゃがいも、オリーブオイル、にんにく、唐辛子とパセリ",
-            "description": "じゃがいも、オリーブオイル、にんにく、唐辛子、パセリをのせたローマ風ピザ。1ピースでご提供します。"
+            "name": "ローマ風カットピザ · じゃがいも、エキストラバージンオリーブオイル、にんにく、唐辛子とパセリ",
+            "description": "じゃがいも、エキストラバージンオリーブオイル、にんにく、唐辛子、パセリをのせたローマ風ピザ。1ピースでご提供します。"
           }
         },
         "price": 25,
@@ -792,6 +792,28 @@
     ],
     "desserts": [
       {
+        "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
+        "name": "Tiramisu",
+        "description": "An Italian dessert with coffee-soaked sponge biscuits, mascarpone cream and a dusting of cocoa.",
+        "translations": {
+          "zh": {
+            "name": "提拉米苏",
+            "description": "经典意式甜点：咖啡浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒可可粉。"
+          },
+          "it": {
+            "name": "Tiramisù",
+            "description": "Dolce italiano con savoiardi al caffè, crema al mascarpone e una spolverata di cacao."
+          },
+          "ja": {
+            "name": "ティラミス",
+            "description": "コーヒーをしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、ココアをふったイタリアのデザート。"
+          }
+        },
+        "price": 32,
+        "image": "./assets/tiramisu-doodle.png",
+        "available": true
+      },
+      {
         "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
         "name": "Carrot and Nuts Cake",
         "description": "A slice of Carrot and Nuts Cake made with extra virgin olive oil.",
@@ -833,6 +855,50 @@
         },
         "price": 28,
         "image": "./assets/panna-cotta-classic-doodle.png",
+        "available": true
+      },
+      {
+        "id": "bf1e6295-61ac-44e1-a6c3-d8480f6a55c9",
+        "name": "French Toast",
+        "description": "Golden French toast, soft inside and lightly crisp on the outside.",
+        "translations": {
+          "zh": {
+            "name": "法式吐司",
+            "description": "煎至金黄的法式吐司，外层微脆，内里柔软。"
+          },
+          "it": {
+            "name": "French toast",
+            "description": "French toast dorato, morbido all’interno e leggermente croccante all’esterno."
+          },
+          "ja": {
+            "name": "フレンチトースト",
+            "description": "表面はこんがり、内側はふんわりと焼き上げたフレンチトースト。"
+          }
+        },
+        "price": 25,
+        "image": "./assets/french-toast-doodle.png",
+        "available": true
+      },
+      {
+        "id": "b47e5327-25da-4877-b950-2cff5871a07c",
+        "name": "Matcha-misu",
+        "description": "Matcha tiramisu with matcha-soaked sponge biscuits, mascarpone cream and a dusting of matcha.",
+        "translations": {
+          "zh": {
+            "name": "抹茶提拉米苏",
+            "description": "抹茶浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒抹茶粉。"
+          },
+          "it": {
+            "name": "Matcha-misù",
+            "description": "Tiramisù al matcha con savoiardi al tè matcha, crema al mascarpone e una spolverata di matcha."
+          },
+          "ja": {
+            "name": "抹茶ティラミス",
+            "description": "抹茶をしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、抹茶をふったティラミス。"
+          }
+        },
+        "price": 32,
+        "image": "./assets/matcha-misu-doodle.png",
         "available": true
       }
     ]
