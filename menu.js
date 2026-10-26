@@ -14,7 +14,7 @@ let language = initialLanguage(), category = 'food', menu = null, query = '', la
 const grid = document.querySelector('#products'), dialog = document.querySelector('#product-dialog');
 const t = (key, values) => translate(language, key, values);
 const price = value => money(value, menu.currency, languages[language].locale);
-const allProducts = () => Object.values(menu?.groups || {}).flat();
+const allProducts = () => [...new Map(Object.values(menu?.groups || {}).flat().map(p => [p.id, p])).values()];
 const normalize = text => text.normalize('NFKC').toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 function applyLanguage() {
   document.documentElement.lang = languages[language].locale;
