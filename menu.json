@@ -1374,6 +1374,58 @@
         "price": 88,
         "image": "./assets/quattrociocchi-garlic-chili-gift-100ml-doodle.png",
         "available": true
+      },
+      {
+        "id": "77503c5a-9250-41aa-a4c9-eb5660af2bb0",
+        "name": "Torres Selecta - Iberian Ham Potato Chips",
+        "description": "Crisp potato chips with a rich, savoury Iberian ham flavour, inspired by Mediterranean culinary tradition. A characterful snack for an aperitif or sharing.",
+        "translations": {
+          "zh": {
+            "name": "Torres Selecta - 伊比利亚火腿风味薯片",
+            "description": "香脆薯片融入浓郁鲜香的伊比利亚火腿风味，灵感源自地中海饮食传统。风味鲜明，适合与朋友分享或搭配开胃酒。"
+          },
+          "it": {
+            "name": "Torres Selecta - Patatine al gusto Prosciutto Iberico",
+            "description": "Patatine croccanti al gusto prosciutto iberico, ricco e intenso, ispirato alla tradizione gastronomica mediterranea. Uno snack dal carattere deciso, da condividere o gustare all’aperitivo."
+          },
+          "ja": {
+            "name": "Torres Selecta - イベリコハム風味ポテトチップス",
+            "description": "地中海の食文化に着想を得た、コク深く濃厚なイベリコハム風味のポテトチップス。軽快な歯ごたえと豊かな味わいを、食前の一杯やシェアするひとときに。"
+          },
+          "ko": {
+            "name": "Torres Selecta - 이베리코 햄 풍미 감자칩",
+            "description": "지중해 음식 문화에서 영감을 받은 진하고 감칠맛 나는 이베리코 햄 풍미의 바삭한 감자칩입니다. 식전주에 곁들이거나 함께 나누기 좋은 개성 있는 스낵입니다."
+          }
+        },
+        "price": 26,
+        "image": "./assets/torres-iberian-ham-doodle.png",
+        "available": true
+      },
+      {
+        "id": "df5cda8a-c160-436c-b289-2fbd6f4a587c",
+        "name": "Torres Selecta - Black Truffle Potato Chips",
+        "description": "Crisp potato chips made with real dehydrated black summer truffle, with a bold aroma and deep, earthy flavour. A gourmet touch for an aperitif.",
+        "translations": {
+          "zh": {
+            "name": "Torres Selecta - 黑松露薯片",
+            "description": "香脆薯片加入真正的脱水夏季黑松露，香气浓郁，滋味深厚，带有独特的泥土芬芳。为开胃小酌增添精致风味。"
+          },
+          "it": {
+            "name": "Torres Selecta - Patatine al Tartufo Nero",
+            "description": "Patatine croccanti con autentico tartufo nero estivo disidratato, dal profumo intenso e dal gusto profondo, con note terrose. Un tocco gourmet per accompagnare l’aperitivo."
+          },
+          "ja": {
+            "name": "Torres Selecta - 黒トリュフポテトチップス",
+            "description": "本物の乾燥サマーブラックトリュフを使った、歯ごたえのよいポテトチップス。力強い香りと土を思わせる奥深い風味が、食前のひとときを豊かに彩ります。"
+          },
+          "ko": {
+            "name": "Torres Selecta - 블랙 트러플 감자칩",
+            "description": "실제 건조 여름 블랙 트러플을 넣어 만든 바삭한 감자칩입니다. 진한 향과 흙내음을 머금은 깊은 풍미로 식전주에 특별한 맛을 더해보세요."
+          }
+        },
+        "price": 26,
+        "image": "./assets/torres-black-truffle-doodle.png",
+        "available": true
       }
     ]
   }

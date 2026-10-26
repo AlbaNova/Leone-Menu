@@ -196,6 +196,13 @@ Nine individual bottle doodles generated with the built-in image_gen tool, using
 
 The Olivastro award designs reproduce the supplied Flos Olei 2026 Point 100, Olive Japan Premier 2026 and Gold 2026 badges. The other illustrations do not inherit Olivastro's badges. Full prompts, source outputs and final paths are saved locally in `output/imagegen/quattrociocchi-products-prompts.json`.
 
+## Torres potato chips — 26 October 2026
+
+- `torres-iberian-ham-doodle.png`: white/silver Torres Selecta bag with red logo, potatoes and Iberian ham artwork.
+- `torres-black-truffle-doodle.png`: matching bag with potatoes and black truffle artwork.
+
+Both are individual painted doodles on white, generated with the built-in image_gen tool from the owner's supplied bag photographs. The original outputs are preserved locally. Prompts, sources and final paths are recorded in `output/imagegen/torres-products-prompts.json` in the application workspace.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
