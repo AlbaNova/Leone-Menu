@@ -405,7 +405,7 @@
         "price": 35,
         "image": "./assets/leone-menu.png#focaccia",
         "available": true,
-        "section": "focaccia"
+        "section": "pizza_special"
       },
       {
         "id": "3fde3d27-25f2-4c37-aba3-3b40f203539e",
