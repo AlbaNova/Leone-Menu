@@ -3,6 +3,222 @@
   "groups": {
     "food": [
       {
+        "id": "5d0ca02f-448d-4891-937c-ba7ffab75f05",
+        "name": "Spaghetti with Garlic, Extra Virgin Olive Oil, Chili & Parsley",
+        "description": "Spaghetti with extra virgin olive oil, garlic, chili and parsley.",
+        "translations": {
+          "zh": {
+            "name": "蒜香辣椒欧芹意大利长面",
+            "description": "意大利长面，搭配特级初榨橄榄油、大蒜、辣椒和欧芹。"
+          },
+          "it": {
+            "name": "Spaghetti aglio, olio extravergine d’oliva, peperoncino e prezzemolo",
+            "description": "Spaghetti con olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
+          },
+          "ja": {
+            "name": "にんにく、エキストラバージンオリーブオイル、唐辛子とパセリのスパゲッティ",
+            "description": "エキストラバージンオリーブオイル、にんにく、唐辛子、パセリで仕上げたスパゲッティ。"
+          },
+          "ko": {
+            "name": "마늘, 엑스트라 버진 올리브 오일, 고추와 파슬리 스파게티",
+            "description": "엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리로 만든 스파게티입니다."
+          }
+        },
+        "price": 48,
+        "image": "./assets/spaghetti-aglio-olio-doodle.png",
+        "available": true,
+        "section": "mains"
+      },
+      {
+        "id": "3965a24c-a4a2-4b41-93a3-41bcca24f33d",
+        "name": "Spaghetti Bolognese",
+        "description": "Spaghetti served with Bolognese meat ragù.",
+        "translations": {
+          "zh": {
+            "name": "博洛尼亚肉酱意大利长面",
+            "description": "意大利长面，搭配博洛尼亚风味肉酱。"
+          },
+          "it": {
+            "name": "Spaghetti al ragù bolognese",
+            "description": "Spaghetti con ragù di carne alla bolognese."
+          },
+          "ja": {
+            "name": "スパゲッティ・ボロネーゼ",
+            "description": "ボローニャ風のミートラグーを合わせたスパゲッティ。"
+          },
+          "ko": {
+            "name": "스파게티 볼로네제",
+            "description": "볼로냐식 고기 라구를 곁들인 스파게티입니다."
+          }
+        },
+        "price": 68,
+        "image": "./assets/spaghetti-bolognese-doodle.png",
+        "available": true,
+        "section": "mains"
+      },
+      {
+        "id": "0c6ff1ba-b67a-46b3-80bf-92b1b4b531e7",
+        "name": "Fusilli with Tomato & Basil",
+        "description": "Fusilli pasta with tomato sauce and basil.",
+        "translations": {
+          "zh": {
+            "name": "番茄罗勒螺旋意面",
+            "description": "螺旋意大利面，搭配番茄酱和罗勒。"
+          },
+          "it": {
+            "name": "Fusilli al pomodoro e basilico",
+            "description": "Fusilli con sugo di pomodoro e basilico."
+          },
+          "ja": {
+            "name": "トマトとバジルのフジッリ",
+            "description": "らせん状のパスタ、フジッリにトマトソースとバジルを合わせました。"
+          },
+          "ko": {
+            "name": "토마토와 바질 푸실리",
+            "description": "토마토소스와 바질을 곁들인 푸실리 파스타입니다."
+          }
+        },
+        "price": 48,
+        "image": "./assets/fusilli-tomato-basil-doodle.png",
+        "available": true,
+        "section": "mains"
+      },
+      {
+        "id": "a9666780-b690-4406-820a-03ae819c0c11",
+        "name": "Onion Frittata",
+        "description": "An Italian egg frittata with onions, cooked until golden and served by the portion.",
+        "translations": {
+          "zh": {
+            "name": "意式洋葱烘蛋",
+            "description": "鸡蛋搭配洋葱，烹至金黄，按份供应。"
+          },
+          "it": {
+            "name": "Frittata di cipolle",
+            "description": "Frittata di uova e cipolle, cotta fino a doratura e servita in porzione."
+          },
+          "ja": {
+            "name": "玉ねぎのフリッタータ",
+            "description": "卵と玉ねぎをこんがり焼き上げたイタリア風オムレツ。1人前でご提供します。"
+          },
+          "ko": {
+            "name": "양파 프리타타",
+            "description": "달걀과 양파를 노릇하게 익힌 이탈리아식 프리타타입니다. 한 인분씩 제공합니다."
+          }
+        },
+        "price": 18,
+        "image": "./assets/onion-frittata-doodle.png",
+        "available": true,
+        "section": "sides"
+      },
+      {
+        "id": "5cbec694-e008-4400-aec3-4c3cce2e5278",
+        "name": "Roman Pinsa – Half",
+        "description": "Half a Roman pinsa with your choice of flavour, ready in 10 minutes.",
+        "translations": {
+          "zh": {
+            "name": "罗马椭圆披萨（半份）",
+            "description": "半份罗马椭圆披萨，口味自选，10分钟即可做好。"
+          },
+          "it": {
+            "name": "Pinsa romana – Metà",
+            "description": "Mezza pinsa romana, gusto a scelta, pronta in 10 minuti."
+          },
+          "ja": {
+            "name": "ローマ風ピンサ（ハーフ）",
+            "description": "ローマ風ピンサをハーフで。お好みの味をお選びいただけます。10分でご用意します。"
+          },
+          "ko": {
+            "name": "로마식 핀사 · 반 판",
+            "description": "원하는 맛을 고를 수 있는 로마식 핀사 반 판입니다. 준비 시간은 10분입니다."
+          }
+        },
+        "price": 39,
+        "image": "./assets/pinsa-half-doodle.png",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "1a9801bd-2e78-40d2-8b0d-8ad83e431b95",
+        "name": "Roman Pinsa – Whole",
+        "description": "A whole Roman pinsa with your choice of flavour, ready in 10 minutes.",
+        "translations": {
+          "zh": {
+            "name": "罗马椭圆披萨（整份）",
+            "description": "整份罗马椭圆披萨，口味自选，10分钟即可做好。"
+          },
+          "it": {
+            "name": "Pinsa romana – Intera",
+            "description": "Pinsa romana intera, gusto a scelta, pronta in 10 minuti."
+          },
+          "ja": {
+            "name": "ローマ風ピンサ（ホール）",
+            "description": "ローマ風ピンサをホールで。お好みの味をお選びいただけます。10分でご用意します。"
+          },
+          "ko": {
+            "name": "로마식 핀사 · 한 판",
+            "description": "원하는 맛을 고를 수 있는 로마식 핀사 한 판입니다. 준비 시간은 10분입니다."
+          }
+        },
+        "price": 76,
+        "image": "./assets/pinsa-whole-doodle.png",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "be421665-dae0-47b6-abb1-bbba78964a6d",
+        "name": "Lingua di Pizza Bianca – Half",
+        "description": "Half of our long, tongue-shaped pizza bianca flatbread.",
+        "translations": {
+          "zh": {
+            "name": "意式长条白披萨（半份）",
+            "description": "长舌形意式白披萨，半份。"
+          },
+          "it": {
+            "name": "Lingua di pizza bianca – Metà",
+            "description": "Mezza lingua di pizza bianca dalla caratteristica forma lunga e stretta."
+          },
+          "ja": {
+            "name": "細長いピッツァ・ビアンカ（ハーフ）",
+            "description": "細長い舌の形をしたピッツァ・ビアンカのハーフサイズ。"
+          },
+          "ko": {
+            "name": "길쭉한 피자 비앙카 · 반 개",
+            "description": "길고 좁은 모양의 피자 비앙카 플랫브레드 반 개입니다."
+          }
+        },
+        "price": 25,
+        "image": "./assets/pizza-bianca-half-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
+        "id": "65ec41f0-7736-4acf-8c7d-e85460f1c33f",
+        "name": "Lingua di Pizza Bianca – Whole",
+        "description": "A whole long, tongue-shaped pizza bianca flatbread.",
+        "translations": {
+          "zh": {
+            "name": "意式长条白披萨（整份）",
+            "description": "长舌形意式白披萨，整份。"
+          },
+          "it": {
+            "name": "Lingua di pizza bianca – Intera",
+            "description": "Una lingua di pizza bianca intera, dalla caratteristica forma lunga e stretta."
+          },
+          "ja": {
+            "name": "細長いピッツァ・ビアンカ（ホール）",
+            "description": "細長い舌の形をしたピッツァ・ビアンカのホールサイズ。"
+          },
+          "ko": {
+            "name": "길쭉한 피자 비앙카 · 한 개",
+            "description": "길고 좁은 모양의 피자 비앙카 플랫브레드 한 개입니다."
+          }
+        },
+        "price": 40,
+        "image": "./assets/pizza-bianca-whole-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
         "id": "d6f2a38b-07e3-4308-9e4f-3742b3071096",
         "name": "Roman Pizza Slice – Margherita",
         "description": "A slice of Roman-style pizza with tomato, mozzarella and basil.",
@@ -26,6 +242,141 @@
         },
         "price": 28,
         "image": "./assets/leone-menu.png#margherita",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
+        "id": "f0aea3cb-4620-4605-8e7c-181924ff7f46",
+        "name": "Roman Pizza Slice – Tomato, Mozzarella & Salami",
+        "description": "Roman pizza with tomato sauce, mozzarella and salami, served by the slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）·马苏里拉与萨拉米",
+            "description": "罗马方形披萨，搭配番茄酱、马苏里拉奶酪和萨拉米香肠，按块供应。"
+          },
+          "it": {
+            "name": "Pizza rossa con mozzarella e salame",
+            "description": "Trancio di pizza rossa con pomodoro, mozzarella e salame."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ（1切れ）・モッツァレラとサラミ",
+            "description": "トマトソース、モッツァレラ、サラミをのせたローマ風ピッツァ。1切れずつのご提供です。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 · 토마토, 모차렐라와 살라미",
+            "description": "토마토소스, 모차렐라와 살라미를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
+          }
+        },
+        "price": 30,
+        "image": "./assets/tomato-mozzarella-salami-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
+        "id": "666e7ba9-cf35-4e08-84ee-9f52c414fc6f",
+        "name": "Pizza Rossa – Roman Slice",
+        "description": "A slice of Roman-style pizza with tomato sauce.",
+        "translations": {
+          "zh": {
+            "name": "罗马番茄披萨（单块）",
+            "description": "罗马风味方形披萨，搭配番茄酱，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza rossa",
+            "description": "Trancio di pizza romana con salsa di pomodoro."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ・ロッサ（1切れ）",
+            "description": "トマトソースをのせたローマ風ピッツァ。1切れずつのご提供です。"
+          },
+          "ko": {
+            "name": "피자 로사 · 로마식 한 조각",
+            "description": "토마토소스를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
+          }
+        },
+        "price": 25,
+        "image": "./assets/pizza-rossa-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
+        "id": "8adf60a6-0306-4877-8470-8cd3f063c331",
+        "name": "Roman Pizza Slice – Cherry Tomatoes & Rocket",
+        "description": "A slice of Roman-style pizza with cherry tomatoes, rocket and organic extra virgin olive oil, served by the slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 小番茄与芝麻菜",
+            "description": "罗马风味方形披萨，搭配小番茄、芝麻菜和有机特级初榨橄榄油，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Pomodorini e rucola",
+            "description": "Trancio di pizza romana con pomodorini, rucola e olio extravergine d’oliva biologico, servito al pezzo."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · ミニトマトとルッコラ",
+            "description": "ミニトマトとルッコラをのせ、有機エキストラバージンオリーブオイルで仕上げたローマ風ピザ。1ピースでご提供します。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 · 방울토마토와 루콜라",
+            "description": "방울토마토와 루콜라를 올리고 유기농 엑스트라 버진 올리브 오일로 마무리한 로마식 피자입니다. 한 조각씩 제공합니다."
+          }
+        },
+        "price": 28,
+        "image": "./assets/cherry-tomato-rocket-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
+        "id": "9ade5390-75b8-4135-b7e3-eff3e9a9c3cb",
+        "name": "Stuffed Pizza Bianca – Mortadella & Basil",
+        "description": "Pizza bianca filled with mortadella , served by the piece.",
+        "translations": {
+          "zh": {
+            "name": "白披萨夹莫塔德拉香肠与布拉塔奶酪",
+            "description": "白披萨夹入莫塔德拉香肠和布拉塔奶酪，按块供应。"
+          },
+          "it": {
+            "name": "Pizza bianca ripiena di mortadella e burrata",
+            "description": "Pizza bianca ripiena di mortadella e burrata, servita al pezzo."
+          },
+          "ja": {
+            "name": "モルタデッラとブッラータのピッツァ・ビアンカサンド",
+            "description": "モルタデッラとブッラータを挟んだピッツァ・ビアンカ。1切れずつのご提供です。"
+          },
+          "ko": {
+            "name": "피자 비앙카 샌드위치 · 모르타델라와 바질",
+            "description": "모르타델라를 채운 피자 비앙카입니다. 한 조각씩 제공합니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/mortadella-burrata-stuffed-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "8e66f864-b0d3-4999-a8fb-2766fd9734ae",
+        "name": "Roman Pizza Slice – Potatoes, Extra Virgin Olive Oil, Garlic, Chili & Parsley",
+        "description": "A slice of Roman-style pizza with potatoes, extra virgin olive oil, garlic, chili and parsley.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 土豆、特级初榨橄榄油、大蒜、辣椒与欧芹",
+            "description": "罗马风味方形披萨，搭配土豆、特级初榨橄榄油、大蒜、辣椒和欧芹，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Patate, olio extravergine d’oliva, aglio, peperoncino e prezzemolo",
+            "description": "Trancio di pizza romana con patate, olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · じゃがいも、エキストラバージンオリーブオイル、にんにく、唐辛子とパセリ",
+            "description": "じゃがいも、エキストラバージンオリーブオイル、にんにく、唐辛子、パセリをのせたローマ風ピザ。1ピースでご提供します。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 · 감자, 엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리",
+            "description": "감자, 엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
+          }
+        },
+        "price": 25,
+        "image": "./assets/potato-garlic-chili-pizza-doodle.png",
         "available": true,
         "section": "pizza_classic"
       },
@@ -136,357 +487,6 @@
         "image": "./assets/ham-mozzarella-doodle.png",
         "available": true,
         "section": "pizza_classic"
-      },
-      {
-        "id": "a9666780-b690-4406-820a-03ae819c0c11",
-        "name": "Onion Frittata",
-        "description": "An Italian egg frittata with onions, cooked until golden and served by the portion.",
-        "translations": {
-          "zh": {
-            "name": "意式洋葱烘蛋",
-            "description": "鸡蛋搭配洋葱，烹至金黄，按份供应。"
-          },
-          "it": {
-            "name": "Frittata di cipolle",
-            "description": "Frittata di uova e cipolle, cotta fino a doratura e servita in porzione."
-          },
-          "ja": {
-            "name": "玉ねぎのフリッタータ",
-            "description": "卵と玉ねぎをこんがり焼き上げたイタリア風オムレツ。1人前でご提供します。"
-          },
-          "ko": {
-            "name": "양파 프리타타",
-            "description": "달걀과 양파를 노릇하게 익힌 이탈리아식 프리타타입니다. 한 인분씩 제공합니다."
-          }
-        },
-        "price": 18,
-        "image": "./assets/onion-frittata-doodle.png",
-        "available": true,
-        "section": "mains"
-      },
-      {
-        "id": "8adf60a6-0306-4877-8470-8cd3f063c331",
-        "name": "Roman Pizza Slice – Cherry Tomatoes & Rocket",
-        "description": "A slice of Roman-style pizza with cherry tomatoes, rocket and organic extra virgin olive oil, served by the slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 小番茄与芝麻菜",
-            "description": "罗马风味方形披萨，搭配小番茄、芝麻菜和有机特级初榨橄榄油，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Pomodorini e rucola",
-            "description": "Trancio di pizza romana con pomodorini, rucola e olio extravergine d’oliva biologico, servito al pezzo."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · ミニトマトとルッコラ",
-            "description": "ミニトマトとルッコラをのせ、有機エキストラバージンオリーブオイルで仕上げたローマ風ピザ。1ピースでご提供します。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 · 방울토마토와 루콜라",
-            "description": "방울토마토와 루콜라를 올리고 유기농 엑스트라 버진 올리브 오일로 마무리한 로마식 피자입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 28,
-        "image": "./assets/cherry-tomato-rocket-pizza-doodle.png",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
-        "id": "1a9801bd-2e78-40d2-8b0d-8ad83e431b95",
-        "name": "Roman Pinsa – Whole",
-        "description": "A whole Roman pinsa with your choice of flavour, ready in 10 minutes.",
-        "translations": {
-          "zh": {
-            "name": "罗马椭圆披萨（整份）",
-            "description": "整份罗马椭圆披萨，口味自选，10分钟即可做好。"
-          },
-          "it": {
-            "name": "Pinsa romana – Intera",
-            "description": "Pinsa romana intera, gusto a scelta, pronta in 10 minuti."
-          },
-          "ja": {
-            "name": "ローマ風ピンサ（ホール）",
-            "description": "ローマ風ピンサをホールで。お好みの味をお選びいただけます。10分でご用意します。"
-          },
-          "ko": {
-            "name": "로마식 핀사 · 한 판",
-            "description": "원하는 맛을 고를 수 있는 로마식 핀사 한 판입니다. 준비 시간은 10분입니다."
-          }
-        },
-        "price": 76,
-        "image": "./assets/pinsa-whole-doodle.png",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "5cbec694-e008-4400-aec3-4c3cce2e5278",
-        "name": "Roman Pinsa – Half",
-        "description": "Half a Roman pinsa with your choice of flavour, ready in 10 minutes.",
-        "translations": {
-          "zh": {
-            "name": "罗马椭圆披萨（半份）",
-            "description": "半份罗马椭圆披萨，口味自选，10分钟即可做好。"
-          },
-          "it": {
-            "name": "Pinsa romana – Metà",
-            "description": "Mezza pinsa romana, gusto a scelta, pronta in 10 minuti."
-          },
-          "ja": {
-            "name": "ローマ風ピンサ（ハーフ）",
-            "description": "ローマ風ピンサをハーフで。お好みの味をお選びいただけます。10分でご用意します。"
-          },
-          "ko": {
-            "name": "로마식 핀사 · 반 판",
-            "description": "원하는 맛을 고를 수 있는 로마식 핀사 반 판입니다. 준비 시간은 10분입니다."
-          }
-        },
-        "price": 39,
-        "image": "./assets/pinsa-half-doodle.png",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "be421665-dae0-47b6-abb1-bbba78964a6d",
-        "name": "Lingua di Pizza Bianca – Half",
-        "description": "Half of our long, tongue-shaped pizza bianca flatbread.",
-        "translations": {
-          "zh": {
-            "name": "意式长条白披萨（半份）",
-            "description": "长舌形意式白披萨，半份。"
-          },
-          "it": {
-            "name": "Lingua di pizza bianca – Metà",
-            "description": "Mezza lingua di pizza bianca dalla caratteristica forma lunga e stretta."
-          },
-          "ja": {
-            "name": "細長いピッツァ・ビアンカ（ハーフ）",
-            "description": "細長い舌の形をしたピッツァ・ビアンカのハーフサイズ。"
-          },
-          "ko": {
-            "name": "길쭉한 피자 비앙카 · 반 개",
-            "description": "길고 좁은 모양의 피자 비앙카 플랫브레드 반 개입니다."
-          }
-        },
-        "price": 25,
-        "image": "./assets/pizza-bianca-half-doodle.png",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
-        "id": "65ec41f0-7736-4acf-8c7d-e85460f1c33f",
-        "name": "Lingua di Pizza Bianca – Whole",
-        "description": "A whole long, tongue-shaped pizza bianca flatbread.",
-        "translations": {
-          "zh": {
-            "name": "意式长条白披萨（整份）",
-            "description": "长舌形意式白披萨，整份。"
-          },
-          "it": {
-            "name": "Lingua di pizza bianca – Intera",
-            "description": "Una lingua di pizza bianca intera, dalla caratteristica forma lunga e stretta."
-          },
-          "ja": {
-            "name": "細長いピッツァ・ビアンカ（ホール）",
-            "description": "細長い舌の形をしたピッツァ・ビアンカのホールサイズ。"
-          },
-          "ko": {
-            "name": "길쭉한 피자 비앙카 · 한 개",
-            "description": "길고 좁은 모양의 피자 비앙카 플랫브레드 한 개입니다."
-          }
-        },
-        "price": 40,
-        "image": "./assets/pizza-bianca-whole-doodle.png",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
-        "id": "9ade5390-75b8-4135-b7e3-eff3e9a9c3cb",
-        "name": "Stuffed Pizza Bianca – Mortadella & Basil",
-        "description": "Pizza bianca filled with mortadella , served by the piece.",
-        "translations": {
-          "zh": {
-            "name": "白披萨夹莫塔德拉香肠与布拉塔奶酪",
-            "description": "白披萨夹入莫塔德拉香肠和布拉塔奶酪，按块供应。"
-          },
-          "it": {
-            "name": "Pizza bianca ripiena di mortadella e burrata",
-            "description": "Pizza bianca ripiena di mortadella e burrata, servita al pezzo."
-          },
-          "ja": {
-            "name": "モルタデッラとブッラータのピッツァ・ビアンカサンド",
-            "description": "モルタデッラとブッラータを挟んだピッツァ・ビアンカ。1切れずつのご提供です。"
-          },
-          "ko": {
-            "name": "피자 비앙카 샌드위치 · 모르타델라와 바질",
-            "description": "모르타델라를 채운 피자 비앙카입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 35,
-        "image": "./assets/mortadella-burrata-stuffed-pizza-doodle.png",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "f0aea3cb-4620-4605-8e7c-181924ff7f46",
-        "name": "Roman Pizza Slice – Tomato, Mozzarella & Salami",
-        "description": "Roman pizza with tomato sauce, mozzarella and salami, served by the slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）·马苏里拉与萨拉米",
-            "description": "罗马方形披萨，搭配番茄酱、马苏里拉奶酪和萨拉米香肠，按块供应。"
-          },
-          "it": {
-            "name": "Pizza rossa con mozzarella e salame",
-            "description": "Trancio di pizza rossa con pomodoro, mozzarella e salame."
-          },
-          "ja": {
-            "name": "ローマ風ピッツァ（1切れ）・モッツァレラとサラミ",
-            "description": "トマトソース、モッツァレラ、サラミをのせたローマ風ピッツァ。1切れずつのご提供です。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 · 토마토, 모차렐라와 살라미",
-            "description": "토마토소스, 모차렐라와 살라미를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 30,
-        "image": "./assets/tomato-mozzarella-salami-pizza-doodle.png",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
-        "id": "0c6ff1ba-b67a-46b3-80bf-92b1b4b531e7",
-        "name": "Fusilli with Tomato & Basil",
-        "description": "Fusilli pasta with tomato sauce and basil.",
-        "translations": {
-          "zh": {
-            "name": "番茄罗勒螺旋意面",
-            "description": "螺旋意大利面，搭配番茄酱和罗勒。"
-          },
-          "it": {
-            "name": "Fusilli al pomodoro e basilico",
-            "description": "Fusilli con sugo di pomodoro e basilico."
-          },
-          "ja": {
-            "name": "トマトとバジルのフジッリ",
-            "description": "らせん状のパスタ、フジッリにトマトソースとバジルを合わせました。"
-          },
-          "ko": {
-            "name": "토마토와 바질 푸실리",
-            "description": "토마토소스와 바질을 곁들인 푸실리 파스타입니다."
-          }
-        },
-        "price": 48,
-        "image": "./assets/fusilli-tomato-basil-doodle.png",
-        "available": true,
-        "section": "first_courses"
-      },
-      {
-        "id": "3965a24c-a4a2-4b41-93a3-41bcca24f33d",
-        "name": "Spaghetti Bolognese",
-        "description": "Spaghetti served with Bolognese meat ragù.",
-        "translations": {
-          "zh": {
-            "name": "博洛尼亚肉酱意大利长面",
-            "description": "意大利长面，搭配博洛尼亚风味肉酱。"
-          },
-          "it": {
-            "name": "Spaghetti al ragù bolognese",
-            "description": "Spaghetti con ragù di carne alla bolognese."
-          },
-          "ja": {
-            "name": "スパゲッティ・ボロネーゼ",
-            "description": "ボローニャ風のミートラグーを合わせたスパゲッティ。"
-          },
-          "ko": {
-            "name": "스파게티 볼로네제",
-            "description": "볼로냐식 고기 라구를 곁들인 스파게티입니다."
-          }
-        },
-        "price": 68,
-        "image": "./assets/spaghetti-bolognese-doodle.png",
-        "available": true,
-        "section": "first_courses"
-      },
-      {
-        "id": "666e7ba9-cf35-4e08-84ee-9f52c414fc6f",
-        "name": "Pizza Rossa – Roman Slice",
-        "description": "A slice of Roman-style pizza with tomato sauce.",
-        "translations": {
-          "zh": {
-            "name": "罗马番茄披萨（单块）",
-            "description": "罗马风味方形披萨，搭配番茄酱，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza rossa",
-            "description": "Trancio di pizza romana con salsa di pomodoro."
-          },
-          "ja": {
-            "name": "ローマ風ピッツァ・ロッサ（1切れ）",
-            "description": "トマトソースをのせたローマ風ピッツァ。1切れずつのご提供です。"
-          },
-          "ko": {
-            "name": "피자 로사 · 로마식 한 조각",
-            "description": "토마토소스를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 25,
-        "image": "./assets/pizza-rossa-doodle.png",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
-        "id": "5d0ca02f-448d-4891-937c-ba7ffab75f05",
-        "name": "Spaghetti with Garlic, Extra Virgin Olive Oil, Chili & Parsley",
-        "description": "Spaghetti with extra virgin olive oil, garlic, chili and parsley.",
-        "translations": {
-          "zh": {
-            "name": "蒜香辣椒欧芹意大利长面",
-            "description": "意大利长面，搭配特级初榨橄榄油、大蒜、辣椒和欧芹。"
-          },
-          "it": {
-            "name": "Spaghetti aglio, olio extravergine d’oliva, peperoncino e prezzemolo",
-            "description": "Spaghetti con olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
-          },
-          "ja": {
-            "name": "にんにく、エキストラバージンオリーブオイル、唐辛子とパセリのスパゲッティ",
-            "description": "エキストラバージンオリーブオイル、にんにく、唐辛子、パセリで仕上げたスパゲッティ。"
-          },
-          "ko": {
-            "name": "마늘, 엑스트라 버진 올리브 오일, 고추와 파슬리 스파게티",
-            "description": "엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리로 만든 스파게티입니다."
-          }
-        },
-        "price": 48,
-        "image": "./assets/spaghetti-aglio-olio-doodle.png",
-        "available": true,
-        "section": "first_courses"
-      },
-      {
-        "id": "8e66f864-b0d3-4999-a8fb-2766fd9734ae",
-        "name": "Roman Pizza Slice – Potatoes, Extra Virgin Olive Oil, Garlic, Chili & Parsley",
-        "description": "A slice of Roman-style pizza with potatoes, extra virgin olive oil, garlic, chili and parsley.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 土豆、特级初榨橄榄油、大蒜、辣椒与欧芹",
-            "description": "罗马风味方形披萨，搭配土豆、特级初榨橄榄油、大蒜、辣椒和欧芹，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Patate, olio extravergine d’oliva, aglio, peperoncino e prezzemolo",
-            "description": "Trancio di pizza romana con patate, olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · じゃがいも、エキストラバージンオリーブオイル、にんにく、唐辛子とパセリ",
-            "description": "じゃがいも、エキストラバージンオリーブオイル、にんにく、唐辛子、パセリをのせたローマ風ピザ。1ピースでご提供します。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 · 감자, 엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리",
-            "description": "감자, 엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 25,
-        "image": "./assets/potato-garlic-chili-pizza-doodle.png",
-        "available": true,
-        "section": "pizza_classic"
       }
     ],
     "drinks": [
@@ -566,6 +566,58 @@
         },
         "price": 29,
         "image": "./assets/pumpkin-spice-latte-doodle.png",
+        "available": true
+      },
+      {
+        "id": "91502d7c-362d-43e9-ac57-9302ff3a7dd6",
+        "name": "Black Sesame Latte",
+        "description": "Black sesame blended with milk for a smooth, creamy drink.",
+        "translations": {
+          "zh": {
+            "name": "黑芝麻拿铁",
+            "description": "黑芝麻与牛奶融合，口感香浓顺滑。"
+          },
+          "it": {
+            "name": "Latte al sesamo nero",
+            "description": "Latte e sesamo nero, per una bevanda morbida e cremosa."
+          },
+          "ja": {
+            "name": "黒ごまラテ",
+            "description": "黒ごまとミルクを合わせた、香ばしくクリーミーなドリンク。"
+          },
+          "ko": {
+            "name": "흑임자 라테",
+            "description": "검은깨와 우유를 섞어 고소하고 부드럽게 만든 음료입니다."
+          }
+        },
+        "price": 29,
+        "image": "./assets/black-sesame-latte-doodle.png",
+        "available": true
+      },
+      {
+        "id": "5af0aa05-2864-4ed1-ac99-91b4849c5a92",
+        "name": "Chai Latte",
+        "description": "Black tea and milk with aromatic spices, blended into a smooth, creamy latte.",
+        "translations": {
+          "zh": {
+            "name": "印度香料奶茶",
+            "description": "红茶与牛奶融合芳香香料，口感柔滑温润。"
+          },
+          "it": {
+            "name": "Chai Latte",
+            "description": "Tè nero e latte con spezie aromatiche, per una bevanda morbida e cremosa."
+          },
+          "ja": {
+            "name": "チャイラテ",
+            "description": "紅茶とミルクに香り豊かなスパイスを合わせた、まろやかなチャイラテ。"
+          },
+          "ko": {
+            "name": "차이 라테",
+            "description": "홍차와 우유에 향긋한 향신료를 더한 부드럽고 크리미한 라테입니다."
+          }
+        },
+        "price": 29,
+        "image": "./assets/chai-latte-doodle.png",
         "available": true
       },
       {
@@ -777,32 +829,6 @@
         "available": true
       },
       {
-        "id": "5af0aa05-2864-4ed1-ac99-91b4849c5a92",
-        "name": "Chai Latte",
-        "description": "Black tea and milk with aromatic spices, blended into a smooth, creamy latte.",
-        "translations": {
-          "zh": {
-            "name": "印度香料奶茶",
-            "description": "红茶与牛奶融合芳香香料，口感柔滑温润。"
-          },
-          "it": {
-            "name": "Chai Latte",
-            "description": "Tè nero e latte con spezie aromatiche, per una bevanda morbida e cremosa."
-          },
-          "ja": {
-            "name": "チャイラテ",
-            "description": "紅茶とミルクに香り豊かなスパイスを合わせた、まろやかなチャイラテ。"
-          },
-          "ko": {
-            "name": "차이 라테",
-            "description": "홍차와 우유에 향긋한 향신료를 더한 부드럽고 크리미한 라테입니다."
-          }
-        },
-        "price": 29,
-        "image": "./assets/chai-latte-doodle.png",
-        "available": true
-      },
-      {
         "id": "76dfa2e7-d694-4159-8c1a-cc8b9de19ecd",
         "name": "Zuegg Blood Orange Juice",
         "description": "Zuegg blood orange juice, served in the bottle.",
@@ -907,32 +933,6 @@
         "available": true
       },
       {
-        "id": "b30cd4da-3bed-4fef-a930-2aa9ab4d651a",
-        "name": "MoleCola – Italian Cola Made in Turin",
-        "description": "Italian cola made in Turin, served in a glass bottle.",
-        "translations": {
-          "zh": {
-            "name": "MoleCola – 意大利都灵可乐",
-            "description": "意大利都灵出品的可乐，玻璃瓶装。"
-          },
-          "it": {
-            "name": "MoleCola – Cola italiana made in Torino",
-            "description": "Cola italiana prodotta a Torino, servita in bottiglia di vetro."
-          },
-          "ja": {
-            "name": "MoleCola – イタリア・トリノ生まれのコーラ",
-            "description": "イタリア・トリノ生まれのコーラ。ガラス瓶でご提供します。"
-          },
-          "ko": {
-            "name": "MoleCola · 이탈리아 토리노 콜라",
-            "description": "이탈리아 토리노에서 만든 콜라입니다. 유리병으로 제공합니다."
-          }
-        },
-        "price": 20,
-        "image": "./assets/molecola-glass-bottle-doodle.png",
-        "available": true
-      },
-      {
         "id": "5098df2a-2cd5-43cb-a9dc-da7203baed4d",
         "name": "Pomegranate Soda",
         "description": "A refreshing pomegranate drink with sparkling soda water.",
@@ -959,33 +959,59 @@
         "available": true
       },
       {
-        "id": "91502d7c-362d-43e9-ac57-9302ff3a7dd6",
-        "name": "Black Sesame Latte",
-        "description": "Black sesame blended with milk for a smooth, creamy drink.",
+        "id": "b30cd4da-3bed-4fef-a930-2aa9ab4d651a",
+        "name": "MoleCola – Italian Cola Made in Turin",
+        "description": "Italian cola made in Turin, served in a glass bottle.",
         "translations": {
           "zh": {
-            "name": "黑芝麻拿铁",
-            "description": "黑芝麻与牛奶融合，口感香浓顺滑。"
+            "name": "MoleCola – 意大利都灵可乐",
+            "description": "意大利都灵出品的可乐，玻璃瓶装。"
           },
           "it": {
-            "name": "Latte al sesamo nero",
-            "description": "Latte e sesamo nero, per una bevanda morbida e cremosa."
+            "name": "MoleCola – Cola italiana made in Torino",
+            "description": "Cola italiana prodotta a Torino, servita in bottiglia di vetro."
           },
           "ja": {
-            "name": "黒ごまラテ",
-            "description": "黒ごまとミルクを合わせた、香ばしくクリーミーなドリンク。"
+            "name": "MoleCola – イタリア・トリノ生まれのコーラ",
+            "description": "イタリア・トリノ生まれのコーラ。ガラス瓶でご提供します。"
           },
           "ko": {
-            "name": "흑임자 라테",
-            "description": "검은깨와 우유를 섞어 고소하고 부드럽게 만든 음료입니다."
+            "name": "MoleCola · 이탈리아 토리노 콜라",
+            "description": "이탈리아 토리노에서 만든 콜라입니다. 유리병으로 제공합니다."
           }
         },
-        "price": 29,
-        "image": "./assets/black-sesame-latte-doodle.png",
+        "price": 20,
+        "image": "./assets/molecola-glass-bottle-doodle.png",
         "available": true
       }
     ],
     "desserts": [
+      {
+        "id": "b47e5327-25da-4877-b950-2cff5871a07c",
+        "name": "Matcha-misu",
+        "description": "Matcha tiramisu with matcha-soaked sponge biscuits, mascarpone cream and a dusting of matcha.",
+        "translations": {
+          "zh": {
+            "name": "抹茶提拉米苏",
+            "description": "抹茶浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒抹茶粉。"
+          },
+          "it": {
+            "name": "Matcha-misù",
+            "description": "Tiramisù al matcha con savoiardi al tè matcha, crema al mascarpone e una spolverata di matcha."
+          },
+          "ja": {
+            "name": "抹茶ティラミス",
+            "description": "抹茶をしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、抹茶をふったティラミス。"
+          },
+          "ko": {
+            "name": "말차 티라미수",
+            "description": "말차에 적신 레이디핑거 비스킷에 마스카르포네 크림을 겹겹이 올리고 말차 가루로 마무리했습니다."
+          }
+        },
+        "price": 32,
+        "image": "./assets/matcha-misu-doodle.png",
+        "available": true
+      },
       {
         "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
         "name": "Tiramisu",
@@ -1010,32 +1036,6 @@
         },
         "price": 32,
         "image": "./assets/tiramisu-doodle.png",
-        "available": true
-      },
-      {
-        "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
-        "name": "Carrot and Nuts Cake",
-        "description": "A slice of Carrot and Nuts Cake made with extra virgin olive oil.",
-        "translations": {
-          "zh": {
-            "name": "冬日暖暖胡萝卜坚果蛋糕",
-            "description": "经典胡萝卜蛋糕充满混合香料的馥郁香气，添加特级初榨橄榄油制作的蛋糕，按块供应。"
-          },
-          "it": {
-            "name": "Torta alle carote, noci, cannella e olio EVO",
-            "description": "Una fetta di torta alle carote preparata con olio extravergine d’oliva."
-          },
-          "ja": {
-            "name": "にんじんとくるみのケーキ",
-            "description": "にんじん、くるみ、シナモンとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
-          },
-          "ko": {
-            "name": "당근과 견과류 케이크",
-            "description": "엑스트라 버진 올리브 오일로 만든 당근과 견과류 케이크입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 32,
-        "image": "./assets/carrot-walnut-cake-flat-doodle.png",
         "available": true
       },
       {
@@ -1065,33 +1065,59 @@
         "available": true
       },
       {
-        "id": "b47e5327-25da-4877-b950-2cff5871a07c",
-        "name": "Matcha-misu",
-        "description": "Matcha tiramisu with matcha-soaked sponge biscuits, mascarpone cream and a dusting of matcha.",
+        "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
+        "name": "Carrot and Nuts Cake",
+        "description": "A slice of Carrot and Nuts Cake made with extra virgin olive oil.",
         "translations": {
           "zh": {
-            "name": "抹茶提拉米苏",
-            "description": "抹茶浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒抹茶粉。"
+            "name": "冬日暖暖胡萝卜坚果蛋糕",
+            "description": "经典胡萝卜蛋糕充满混合香料的馥郁香气，添加特级初榨橄榄油制作的蛋糕，按块供应。"
           },
           "it": {
-            "name": "Matcha-misù",
-            "description": "Tiramisù al matcha con savoiardi al tè matcha, crema al mascarpone e una spolverata di matcha."
+            "name": "Torta alle carote, noci, cannella e olio EVO",
+            "description": "Una fetta di torta alle carote preparata con olio extravergine d’oliva."
           },
           "ja": {
-            "name": "抹茶ティラミス",
-            "description": "抹茶をしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、抹茶をふったティラミス。"
+            "name": "にんじんとくるみのケーキ",
+            "description": "にんじん、くるみ、シナモンとエキストラバージンオリーブオイルで作ったケーキ。1切れでご提供します。"
           },
           "ko": {
-            "name": "말차 티라미수",
-            "description": "말차에 적신 레이디핑거 비스킷에 마스카르포네 크림을 겹겹이 올리고 말차 가루로 마무리했습니다."
+            "name": "당근과 견과류 케이크",
+            "description": "엑스트라 버진 올리브 오일로 만든 당근과 견과류 케이크입니다. 한 조각씩 제공합니다."
           }
         },
         "price": 32,
-        "image": "./assets/matcha-misu-doodle.png",
+        "image": "./assets/carrot-walnut-cake-flat-doodle.png",
         "available": true
       }
     ],
     "products": [
+      {
+        "id": "b30cd4da-3bed-4fef-a930-2aa9ab4d651a",
+        "name": "MoleCola – Italian Cola Made in Turin",
+        "description": "Italian cola made in Turin, served in a glass bottle.",
+        "translations": {
+          "zh": {
+            "name": "MoleCola – 意大利都灵可乐",
+            "description": "意大利都灵出品的可乐，玻璃瓶装。"
+          },
+          "it": {
+            "name": "MoleCola – Cola italiana made in Torino",
+            "description": "Cola italiana prodotta a Torino, servita in bottiglia di vetro."
+          },
+          "ja": {
+            "name": "MoleCola – イタリア・トリノ生まれのコーラ",
+            "description": "イタリア・トリノ生まれのコーラ。ガラス瓶でご提供します。"
+          },
+          "ko": {
+            "name": "MoleCola · 이탈리아 토리노 콜라",
+            "description": "이탈리아 토리노에서 만든 콜라입니다. 유리병으로 제공합니다."
+          }
+        },
+        "price": 20,
+        "image": "./assets/molecola-glass-bottle-doodle.png",
+        "available": true
+      },
       {
         "id": "c70af430-3e10-4804-ad35-d57751f164f6",
         "name": "Acetaia Giusti - Truffle Glaze",
