@@ -24,7 +24,7 @@
             "description": "토마토, 모차렐라와 바질을 올린 로마식 피자입니다. 한 조각씩 제공합니다."
           }
         },
-        "price": 25,
+        "price": 28,
         "image": "./assets/leone-menu.png#margherita",
         "available": true,
         "section": "pizza_classic"
@@ -51,7 +51,7 @@
             "description": "오늘의 속 재료를 넣은 이탈리아 포카치아입니다. 한 조각씩 제공하며, 오늘의 속 재료는 직원에게 문의해 주세요."
           }
         },
-        "price": 30,
+        "price": 35,
         "image": "./assets/leone-menu.png#focaccia",
         "available": true,
         "section": "focaccia"
@@ -78,7 +78,7 @@
             "description": "호박, 모차렐라와 슈퍼 시드(혼합 씨앗)를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
           }
         },
-        "price": 28,
+        "price": 30,
         "image": "./assets/pumpkin-mozzarella-super-seed-pizza-doodle.png",
         "available": true,
         "section": "pizza_special"
@@ -165,6 +165,33 @@
         "section": "mains"
       },
       {
+        "id": "8adf60a6-0306-4877-8470-8cd3f063c331",
+        "name": "Roman Pizza Slice – Cherry Tomatoes & Rocket",
+        "description": "A slice of Roman-style pizza with cherry tomatoes, rocket and organic extra virgin olive oil, served by the slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 小番茄与芝麻菜",
+            "description": "罗马风味方形披萨，搭配小番茄、芝麻菜和有机特级初榨橄榄油，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Pomodorini e rucola",
+            "description": "Trancio di pizza romana con pomodorini, rucola e olio extravergine d’oliva biologico, servito al pezzo."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · ミニトマトとルッコラ",
+            "description": "ミニトマトとルッコラをのせ、有機エキストラバージンオリーブオイルで仕上げたローマ風ピザ。1ピースでご提供します。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 · 방울토마토와 루콜라",
+            "description": "방울토마토와 루콜라를 올리고 유기농 엑스트라 버진 올리브 오일로 마무리한 로마식 피자입니다. 한 조각씩 제공합니다."
+          }
+        },
+        "price": 28,
+        "image": "./assets/cherry-tomato-rocket-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
         "id": "1a9801bd-2e78-40d2-8b0d-8ad83e431b95",
         "name": "Roman Pinsa – Whole",
         "description": "A whole Roman pinsa with your choice of flavour, ready in 10 minutes.",
@@ -186,7 +213,7 @@
             "description": "원하는 맛을 고를 수 있는 로마식 핀사 한 판입니다. 준비 시간은 10분입니다."
           }
         },
-        "price": 78,
+        "price": 76,
         "image": "./assets/pinsa-whole-doodle.png",
         "available": true,
         "section": "pizza_special"
@@ -213,7 +240,7 @@
             "description": "원하는 맛을 고를 수 있는 로마식 핀사 반 판입니다. 준비 시간은 10분입니다."
           }
         },
-        "price": 42,
+        "price": 39,
         "image": "./assets/pinsa-half-doodle.png",
         "available": true,
         "section": "pizza_special"
@@ -240,7 +267,7 @@
             "description": "길고 좁은 모양의 피자 비앙카 플랫브레드 반 개입니다."
           }
         },
-        "price": 22,
+        "price": 25,
         "image": "./assets/pizza-bianca-half-doodle.png",
         "available": true,
         "section": "pizza_classic"
@@ -271,6 +298,33 @@
         "image": "./assets/pizza-bianca-whole-doodle.png",
         "available": true,
         "section": "pizza_classic"
+      },
+      {
+        "id": "9ade5390-75b8-4135-b7e3-eff3e9a9c3cb",
+        "name": "Stuffed Pizza Bianca – Mortadella & Basil",
+        "description": "Pizza bianca filled with mortadella , served by the piece.",
+        "translations": {
+          "zh": {
+            "name": "白披萨夹莫塔德拉香肠与布拉塔奶酪",
+            "description": "白披萨夹入莫塔德拉香肠和布拉塔奶酪，按块供应。"
+          },
+          "it": {
+            "name": "Pizza bianca ripiena di mortadella e burrata",
+            "description": "Pizza bianca ripiena di mortadella e burrata, servita al pezzo."
+          },
+          "ja": {
+            "name": "モルタデッラとブッラータのピッツァ・ビアンカサンド",
+            "description": "モルタデッラとブッラータを挟んだピッツァ・ビアンカ。1切れずつのご提供です。"
+          },
+          "ko": {
+            "name": "피자 비앙카 샌드위치 · 모르타델라와 바질",
+            "description": "모르타델라를 채운 피자 비앙카입니다. 한 조각씩 제공합니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/mortadella-burrata-stuffed-pizza-doodle.png",
+        "available": true,
+        "section": "pizza_special"
       },
       {
         "id": "f0aea3cb-4620-4605-8e7c-181924ff7f46",
@@ -327,6 +381,33 @@
         "section": "first_courses"
       },
       {
+        "id": "3965a24c-a4a2-4b41-93a3-41bcca24f33d",
+        "name": "Spaghetti Bolognese",
+        "description": "Spaghetti served with Bolognese meat ragù.",
+        "translations": {
+          "zh": {
+            "name": "博洛尼亚肉酱意大利长面",
+            "description": "意大利长面，搭配博洛尼亚风味肉酱。"
+          },
+          "it": {
+            "name": "Spaghetti al ragù bolognese",
+            "description": "Spaghetti con ragù di carne alla bolognese."
+          },
+          "ja": {
+            "name": "スパゲッティ・ボロネーゼ",
+            "description": "ボローニャ風のミートラグーを合わせたスパゲッティ。"
+          },
+          "ko": {
+            "name": "스파게티 볼로네제",
+            "description": "볼로냐식 고기 라구를 곁들인 스파게티입니다."
+          }
+        },
+        "price": 68,
+        "image": "./assets/spaghetti-bolognese-doodle.png",
+        "available": true,
+        "section": "first_courses"
+      },
+      {
         "id": "666e7ba9-cf35-4e08-84ee-9f52c414fc6f",
         "name": "Pizza Rossa – Roman Slice",
         "description": "A slice of Roman-style pizza with tomato sauce.",
@@ -348,7 +429,7 @@
             "description": "토마토소스를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
           }
         },
-        "price": 22,
+        "price": 25,
         "image": "./assets/pizza-rossa-doodle.png",
         "available": true,
         "section": "pizza_classic"
@@ -587,7 +668,7 @@
             "description": "은은하고 산뜻한 향의 유기농 일본 녹차입니다. 잔으로 제공하며 가격은 한 잔 기준입니다."
           }
         },
-        "price": 16,
+        "price": 20,
         "image": "./assets/gyokuro-tea-glass-doodle.png",
         "available": true
       },
@@ -639,7 +720,7 @@
             "description": "교토산 유기농 홍차입니다. 잔으로 제공하며 가격은 한 잔 기준입니다."
           }
         },
-        "price": 16,
+        "price": 20,
         "image": "./assets/black-tea-glass-doodle.png",
         "available": true
       },
@@ -691,7 +772,7 @@
             "description": "교토에서 수입한 순수 유기농 호지차입니다. 잔으로 제공하며 가격은 한 잔 기준입니다."
           }
         },
-        "price": 16,
+        "price": 20,
         "image": "./assets/hojicha-tea-glass-doodle.png",
         "available": true
       },
@@ -743,7 +824,7 @@
             "description": "병으로 제공하는 Zuegg 블러드 오렌지 주스입니다."
           }
         },
-        "price": 33,
+        "price": 29,
         "image": "./assets/zuegg-blood-orange-bottle-doodle.png",
         "available": true
       },
@@ -769,7 +850,7 @@
             "description": "병으로 제공하는 Zuegg 스위트 오렌지 주스입니다."
           }
         },
-        "price": 33,
+        "price": 29,
         "image": "./assets/zuegg-sweet-orange-bottle-doodle.png",
         "available": true
       },
@@ -795,7 +876,7 @@
             "description": "병으로 제공하는 Zuegg 살구 주스입니다."
           }
         },
-        "price": 33,
+        "price": 29,
         "image": "./assets/zuegg-apricot-bottle-doodle.png",
         "available": true
       },
@@ -821,34 +902,8 @@
             "description": "병으로 제공하는 Zuegg 맑은 사과 주스입니다."
           }
         },
-        "price": 33,
+        "price": 29,
         "image": "./assets/zuegg-clear-apple-bottle-doodle.png",
-        "available": true
-      },
-      {
-        "id": "cc6a9919-b803-48db-8c27-73b24ea2b7af",
-        "name": "Brachetto d’Acqui – By the Glass",
-        "description": "Sweet, lightly sparkling red wine with notes of rose, peach and cherry. Served by the glass.",
-        "translations": {
-          "zh": {
-            "name": "Brachetto d’Acqui 甜红葡萄酒（杯装）",
-            "description": "微起泡甜红葡萄酒，带有玫瑰、桃子和樱桃的香气。按杯供应。"
-          },
-          "it": {
-            "name": "Brachetto d’Acqui – Al calice",
-            "description": "Vino rosso dolce frizzante con sentori di rosa, pesca e ciliegia. Servito al bicchiere."
-          },
-          "ja": {
-            "name": "ブラケット・ダックイ（グラス）",
-            "description": "バラ、桃、チェリーの香りが広がる、甘口の微発泡赤ワイン。グラスでご提供します。"
-          },
-          "ko": {
-            "name": "브라케토 다퀴 · 잔",
-            "description": "장미, 복숭아와 체리 향이 어우러지는 달콤한 약발포 레드 와인입니다. 한 잔씩 제공합니다."
-          }
-        },
-        "price": 36,
-        "image": "./assets/brachetto-ruby-wine-glass-doodle.png",
         "available": true
       },
       {
@@ -963,8 +1018,8 @@
         "description": "A slice of Carrot and Nuts Cake made with extra virgin olive oil.",
         "translations": {
           "zh": {
-            "name": "胡萝卜坚果蛋糕",
-            "description": "经典胡萝卜蛋糕充满混合香料的香气，添加特级初榨橄榄油制作的蛋糕，按块供应。"
+            "name": "冬日暖暖胡萝卜坚果蛋糕",
+            "description": "经典胡萝卜蛋糕充满混合香料的馥郁香气，添加特级初榨橄榄油制作的蛋糕，按块供应。"
           },
           "it": {
             "name": "Torta alle carote, noci, cannella e olio EVO",
@@ -981,32 +1036,6 @@
         },
         "price": 32,
         "image": "./assets/carrot-walnut-cake-flat-doodle.png",
-        "available": true
-      },
-      {
-        "id": "1704a229-2aaf-4937-b87c-e4d9279ab48c",
-        "name": "Panna Cotta",
-        "description": "Classic Italian cream dessert with a smooth, delicate texture.",
-        "translations": {
-          "zh": {
-            "name": "意式奶冻",
-            "description": "经典意式奶油甜点，口感细腻柔滑。"
-          },
-          "it": {
-            "name": "Panna cotta",
-            "description": "Dolce italiano alla panna, dalla consistenza morbida e delicata."
-          },
-          "ja": {
-            "name": "パンナコッタ",
-            "description": "なめらかでやさしい口当たりの、クリームを使ったイタリアのデザート。"
-          },
-          "ko": {
-            "name": "판나코타",
-            "description": "부드럽고 섬세한 식감의 클래식 이탈리아 크림 디저트입니다."
-          }
-        },
-        "price": 28,
-        "image": "./assets/panna-cotta-classic-doodle.png",
         "available": true
       },
       {
@@ -1031,7 +1060,7 @@
             "description": "겉은 노릇하고 살짝 바삭하며 속은 부드러운 프렌치토스트입니다."
           }
         },
-        "price": 25,
+        "price": 28,
         "image": "./assets/french-toast-doodle.png",
         "available": true
       },
@@ -1215,7 +1244,7 @@
             "description": "특유의 흰색 병에 담긴 Primolio 2025(1° Olio) 엑스트라 버진 올리브 오일 500ml 한 병입니다. 빵과 함께 맛보거나 좋아하는 요리의 마무리에 사용해 보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
           }
         },
-        "price": 228,
+        "price": 268,
         "image": "./assets/quattrociocchi-primolio-2025-500ml-doodle.png",
         "available": true
       },
