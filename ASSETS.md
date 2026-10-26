@@ -203,6 +203,16 @@ The Olivastro award designs reproduce the supplied Flos Olei 2026 Point 100, Oli
 
 Both are individual painted doodles on white, generated with the built-in image_gen tool from the owner's supplied bag photographs. The original outputs are preserved locally. Prompts, sources and final paths are recorded in `output/imagegen/torres-products-prompts.json` in the application workspace.
 
+## Three Roman pizza doodle replacements — 27 October 2026
+
+Three individual illustrations regenerated with the built-in image_gen tool, using only the owner's original `leone-menu.png` as the style reference. Each uses a horizontal rectangular slice, a near-overhead view, simple flat painted shapes and a white background, matching the original pizza illustrations.
+
+- `cherry-tomato-rocket-flat-doodle.png`: cherry tomato halves, rocket and extra virgin olive oil on a white pizza base.
+- `ham-mozzarella-flat-doodle.png`: cooked ham and melted mozzarella on a white pizza base.
+- `pumpkin-mozzarella-super-seed-flat-doodle.png`: pumpkin, mozzarella and mixed seeds, without walnuts.
+
+These replace the earlier, more detailed illustrations in the three existing product records. Original files are retained locally. Product data, including prices, categories, order and availability, was preserved. The exact prompts, generated source files and final asset paths are recorded in `output/imagegen/three-pizzas-flat-doodle-prompts.json` in the local workspace.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.

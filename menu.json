@@ -322,7 +322,7 @@
           }
         },
         "price": 28,
-        "image": "./assets/cherry-tomato-rocket-pizza-doodle.png",
+        "image": "./assets/cherry-tomato-rocket-flat-doodle.png",
         "available": true,
         "section": "pizza_classic"
       },
@@ -430,7 +430,7 @@
           }
         },
         "price": 30,
-        "image": "./assets/pumpkin-mozzarella-super-seed-pizza-doodle.png",
+        "image": "./assets/pumpkin-mozzarella-super-seed-flat-doodle.png",
         "available": true,
         "section": "pizza_special"
       },
@@ -484,7 +484,7 @@
           }
         },
         "price": 30,
-        "image": "./assets/ham-mozzarella-doodle.png",
+        "image": "./assets/ham-mozzarella-flat-doodle.png",
         "available": true,
         "section": "pizza_classic"
       }
