@@ -20,6 +20,6 @@ export function publicPortions(p, mode) {
 
 export function portionPrices(p, currency, language = 'en', unavailableText = 'Unavailable') {
   const locale = { zh: 'zh-CN', en: 'en', it: 'it', ja: 'ja', ko: 'ko' }[language] || 'en';
-  const value = amount => currency === 'CNY' ? `${Number(amount.toFixed(2))}Y` : money(amount, currency, locale);
+  const value = amount => money(amount, currency, currency === 'CNY' ? 'en' : locale);
   return p.variants.map(v => `<span class="portion-price${v.available ? '' : ' portion-unavailable'}">${esc(portionLabel(v.format, language))} ${esc(value(v.price))}${v.available ? '' : `<small> (${esc(unavailableText)})</small>`}</span>`).join('<span class="portion-separator"> / </span>');
 }
