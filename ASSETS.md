@@ -213,6 +213,18 @@ Three individual illustrations regenerated with the built-in image_gen tool, usi
 
 These replace the earlier, more detailed illustrations in the three existing product records. Original files are retained locally. Product data, including prices, categories, order and availability, was preserved. The exact prompts, generated source files and final asset paths are recorded in `output/imagegen/three-pizzas-flat-doodle-prompts.json` in the local workspace.
 
+## Açaí Bowl and Sanpellegrino cans — 27 October 2026
+
+Three individual images generated with the built-in image_gen tool in the original Leone menu's simple flat painted doodle style, on white backgrounds:
+
+- `acai-bowl-doodle.png`: açaí bowl with banana, mixed berries and granola, as specified by the owner.
+- `sanpellegrino-aranciata-can-doodle.png`: orange/yellow Sanpellegrino Aranciata can.
+- `sanpellegrino-aranciata-rossa-can-doodle.png`: red Sanpellegrino Aranciata Rossa can.
+
+Can packaging references and flavour descriptions come from the official [Aranciata](https://www.sanpellegrino.com/beverages/aranciata) and [Aranciata Rossa](https://www.sanpellegrino.com/beverages/aranciata-rossa) pages, accessed on 27 October 2026. Their photographs guide the packaging only; the published artwork is newly generated. Descriptions are concise paraphrases. No dietary or nutrition claims were added.
+
+Original generated images and reference photographs are retained locally. Full prompts, reference paths, generated source paths and final asset paths are recorded in `output/imagegen/acai-sanpellegrino-prompts.json` in the local application workspace.
+
 ## Original demonstration photos
 
 Photographs were downloaded from Unsplash's image service and are served locally. They are illustrative examples to replace with photographs of the restaurant's actual dishes.
