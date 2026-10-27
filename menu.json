@@ -959,29 +959,29 @@
         "available": true
       },
       {
-        "id": "b30cd4da-3bed-4fef-a930-2aa9ab4d651a",
-        "name": "MoleCola – Italian Cola Made in Turin",
-        "description": "Italian cola made in Turin, served in a glass bottle.",
+        "id": "018680e9-9c54-441a-9ae4-e3b2eca13722",
+        "name": "Sanpellegrino Aranciata",
+        "description": "Italian sparkling orange drink, with fine bubbles and a refreshing balance of sweet and gently bitter citrus notes. Served in a can.",
         "translations": {
           "zh": {
-            "name": "MoleCola – 意大利都灵可乐",
-            "description": "意大利都灵出品的可乐，玻璃瓶装。"
+            "name": "圣培露橙味汽水",
+            "description": "意大利橙味汽水，气泡细腻，清甜与微苦的柑橘风味平衡爽口。罐装供应。"
           },
           "it": {
-            "name": "MoleCola – Cola italiana made in Torino",
-            "description": "Cola italiana prodotta a Torino, servita in bottiglia di vetro."
+            "name": "Sanpellegrino Aranciata",
+            "description": "Aranciata italiana frizzante, con bollicine fini e un gusto fresco che unisce dolcezza e leggere note amarognole di agrumi. Servita in lattina."
           },
           "ja": {
-            "name": "MoleCola – イタリア・トリノ生まれのコーラ",
-            "description": "イタリア・トリノ生まれのコーラ。ガラス瓶でご提供します。"
+            "name": "サンペレグリノ オレンジ",
+            "description": "きめ細かな泡が弾けるイタリア産オレンジ炭酸飲料。甘さとほのかな柑橘の苦みが調和した爽やかな味わい。缶でご提供します。"
           },
           "ko": {
-            "name": "MoleCola · 이탈리아 토리노 콜라",
-            "description": "이탈리아 토리노에서 만든 콜라입니다. 유리병으로 제공합니다."
+            "name": "산펠레그리노 오렌지",
+            "description": "고운 탄산이 돋보이는 이탈리아 오렌지 음료. 달콤함과 은은한 감귤의 쌉싸름함이 균형을 이루는 상쾌한 맛. 캔으로 제공합니다."
           }
         },
-        "price": 20,
-        "image": "./assets/molecola-glass-bottle-doodle.png",
+        "price": 12,
+        "image": "./assets/sanpellegrino-aranciata-can-doodle.png",
         "available": true
       },
       {
@@ -1011,33 +1011,59 @@
         "available": true
       },
       {
-        "id": "018680e9-9c54-441a-9ae4-e3b2eca13722",
-        "name": "Sanpellegrino Aranciata",
-        "description": "Italian sparkling orange drink, with fine bubbles and a refreshing balance of sweet and gently bitter citrus notes. Served in a can.",
+        "id": "b30cd4da-3bed-4fef-a930-2aa9ab4d651a",
+        "name": "MoleCola – Italian Cola Made in Turin",
+        "description": "Italian cola made in Turin, served in a glass bottle.",
         "translations": {
           "zh": {
-            "name": "圣培露橙味汽水",
-            "description": "意大利橙味汽水，气泡细腻，清甜与微苦的柑橘风味平衡爽口。罐装供应。"
+            "name": "MoleCola – 意大利都灵可乐",
+            "description": "意大利都灵出品的可乐，玻璃瓶装。"
           },
           "it": {
-            "name": "Sanpellegrino Aranciata",
-            "description": "Aranciata italiana frizzante, con bollicine fini e un gusto fresco che unisce dolcezza e leggere note amarognole di agrumi. Servita in lattina."
+            "name": "MoleCola – Cola italiana made in Torino",
+            "description": "Cola italiana prodotta a Torino, servita in bottiglia di vetro."
           },
           "ja": {
-            "name": "サンペレグリノ オレンジ",
-            "description": "きめ細かな泡が弾けるイタリア産オレンジ炭酸飲料。甘さとほのかな柑橘の苦みが調和した爽やかな味わい。缶でご提供します。"
+            "name": "MoleCola – イタリア・トリノ生まれのコーラ",
+            "description": "イタリア・トリノ生まれのコーラ。ガラス瓶でご提供します。"
           },
           "ko": {
-            "name": "산펠레그리노 오렌지",
-            "description": "고운 탄산이 돋보이는 이탈리아 오렌지 음료. 달콤함과 은은한 감귤의 쌉싸름함이 균형을 이루는 상쾌한 맛. 캔으로 제공합니다."
+            "name": "MoleCola · 이탈리아 토리노 콜라",
+            "description": "이탈리아 토리노에서 만든 콜라입니다. 유리병으로 제공합니다."
           }
         },
-        "price": 12,
-        "image": "./assets/sanpellegrino-aranciata-can-doodle.png",
+        "price": 20,
+        "image": "./assets/molecola-glass-bottle-doodle.png",
         "available": true
       }
     ],
     "desserts": [
+      {
+        "id": "fd3459ad-25db-413e-b896-7a0fedf93b23",
+        "name": "Açaí Bowl",
+        "description": "A smooth açaí bowl topped with banana, mixed berries and crunchy granola.",
+        "translations": {
+          "zh": {
+            "name": "巴西莓碗",
+            "description": "细腻的巴西莓碗，搭配香蕉、混合莓果和香脆格兰诺拉麦片。"
+          },
+          "it": {
+            "name": "Açaí Bowl",
+            "description": "Una cremosa bowl di açaí con banana, frutti di bosco e granola croccante."
+          },
+          "ja": {
+            "name": "アサイーボウル",
+            "description": "なめらかなアサイーに、バナナ、ミックスベリー、香ばしいグラノーラをトッピング。"
+          },
+          "ko": {
+            "name": "아사이 볼",
+            "description": "부드러운 아사이에 바나나, 믹스 베리와 바삭한 그래놀라를 올린 볼."
+          }
+        },
+        "price": 48,
+        "image": "./assets/acai-bowl-doodle.png",
+        "available": true
+      },
       {
         "id": "b47e5327-25da-4877-b950-2cff5871a07c",
         "name": "Matcha-misu",
@@ -1140,32 +1166,6 @@
         },
         "price": 32,
         "image": "./assets/carrot-walnut-cake-flat-doodle.png",
-        "available": true
-      },
-      {
-        "id": "fd3459ad-25db-413e-b896-7a0fedf93b23",
-        "name": "Açaí Bowl",
-        "description": "A smooth açaí bowl topped with banana, mixed berries and crunchy granola.",
-        "translations": {
-          "zh": {
-            "name": "巴西莓碗",
-            "description": "细腻的巴西莓碗，搭配香蕉、混合莓果和香脆格兰诺拉麦片。"
-          },
-          "it": {
-            "name": "Açaí Bowl",
-            "description": "Una cremosa bowl di açaí con banana, frutti di bosco e granola croccante."
-          },
-          "ja": {
-            "name": "アサイーボウル",
-            "description": "なめらかなアサイーに、バナナ、ミックスベリー、香ばしいグラノーラをトッピング。"
-          },
-          "ko": {
-            "name": "아사이 볼",
-            "description": "부드러운 아사이에 바나나, 믹스 베리와 바삭한 그래놀라를 올린 볼."
-          }
-        },
-        "price": 48,
-        "image": "./assets/acai-bowl-doodle.png",
         "available": true
       }
     ],
