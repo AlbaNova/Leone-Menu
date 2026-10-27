@@ -120,6 +120,24 @@ html:lang(ko) .round-seal strong { font-size: 22px; font-style: normal; }
 html:lang(ko) .round-seal span { letter-spacing: 0; font-size: 8px; }
 html:lang(ko) .product-title-row :is(h4,h6) { line-height: 1.5; }
 .inventory-filters { flex-wrap: wrap; }
+.portion-prices { color: var(--olive, #596342); font-size: 16px; font-weight: 600; line-height: 1.6; margin: 10px 0 12px; }
+.portion-price { white-space: nowrap; }
+.portion-separator { color: #9b9d8a; font-weight: 400; }
+.portion-unavailable { color: #858578; text-decoration: line-through; }
+.portion-unavailable small { display: inline-block; font-size: 11px; text-decoration: none; }
+.detail-bottom { flex-wrap: wrap; gap: 12px; }
+.detail-bottom .portion-prices { margin: 0; }
+.table-price .portion-price { display: inline-block; }
+.variant-editor { margin: 24px 0; padding: 18px; border: 1px solid #dcded1; border-radius: 10px; min-width: 0; }
+.variant-editor legend { font-weight: 600; padding: 0 6px; }
+.variant-editor > p { font-size: 13px; color: #747865; line-height: 1.6; }
+.variant-enable { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.variant-enable input { width: 17px; height: 17px; accent-color: #596342; }
+.variant-row { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 10px; padding: 16px 0; border-top: 1px solid #e6e6da; }
+.variant-row .form-field { min-width: 0; margin: 0; }
+.variant-actions { grid-column: 2 / -1; display: flex; gap: 8px; justify-content: flex-end; }
+.variant-actions button { background: #f6f5ef; border: 1px solid #deded2; border-radius: 6px; min-width: 36px; min-height: 36px; cursor: pointer; }
+@media(max-width:400px) { .variant-row { grid-template-columns: 1fr 1fr; } .variant-row > label:first-child { grid-column: 1 / -1; } }
 @media(max-width:1000px) {
   .public-body .menu-controls { flex-wrap: wrap; }
   .public-body .category-tabs { width: 100%; }

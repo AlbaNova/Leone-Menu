@@ -1,6 +1,7 @@
 import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js';
 import { languages, translate, productText } from './i18n.js';
 import { groupedFood, isPizzaSection } from './food-sections.js';
+import { hasVariants, portionPrices } from './product-variants.js';
 hydrateIcons();
 const languageKey = 'leone-menu-language';
 const menuSource = document.querySelector('meta[name="menu-source"]')?.content || '/api/menu';
@@ -14,6 +15,7 @@ let language = initialLanguage(), category = 'food', menu = null, query = '', la
 const grid = document.querySelector('#products'), dialog = document.querySelector('#product-dialog');
 const t = (key, values) => translate(language, key, values);
 const price = value => money(value, menu.currency, languages[language].locale);
+const displayedPrice = p => hasVariants(p) ? portionPrices(p, menu.currency, language, t('unavailable')) : price(p.price);
 const allProducts = () => [...new Map(Object.values(menu?.groups || {}).flat().map(p => [p.id, p])).values()];
 const normalize = text => text.normalize('NFKC').toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 function applyLanguage() {
@@ -35,7 +37,7 @@ document.querySelectorAll('[data-language]').forEach(button => button.addEventLi
 }));
 function details(p) {
   const text = productText(p, language);
-  document.querySelector('#product-detail').innerHTML = `${productImage(p.image, text.name, `detail-photo ${!p.available ? "muted-image" : ""}`, "eager")}<div class="detail-copy"><div class="eyebrow">${esc(t('detailEyebrow'))}</div><h2 id="detail-title" lang="${text.nameLang}">${esc(text.name)}</h2><p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="detail-bottom"><strong>${price(p.price)}</strong><span class="${p.available ? 'available-note' : 'unavailable-note'}">${esc(t(p.available ? 'available' : 'unavailable'))}</span></div><p class="detail-note">${esc(t('orderNote'))}</p></div>`;
+  document.querySelector('#product-detail').innerHTML = `${productImage(p.image, text.name, `detail-photo ${!p.available ? "muted-image" : ""}`, "eager")}<div class="detail-copy"><div class="eyebrow">${esc(t('detailEyebrow'))}</div><h2 id="detail-title" lang="${text.nameLang}">${esc(text.name)}</h2><p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="detail-bottom"><strong class="${hasVariants(p) ? 'portion-prices' : ''}">${displayedPrice(p)}</strong><span class="${p.available ? 'available-note' : 'unavailable-note'}">${esc(t(p.available ? 'available' : 'unavailable'))}</span></div><p class="detail-note">${esc(t('orderNote'))}</p></div>`;
   dialog.setAttribute('aria-labelledby', 'detail-title');
 }
 function render() {
@@ -52,7 +54,7 @@ function render() {
   const renderProduct = p => {
     const text = productText(p, language);
     const titleTag = !query && category === 'food' && isPizzaSection(p.section) ? 'h6' : 'h4';
-    return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><${titleTag} lang="${text.nameLang}">${esc(text.name)}</${titleTag}><span class="product-price">${price(p.price)}</span></div><p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
+    return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><${titleTag} lang="${text.nameLang}">${esc(text.name)}</${titleTag}>${hasVariants(p) ? '' : `<span class="product-price">${price(p.price)}</span>`}</div>${hasVariants(p) ? `<div class="portion-prices">${displayedPrice(p)}</div>` : ''}<p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
   };
   const useSections = !query && category === 'food' && source.some(p => p.section);
   let pizzaHeadingShown = false;

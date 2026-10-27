@@ -30,12 +30,12 @@ let illustrationId = 0;
 export function productImage(source, alt = '', className = '', loading = 'lazy') {
   const image = source || placeholderURL;
   const [file, key] = image.split('#');
-  const viewport = /(?:^|\/)assets\/leone-menu\.png$/.test(file) && menuArt[key];
+  const viewport = /(?:^|\/)assets\/leone-menu(?:-[a-f0-9]{16})?\.(?:png|webp)$/.test(file) && menuArt[key];
   if (viewport) {
     const clip = `menu-illustration-${++illustrationId}`;
     return `<svg class="menu-art ${escapeHTML(className)}" viewBox="${viewport.join(' ')}" role="img" aria-label="${escapeHTML(alt)}" focusable="false" preserveAspectRatio="xMidYMid meet"><defs><clipPath id="${clip}" clipPathUnits="userSpaceOnUse"><rect x="${viewport[0]}" y="${viewport[1]}" width="${viewport[2]}" height="${viewport[3]}" /></clipPath></defs><image href="${escapeHTML(file)}" width="1060" height="1484" clip-path="url(#${clip})" /></svg>`;
   }
-  const doodleClass = /\/assets\/[a-z0-9-]+-doodle\.png$/.test(file) ? ' dish-doodle' : '';
-  return `<img class="${escapeHTML(className)}${doodleClass}" src="${escapeHTML(image)}" alt="${escapeHTML(alt)}" loading="${loading}">`;
+  const doodleClass = /\/assets\/[a-z0-9-]+-doodle(?:-[a-f0-9]{16})?\.(?:png|webp)$/.test(file) ? ' dish-doodle' : '';
+  return `<img class="${escapeHTML(className)}${doodleClass}" src="${escapeHTML(image)}" alt="${escapeHTML(alt)}" loading="${loading}" decoding="async">`;
 }
-document.addEventListener('error', event => { if (event.target instanceof HTMLImageElement && event.target.src !== placeholderURL) event.target.src = placeholderURL; }, true);
+if (typeof document !== 'undefined') document.addEventListener('error', event => { if (event.target instanceof HTMLImageElement && event.target.src !== placeholderURL) event.target.src = placeholderURL; }, true);

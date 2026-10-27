@@ -242,4 +242,16 @@ Photographs were downloaded from Unsplash's image service and are served locally
 | gelato.jpg | https://images.unsplash.com/photo-1563805042-7684c019e1cb |
 | pannacotta.jpg | https://images.unsplash.com/photo-1488477181946-6428a0291777 |
 
+## Combined portion illustrations — 27 October 2026
+
+Generated with the built-in image_gen tool using the owner's original menu for the flat painted doodle style and the existing serving illustrations for composition. Each image includes both formats on white:
+
+- `public/assets/green-tea-pot-mug-doodle.png`
+- `public/assets/black-tea-pot-mug-doodle.png`
+- `public/assets/hojicha-pot-mug-doodle.png`
+- `public/assets/pinsa-whole-half-combined-doodle.png`
+- `public/assets/pizza-bianca-whole-half-combined-doodle.png`
+
+Exact prompts and source references are stored locally in `output/imagegen/merged-portions-prompts.json`. Original generated PNG files are retained locally. The public export now supplies optimized WebP copies of all referenced menu images, with content hashes in their filenames; these delivery conversions preserve composition and transparency. Artwork provenance above also applies to the corresponding WebP copy. Original local paths documented here are not public download URLs.
+
 The icon paths, wordmark, placeholder and interface graphics are included as application source. Fonts use the operating system's local Georgia and Segoe UI/Arial fonts. The portable Node.js runtime's license is included at `.runtime/LICENSE`.

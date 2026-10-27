@@ -25,7 +25,7 @@
           }
         },
         "price": 48,
-        "image": "./assets/spaghetti-aglio-olio-doodle.png",
+        "image": "./assets/spaghetti-aglio-olio-doodle-e7d1c54dbe5ca9ef.webp",
         "available": true,
         "section": "mains"
       },
@@ -52,7 +52,7 @@
           }
         },
         "price": 68,
-        "image": "./assets/spaghetti-bolognese-doodle.png",
+        "image": "./assets/spaghetti-bolognese-doodle-f51da55a9eecf31e.webp",
         "available": true,
         "section": "mains"
       },
@@ -79,7 +79,7 @@
           }
         },
         "price": 48,
-        "image": "./assets/fusilli-tomato-basil-doodle.png",
+        "image": "./assets/fusilli-tomato-basil-doodle-9833f460bab0ebda.webp",
         "available": true,
         "section": "mains"
       },
@@ -106,116 +106,86 @@
           }
         },
         "price": 18,
-        "image": "./assets/onion-frittata-doodle.png",
+        "image": "./assets/onion-frittata-doodle-43ab52e0e38ce36e.webp",
         "available": true,
         "section": "sides"
       },
       {
         "id": "5cbec694-e008-4400-aec3-4c3cce2e5278",
-        "name": "Roman Pinsa – Half",
-        "description": "Half a Roman pinsa with your choice of flavour, ready in 10 minutes.",
+        "name": "Roman Pinsa",
+        "description": "Roman pinsa with your choice of flavour, ready in 10 minutes. Available whole or half.",
         "translations": {
           "zh": {
-            "name": "罗马椭圆披萨（半份）",
-            "description": "半份罗马椭圆披萨，口味自选，10分钟即可做好。"
+            "name": "罗马椭圆披萨",
+            "description": "口味自选，10分钟即可做好。可选整份或半份。"
           },
           "it": {
-            "name": "Pinsa romana – Metà",
-            "description": "Mezza pinsa romana, gusto a scelta, pronta in 10 minuti."
+            "name": "Pinsa romana",
+            "description": "Pinsa romana, gusto a scelta, pronta in 10 minuti. Disponibile intera o a metà."
           },
           "ja": {
-            "name": "ローマ風ピンサ（ハーフ）",
-            "description": "ローマ風ピンサをハーフで。お好みの味をお選びいただけます。10分でご用意します。"
+            "name": "ローマ風ピンサ",
+            "description": "お好みの味を選べるローマ風ピンサ。10分でご用意します。ホールまたはハーフをお選びください。"
           },
           "ko": {
-            "name": "로마식 핀사 · 반 판",
-            "description": "원하는 맛을 고를 수 있는 로마식 핀사 반 판입니다. 준비 시간은 10분입니다."
+            "name": "로마식 핀사",
+            "description": "원하는 맛을 고를 수 있는 로마식 핀사입니다. 준비 시간은 10분이며, 전체 또는 절반으로 주문할 수 있습니다."
           }
         },
         "price": 39,
-        "image": "./assets/pinsa-half-doodle.png",
+        "image": "./assets/pinsa-whole-half-combined-doodle-43f67ff3b155c4ee.webp",
         "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "1a9801bd-2e78-40d2-8b0d-8ad83e431b95",
-        "name": "Roman Pinsa – Whole",
-        "description": "A whole Roman pinsa with your choice of flavour, ready in 10 minutes.",
-        "translations": {
-          "zh": {
-            "name": "罗马椭圆披萨（整份）",
-            "description": "整份罗马椭圆披萨，口味自选，10分钟即可做好。"
+        "variants": [
+          {
+            "format": "whole",
+            "price": 76,
+            "available": true
           },
-          "it": {
-            "name": "Pinsa romana – Intera",
-            "description": "Pinsa romana intera, gusto a scelta, pronta in 10 minuti."
-          },
-          "ja": {
-            "name": "ローマ風ピンサ（ホール）",
-            "description": "ローマ風ピンサをホールで。お好みの味をお選びいただけます。10分でご用意します。"
-          },
-          "ko": {
-            "name": "로마식 핀사 · 한 판",
-            "description": "원하는 맛을 고를 수 있는 로마식 핀사 한 판입니다. 준비 시간은 10분입니다."
+          {
+            "format": "half",
+            "price": 39,
+            "available": true
           }
-        },
-        "price": 76,
-        "image": "./assets/pinsa-whole-doodle.png",
-        "available": true,
+        ],
         "section": "pizza_special"
       },
       {
         "id": "be421665-dae0-47b6-abb1-bbba78964a6d",
-        "name": "Lingua di Pizza Bianca – Half",
-        "description": "Half of our long, tongue-shaped pizza bianca flatbread.",
+        "name": "Lingua di Pizza Bianca",
+        "description": "Our long, tongue-shaped pizza bianca flatbread. Available whole or half.",
         "translations": {
           "zh": {
-            "name": "意式长条白披萨（半份）",
-            "description": "长舌形意式白披萨，半份。"
+            "name": "意式长条白披萨",
+            "description": "长舌形意式白披萨，可选整份或半份。"
           },
           "it": {
-            "name": "Lingua di pizza bianca – Metà",
-            "description": "Mezza lingua di pizza bianca dalla caratteristica forma lunga e stretta."
+            "name": "Lingua di pizza bianca",
+            "description": "Pizza bianca dalla caratteristica forma lunga e stretta. Disponibile intera o a metà."
           },
           "ja": {
-            "name": "細長いピッツァ・ビアンカ（ハーフ）",
-            "description": "細長い舌の形をしたピッツァ・ビアンカのハーフサイズ。"
+            "name": "細長いピッツァ・ビアンカ",
+            "description": "細長い舌の形をしたピッツァ・ビアンカ。ホールまたはハーフをお選びください。"
           },
           "ko": {
-            "name": "길쭉한 피자 비앙카 · 반 개",
-            "description": "길고 좁은 모양의 피자 비앙카 플랫브레드 반 개입니다."
+            "name": "길쭉한 피자 비앙카",
+            "description": "길고 좁은 모양의 피자 비앙카 플랫브레드입니다. 전체 또는 절반으로 주문할 수 있습니다."
           }
         },
         "price": 25,
-        "image": "./assets/pizza-bianca-half-doodle.png",
+        "image": "./assets/pizza-bianca-whole-half-combined-doodle-bf8d48d5192bd9f6.webp",
         "available": true,
-        "section": "pizza_classic"
-      },
-      {
-        "id": "65ec41f0-7736-4acf-8c7d-e85460f1c33f",
-        "name": "Lingua di Pizza Bianca – Whole",
-        "description": "A whole long, tongue-shaped pizza bianca flatbread.",
-        "translations": {
-          "zh": {
-            "name": "意式长条白披萨（整份）",
-            "description": "长舌形意式白披萨，整份。"
+        "variants": [
+          {
+            "format": "whole",
+            "price": 40,
+            "available": true
           },
-          "it": {
-            "name": "Lingua di pizza bianca – Intera",
-            "description": "Una lingua di pizza bianca intera, dalla caratteristica forma lunga e stretta."
-          },
-          "ja": {
-            "name": "細長いピッツァ・ビアンカ（ホール）",
-            "description": "細長い舌の形をしたピッツァ・ビアンカのホールサイズ。"
-          },
-          "ko": {
-            "name": "길쭉한 피자 비앙카 · 한 개",
-            "description": "길고 좁은 모양의 피자 비앙카 플랫브레드 한 개입니다."
+          {
+            "format": "half",
+            "price": 25,
+            "available": true
           }
-        },
-        "price": 40,
-        "image": "./assets/pizza-bianca-whole-doodle.png",
-        "available": true,
+        ],
         "section": "pizza_classic"
       },
       {
@@ -241,7 +211,7 @@
           }
         },
         "price": 28,
-        "image": "./assets/leone-menu.png#margherita",
+        "image": "./assets/leone-menu-0577a9e69a629677.webp#margherita",
         "available": true,
         "section": "pizza_classic"
       },
@@ -268,7 +238,7 @@
           }
         },
         "price": 30,
-        "image": "./assets/tomato-mozzarella-salami-pizza-doodle.png",
+        "image": "./assets/tomato-mozzarella-salami-pizza-doodle-be71db451a4139f5.webp",
         "available": true,
         "section": "pizza_classic"
       },
@@ -295,7 +265,7 @@
           }
         },
         "price": 25,
-        "image": "./assets/pizza-rossa-doodle.png",
+        "image": "./assets/pizza-rossa-doodle-4e66e5d9f8a6514a.webp",
         "available": true,
         "section": "pizza_classic"
       },
@@ -322,7 +292,7 @@
           }
         },
         "price": 28,
-        "image": "./assets/cherry-tomato-rocket-flat-doodle.png",
+        "image": "./assets/cherry-tomato-rocket-flat-doodle-f923ff9fe5104c22.webp",
         "available": true,
         "section": "pizza_classic"
       },
@@ -349,7 +319,7 @@
           }
         },
         "price": 35,
-        "image": "./assets/mortadella-burrata-stuffed-pizza-doodle.png",
+        "image": "./assets/mortadella-burrata-stuffed-pizza-doodle-1dad58111b54910b.webp",
         "available": true,
         "section": "pizza_special"
       },
@@ -376,7 +346,7 @@
           }
         },
         "price": 25,
-        "image": "./assets/potato-garlic-chili-pizza-doodle.png",
+        "image": "./assets/potato-garlic-chili-pizza-doodle-48dec2f8dfa70c8f.webp",
         "available": true,
         "section": "pizza_classic"
       },
@@ -403,7 +373,7 @@
           }
         },
         "price": 35,
-        "image": "./assets/leone-menu.png#focaccia",
+        "image": "./assets/leone-menu-0577a9e69a629677.webp#focaccia",
         "available": true,
         "section": "pizza_special"
       },
@@ -430,7 +400,7 @@
           }
         },
         "price": 30,
-        "image": "./assets/pumpkin-mozzarella-super-seed-flat-doodle.png",
+        "image": "./assets/pumpkin-mozzarella-super-seed-flat-doodle-f8f481439d001073.webp",
         "available": true,
         "section": "pizza_special"
       },
@@ -457,7 +427,7 @@
           }
         },
         "price": 33,
-        "image": "./assets/leone-menu.png#truffle",
+        "image": "./assets/leone-menu-0577a9e69a629677.webp#truffle",
         "available": true,
         "section": "pizza_special"
       },
@@ -484,7 +454,7 @@
           }
         },
         "price": 30,
-        "image": "./assets/ham-mozzarella-flat-doodle.png",
+        "image": "./assets/ham-mozzarella-flat-doodle-f75007c244162b9b.webp",
         "available": true,
         "section": "pizza_classic"
       }
@@ -513,7 +483,7 @@
           }
         },
         "price": 38,
-        "image": "./assets/aperol-spritz-doodle.png",
+        "image": "./assets/aperol-spritz-doodle-e4710662a4ca2fac.webp",
         "available": true
       },
       {
@@ -539,7 +509,7 @@
           }
         },
         "price": 32,
-        "image": "./assets/moscato-doodle.png",
+        "image": "./assets/moscato-doodle-4eb450c107e2c54d.webp",
         "available": true
       },
       {
@@ -565,7 +535,7 @@
           }
         },
         "price": 29,
-        "image": "./assets/pumpkin-spice-latte-doodle.png",
+        "image": "./assets/pumpkin-spice-latte-doodle-d126ce4fc4b36326.webp",
         "available": true
       },
       {
@@ -591,7 +561,7 @@
           }
         },
         "price": 29,
-        "image": "./assets/black-sesame-latte-doodle.png",
+        "image": "./assets/black-sesame-latte-doodle-0dee2c0a1ca09b0b.webp",
         "available": true
       },
       {
@@ -617,7 +587,7 @@
           }
         },
         "price": 29,
-        "image": "./assets/chai-latte-doodle.png",
+        "image": "./assets/chai-latte-doodle-bd3e9d950063fff1.webp",
         "available": true
       },
       {
@@ -643,7 +613,7 @@
           }
         },
         "price": 29,
-        "image": "./assets/hojicha-latte-doodle.png",
+        "image": "./assets/hojicha-latte-doodle-209b76ca01768b47.webp",
         "available": true
       },
       {
@@ -669,164 +639,122 @@
           }
         },
         "price": 29,
-        "image": "./assets/matcha-latte-doodle.png",
+        "image": "./assets/matcha-latte-doodle-81a9a36a17081693.webp",
         "available": true
       },
       {
         "id": "21a725e7-d7f5-4313-b753-5d4c00484f6d",
-        "name": "Organic Japanese Green Tea – Carafe",
-        "description": "Organic Japanese green tea with a delicate, fresh aroma. Served by the carafe. Price per carafe.",
+        "name": "Organic Japanese Green Tea",
+        "description": "Organic Japanese green tea with a delicate, fresh aroma.",
         "translations": {
           "zh": {
-            "name": "有机宇治玉露茶 · 壶装",
-            "description": "产自京都有机农园的绿茶，清香淡雅。按壶供应，标价为每壶价格。"
+            "name": "有机宇治玉露茶",
+            "description": "产自京都有机农园的绿茶，清香淡雅。"
           },
           "it": {
-            "name": "Tè verde giapponese biologico · Caraffa",
-            "description": "Tè verde giapponese biologico dal profumo fresco e delicato. Servito in caraffa. Prezzo per caraffa."
+            "name": "Tè verde giapponese biologico",
+            "description": "Tè verde giapponese biologico dal profumo fresco e delicato."
           },
           "ja": {
-            "name": "日本産オーガニック緑茶 · カラフェ",
-            "description": "日本産の有機緑茶。すっきりとした繊細な香りをお楽しみください。カラフェでご提供します。表示価格はカラフェ1つ分です。"
+            "name": "日本産オーガニック緑茶",
+            "description": "日本産の有機緑茶。すっきりとした繊細な香りをお楽しみください。"
           },
           "ko": {
-            "name": "유기농 일본 녹차 · 카라페",
-            "description": "은은하고 산뜻한 향의 유기농 일본 녹차입니다. 카라페로 제공하며 가격은 카라페 한 병 기준입니다."
-          }
-        },
-        "price": 32,
-        "image": "./assets/gyokuro-tea-carafe-doodle.png",
-        "available": true
-      },
-      {
-        "id": "8c890921-8add-42ac-b92d-221a7c593678",
-        "name": "Organic Japanese Green Tea – Glass",
-        "description": "Organic Japanese green tea with a delicate, fresh aroma. Served by the glass. Price per glass.",
-        "translations": {
-          "zh": {
-            "name": "有机宇治玉露茶 · 杯装",
-            "description": "产自京都有机农园的绿茶，清香淡雅。按杯供应，标价为每杯价格。"
-          },
-          "it": {
-            "name": "Tè verde giapponese biologico · Bicchiere",
-            "description": "Tè verde giapponese biologico dal profumo fresco e delicato. Servito al bicchiere. Prezzo per bicchiere."
-          },
-          "ja": {
-            "name": "日本産オーガニック緑茶 · グラス",
-            "description": "日本産の有機緑茶。すっきりとした繊細な香りをお楽しみください。グラスでご提供します。表示価格はグラス1杯分です。"
-          },
-          "ko": {
-            "name": "유기농 일본 녹차 · 잔",
-            "description": "은은하고 산뜻한 향의 유기농 일본 녹차입니다. 잔으로 제공하며 가격은 한 잔 기준입니다."
+            "name": "유기농 일본 녹차",
+            "description": "은은하고 산뜻한 향의 유기농 일본 녹차입니다."
           }
         },
         "price": 20,
-        "image": "./assets/gyokuro-tea-glass-doodle.png",
-        "available": true
+        "image": "./assets/green-tea-pot-mug-doodle-17f5c33510f20034.webp",
+        "available": true,
+        "variants": [
+          {
+            "format": "pot",
+            "price": 32,
+            "available": true
+          },
+          {
+            "format": "mug",
+            "price": 20,
+            "available": true
+          }
+        ]
       },
       {
         "id": "e4d748df-5b3f-45fe-be6f-f107b99d4a64",
-        "name": "Organic Uji Black Tea – Carafe",
-        "description": "Organic black tea from Kyoto. Served by the carafe. Price per carafe.",
+        "name": "Organic Uji Black Tea",
+        "description": "Organic black tea from Kyoto.",
         "translations": {
           "zh": {
-            "name": "有机宇治红茶 · 壶装",
-            "description": "源自京都有机农园的红茶。按壶供应，标价为每壶价格。"
+            "name": "有机宇治红茶",
+            "description": "源自京都有机农园的红茶。"
           },
           "it": {
-            "name": "Tè nero biologico di Uji · Caraffa",
-            "description": "Tè nero da coltivazioni biologiche di Kyoto. Servito in caraffa. Prezzo per caraffa."
+            "name": "Tè nero biologico di Uji",
+            "description": "Tè nero da coltivazioni biologiche di Kyoto."
           },
           "ja": {
-            "name": "宇治有機紅茶 · カラフェ",
-            "description": "京都の有機茶園で育まれた紅茶。カラフェでご提供します。表示価格はカラフェ1つ分です。"
+            "name": "宇治有機紅茶",
+            "description": "京都の有機茶園で育まれた紅茶。"
           },
           "ko": {
-            "name": "유기농 우지 홍차 · 카라페",
-            "description": "교토산 유기농 홍차입니다. 카라페로 제공하며 가격은 카라페 한 병 기준입니다."
-          }
-        },
-        "price": 32,
-        "image": "./assets/black-tea-carafe-doodle.png",
-        "available": true
-      },
-      {
-        "id": "d7d14c6c-41f3-499c-b889-3cc56c8d66be",
-        "name": "Organic Uji Black Tea – Glass",
-        "description": "Organic black tea from Kyoto. Served by the glass. Price per glass.",
-        "translations": {
-          "zh": {
-            "name": "有机宇治红茶 · 杯装",
-            "description": "源自京都有机农园的红茶。按杯供应，标价为每杯价格。"
-          },
-          "it": {
-            "name": "Tè nero biologico di Uji · Bicchiere",
-            "description": "Tè nero da coltivazioni biologiche di Kyoto. Servito al bicchiere. Prezzo per bicchiere."
-          },
-          "ja": {
-            "name": "宇治有機紅茶 · グラス",
-            "description": "京都の有機茶園で育まれた紅茶。グラスでご提供します。表示価格はグラス1杯分です。"
-          },
-          "ko": {
-            "name": "유기농 우지 홍차 · 잔",
-            "description": "교토산 유기농 홍차입니다. 잔으로 제공하며 가격은 한 잔 기준입니다."
+            "name": "유기농 우지 홍차",
+            "description": "교토산 유기농 홍차입니다."
           }
         },
         "price": 20,
-        "image": "./assets/black-tea-glass-doodle.png",
-        "available": true
+        "image": "./assets/black-tea-pot-mug-doodle-4d2121c5a769078f.webp",
+        "available": true,
+        "variants": [
+          {
+            "format": "pot",
+            "price": 32,
+            "available": true
+          },
+          {
+            "format": "mug",
+            "price": 20,
+            "available": true
+          }
+        ]
       },
       {
         "id": "cfd9fbda-f8f6-4ad1-9988-96808fc86bbc",
-        "name": "Organic Hojicha – Carafe",
-        "description": "Pure organic hojicha imported from Kyoto. Served by the carafe. Price per carafe.",
+        "name": "Organic Hojicha",
+        "description": "Pure organic hojicha imported from Kyoto.",
         "translations": {
           "zh": {
-            "name": "有机烘焙茶 · 壶装",
-            "description": "源自京都森井农园。按壶供应，标价为每壶价格。"
+            "name": "有机烘焙茶",
+            "description": "源自京都森井农园。"
           },
           "it": {
-            "name": "Hojicha organico da Kyoto · Caraffa",
-            "description": "Hojicha organico importato da Kyoto. Servito in caraffa. Prezzo per caraffa."
+            "name": "Hojicha organico da Kyoto",
+            "description": "Hojicha organico importato da Kyoto."
           },
           "ja": {
-            "name": "日本産オーガニックほうじ茶 · カラフェ",
-            "description": "京都から届いた有機ほうじ茶。カラフェでご提供します。表示価格はカラフェ1つ分です。"
+            "name": "日本産オーガニックほうじ茶",
+            "description": "京都から届いた有機ほうじ茶。"
           },
           "ko": {
-            "name": "유기농 호지차 · 카라페",
-            "description": "교토에서 수입한 순수 유기농 호지차입니다. 카라페로 제공하며 가격은 카라페 한 병 기준입니다."
-          }
-        },
-        "price": 32,
-        "image": "./assets/hojicha-tea-carafe-doodle.png",
-        "available": true
-      },
-      {
-        "id": "e66a3389-29c6-459a-83a7-77b596f843a0",
-        "name": "Organic Hojicha – Glass",
-        "description": "Pure organic hojicha imported from Kyoto. Served by the glass. Price per glass.",
-        "translations": {
-          "zh": {
-            "name": "有机烘焙茶 · 杯装",
-            "description": "源自京都森井农园。按杯供应，标价为每杯价格。"
-          },
-          "it": {
-            "name": "Hojicha organico da Kyoto · Bicchiere",
-            "description": "Hojicha organico importato da Kyoto. Servito al bicchiere. Prezzo per bicchiere."
-          },
-          "ja": {
-            "name": "日本産オーガニックほうじ茶 · グラス",
-            "description": "京都から届いた有機ほうじ茶。グラスでご提供します。表示価格はグラス1杯分です。"
-          },
-          "ko": {
-            "name": "유기농 호지차 · 잔",
-            "description": "교토에서 수입한 순수 유기농 호지차입니다. 잔으로 제공하며 가격은 한 잔 기준입니다."
+            "name": "유기농 호지차",
+            "description": "교토에서 수입한 순수 유기농 호지차입니다."
           }
         },
         "price": 20,
-        "image": "./assets/hojicha-tea-glass-doodle.png",
-        "available": true
+        "image": "./assets/hojicha-pot-mug-doodle-ac58bd1e278d920e.webp",
+        "available": true,
+        "variants": [
+          {
+            "format": "pot",
+            "price": 32,
+            "available": true
+          },
+          {
+            "format": "mug",
+            "price": 20,
+            "available": true
+          }
+        ]
       },
       {
         "id": "76dfa2e7-d694-4159-8c1a-cc8b9de19ecd",
@@ -851,7 +779,7 @@
           }
         },
         "price": 29,
-        "image": "./assets/zuegg-blood-orange-bottle-doodle.png",
+        "image": "./assets/zuegg-blood-orange-bottle-doodle-8f69d87faeb81e37.webp",
         "available": true
       },
       {
@@ -877,7 +805,7 @@
           }
         },
         "price": 29,
-        "image": "./assets/zuegg-sweet-orange-bottle-doodle.png",
+        "image": "./assets/zuegg-sweet-orange-bottle-doodle-ec770dc37bdc1cdd.webp",
         "available": true
       },
       {
@@ -903,7 +831,7 @@
           }
         },
         "price": 29,
-        "image": "./assets/zuegg-apricot-bottle-doodle.png",
+        "image": "./assets/zuegg-apricot-bottle-doodle-472c6b7e6b1828b0.webp",
         "available": true
       },
       {
@@ -929,7 +857,7 @@
           }
         },
         "price": 29,
-        "image": "./assets/zuegg-clear-apple-bottle-doodle.png",
+        "image": "./assets/zuegg-clear-apple-bottle-doodle-78094846608ba9c2.webp",
         "available": true
       },
       {
@@ -955,7 +883,7 @@
           }
         },
         "price": 28,
-        "image": "./assets/pomegranate-soda-doodle.png",
+        "image": "./assets/pomegranate-soda-doodle-bfcee749bfb39686.webp",
         "available": true
       },
       {
@@ -981,7 +909,7 @@
           }
         },
         "price": 12,
-        "image": "./assets/sanpellegrino-aranciata-can-doodle.png",
+        "image": "./assets/sanpellegrino-aranciata-can-doodle-ca594eb35956eaff.webp",
         "available": true
       },
       {
@@ -1007,7 +935,7 @@
           }
         },
         "price": 12,
-        "image": "./assets/sanpellegrino-aranciata-rossa-can-doodle.png",
+        "image": "./assets/sanpellegrino-aranciata-rossa-can-doodle-7f0f59c61f83706a.webp",
         "available": true
       },
       {
@@ -1033,7 +961,7 @@
           }
         },
         "price": 20,
-        "image": "./assets/molecola-glass-bottle-doodle.png",
+        "image": "./assets/molecola-glass-bottle-doodle-285450a24923ad0b.webp",
         "available": true
       }
     ],
@@ -1061,7 +989,7 @@
           }
         },
         "price": 48,
-        "image": "./assets/acai-bowl-doodle.png",
+        "image": "./assets/acai-bowl-doodle-24cd8721cf0e9794.webp",
         "available": true
       },
       {
@@ -1087,7 +1015,7 @@
           }
         },
         "price": 32,
-        "image": "./assets/matcha-misu-doodle.png",
+        "image": "./assets/matcha-misu-doodle-4b27c4b470d0ea7b.webp",
         "available": true
       },
       {
@@ -1113,7 +1041,7 @@
           }
         },
         "price": 32,
-        "image": "./assets/tiramisu-doodle.png",
+        "image": "./assets/tiramisu-doodle-166965b612efe2c4.webp",
         "available": true
       },
       {
@@ -1139,7 +1067,7 @@
           }
         },
         "price": 28,
-        "image": "./assets/french-toast-doodle.png",
+        "image": "./assets/french-toast-doodle-76b51094e38dfc21.webp",
         "available": true
       },
       {
@@ -1165,7 +1093,7 @@
           }
         },
         "price": 32,
-        "image": "./assets/carrot-walnut-cake-flat-doodle.png",
+        "image": "./assets/carrot-walnut-cake-flat-doodle-9e3b55010d5a2fbb.webp",
         "available": true
       }
     ],
@@ -1193,7 +1121,7 @@
           }
         },
         "price": 20,
-        "image": "./assets/molecola-glass-bottle-doodle.png",
+        "image": "./assets/molecola-glass-bottle-doodle-285450a24923ad0b.webp",
         "available": true
       },
       {
@@ -1219,7 +1147,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/giusti-truffle-glaze-doodle.png",
+        "image": "./assets/giusti-truffle-glaze-doodle-251d9f8d4bb03c8d.webp",
         "available": true
       },
       {
@@ -1245,7 +1173,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/giusti-raspberry-glaze-doodle.png",
+        "image": "./assets/giusti-raspberry-glaze-doodle-53947adecb59796e.webp",
         "available": true
       },
       {
@@ -1271,7 +1199,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/giusti-fig-glaze-doodle.png",
+        "image": "./assets/giusti-fig-glaze-doodle-acda9bc88b338c1d.webp",
         "available": true
       },
       {
@@ -1297,7 +1225,7 @@
           }
         },
         "price": 228,
-        "image": "./assets/quattrociocchi-superbo-500ml-doodle.png",
+        "image": "./assets/quattrociocchi-superbo-500ml-doodle-1c51e889b64e9277.webp",
         "available": true
       },
       {
@@ -1323,7 +1251,7 @@
           }
         },
         "price": 228,
-        "image": "./assets/quattrociocchi-olivastro-500ml-doodle.png",
+        "image": "./assets/quattrociocchi-olivastro-500ml-doodle-c9598c293d5634f4.webp",
         "available": true
       },
       {
@@ -1349,7 +1277,7 @@
           }
         },
         "price": 268,
-        "image": "./assets/quattrociocchi-primolio-2025-500ml-doodle.png",
+        "image": "./assets/quattrociocchi-primolio-2025-500ml-doodle-fa23fe0eea14e3d8.webp",
         "available": true
       },
       {
@@ -1375,7 +1303,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/quattrociocchi-olivastro-gift-100ml-doodle.png",
+        "image": "./assets/quattrociocchi-olivastro-gift-100ml-doodle-ba20845105fd3ebd.webp",
         "available": true
       },
       {
@@ -1401,7 +1329,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/quattrociocchi-truffle-gift-100ml-doodle.png",
+        "image": "./assets/quattrociocchi-truffle-gift-100ml-doodle-1beb6beccd3ec8b6.webp",
         "available": true
       },
       {
@@ -1427,7 +1355,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/quattrociocchi-orange-gift-100ml-doodle.png",
+        "image": "./assets/quattrociocchi-orange-gift-100ml-doodle-ecbd19f0f9f2bf32.webp",
         "available": true
       },
       {
@@ -1453,7 +1381,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/quattrociocchi-lemon-gift-100ml-doodle.png",
+        "image": "./assets/quattrociocchi-lemon-gift-100ml-doodle-f3659ee1f96e2f0c.webp",
         "available": true
       },
       {
@@ -1479,7 +1407,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/quattrociocchi-basil-gift-100ml-doodle.png",
+        "image": "./assets/quattrociocchi-basil-gift-100ml-doodle-bbfd681d24c890b7.webp",
         "available": true
       },
       {
@@ -1505,7 +1433,7 @@
           }
         },
         "price": 88,
-        "image": "./assets/quattrociocchi-garlic-chili-gift-100ml-doodle.png",
+        "image": "./assets/quattrociocchi-garlic-chili-gift-100ml-doodle-bc86bf500b9dbc60.webp",
         "available": true
       },
       {
@@ -1531,7 +1459,7 @@
           }
         },
         "price": 26,
-        "image": "./assets/torres-iberian-ham-doodle.png",
+        "image": "./assets/torres-iberian-ham-doodle-0d4b3a773e170109.webp",
         "available": true
       },
       {
@@ -1557,7 +1485,7 @@
           }
         },
         "price": 26,
-        "image": "./assets/torres-black-truffle-doodle.png",
+        "image": "./assets/torres-black-truffle-doodle-4c0f659bc097f6a8.webp",
         "available": true
       }
     ]
