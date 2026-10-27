@@ -120,7 +120,7 @@ html:lang(ko) .round-seal strong { font-size: 22px; font-style: normal; }
 html:lang(ko) .round-seal span { letter-spacing: 0; font-size: 8px; }
 html:lang(ko) .product-title-row :is(h4,h6) { line-height: 1.5; }
 .inventory-filters { flex-wrap: wrap; }
-.portion-prices { color: var(--olive, #596342); font-size: 16px; font-weight: 600; line-height: 1.6; margin: 10px 0 12px; }
+.portion-prices { margin: 10px 0 12px; white-space: normal; }
 .portion-price { white-space: nowrap; }
 .portion-separator { color: #9b9d8a; font-weight: 400; }
 .portion-unavailable { color: #858578; text-decoration: line-through; }
