@@ -18,7 +18,7 @@ const grid = document.querySelector('#products'), dialog = document.querySelecto
 const t = (key, values) => translate(language, key, values);
 const price = value => money(value, menu.currency, languages[language].locale);
 const displayedPrice = p => hasVariants(p) ? portionPrices(p, menu.currency, language, t('unavailable')) : price(p.price);
-const allProducts = () => [...new Map(Object.values(menu?.groups || {}).flat().map(p => [p.id, p])).values()];
+const allProducts = () => [...new Map(Object.entries(menu?.groups || {}).filter(([key])=>key!=='halloween'||menu?.theme==='halloween').flatMap(([,items])=>items).map(p => [p.id, p])).values()];
 const normalize = text => text.normalize('NFKC').toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 function applyLanguage() {
   document.documentElement.lang = languages[language].locale;
@@ -43,6 +43,11 @@ function details(p) {
   dialog.setAttribute('aria-labelledby', 'detail-title');
 }
 function render() {
+  halloween.setTheme(menu?.theme||'classic');
+  if(category==='halloween'&&menu?.theme!=='halloween') {
+    category='food';
+    document.querySelectorAll('[data-category]').forEach(b=>{const active=b.dataset.category===category;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
+  }
   if (!menu) {
     document.querySelector('#category-title').textContent = t(`${category}Title`);
     document.querySelector('#category-description').textContent = t(`${category}Description`);
@@ -72,6 +77,7 @@ function render() {
   if (openedId && dialog.open) { const p = allProducts().find(p => p.id === openedId); if (p) details(p); else dialog.close(); }
 }
 document.querySelectorAll('[data-category]').forEach(button => button.addEventListener('click', () => {
+  if(button.dataset.category==='halloween'&&menu?.theme!=='halloween')return;
   const changed = category !== button.dataset.category;
   category = button.dataset.category; halloween.activate(category === 'halloween', changed); query = ''; document.querySelector('#menu-search').value = '';
   document.querySelectorAll('[data-category]').forEach(b => { const active=b.dataset.category===category; b.classList.toggle('active', active); b.setAttribute('aria-pressed', active ? 'true' : 'false'); }); render();

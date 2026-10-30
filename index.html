@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://leonecaffecucina.net/">
 </head>
 <body class="public-body">
-  <div class="halloween-shortcut-bar"><button type="button" class="halloween-shortcut" data-category="halloween" aria-pressed="false"><span data-i18n="halloweenMenu">万圣节特别菜单</span><span class="halloween-shortcut-pumpkin" data-halloween-pumpkin aria-hidden="true"></span></button></div>
+  <div class="halloween-shortcut-bar" hidden><button type="button" class="halloween-shortcut" data-category="halloween" aria-pressed="false"><span data-i18n="halloweenMenu">万圣节特别菜单</span><span class="halloween-shortcut-pumpkin" data-halloween-pumpkin aria-hidden="true"></span></button></div>
   <a class="skip-link" href="#menu" data-i18n="skip">跳转到菜单</a>
   <header class="site-header wrap">
     <a class="brand" href="./" aria-label="Leone Caffè Cucina 首页" data-i18n-aria-label="brandHome"><span class="brand-words" lang="it">
@@ -30,6 +30,7 @@
     </div>
   </header>
   <main>
+    <div id="christmas-greeting" class="christmas-greeting wrap" hidden><span aria-hidden="true">✦</span><span data-i18n="christmasGreeting">Leone 圣诞时光</span><span aria-hidden="true">✦</span></div>
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy"><div class="eyebrow"><span class="tiny-line"></span><span data-i18n="heroEyebrow">品味意式生活</span></div>
         <h1 id="hero-title"><span data-i18n="heroLine1">美味佳肴。</span><br><em data-i18n="heroLine3">美好时光。</em></h1>
@@ -42,7 +43,7 @@
     <div class="values-strip wrap"><span data-i18n="valueFresh">新鲜食材</span><span aria-hidden="true">✦</span><span data-i18n="valueItalian">?1958????????</span><span aria-hidden="true">✦</span><span data-i18n="valueWelcome">暖心相待</span></div>
     <section class="menu-section wrap" id="menu" aria-labelledby="menu-title">
       <div class="section-heading"><div><div class="eyebrow" data-i18n="menuEyebrow">每个时刻，都有好滋味</div><h2 id="menu-title"><span data-i18n="menuTitle">菜单</span><span class="serif-dot">.</span></h2></div><p><span data-i18n="menuIntro1">一口美食，一杯好饮。</span><br><span data-i18n="menuIntro2">找到你的新心头好。</span></p></div>
-      <button class="halloween-entry" data-category="halloween" aria-pressed="false"><span><strong data-i18n="halloween">万圣节限定</strong><small><span data-i18n="halloweenInvitation">探索万圣节限定美味</span><span class="tab-count" id="halloween-count"></span></small></span><span class="halloween-entry-art" data-halloween-art aria-hidden="true"></span></button>
+      <button class="halloween-entry" hidden data-category="halloween" aria-pressed="false"><span><strong data-i18n="halloween">万圣节限定</strong><small><span data-i18n="halloweenInvitation">探索万圣节限定美味</span><span class="tab-count" id="halloween-count"></span></small></span><span class="halloween-entry-art" data-halloween-art aria-hidden="true"></span></button>
       <div class="menu-controls">
         <nav class="category-tabs" aria-label="菜单分类" data-i18n-aria-label="categoriesLabel">
           <button class="category-tab active" data-category="food" aria-pressed="true"><span data-icon="food"></span><span data-i18n="food">美食</span><span class="tab-count" id="food-count"></span></button>

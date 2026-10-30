@@ -8,13 +8,24 @@ export function setupHalloween() {
   document.querySelectorAll('[data-halloween-art]').forEach(el => { el.innerHTML = pumpkin + ghost + bat; });
   const flight = document.createElement('div'); flight.className = 'halloween-flight'; flight.setAttribute('aria-hidden','true'); document.body.append(flight);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  let theme='classic';
   let timer;
   function clear() { clearTimeout(timer); flight.replaceChildren(); }
   reduced.addEventListener('change', clear);
   return {
+    setTheme(value) {
+      const next=['classic','halloween','christmas'].includes(value)?value:'classic';
+      const changed=theme!==next;theme=next;
+      document.body.classList.toggle('christmas-mode',theme==='christmas');
+      document.querySelector('#christmas-greeting').hidden=theme!=='christmas';
+      document.querySelector('.halloween-entry').hidden=theme!=='halloween';
+      document.querySelector('.halloween-shortcut-bar').hidden=theme!=='halloween'||document.body.classList.contains('halloween-mode');
+      if(changed&&theme!=='halloween')this.activate(false);
+    },
     activate(enabled, animate = false) {
+      enabled=enabled&&theme==='halloween';
       document.body.classList.toggle('halloween-mode', enabled);
-      document.querySelector('.halloween-shortcut-bar').hidden = enabled;
+      document.querySelector('.halloween-shortcut-bar').hidden = enabled||theme!=='halloween';
       document.querySelector('#halloween-scene').hidden = !enabled;
       clear();
       if (!enabled || !animate || reduced.matches) return;

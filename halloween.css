@@ -50,3 +50,12 @@ body.halloween-mode { --cream:#09080b; --paper:#19151f; --olive:#ffbc75; --olive
 .halloween-shortcut:hover { background:#f2e5ce; }
 @keyframes pumpkin-glow { 0%,100%{opacity:1;filter:drop-shadow(0 0 7px #e9a04c99)} 50%{opacity:.55;filter:drop-shadow(0 0 1px #e9a04c22)} }
 @media(prefers-reduced-motion:reduce) { .halloween-shortcut-pumpkin { animation:none; } }
+.christmas-mode { --cream:#faf7ef; --paper:#fffdf7; --olive:#24583f; --olive-dark:#173d2c; --olive-light:#e8efe5; --line:#d9ddcd; background:var(--cream); }
+.christmas-mode .site-header { border-bottom:2px solid #b29a5c; }
+.christmas-mode .hero { background:#e9efe5; }
+.christmas-mode .hero h1 em { color:#9d3b36; }
+.christmas-mode .serif-dot,.christmas-mode .hospitality-flower { color:#a44037; }
+.christmas-mode .category-tab.active { background:#24583f; }
+.christmas-mode .hospitality { background:#e7eee3; border:1px solid #bdc8b2; }
+.christmas-greeting { display:flex; align-items:center; justify-content:center; gap:24px; margin-block:18px; padding:14px 20px; border-radius:7px; color:#fff4d9; background:#24583f; border:1px solid #aa8c44; font:400 clamp(20px,3vw,27px)/1.4 var(--serif); text-align:center; }
+.christmas-greeting>span[aria-hidden] { color:#e1bf66; font-size:30px; }
