@@ -5,10 +5,11 @@
   <meta name="theme-color" content="#f8f6ef"><meta name="description" content="在 Leone Caffè Cucina，品味意式美食、香醇咖啡与日常的小美好。">
   <title>菜单 · Leone Caffè Cucina</title>
   <meta name="menu-source" content="./menu.json">
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css"><script type="module" src="./menu.js"></script>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css"><link rel="stylesheet" href="./halloween.css"><script type="module" src="./menu.js"></script>
   <link rel="canonical" href="https://leonecaffecucina.net/">
 </head>
 <body class="public-body">
+  <div class="halloween-shortcut-bar"><button type="button" class="halloween-shortcut" data-category="halloween" aria-pressed="false"><span data-i18n="halloweenMenu">万圣节特别菜单</span><span class="halloween-shortcut-pumpkin" data-halloween-pumpkin aria-hidden="true"></span></button></div>
   <a class="skip-link" href="#menu" data-i18n="skip">跳转到菜单</a>
   <header class="site-header wrap">
     <a class="brand" href="./" aria-label="Leone Caffè Cucina 首页" data-i18n-aria-label="brandHome"><span class="brand-words" lang="it">
@@ -41,6 +42,7 @@
     <div class="values-strip wrap"><span data-i18n="valueFresh">新鲜食材</span><span aria-hidden="true">✦</span><span data-i18n="valueItalian">?1958????????</span><span aria-hidden="true">✦</span><span data-i18n="valueWelcome">暖心相待</span></div>
     <section class="menu-section wrap" id="menu" aria-labelledby="menu-title">
       <div class="section-heading"><div><div class="eyebrow" data-i18n="menuEyebrow">每个时刻，都有好滋味</div><h2 id="menu-title"><span data-i18n="menuTitle">菜单</span><span class="serif-dot">.</span></h2></div><p><span data-i18n="menuIntro1">一口美食，一杯好饮。</span><br><span data-i18n="menuIntro2">找到你的新心头好。</span></p></div>
+      <button class="halloween-entry" data-category="halloween" aria-pressed="false"><span><strong data-i18n="halloween">万圣节限定</strong><small><span data-i18n="halloweenInvitation">探索万圣节限定美味</span><span class="tab-count" id="halloween-count"></span></small></span><span class="halloween-entry-art" data-halloween-art aria-hidden="true"></span></button>
       <div class="menu-controls">
         <nav class="category-tabs" aria-label="菜单分类" data-i18n-aria-label="categoriesLabel">
           <button class="category-tab active" data-category="food" aria-pressed="true"><span data-icon="food"></span><span data-i18n="food">美食</span><span class="tab-count" id="food-count"></span></button>
@@ -50,6 +52,7 @@
         </nav>
         <label class="search-box"><span data-icon="search"></span><input id="menu-search" type="search" placeholder="寻找心仪的美味…" aria-label="搜索所有菜品" data-i18n-placeholder="searchPlaceholder" data-i18n-aria-label="searchLabel"></label>
       </div>
+      <div class="halloween-scene" id="halloween-scene" hidden><span class="halloween-scene-art" data-halloween-art aria-hidden="true"></span><p data-i18n="halloweenWelcome">南瓜、幽灵与限定美味，欢迎来到 Leone 的万圣节。</p></div>
       <div class="category-heading"><div><h3 id="category-title">来自我们的厨房</h3><p id="category-description">真材实料，经典滋味，满满意式心意。</p></div><span id="result-count" aria-live="polite"></span></div>
       <div class="product-grid" id="products" aria-live="polite"><div class="loading-state" data-i18n="loading">美味正在准备中…</div></div>
       <div id="connection-message" class="connection-message" role="status" hidden></div>

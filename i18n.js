@@ -8,6 +8,8 @@ export const languages = {
 
 export const messages = {
   zh: {
+    halloweenMenu: '万圣节特别菜单',
+    halloween: "万圣节限定", halloweenTitle: "万圣节限定", halloweenInvitation: "探索万圣节限定美味", halloweenDescription: "南瓜的香甜、浓郁的奶酪，还有节日专属的美味惊喜。", halloweenWelcome: "南瓜、幽灵与限定美味，欢迎来到 Leone 的万圣节。",
     pageTitle: '菜单 · Leone Caffè Cucina', metaDescription: '在 Leone Caffè Cucina，品味意式美食、香醇咖啡与日常的小美好。',
     skip: '跳转到菜单', brandHome: 'Leone Caffè Cucina 首页', languageLabel: '选择语言', headerCaption: '意式风味，日常美好。', explore: '浏览菜单',
     heroEyebrow: '品味意式生活', heroLine1: '美味佳肴。', heroLine3: '美好时光。',
@@ -25,6 +27,8 @@ export const messages = {
     careTitle: '多一份关心，多一份安心。', careText: '如有食物过敏或特殊饮食需求，请在点单前告知店员。', signature: 'Leone，用心相伴', footerHome: '一隅意大利风情，一份家的温暖。', footerCaption: '相聚好时光，共享好滋味。', footerNote: '慢慢享用，这里是 Leone。',
   },
   en: {
+    halloweenMenu: 'Halloween special menu',
+    halloween: "Halloween Special", halloweenTitle: "Halloween Special", halloweenInvitation: "Step into our Halloween menu", halloweenDescription: "Sweet pumpkin, bold cheeses and a little seasonal magic.", halloweenWelcome: "Pumpkins, friendly ghosts and seasonal treats. Welcome to Halloween at Leone.",
     pageTitle: 'Our Menu · Leone Caffè Cucina', metaDescription: 'A little Italy, a little everyday joy. Explore the menu at Leone Caffè Cucina.',
     skip: 'Skip to the menu', brandHome: 'Leone Caffè Cucina home', languageLabel: 'Choose a language', headerCaption: 'ITALIAN SOUL. EVERYDAY PLEASURE.', explore: 'Explore the menu',
     heroEyebrow: 'A TASTE OF THE ITALIAN WAY', heroLine1: 'Good food.', heroLine3: 'Beautiful moments.',
@@ -42,6 +46,8 @@ export const messages = {
     careTitle: 'A little care goes a long way.', careText: 'Food allergies or dietary preferences? Please speak with our team before ordering.', signature: 'With love, Leone', footerHome: 'A little Italy. A place to feel at home.', footerCaption: 'GOOD COMPANY. GREAT TASTE.', footerNote: 'Take your time. You’re at Leone.',
   },
   it: {
+    halloweenMenu: 'Menù speciale di Halloween',
+    halloween: "Speciale Halloween", halloweenTitle: "Speciale Halloween", halloweenInvitation: "Scopri il menu di Halloween", halloweenDescription: "La dolcezza della zucca, formaggi decisi e un pizzico di magia autunnale.", halloweenWelcome: "Zucche, fantasmini e sapori di stagione. Benvenuti all’Halloween di Leone.",
     pageTitle: 'Il menu · Leone Caffè Cucina', metaDescription: 'Un angolo d’Italia, piccoli piaceri quotidiani. Scopri il menu di Leone Caffè Cucina.',
     skip: 'Vai al menu', brandHome: 'Leone Caffè Cucina, pagina iniziale', languageLabel: 'Scegli la lingua', headerCaption: 'ANIMA ITALIANA. PIACERI QUOTIDIANI.', explore: 'Esplora il menu',
     heroEyebrow: 'IL GUSTO DI VIVERE ALL’ITALIANA', heroLine1: 'Buon cibo.', heroLine3: 'Momenti speciali.',
@@ -59,6 +65,8 @@ export const messages = {
     careTitle: 'Un piccolo gesto, una grande attenzione.', careText: 'Allergie o esigenze alimentari? Parlane con il nostro staff prima di ordinare.', signature: 'Con amore, Leone', footerHome: 'Un angolo d’Italia. Un posto dove sentirsi a casa.', footerCaption: 'BUONA COMPAGNIA. OTTIMO GUSTO.', footerNote: 'Prenditi il tuo tempo. Sei da Leone.',
   },
   ja: {
+    halloweenMenu: 'ハロウィン限定メニュー',
+    halloween: "ハロウィン限定", halloweenTitle: "ハロウィン限定", halloweenInvitation: "ハロウィンメニューを楽しもう", halloweenDescription: "かぼちゃの甘み、濃厚なチーズと季節限定のおいしさ。", halloweenWelcome: "かぼちゃとかわいいおばけが迎える、Leoneのハロウィン。",
     pageTitle: 'メニュー · Leone Caffè Cucina', metaDescription: 'Leone Caffè Cucinaで、イタリアの味わいと日々の小さな幸せを。お料理、コーヒー、デザートをお楽しみください。',
     skip: 'メニューへスキップ', brandHome: 'Leone Caffè Cucina ホーム', languageLabel: '言語を選択', headerCaption: 'イタリアの心を、日々の楽しみに。', explore: 'メニューを見る',
     heroEyebrow: 'イタリアらしい、ひとときを', heroLine1: 'おいしい料理。', heroLine3: '心ほどける時間。',
@@ -76,6 +84,8 @@ export const messages = {
     careTitle: '小さな気配りを、大切に。', careText: '食物アレルギーや食事のご要望がある方は、ご注文前にスタッフにお知らせください。', signature: 'Leone より、心を込めて', footerHome: '小さなイタリア。ほっとできる場所。', footerCaption: '心地よい仲間と、おいしい時間。', footerNote: 'どうぞごゆっくり。ここは Leone です。',
   },
   ko: {
+    halloweenMenu: '할로윈 특별 메뉴',
+    halloween: "할로윈 스페셜", halloweenTitle: "할로윈 스페셜", halloweenInvitation: "할로윈 메뉴를 만나보세요", halloweenDescription: "달콤한 단호박, 풍부한 치즈와 계절 한정의 특별한 맛.", halloweenWelcome: "호박과 귀여운 유령이 반기는 Leone의 할로윈을 즐겨보세요.",
     pageTitle: '메뉴 · Leone Caffè Cucina', metaDescription: 'Leone Caffè Cucina에서 이탈리아의 맛과 일상의 작은 즐거움을 만나보세요.',
     skip: '메뉴로 바로 가기', brandHome: 'Leone Caffè Cucina 홈', languageLabel: '언어 선택', headerCaption: '이탈리아의 감성, 일상의 즐거움.', explore: '메뉴 보기',
     heroEyebrow: '이탈리아의 일상을 맛보다', heroLine1: '맛있는 음식.', heroLine3: '아름다운 순간.',

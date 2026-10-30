@@ -254,4 +254,17 @@ Generated with the built-in image_gen tool using the owner's original menu for t
 
 Exact prompts and source references are stored locally in `output/imagegen/merged-portions-prompts.json`. Original generated PNG files are retained locally. The public export now supplies optimized WebP copies of all referenced menu images, with content hashes in their filenames; these delivery conversions preserve composition and transparency. Artwork provenance above also applies to the corresponding WebP copy. Original local paths documented here are not public download URLs.
 
+## Halloween and couscous illustrations — 30 October 2026
+
+Six new images were generated with the built-in image_gen tool, using the original printed menu as the flat painted doodle reference. The cheesecake also follows the owner's two pumpkin-cake photographs. The seasonal couscous was edited to show thin apple slices arranged in petal-like fans instead of cubes.
+
+- `public/assets/halloween-pumpkin-cheesecake-doodle.png`
+- `public/assets/halloween-pumpkin-gorgonzola-seeds-doodle.png`
+- `public/assets/halloween-pumpkin-gorgonzola-miso-doodle.png`
+- `public/assets/halloween-four-cheese-honey-doodle.png`
+- `public/assets/couscous-salad-doodle.png`
+- `public/assets/halloween-couscous-pumpkin-apple-gorgonzola-doodle.png`
+
+Full prompts, references, revision history and saved paths are retained locally in `output/imagegen/halloween-final-prompts.json`. The public export uses optimized WebP versions. Decorative pumpkins, ghosts and bats are native SVG interface artwork in `public/halloween.js`.
+
 The icon paths, wordmark, placeholder and interface graphics are included as application source. Fonts use the operating system's local Georgia and Segoe UI/Arial fonts. The portable Node.js runtime's license is included at `.runtime/LICENSE`.

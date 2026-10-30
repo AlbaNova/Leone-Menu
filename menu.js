@@ -2,7 +2,9 @@ import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, 
 import { languages, translate, productText } from './i18n.js';
 import { groupedFood, isPizzaSection } from './food-sections.js';
 import { hasVariants, portionPrices } from './product-variants.js';
+import { setupHalloween } from './halloween.js';
 hydrateIcons();
+const halloween = setupHalloween();
 const languageKey = 'leone-menu-language';
 const menuSource = document.querySelector('meta[name="menu-source"]')?.content || '/api/menu';
 function initialLanguage() {
@@ -50,7 +52,7 @@ function render() {
   document.querySelector('#category-title').textContent = query ? t('searchTitle') : t(`${category}Title`);
   document.querySelector('#category-description').textContent = query ? t('searchResults', { query: document.querySelector('#menu-search').value.trim() }) : t(`${category}Description`);
   document.querySelector('#result-count').textContent = t(source.length === 1 ? 'itemCountOne' : 'itemCount', { count: source.length });
-  for (const key of ['food', 'drinks', 'desserts', 'products']) document.querySelector(`#${key}-count`).textContent = (menu.groups[key] || []).length;
+  for (const key of ['food', 'drinks', 'desserts', 'products', 'halloween']) document.querySelector(`#${key}-count`).textContent = (menu.groups[key] || []).length;
   const renderProduct = p => {
     const text = productText(p, language);
     const titleTag = !query && category === 'food' && isPizzaSection(p.section) ? 'h6' : 'h4';
@@ -70,8 +72,10 @@ function render() {
   if (openedId && dialog.open) { const p = allProducts().find(p => p.id === openedId); if (p) details(p); else dialog.close(); }
 }
 document.querySelectorAll('[data-category]').forEach(button => button.addEventListener('click', () => {
-  category = button.dataset.category; query = ''; document.querySelector('#menu-search').value = '';
-  document.querySelectorAll('[data-category]').forEach(b => { b.classList.toggle('active', b === button); b.setAttribute('aria-pressed', b === button ? 'true' : 'false'); }); render();
+  const changed = category !== button.dataset.category;
+  category = button.dataset.category; halloween.activate(category === 'halloween', changed); query = ''; document.querySelector('#menu-search').value = '';
+  document.querySelectorAll('[data-category]').forEach(b => { const active=b.dataset.category===category; b.classList.toggle('active', active); b.setAttribute('aria-pressed', active ? 'true' : 'false'); }); render();
+  if (category === 'halloween' && changed) document.querySelector('#halloween-scene').scrollIntoView({behavior:'instant',block:'start'});
 }));
 document.querySelector('#menu-search').addEventListener('input', event => { query = normalize(event.target.value.trim()); render(); });
 grid.addEventListener('click', event => { const button = event.target.closest('[data-id]'); if (!button) return; const p = allProducts().find(p => p.id === button.dataset.id); if (p) { openedId = p.id; details(p); dialog.showModal(); } });

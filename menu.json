@@ -457,6 +457,114 @@
         "image": "./assets/ham-mozzarella-flat-doodle-f75007c244162b9b.webp",
         "available": true,
         "section": "pizza_classic"
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000002",
+        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & Super Seed",
+        "description": "A Roman pizza slice topped with pumpkin, gorgonzola and a crunchy mix of super seeds. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与混合籽",
+            "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪及香脆混合籽。按块计价。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Zucca, gorgonzola e super seed",
+            "description": "Trancio di pizza romana con zucca, gorgonzola e un croccante mix di semi. Prezzo al trancio."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ – かぼちゃ・ゴルゴンゾーラ・ミックスシード",
+            "description": "かぼちゃ、ゴルゴンゾーラと香ばしいミックスシードをのせたローマ風ピッツァ。1切れの価格です。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 – 단호박, 고르곤졸라와 믹스 시드",
+            "description": "단호박, 고르곤졸라와 바삭한 믹스 시드를 올린 로마식 피자입니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/halloween-pumpkin-gorgonzola-seeds-doodle-bcf6235068b177df.webp",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000003",
+        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & White Miso",
+        "description": "A Roman pizza slice with pumpkin, gorgonzola and white miso, balancing gentle sweetness with rich savoury flavour. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与白味噌",
+            "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪与白味噌，香甜与鲜味交融。按块计价。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Zucca, gorgonzola e miso bianco",
+            "description": "Trancio di pizza romana con zucca, gorgonzola e miso bianco, tra dolcezza delicata e sapidità avvolgente. Prezzo al trancio."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ – かぼちゃ・ゴルゴンゾーラ・白味噌",
+            "description": "かぼちゃ、ゴルゴンゾーラと白味噌を合わせた、甘みと旨みを楽しむローマ風ピッツァ。1切れの価格です。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 – 단호박, 고르곤졸라와 시로미소",
+            "description": "단호박, 고르곤졸라와 시로미소의 은은한 단맛과 풍부한 감칠맛이 어우러진 로마식 피자입니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/halloween-pumpkin-gorgonzola-miso-doodle-63030cd08de03af2.webp",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000004",
+        "name": "Roman Pizza Slice – Four Cheeses & Honey",
+        "description": "A Roman pizza slice with four cheeses, including gorgonzola, finished with a drizzle of honey. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨 – 四种奶酪与蜂蜜",
+            "description": "罗马方形披萨，搭配四种奶酪（含戈尔贡佐拉蓝纹奶酪），淋上蜂蜜。按块计价。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Quattro formaggi e miele",
+            "description": "Trancio di pizza romana con quattro formaggi, tra cui il gorgonzola, e un filo di miele. Prezzo al trancio."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ – 4種のチーズとはちみつ",
+            "description": "ゴルゴンゾーラを含む4種のチーズに、はちみつをかけたローマ風ピッツァ。1切れの価格です。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 – 네 가지 치즈와 꿀",
+            "description": "고르곤졸라를 포함한 네 가지 치즈에 꿀을 더한 로마식 피자입니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/halloween-four-cheese-honey-doodle-db105d7af4bbe4a2.webp",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000005",
+        "name": "Couscous Salad",
+        "description": "Couscous salad with cherry tomatoes and rocket, dressed with balsamic vinegar and extra virgin olive oil.",
+        "translations": {
+          "zh": {
+            "name": "库斯库斯沙拉",
+            "description": "库斯库斯沙拉搭配小番茄与芝麻菜，以意式香醋和特级初榨橄榄油调味。"
+          },
+          "it": {
+            "name": "Cous cous salad",
+            "description": "Insalata di cous cous con pomodorini e rucola, condita con aceto balsamico e olio extravergine d’oliva."
+          },
+          "ja": {
+            "name": "クスクスサラダ",
+            "description": "ミニトマトとルッコラを合わせたクスクスサラダ。バルサミコ酢とエキストラバージンオリーブオイルで仕上げました。"
+          },
+          "ko": {
+            "name": "쿠스쿠스 샐러드",
+            "description": "방울토마토와 루콜라를 곁들인 쿠스쿠스 샐러드에 발사믹 식초와 엑스트라 버진 올리브오일로 맛을 더했습니다."
+          }
+        },
+        "price": 28,
+        "image": "./assets/couscous-salad-doodle-54a87dbaab8d899d.webp",
+        "available": true,
+        "section": "first_courses"
       }
     ],
     "drinks": [
@@ -1095,6 +1203,32 @@
         "price": 32,
         "image": "./assets/carrot-walnut-cake-flat-doodle-9e3b55010d5a2fbb.webp",
         "available": true
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000001",
+        "name": "Pumpkin Cheesecake",
+        "description": "Creamy pumpkin cheesecake with pumpkin topping and delicate cream decorations. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "南瓜芝士蛋糕",
+            "description": "绵密南瓜芝士蛋糕，搭配南瓜淋面与精致奶油装饰。按片计价。"
+          },
+          "it": {
+            "name": "Cheesecake alla zucca",
+            "description": "Cheesecake cremosa alla zucca, con copertura alla zucca e delicati ciuffi di crema. Prezzo per fetta."
+          },
+          "ja": {
+            "name": "かぼちゃのチーズケーキ",
+            "description": "なめらかなかぼちゃのチーズケーキに、かぼちゃのトッピングとクリームの飾りを添えました。1カットの価格です。"
+          },
+          "ko": {
+            "name": "단호박 치즈케이크",
+            "description": "부드러운 단호박 치즈케이크에 단호박 토핑과 크림 장식을 더했습니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 28,
+        "image": "./assets/halloween-pumpkin-cheesecake-doodle-cfcfda45e5678e3c.webp",
+        "available": true
       }
     ],
     "products": [
@@ -1486,6 +1620,138 @@
         },
         "price": 26,
         "image": "./assets/torres-black-truffle-doodle-4c0f659bc097f6a8.webp",
+        "available": true
+      }
+    ],
+    "halloween": [
+      {
+        "id": "acb11030-2026-4000-8000-000000000001",
+        "name": "Pumpkin Cheesecake",
+        "description": "Creamy pumpkin cheesecake with pumpkin topping and delicate cream decorations. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "南瓜芝士蛋糕",
+            "description": "绵密南瓜芝士蛋糕，搭配南瓜淋面与精致奶油装饰。按片计价。"
+          },
+          "it": {
+            "name": "Cheesecake alla zucca",
+            "description": "Cheesecake cremosa alla zucca, con copertura alla zucca e delicati ciuffi di crema. Prezzo per fetta."
+          },
+          "ja": {
+            "name": "かぼちゃのチーズケーキ",
+            "description": "なめらかなかぼちゃのチーズケーキに、かぼちゃのトッピングとクリームの飾りを添えました。1カットの価格です。"
+          },
+          "ko": {
+            "name": "단호박 치즈케이크",
+            "description": "부드러운 단호박 치즈케이크에 단호박 토핑과 크림 장식을 더했습니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 28,
+        "image": "./assets/halloween-pumpkin-cheesecake-doodle-cfcfda45e5678e3c.webp",
+        "available": true
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000002",
+        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & Super Seed",
+        "description": "A Roman pizza slice topped with pumpkin, gorgonzola and a crunchy mix of super seeds. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与混合籽",
+            "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪及香脆混合籽。按块计价。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Zucca, gorgonzola e super seed",
+            "description": "Trancio di pizza romana con zucca, gorgonzola e un croccante mix di semi. Prezzo al trancio."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ – かぼちゃ・ゴルゴンゾーラ・ミックスシード",
+            "description": "かぼちゃ、ゴルゴンゾーラと香ばしいミックスシードをのせたローマ風ピッツァ。1切れの価格です。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 – 단호박, 고르곤졸라와 믹스 시드",
+            "description": "단호박, 고르곤졸라와 바삭한 믹스 시드를 올린 로마식 피자입니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/halloween-pumpkin-gorgonzola-seeds-doodle-bcf6235068b177df.webp",
+        "available": true
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000003",
+        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & White Miso",
+        "description": "A Roman pizza slice with pumpkin, gorgonzola and white miso, balancing gentle sweetness with rich savoury flavour. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与白味噌",
+            "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪与白味噌，香甜与鲜味交融。按块计价。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Zucca, gorgonzola e miso bianco",
+            "description": "Trancio di pizza romana con zucca, gorgonzola e miso bianco, tra dolcezza delicata e sapidità avvolgente. Prezzo al trancio."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ – かぼちゃ・ゴルゴンゾーラ・白味噌",
+            "description": "かぼちゃ、ゴルゴンゾーラと白味噌を合わせた、甘みと旨みを楽しむローマ風ピッツァ。1切れの価格です。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 – 단호박, 고르곤졸라와 시로미소",
+            "description": "단호박, 고르곤졸라와 시로미소의 은은한 단맛과 풍부한 감칠맛이 어우러진 로마식 피자입니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/halloween-pumpkin-gorgonzola-miso-doodle-63030cd08de03af2.webp",
+        "available": true
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000004",
+        "name": "Roman Pizza Slice – Four Cheeses & Honey",
+        "description": "A Roman pizza slice with four cheeses, including gorgonzola, finished with a drizzle of honey. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨 – 四种奶酪与蜂蜜",
+            "description": "罗马方形披萨，搭配四种奶酪（含戈尔贡佐拉蓝纹奶酪），淋上蜂蜜。按块计价。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Quattro formaggi e miele",
+            "description": "Trancio di pizza romana con quattro formaggi, tra cui il gorgonzola, e un filo di miele. Prezzo al trancio."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ – 4種のチーズとはちみつ",
+            "description": "ゴルゴンゾーラを含む4種のチーズに、はちみつをかけたローマ風ピッツァ。1切れの価格です。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 – 네 가지 치즈와 꿀",
+            "description": "고르곤졸라를 포함한 네 가지 치즈에 꿀을 더한 로마식 피자입니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/halloween-four-cheese-honey-doodle-db105d7af4bbe4a2.webp",
+        "available": true
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000006",
+        "name": "Pumpkin, Apple & Gorgonzola Couscous",
+        "description": "Couscous with pumpkin, thin apple slices, mixed vegetables and gorgonzola. A sweet and savoury Halloween special.",
+        "translations": {
+          "zh": {
+            "name": "南瓜、苹果与戈尔贡佐拉奶酪库斯库斯",
+            "description": "库斯库斯搭配南瓜、薄苹果片、混合蔬菜与戈尔贡佐拉蓝纹奶酪。咸甜交融的万圣节限定美味。"
+          },
+          "it": {
+            "name": "Cous cous con zucca, mela e gorgonzola",
+            "description": "Cous cous con zucca, fettine sottili di mela, verdure miste e gorgonzola. Una specialità di Halloween tra dolcezza e sapidità."
+          },
+          "ja": {
+            "name": "かぼちゃ・りんご・ゴルゴンゾーラのクスクス",
+            "description": "かぼちゃ、薄切りりんご、ミックス野菜とゴルゴンゾーラを合わせたクスクス。甘みと塩味が調和するハロウィン限定メニューです。"
+          },
+          "ko": {
+            "name": "단호박, 사과와 고르곤졸라 쿠스쿠스",
+            "description": "단호박, 얇게 썬 사과, 여러 가지 채소와 고르곤졸라를 곁들인 쿠스쿠스입니다. 달콤함과 짭짤함이 어우러지는 할로윈 한정 메뉴입니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/halloween-couscous-pumpkin-apple-gorgonzola-doodle-1bba70c61f874b8b.webp",
         "available": true
       }
     ]
