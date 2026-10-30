@@ -5,6 +5,7 @@ const ghost = svg('<path d="M23 65V33a27 27 0 0 1 54 0v32l-10-8-9 9-9-9-9 9-8-9Z
 
 export function setupHalloween() {
   document.querySelectorAll('[data-halloween-pumpkin]').forEach(el => { el.innerHTML = pumpkin; });
+  document.querySelectorAll('[data-halloween-ghost]').forEach(el => { el.innerHTML = ghost; });
   document.querySelectorAll('[data-halloween-art]').forEach(el => { el.innerHTML = pumpkin + ghost + bat; });
   const flight = document.createElement('div'); flight.className = 'halloween-flight'; flight.setAttribute('aria-hidden','true'); document.body.append(flight);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');

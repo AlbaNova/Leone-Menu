@@ -1,4 +1,4 @@
-import { menuArt } from './menu-art.js?v=10a27a97c675401c';
+import { menuArt } from './menu-art.js?v=ad2fde65e715b933';
 export const icons = {
   bag: '<path d="M5 7h14l1 14H4L5 7Zm3 0V5a4 4 0 0 1 8 0v2"/>',
   food: '<path d="M5 3v7m3-7v7M3 3v5a4 4 0 0 0 8 0V3M7 12v9M20 21V3c-5 3-5 10 0 10"/>',
