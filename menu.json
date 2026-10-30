@@ -461,11 +461,11 @@
       },
       {
         "id": "acb11030-2026-4000-8000-000000000002",
-        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & Super Seed",
+        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & NutsHoney",
         "description": "A Roman pizza slice topped with pumpkin, gorgonzola and a crunchy mix of super seeds. Price per slice.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与混合籽",
+            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与坚果蜂蜜",
             "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪及香脆混合籽。按块计价。"
           },
           "it": {
@@ -488,12 +488,12 @@
       },
       {
         "id": "acb11030-2026-4000-8000-000000000003",
-        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & White Miso",
+        "name": "Roman Pizza Slice – Pumpkin, Sesame & White Miso",
         "description": "A Roman pizza slice with pumpkin, gorgonzola and white miso, balancing gentle sweetness with rich savoury flavour. Price per slice.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与白味噌",
-            "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪与白味噌，香甜与鲜味交融。按块计价。"
+            "name": "罗马方形披萨 – 南瓜、奶酪与白味噌芝麻",
+            "description": "罗马方形披萨，搭配南瓜、奶酪与芝麻白味噌酱，香甜交融。按块计价。"
           },
           "it": {
             "name": "Trancio di pizza romana – Zucca, gorgonzola e miso bianco",
@@ -515,12 +515,12 @@
       },
       {
         "id": "acb11030-2026-4000-8000-000000000004",
-        "name": "Roman Pizza Slice – Four Cheeses & Honey",
-        "description": "A Roman pizza slice with four cheeses, including gorgonzola, finished with a drizzle of honey. Price per slice.",
+        "name": "Roman Pizza Slice – Caramel Apple & Maple Bacon",
+        "description": "A Roman pizza slice with Caramel Apple and Maple Bacon.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨 – 四种奶酪与蜂蜜",
-            "description": "罗马方形披萨，搭配四种奶酪（含戈尔贡佐拉蓝纹奶酪），淋上蜂蜜。按块计价。"
+            "name": "罗马方形披萨 – 枫糖培根与焦糖苹果甜咸披萨",
+            "description": "罗马方形披萨，精心制作的焦糖苹果与脆培根，再淋上枫糖浆甜咸交加。按块计价。"
           },
           "it": {
             "name": "Trancio di pizza romana – Quattro formaggi e miele",
@@ -1705,11 +1705,11 @@
       },
       {
         "id": "acb11030-2026-4000-8000-000000000002",
-        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & Super Seed",
+        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & NutsHoney",
         "description": "A Roman pizza slice topped with pumpkin, gorgonzola and a crunchy mix of super seeds. Price per slice.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与混合籽",
+            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与坚果蜂蜜",
             "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪及香脆混合籽。按块计价。"
           },
           "it": {
@@ -1731,12 +1731,12 @@
       },
       {
         "id": "acb11030-2026-4000-8000-000000000003",
-        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & White Miso",
+        "name": "Roman Pizza Slice – Pumpkin, Sesame & White Miso",
         "description": "A Roman pizza slice with pumpkin, gorgonzola and white miso, balancing gentle sweetness with rich savoury flavour. Price per slice.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与白味噌",
-            "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪与白味噌，香甜与鲜味交融。按块计价。"
+            "name": "罗马方形披萨 – 南瓜、奶酪与白味噌芝麻",
+            "description": "罗马方形披萨，搭配南瓜、奶酪与芝麻白味噌酱，香甜交融。按块计价。"
           },
           "it": {
             "name": "Trancio di pizza romana – Zucca, gorgonzola e miso bianco",
@@ -1757,12 +1757,12 @@
       },
       {
         "id": "acb11030-2026-4000-8000-000000000004",
-        "name": "Roman Pizza Slice – Four Cheeses & Honey",
-        "description": "A Roman pizza slice with four cheeses, including gorgonzola, finished with a drizzle of honey. Price per slice.",
+        "name": "Roman Pizza Slice – Caramel Apple & Maple Bacon",
+        "description": "A Roman pizza slice with Caramel Apple and Maple Bacon.",
         "translations": {
           "zh": {
-            "name": "罗马方形披萨 – 四种奶酪与蜂蜜",
-            "description": "罗马方形披萨，搭配四种奶酪（含戈尔贡佐拉蓝纹奶酪），淋上蜂蜜。按块计价。"
+            "name": "罗马方形披萨 – 枫糖培根与焦糖苹果甜咸披萨",
+            "description": "罗马方形披萨，精心制作的焦糖苹果与脆培根，再淋上枫糖浆甜咸交加。按块计价。"
           },
           "it": {
             "name": "Trancio di pizza romana – Quattro formaggi e miele",
