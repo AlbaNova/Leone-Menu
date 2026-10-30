@@ -1626,6 +1626,58 @@
     ],
     "halloween": [
       {
+        "id": "15afe933-69a8-4469-8755-67773e36997f",
+        "name": "Pumpkin Spice Latte",
+        "description": "Milk with pumpkin and warming spices, finished with a soft milk foam.",
+        "translations": {
+          "zh": {
+            "name": "南瓜香料拿铁",
+            "description": "牛奶搭配南瓜和芳香香料，覆上柔滑奶泡。"
+          },
+          "it": {
+            "name": "Pumpkin Spice Latte",
+            "description": "Latte con zucca e spezie aromatiche, completati da una morbida schiuma di latte."
+          },
+          "ja": {
+            "name": "パンプキンスパイスラテ",
+            "description": "ミルクに、かぼちゃと香り豊かなスパイスを合わせ、やわらかなミルクフォームで仕上げました。"
+          },
+          "ko": {
+            "name": "펌킨 스파이스 라테",
+            "description": "호박과 따뜻한 향신료를 우유에 더하고 부드러운 우유 거품으로 마무리했습니다."
+          }
+        },
+        "price": 29,
+        "image": "./assets/pumpkin-spice-latte-doodle-d126ce4fc4b36326.webp",
+        "available": true
+      },
+      {
+        "id": "91502d7c-362d-43e9-ac57-9302ff3a7dd6",
+        "name": "Black Sesame Latte",
+        "description": "Black sesame blended with milk for a smooth, creamy drink.",
+        "translations": {
+          "zh": {
+            "name": "黑芝麻拿铁",
+            "description": "黑芝麻与牛奶融合，口感香浓顺滑。"
+          },
+          "it": {
+            "name": "Latte al sesamo nero",
+            "description": "Latte e sesamo nero, per una bevanda morbida e cremosa."
+          },
+          "ja": {
+            "name": "黒ごまラテ",
+            "description": "黒ごまとミルクを合わせた、香ばしくクリーミーなドリンク。"
+          },
+          "ko": {
+            "name": "흑임자 라테",
+            "description": "검은깨와 우유를 섞어 고소하고 부드럽게 만든 음료입니다."
+          }
+        },
+        "price": 29,
+        "image": "./assets/black-sesame-latte-doodle-0dee2c0a1ca09b0b.webp",
+        "available": true
+      },
+      {
         "id": "acb11030-2026-4000-8000-000000000001",
         "name": "Pumpkin Cheesecake",
         "description": "Creamy pumpkin cheesecake with pumpkin topping and delicate cream decorations. Price per slice.",
