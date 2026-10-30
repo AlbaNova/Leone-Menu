@@ -45,12 +45,12 @@ body.halloween-mode { --cream:#09080b; --paper:#19151f; --olive:#ffbc75; --olive
 .halloween-shortcut-bar { position:sticky; top:0; z-index:30; display:flex; justify-content:center; padding:calc(5px + env(safe-area-inset-top,0px)) 16px 5px; background:#f8f6eff5; border-bottom:1px solid #e8ddcc; }
 .halloween-shortcut { display:flex; align-items:center; gap:10px; padding:0 4px; background:transparent; border-radius:24px; color:#633914; text-align:center; font-size:12px; font-weight:600; line-height:1.4; }
 .halloween-shortcut>[data-i18n] { max-width:155px; }
-.halloween-shortcut-ghost svg { width:48px; height:48px; filter:drop-shadow(0 0 2px #796c5a); transform:rotate(-10deg); }
-.halloween-shortcut-pumpkin { display:block; animation:pumpkin-glow 2.4s ease-in-out infinite; }
+.halloween-shortcut-ghost svg { width:57.6px; height:57.6px; filter:drop-shadow(0 0 2px #796c5a); transform:rotate(-10deg); }
+.halloween-shortcut-ghost,.halloween-shortcut-pumpkin { display:block; animation:pumpkin-glow 2.4s ease-in-out infinite; }
 .halloween-shortcut-pumpkin svg { width:68px; height:58px; }
 .halloween-shortcut:hover { background:#f2e5ce; }
 @keyframes pumpkin-glow { 0%,100%{opacity:1;filter:drop-shadow(0 0 7px #e9a04c99)} 50%{opacity:.55;filter:drop-shadow(0 0 1px #e9a04c22)} }
-@media(prefers-reduced-motion:reduce) { .halloween-shortcut-pumpkin { animation:none; } }
+@media(prefers-reduced-motion:reduce) { .halloween-shortcut-ghost,.halloween-shortcut-pumpkin { animation:none; } }
 .christmas-mode { --cream:#faf7ef; --paper:#fffdf7; --olive:#24583f; --olive-dark:#173d2c; --olive-light:#e8efe5; --line:#d9ddcd; background:var(--cream); }
 .christmas-mode .site-header { border-bottom:2px solid #b29a5c; }
 .christmas-mode .hero { background:#e9efe5; }
