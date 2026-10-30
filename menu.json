@@ -28,7 +28,7 @@
         "price": 48,
         "image": "./assets/spaghetti-aglio-olio-doodle-e7d1c54dbe5ca9ef.webp",
         "available": true,
-        "section": "mains"
+        "section": "first_courses"
       },
       {
         "id": "3965a24c-a4a2-4b41-93a3-41bcca24f33d",
@@ -55,7 +55,7 @@
         "price": 68,
         "image": "./assets/spaghetti-bolognese-doodle-f51da55a9eecf31e.webp",
         "available": true,
-        "section": "mains"
+        "section": "first_courses"
       },
       {
         "id": "0c6ff1ba-b67a-46b3-80bf-92b1b4b531e7",
