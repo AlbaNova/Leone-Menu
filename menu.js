@@ -1,8 +1,8 @@
-import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=ab6aa0305549acdf';
-import { languages, translate, productText } from './i18n.js?v=ab6aa0305549acdf';
-import { groupedFood, isPizzaSection } from './food-sections.js?v=ab6aa0305549acdf';
-import { hasVariants, portionPrices } from './product-variants.js?v=ab6aa0305549acdf';
-import { setupHalloween } from './halloween.js?v=ab6aa0305549acdf';
+import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=787b23b918d2b6f1';
+import { languages, translate, productText } from './i18n.js?v=787b23b918d2b6f1';
+import { groupedFood, isPizzaSection } from './food-sections.js?v=787b23b918d2b6f1';
+import { hasVariants, portionPrices } from './product-variants.js?v=787b23b918d2b6f1';
+import { setupHalloween } from './halloween.js?v=787b23b918d2b6f1';
 hydrateIcons();
 const halloween = setupHalloween();
 const languageKey = 'leone-menu-language';

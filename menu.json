@@ -523,20 +523,20 @@
             "description": "罗马方形披萨，精心制作的焦糖苹果与脆培根，再淋上枫糖浆甜咸交加。按块计价。"
           },
           "it": {
-            "name": "Trancio di pizza romana – Quattro formaggi e miele",
-            "description": "Trancio di pizza romana con quattro formaggi, tra cui il gorgonzola, e un filo di miele. Prezzo al trancio."
+            "name": "Trancio di pizza romana – Mele caramellate e bacon all’acero",
+            "description": "Trancio di pizza romana con mele caramellate, bacon croccante e un filo di sciroppo d’acero. Un incontro di dolce e salato. Prezzo al trancio."
           },
           "ja": {
-            "name": "ローマ風ピッツァ – 4種のチーズとはちみつ",
-            "description": "ゴルゴンゾーラを含む4種のチーズに、はちみつをかけたローマ風ピッツァ。1切れの価格です。"
+            "name": "ローマ風ピッツァ – キャラメリゼりんごとメープルベーコン",
+            "description": "キャラメリゼしたりんごとカリカリのベーコンに、メープルシロップをかけたローマ風ピッツァ。甘みと塩味の組み合わせを楽しめます。1切れの価格です。"
           },
           "ko": {
-            "name": "로마식 조각 피자 – 네 가지 치즈와 꿀",
-            "description": "고르곤졸라를 포함한 네 가지 치즈에 꿀을 더한 로마식 피자입니다. 한 조각 기준 가격입니다."
+            "name": "로마식 조각 피자 – 캐러멜라이즈드 사과와 메이플 베이컨",
+            "description": "캐러멜라이즈드 사과와 바삭한 베이컨에 메이플 시럽을 더한 로마식 피자입니다. 달콤함과 짭짤함이 어우러집니다. 한 조각 기준 가격입니다."
           }
         },
         "price": 35,
-        "image": "./assets/halloween-four-cheese-honey-doodle-db105d7af4bbe4a2.webp",
+        "image": "./assets/halloween-caramel-apple-maple-bacon-doodle-84ae4b64a9aa390c.webp",
         "available": true,
         "section": "pizza_special"
       },
@@ -1765,46 +1765,46 @@
             "description": "罗马方形披萨，精心制作的焦糖苹果与脆培根，再淋上枫糖浆甜咸交加。按块计价。"
           },
           "it": {
-            "name": "Trancio di pizza romana – Quattro formaggi e miele",
-            "description": "Trancio di pizza romana con quattro formaggi, tra cui il gorgonzola, e un filo di miele. Prezzo al trancio."
+            "name": "Trancio di pizza romana – Mele caramellate e bacon all’acero",
+            "description": "Trancio di pizza romana con mele caramellate, bacon croccante e un filo di sciroppo d’acero. Un incontro di dolce e salato. Prezzo al trancio."
           },
           "ja": {
-            "name": "ローマ風ピッツァ – 4種のチーズとはちみつ",
-            "description": "ゴルゴンゾーラを含む4種のチーズに、はちみつをかけたローマ風ピッツァ。1切れの価格です。"
+            "name": "ローマ風ピッツァ – キャラメリゼりんごとメープルベーコン",
+            "description": "キャラメリゼしたりんごとカリカリのベーコンに、メープルシロップをかけたローマ風ピッツァ。甘みと塩味の組み合わせを楽しめます。1切れの価格です。"
           },
           "ko": {
-            "name": "로마식 조각 피자 – 네 가지 치즈와 꿀",
-            "description": "고르곤졸라를 포함한 네 가지 치즈에 꿀을 더한 로마식 피자입니다. 한 조각 기준 가격입니다."
+            "name": "로마식 조각 피자 – 캐러멜라이즈드 사과와 메이플 베이컨",
+            "description": "캐러멜라이즈드 사과와 바삭한 베이컨에 메이플 시럽을 더한 로마식 피자입니다. 달콤함과 짭짤함이 어우러집니다. 한 조각 기준 가격입니다."
           }
         },
         "price": 35,
-        "image": "./assets/halloween-four-cheese-honey-doodle-db105d7af4bbe4a2.webp",
+        "image": "./assets/halloween-caramel-apple-maple-bacon-doodle-84ae4b64a9aa390c.webp",
         "available": true
       },
       {
         "id": "acb11030-2026-4000-8000-000000000006",
-        "name": "Pumpkin, Apple & Gorgonzola Couscous",
-        "description": "Couscous with pumpkin, thin apple slices, mixed vegetables and gorgonzola. A sweet and savoury Halloween special.",
+        "name": "Pumpkin & Apple Couscous",
+        "description": "Couscous with pumpkin, thin apple slices and mixed vegetables. A sweet and savoury Halloween special.",
         "translations": {
           "zh": {
-            "name": "南瓜、苹果与戈尔贡佐拉奶酪库斯库斯",
-            "description": "库斯库斯搭配南瓜、薄苹果片、混合蔬菜与戈尔贡佐拉蓝纹奶酪。咸甜交融的万圣节限定美味。"
+            "name": "南瓜与苹果库斯库斯",
+            "description": "库斯库斯搭配南瓜、薄苹果片与混合蔬菜。咸甜交融的万圣节限定美味。"
           },
           "it": {
-            "name": "Cous cous con zucca, mela e gorgonzola",
-            "description": "Cous cous con zucca, fettine sottili di mela, verdure miste e gorgonzola. Una specialità di Halloween tra dolcezza e sapidità."
+            "name": "Cous cous con zucca e mela",
+            "description": "Cous cous con zucca, fettine sottili di mela e verdure miste. Una specialità di Halloween tra dolcezza e sapidità."
           },
           "ja": {
-            "name": "かぼちゃ・りんご・ゴルゴンゾーラのクスクス",
-            "description": "かぼちゃ、薄切りりんご、ミックス野菜とゴルゴンゾーラを合わせたクスクス。甘みと塩味が調和するハロウィン限定メニューです。"
+            "name": "かぼちゃとりんごのクスクス",
+            "description": "かぼちゃ、薄切りりんご、ミックス野菜を合わせたクスクス。甘みと塩味が調和するハロウィン限定メニューです。"
           },
           "ko": {
-            "name": "단호박, 사과와 고르곤졸라 쿠스쿠스",
-            "description": "단호박, 얇게 썬 사과, 여러 가지 채소와 고르곤졸라를 곁들인 쿠스쿠스입니다. 달콤함과 짭짤함이 어우러지는 할로윈 한정 메뉴입니다."
+            "name": "단호박과 사과 쿠스쿠스",
+            "description": "단호박, 얇게 썬 사과와 여러 가지 채소를 곁들인 쿠스쿠스입니다. 달콤함과 짭짤함이 어우러지는 할로윈 한정 메뉴입니다."
           }
         },
-        "price": 35,
-        "image": "./assets/halloween-couscous-pumpkin-apple-gorgonzola-doodle-1bba70c61f874b8b.webp",
+        "price": 28,
+        "image": "./assets/halloween-couscous-pumpkin-apple-doodle-87693294014e37d8.webp",
         "available": true
       }
     ]

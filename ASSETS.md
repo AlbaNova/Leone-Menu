@@ -267,4 +267,13 @@ Six new images were generated with the built-in image_gen tool, using the origin
 
 Full prompts, references, revision history and saved paths are retained locally in `output/imagegen/halloween-final-prompts.json`. The public export uses optimized WebP versions. Decorative pumpkins, ghosts and bats are native SVG interface artwork in `public/halloween.js`.
 
+## Recipe corrections — 31 October 2026
+
+Two existing illustrations were edited with the built-in image_gen tool, with `public/assets/leone-menu.png` as the simple flat painted doodle reference:
+
+- `public/assets/halloween-caramel-apple-maple-bacon-doodle.png`: replaces the four-cheese-and-honey topping with caramelised apple slices, crisp bacon and maple syrup; preserves the rectangular Roman pizza composition.
+- `public/assets/halloween-couscous-pumpkin-apple-doodle.png`: removes all gorgonzola pieces while preserving the pumpkin, mixed vegetables, thin apple fans and bowl.
+
+Exact edit prompts, input references, generated sources and final saved paths are recorded locally in `output/imagegen/recipe-corrections-2026-10-31.json`. Original artwork remains local; the public menu uses optimized WebP delivery copies.
+
 The icon paths, wordmark, placeholder and interface graphics are included as application source. Fonts use the operating system's local Georgia and Segoe UI/Arial fonts. The portable Node.js runtime's license is included at `.runtime/LICENSE`.
