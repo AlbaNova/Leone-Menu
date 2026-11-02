@@ -1,9 +1,9 @@
-import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=c6659a7f53ccf481';
-import { languages, translate, productText } from './i18n.js?v=c6659a7f53ccf481';
-import { groupedFood, isPizzaSection } from './food-sections.js?v=c6659a7f53ccf481';
-import { hasVariants, portionPrices } from './product-variants.js?v=c6659a7f53ccf481';
-import { setupHalloween } from './halloween.js?v=c6659a7f53ccf481';
-import { setupChristmas } from './christmas.js?v=c6659a7f53ccf481';
+import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=6479020f50409113';
+import { languages, translate, productText } from './i18n.js?v=6479020f50409113';
+import { groupedFood, isPizzaSection } from './food-sections.js?v=6479020f50409113';
+import { hasVariants, portionPrices } from './product-variants.js?v=6479020f50409113';
+import { setupHalloween } from './halloween.js?v=6479020f50409113';
+import { setupChristmas } from './christmas.js?v=6479020f50409113';
 hydrateIcons();
 const halloween = setupHalloween();
 const christmas = setupChristmas();
