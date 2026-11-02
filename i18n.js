@@ -8,6 +8,7 @@ export const languages = {
 
 export const messages = {
   zh: {
+    christmas: '圣诞限定', christmasDescription: '节日限定美味，为相聚时光增添温暖。', christmasEmptyTitle: '圣诞美味，敬请期待。', christmasEmptyHint: '我们正在准备今年的圣诞限定菜单。',
     christmasGreeting: 'Leone 圣诞时光',
     halloweenMenu: '万圣节特别菜单',
     halloween: "万圣节限定", halloweenTitle: "万圣节限定", halloweenInvitation: "探索万圣节限定美味", halloweenDescription: "南瓜的香甜、浓郁的奶酪，还有节日专属的美味惊喜。", halloweenWelcome: "南瓜、幽灵与限定美味，欢迎来到 Leone 的万圣节。",
@@ -28,6 +29,7 @@ export const messages = {
     careTitle: '多一份关心，多一份安心。', careText: '如有食物过敏或特殊饮食需求，请在点单前告知店员。', signature: 'Leone，用心相伴', footerHome: '一隅意大利风情，一份家的温暖。', footerCaption: '相聚好时光，共享好滋味。', footerNote: '慢慢享用，这里是 Leone。',
   },
   en: {
+    christmas: 'Christmas Special', christmasDescription: 'Festive favourites, made for moments together.', christmasEmptyTitle: 'A little Christmas magic is on its way.', christmasEmptyHint: 'Our Christmas specials are coming soon.',
     christmasGreeting: 'Christmas at Leone',
     halloweenMenu: 'Halloween special menu',
     halloween: "Halloween Special", halloweenTitle: "Halloween Special", halloweenInvitation: "Step into our Halloween menu", halloweenDescription: "Sweet pumpkin, bold cheeses and a little seasonal magic.", halloweenWelcome: "Pumpkins, friendly ghosts and seasonal treats. Welcome to Halloween at Leone.",
@@ -48,6 +50,7 @@ export const messages = {
     careTitle: 'A little care goes a long way.', careText: 'Food allergies or dietary preferences? Please speak with our team before ordering.', signature: 'With love, Leone', footerHome: 'A little Italy. A place to feel at home.', footerCaption: 'GOOD COMPANY. GREAT TASTE.', footerNote: 'Take your time. You’re at Leone.',
   },
   it: {
+    christmas: 'Specialità di Natale', christmasDescription: 'Sapori delle feste, da gustare insieme.', christmasEmptyTitle: 'Le nostre specialità natalizie stanno arrivando.', christmasEmptyHint: 'Stiamo preparando il menu delle feste.',
     christmasGreeting: 'Natale da Leone',
     halloweenMenu: 'Menù speciale di Halloween',
     halloween: "Speciale Halloween", halloweenTitle: "Speciale Halloween", halloweenInvitation: "Scopri il menu di Halloween", halloweenDescription: "La dolcezza della zucca, formaggi decisi e un pizzico di magia autunnale.", halloweenWelcome: "Zucche, fantasmini e sapori di stagione. Benvenuti all’Halloween di Leone.",
@@ -68,6 +71,7 @@ export const messages = {
     careTitle: 'Un piccolo gesto, una grande attenzione.', careText: 'Allergie o esigenze alimentari? Parlane con il nostro staff prima di ordinare.', signature: 'Con amore, Leone', footerHome: 'Un angolo d’Italia. Un posto dove sentirsi a casa.', footerCaption: 'BUONA COMPAGNIA. OTTIMO GUSTO.', footerNote: 'Prenditi il tuo tempo. Sei da Leone.',
   },
   ja: {
+    christmas: 'クリスマス限定', christmasDescription: '大切な人と楽しむ、季節限定のおいしさ。', christmasEmptyTitle: 'クリスマスの特別な味を、もうすぐ。', christmasEmptyHint: 'クリスマス限定メニューを準備中です。',
     christmasGreeting: 'Leoneのクリスマス',
     halloweenMenu: 'ハロウィン限定メニュー',
     halloween: "ハロウィン限定", halloweenTitle: "ハロウィン限定", halloweenInvitation: "ハロウィンメニューを楽しもう", halloweenDescription: "かぼちゃの甘み、濃厚なチーズと季節限定のおいしさ。", halloweenWelcome: "かぼちゃとかわいいおばけが迎える、Leoneのハロウィン。",
@@ -88,6 +92,7 @@ export const messages = {
     careTitle: '小さな気配りを、大切に。', careText: '食物アレルギーや食事のご要望がある方は、ご注文前にスタッフにお知らせください。', signature: 'Leone より、心を込めて', footerHome: '小さなイタリア。ほっとできる場所。', footerCaption: '心地よい仲間と、おいしい時間。', footerNote: 'どうぞごゆっくり。ここは Leone です。',
   },
   ko: {
+    christmas: '크리스마스 스페셜', christmasDescription: '함께하는 순간을 위한 특별한 크리스마스의 맛.', christmasEmptyTitle: '크리스마스의 특별한 맛이 곧 찾아옵니다.', christmasEmptyHint: '크리스마스 한정 메뉴를 준비하고 있어요.',
     christmasGreeting: 'Leone의 크리스마스',
     halloweenMenu: '할로윈 특별 메뉴',
     halloween: "할로윈 스페셜", halloweenTitle: "할로윈 스페셜", halloweenInvitation: "할로윈 메뉴를 만나보세요", halloweenDescription: "달콤한 단호박, 풍부한 치즈와 계절 한정의 특별한 맛.", halloweenWelcome: "호박과 귀여운 유령이 반기는 Leone의 할로윈을 즐겨보세요.",

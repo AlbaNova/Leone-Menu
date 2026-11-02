@@ -1,10 +1,12 @@
-import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=684abdcb6520a97f';
-import { languages, translate, productText } from './i18n.js?v=684abdcb6520a97f';
-import { groupedFood, isPizzaSection } from './food-sections.js?v=684abdcb6520a97f';
-import { hasVariants, portionPrices } from './product-variants.js?v=684abdcb6520a97f';
-import { setupHalloween } from './halloween.js?v=684abdcb6520a97f';
+import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=6479020f50409113';
+import { languages, translate, productText } from './i18n.js?v=6479020f50409113';
+import { groupedFood, isPizzaSection } from './food-sections.js?v=6479020f50409113';
+import { hasVariants, portionPrices } from './product-variants.js?v=6479020f50409113';
+import { setupHalloween } from './halloween.js?v=6479020f50409113';
+import { setupChristmas } from './christmas.js?v=6479020f50409113';
 hydrateIcons();
 const halloween = setupHalloween();
+const christmas = setupChristmas();
 const languageKey = 'leone-menu-language';
 const menuSource = document.querySelector('meta[name="menu-source"]')?.content || '/api/menu';
 function initialLanguage() {
@@ -18,7 +20,7 @@ const grid = document.querySelector('#products'), dialog = document.querySelecto
 const t = (key, values) => translate(language, key, values);
 const price = value => money(value, menu.currency, languages[language].locale);
 const displayedPrice = p => hasVariants(p) ? portionPrices(p, menu.currency, language, t('unavailable')) : price(p.price);
-const allProducts = () => [...new Map(Object.entries(menu?.groups || {}).filter(([key])=>key!=='halloween'||menu?.theme==='halloween').flatMap(([,items])=>items).map(p => [p.id, p])).values()];
+const allProducts = () => [...new Map(Object.entries(menu?.groups || {}).filter(([key])=>!['halloween','christmas'].includes(key)||menu?.theme===key).flatMap(([,items])=>items).map(p => [p.id, p])).values()];
 const normalize = text => text.normalize('NFKC').toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 function applyLanguage() {
   document.documentElement.lang = languages[language].locale;
@@ -44,6 +46,8 @@ function details(p) {
 }
 function render() {
   halloween.setTheme(menu?.theme||'classic');
+  christmas.setEnabled(menu?.theme==='christmas');
+  document.querySelector('#christmas-specials').hidden=menu?.theme!=='christmas';
   if(category==='halloween'&&menu?.theme!=='halloween') {
     category='food';
     document.querySelectorAll('[data-category]').forEach(b=>{const active=b.dataset.category===category;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
@@ -53,17 +57,24 @@ function render() {
     document.querySelector('#category-description').textContent = t(`${category}Description`);
     return;
   }
-  const source = query ? allProducts().filter(p => normalize([p.name, p.description, ...Object.values(p.translations || {}).flatMap(text => [text.name, text.description])].join(' ')).includes(query)) : (menu.groups[category] || []);
+  const matches=p=>!query||normalize([p.name,p.description,...Object.values(p.translations||{}).flatMap(text=>[text.name,text.description])].join(' ')).includes(query);
+  const festive=menu.theme==='christmas'?(menu.groups.christmas||[]):[];
+  const festiveIds=new Set(festive.map(p=>p.id));
+  const ordinary=items=>items.filter(p=>!festiveIds.has(p.id));
+  const source=ordinary(query?allProducts().filter(matches):(menu.groups[category]||[]));
   document.querySelector('#category-title').textContent = query ? t('searchTitle') : t(`${category}Title`);
   document.querySelector('#category-description').textContent = query ? t('searchResults', { query: document.querySelector('#menu-search').value.trim() }) : t(`${category}Description`);
   document.querySelector('#result-count').textContent = t(source.length === 1 ? 'itemCountOne' : 'itemCount', { count: source.length });
-  for (const key of ['food', 'drinks', 'desserts', 'products', 'halloween']) document.querySelector(`#${key}-count`).textContent = (menu.groups[key] || []).length;
+  for (const key of ['food', 'drinks', 'desserts', 'products', 'halloween']) document.querySelector(`#${key}-count`).textContent = ordinary(menu.groups[key] || []).length;
+  document.querySelector('#christmas-count').textContent=t(festive.length===1?'itemCountOne':'itemCount',{count:festive.length});
   const renderProduct = p => {
     const text = productText(p, language);
-    const titleTag = !query && category === 'food' && isPizzaSection(p.section) ? 'h6' : 'h4';
+    const titleTag = !query && !festiveIds.has(p.id) && category === 'food' && isPizzaSection(p.section) ? 'h6' : 'h4';
     return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><${titleTag} lang="${text.nameLang}">${esc(text.name)}</${titleTag}>${hasVariants(p) ? '' : `<span class="product-price">${price(p.price)}</span>`}</div>${hasVariants(p) ? `<div class="product-price portion-prices">${displayedPrice(p)}</div>` : ''}<p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
   };
   const useSections = !query && category === 'food' && source.some(p => p.section);
+  const festiveMatches=festive.filter(matches);
+  document.querySelector('#christmas-products').innerHTML=menu.theme!=='christmas'?'':festiveMatches.length?festiveMatches.map(renderProduct).join(''):`<div class="empty-state"><h3>${esc(t(query?'emptySearchTitle':'christmasEmptyTitle'))}</h3><p>${esc(t(query?'emptySearchHint':'christmasEmptyHint'))}</p></div>`;
   let pizzaHeadingShown = false;
   const renderGroup = group => {
     const pizza = isPizzaSection(group.section);
@@ -84,7 +95,7 @@ document.querySelectorAll('[data-category]').forEach(button => button.addEventLi
   if (category === 'halloween' && changed) document.querySelector('#halloween-scene').scrollIntoView({behavior:'instant',block:'start'});
 }));
 document.querySelector('#menu-search').addEventListener('input', event => { query = normalize(event.target.value.trim()); render(); });
-grid.addEventListener('click', event => { const button = event.target.closest('[data-id]'); if (!button) return; const p = allProducts().find(p => p.id === button.dataset.id); if (p) { openedId = p.id; details(p); dialog.showModal(); } });
+for(const container of [grid,document.querySelector('#christmas-products')])container.addEventListener('click', event => { const button = event.target.closest('[data-id]'); if (!button) return; const p = allProducts().find(p => p.id === button.dataset.id); if (p) { openedId = p.id; details(p); dialog.showModal(); } });
 document.querySelector('[data-close-dialog]').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close(); } });
 dialog.addEventListener('close', () => { openedId = null; });

@@ -276,4 +276,8 @@ Two existing illustrations were edited with the built-in image_gen tool, with `p
 
 Exact edit prompts, input references, generated sources and final saved paths are recorded locally in `output/imagegen/recipe-corrections-2026-10-31.json`. Original artwork remains local; the public menu uses optimized WebP delivery copies.
 
+## Christmas interface artwork — 3 November 2026
+
+`public/christmas.js` contains original code-native SVG illustrations of decorated trees, coloured baubles, fairy lights, snowflakes, Santa's sleigh, gifts and three reindeer. They extend the existing SVG interface artwork and need no external image service or raster downloads. `public/christmas.css` supplies the layout and occasional animations. These are decorative UI assets, not product photographs. They are only displayed when the saved menu theme is Christmas.
+
 The icon paths, wordmark, placeholder and interface graphics are included as application source. Fonts use the operating system's local Georgia and Segoe UI/Arial fonts. The portable Node.js runtime's license is included at `.runtime/LICENSE`.
