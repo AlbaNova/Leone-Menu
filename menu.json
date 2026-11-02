@@ -4,33 +4,6 @@
   "groups": {
     "food": [
       {
-        "id": "5d0ca02f-448d-4891-937c-ba7ffab75f05",
-        "name": "Spaghetti with Garlic, Extra Virgin Olive Oil, Chili & Parsley",
-        "description": "Spaghetti with extra virgin olive oil, garlic, chili and parsley.",
-        "translations": {
-          "zh": {
-            "name": "蒜香辣椒欧芹意大利长面",
-            "description": "意大利长面，搭配特级初榨橄榄油、大蒜、辣椒和欧芹。"
-          },
-          "it": {
-            "name": "Spaghetti aglio, olio extravergine d’oliva, peperoncino e prezzemolo",
-            "description": "Spaghetti con olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
-          },
-          "ja": {
-            "name": "にんにく、エキストラバージンオリーブオイル、唐辛子とパセリのスパゲッティ",
-            "description": "エキストラバージンオリーブオイル、にんにく、唐辛子、パセリで仕上げたスパゲッティ。"
-          },
-          "ko": {
-            "name": "마늘, 엑스트라 버진 올리브 오일, 고추와 파슬리 스파게티",
-            "description": "엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리로 만든 스파게티입니다."
-          }
-        },
-        "price": 48,
-        "image": "./assets/spaghetti-aglio-olio-doodle-e7d1c54dbe5ca9ef.webp",
-        "available": true,
-        "section": "first_courses"
-      },
-      {
         "id": "3965a24c-a4a2-4b41-93a3-41bcca24f33d",
         "name": "Spaghetti Bolognese",
         "description": "Spaghetti served with Bolognese meat ragù.",
@@ -178,7 +151,7 @@
         "variants": [
           {
             "format": "whole",
-            "price": 40,
+            "price": 46,
             "available": true
           },
           {
@@ -298,60 +271,6 @@
         "section": "pizza_classic"
       },
       {
-        "id": "9ade5390-75b8-4135-b7e3-eff3e9a9c3cb",
-        "name": "Stuffed Pizza Bianca – Mortadella & Basil",
-        "description": "Pizza bianca filled with mortadella , served by the piece.",
-        "translations": {
-          "zh": {
-            "name": "白披萨夹莫塔德拉香肠与布拉塔奶酪",
-            "description": "白披萨夹入莫塔德拉香肠和布拉塔奶酪，按块供应。"
-          },
-          "it": {
-            "name": "Pizza bianca ripiena di mortadella e burrata",
-            "description": "Pizza bianca ripiena di mortadella e burrata, servita al pezzo."
-          },
-          "ja": {
-            "name": "モルタデッラとブッラータのピッツァ・ビアンカサンド",
-            "description": "モルタデッラとブッラータを挟んだピッツァ・ビアンカ。1切れずつのご提供です。"
-          },
-          "ko": {
-            "name": "피자 비앙카 샌드위치 · 모르타델라와 바질",
-            "description": "모르타델라를 채운 피자 비앙카입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 35,
-        "image": "./assets/mortadella-burrata-stuffed-pizza-doodle-1dad58111b54910b.webp",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "8e66f864-b0d3-4999-a8fb-2766fd9734ae",
-        "name": "Roman Pizza Slice – Potatoes, Extra Virgin Olive Oil, Garlic, Chili & Parsley",
-        "description": "A slice of Roman-style pizza with potatoes, extra virgin olive oil, garlic, chili and parsley.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 土豆、特级初榨橄榄油、大蒜、辣椒与欧芹",
-            "description": "罗马风味方形披萨，搭配土豆、特级初榨橄榄油、大蒜、辣椒和欧芹，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Patate, olio extravergine d’oliva, aglio, peperoncino e prezzemolo",
-            "description": "Trancio di pizza romana con patate, olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · じゃがいも、エキストラバージンオリーブオイル、にんにく、唐辛子とパセリ",
-            "description": "じゃがいも、エキストラバージンオリーブオイル、にんにく、唐辛子、パセリをのせたローマ風ピザ。1ピースでご提供します。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 · 감자, 엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리",
-            "description": "감자, 엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 25,
-        "image": "./assets/potato-garlic-chili-pizza-doodle-48dec2f8dfa70c8f.webp",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
         "id": "31b4b675-b0ca-44ff-9f79-1fa35b985c77",
         "name": "Stuffed Focaccia",
         "description": "Italian focaccia with the filling of the day, served by the piece. Ask our team about today's filling.",
@@ -433,33 +352,6 @@
         "section": "pizza_special"
       },
       {
-        "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
-        "name": "Roman Pizza Slice – Cooked Ham & Mozzarella",
-        "description": "A slice of Roman-style pizza with cooked ham and mozzarella.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 熟火腿与马苏里拉",
-            "description": "罗马风味方形披萨，搭配熟火腿和马苏里拉奶酪，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Prosciutto cotto e mozzarella",
-            "description": "Trancio di pizza romana con prosciutto cotto e mozzarella."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · 加熱ハムとモッツァレラ",
-            "description": "加熱ハムとモッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 · 익힌 햄과 모차렐라",
-            "description": "익힌 햄과 모차렐라를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 30,
-        "image": "./assets/ham-mozzarella-flat-doodle-f75007c244162b9b.webp",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
         "id": "acb11030-2026-4000-8000-000000000002",
         "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & NutsHoney",
         "description": "A Roman pizza slice topped with pumpkin, gorgonzola and a crunchy mix of super seeds. Price per slice.",
@@ -483,60 +375,6 @@
         },
         "price": 35,
         "image": "./assets/halloween-pumpkin-gorgonzola-seeds-doodle-bcf6235068b177df.webp",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "acb11030-2026-4000-8000-000000000003",
-        "name": "Roman Pizza Slice – Pumpkin, Sesame & White Miso",
-        "description": "A Roman pizza slice with pumpkin, gorgonzola and white miso, balancing gentle sweetness with rich savoury flavour. Price per slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨 – 南瓜、奶酪与白味噌芝麻",
-            "description": "罗马方形披萨，搭配南瓜、奶酪与芝麻白味噌酱，香甜交融。按块计价。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Zucca, gorgonzola e miso bianco",
-            "description": "Trancio di pizza romana con zucca, gorgonzola e miso bianco, tra dolcezza delicata e sapidità avvolgente. Prezzo al trancio."
-          },
-          "ja": {
-            "name": "ローマ風ピッツァ – かぼちゃ・ゴルゴンゾーラ・白味噌",
-            "description": "かぼちゃ、ゴルゴンゾーラと白味噌を合わせた、甘みと旨みを楽しむローマ風ピッツァ。1切れの価格です。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 – 단호박, 고르곤졸라와 시로미소",
-            "description": "단호박, 고르곤졸라와 시로미소의 은은한 단맛과 풍부한 감칠맛이 어우러진 로마식 피자입니다. 한 조각 기준 가격입니다."
-          }
-        },
-        "price": 35,
-        "image": "./assets/halloween-pumpkin-gorgonzola-miso-doodle-63030cd08de03af2.webp",
-        "available": true,
-        "section": "pizza_special"
-      },
-      {
-        "id": "acb11030-2026-4000-8000-000000000004",
-        "name": "Roman Pizza Slice – Caramel Apple & Maple Bacon",
-        "description": "A Roman pizza slice with Caramel Apple and Maple Bacon.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨 – 枫糖培根与焦糖苹果甜咸披萨",
-            "description": "罗马方形披萨，精心制作的焦糖苹果与脆培根，再淋上枫糖浆甜咸交加。按块计价。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Mele caramellate e bacon all’acero",
-            "description": "Trancio di pizza romana con mele caramellate, bacon croccante e un filo di sciroppo d’acero. Un incontro di dolce e salato. Prezzo al trancio."
-          },
-          "ja": {
-            "name": "ローマ風ピッツァ – キャラメリゼりんごとメープルベーコン",
-            "description": "キャラメリゼしたりんごとカリカリのベーコンに、メープルシロップをかけたローマ風ピッツァ。甘みと塩味の組み合わせを楽しめます。1切れの価格です。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 – 캐러멜라이즈드 사과와 메이플 베이컨",
-            "description": "캐러멜라이즈드 사과와 바삭한 베이컨에 메이플 시럽을 더한 로마식 피자입니다. 달콤함과 짭짤함이 어우러집니다. 한 조각 기준 가격입니다."
-          }
-        },
-        "price": 35,
-        "image": "./assets/halloween-caramel-apple-maple-bacon-doodle-84ae4b64a9aa390c.webp",
         "available": true,
         "section": "pizza_special"
       },
@@ -1102,84 +940,6 @@
         "available": true
       },
       {
-        "id": "b47e5327-25da-4877-b950-2cff5871a07c",
-        "name": "Matcha-misu",
-        "description": "Matcha tiramisu with matcha-soaked sponge biscuits, mascarpone cream and a dusting of matcha.",
-        "translations": {
-          "zh": {
-            "name": "抹茶提拉米苏",
-            "description": "抹茶浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒抹茶粉。"
-          },
-          "it": {
-            "name": "Matcha-misù",
-            "description": "Tiramisù al matcha con savoiardi al tè matcha, crema al mascarpone e una spolverata di matcha."
-          },
-          "ja": {
-            "name": "抹茶ティラミス",
-            "description": "抹茶をしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、抹茶をふったティラミス。"
-          },
-          "ko": {
-            "name": "말차 티라미수",
-            "description": "말차에 적신 레이디핑거 비스킷에 마스카르포네 크림을 겹겹이 올리고 말차 가루로 마무리했습니다."
-          }
-        },
-        "price": 32,
-        "image": "./assets/matcha-misu-doodle-4b27c4b470d0ea7b.webp",
-        "available": true
-      },
-      {
-        "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
-        "name": "Tiramisu",
-        "description": "An Italian dessert with coffee-soaked sponge biscuits, mascarpone cream and a dusting of cocoa.",
-        "translations": {
-          "zh": {
-            "name": "提拉米苏",
-            "description": "经典意式甜点：咖啡浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒可可粉。"
-          },
-          "it": {
-            "name": "Tiramisù",
-            "description": "Dolce italiano con savoiardi al caffè, crema al mascarpone e una spolverata di cacao."
-          },
-          "ja": {
-            "name": "ティラミス",
-            "description": "コーヒーをしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、ココアをふったイタリアのデザート。"
-          },
-          "ko": {
-            "name": "티라미수",
-            "description": "커피에 적신 레이디핑거 비스킷에 마스카르포네 크림을 겹겹이 올리고 코코아를 뿌린 이탈리아 디저트입니다."
-          }
-        },
-        "price": 32,
-        "image": "./assets/tiramisu-doodle-166965b612efe2c4.webp",
-        "available": true
-      },
-      {
-        "id": "bf1e6295-61ac-44e1-a6c3-d8480f6a55c9",
-        "name": "French Toast",
-        "description": "Golden French toast, soft inside and lightly crisp on the outside.",
-        "translations": {
-          "zh": {
-            "name": "法式吐司",
-            "description": "煎至金黄的法式吐司，外层微脆，内里柔软。"
-          },
-          "it": {
-            "name": "French toast",
-            "description": "French toast dorato, morbido all’interno e leggermente croccante all’esterno."
-          },
-          "ja": {
-            "name": "フレンチトースト",
-            "description": "表面はこんがり、内側はふんわりと焼き上げたフレンチトースト。"
-          },
-          "ko": {
-            "name": "프렌치토스트",
-            "description": "겉은 노릇하고 살짝 바삭하며 속은 부드러운 프렌치토스트입니다."
-          }
-        },
-        "price": 28,
-        "image": "./assets/french-toast-doodle-76b51094e38dfc21.webp",
-        "available": true
-      },
-      {
         "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
         "name": "Carrot and Nuts Cake",
         "description": "A slice of Carrot and Nuts Cake made with extra virgin olive oil.",
@@ -1203,32 +963,6 @@
         },
         "price": 32,
         "image": "./assets/carrot-walnut-cake-flat-doodle-9e3b55010d5a2fbb.webp",
-        "available": true
-      },
-      {
-        "id": "acb11030-2026-4000-8000-000000000001",
-        "name": "Pumpkin Cheesecake",
-        "description": "Creamy pumpkin cheesecake with pumpkin topping and delicate cream decorations. Price per slice.",
-        "translations": {
-          "zh": {
-            "name": "南瓜芝士蛋糕",
-            "description": "绵密南瓜芝士蛋糕，搭配南瓜淋面与精致奶油装饰。按片计价。"
-          },
-          "it": {
-            "name": "Cheesecake alla zucca",
-            "description": "Cheesecake cremosa alla zucca, con copertura alla zucca e delicati ciuffi di crema. Prezzo per fetta."
-          },
-          "ja": {
-            "name": "かぼちゃのチーズケーキ",
-            "description": "なめらかなかぼちゃのチーズケーキに、かぼちゃのトッピングとクリームの飾りを添えました。1カットの価格です。"
-          },
-          "ko": {
-            "name": "단호박 치즈케이크",
-            "description": "부드러운 단호박 치즈케이크에 단호박 토핑과 크림 장식을 더했습니다. 한 조각 기준 가격입니다."
-          }
-        },
-        "price": 28,
-        "image": "./assets/halloween-pumpkin-cheesecake-doodle-cfcfda45e5678e3c.webp",
         "available": true
       }
     ],
@@ -1359,7 +1093,7 @@
             "description": "Superbo 엑스트라 버진 올리브 오일 500ml 한 병입니다. 브루스케타, 채소, 구운 고기에 마지막으로 살짝 뿌려 즐겨보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
           }
         },
-        "price": 228,
+        "price": 248,
         "image": "./assets/quattrociocchi-superbo-500ml-doodle-1c51e889b64e9277.webp",
         "available": true
       },
@@ -1385,7 +1119,7 @@
             "description": "Olivastro 엑스트라 버진 올리브 오일 500ml 한 병입니다. 토마토, 생선, 생치즈에 곁들여 우아한 풍미를 더해보세요. Quattrociocchi는 세계적으로 손꼽히는 수상 경력을 지닌 엑스트라 버진 올리브 오일 생산자로, 이탈리아와 국제 대회에서 100개 이상의 상을 받았습니다. 이 생산자는 Flos Olei 2026 명예의 전당에 100/100점으로 이름을 올렸으며, Olivastro는 OLIVE JAPAN 2026에서 Premier와 Best of Italy를 수상했습니다."
           }
         },
-        "price": 228,
+        "price": 248,
         "image": "./assets/quattrociocchi-olivastro-500ml-doodle-c9598c293d5634f4.webp",
         "available": true
       },
@@ -1678,32 +1412,6 @@
         "available": true
       },
       {
-        "id": "acb11030-2026-4000-8000-000000000001",
-        "name": "Pumpkin Cheesecake",
-        "description": "Creamy pumpkin cheesecake with pumpkin topping and delicate cream decorations. Price per slice.",
-        "translations": {
-          "zh": {
-            "name": "南瓜芝士蛋糕",
-            "description": "绵密南瓜芝士蛋糕，搭配南瓜淋面与精致奶油装饰。按片计价。"
-          },
-          "it": {
-            "name": "Cheesecake alla zucca",
-            "description": "Cheesecake cremosa alla zucca, con copertura alla zucca e delicati ciuffi di crema. Prezzo per fetta."
-          },
-          "ja": {
-            "name": "かぼちゃのチーズケーキ",
-            "description": "なめらかなかぼちゃのチーズケーキに、かぼちゃのトッピングとクリームの飾りを添えました。1カットの価格です。"
-          },
-          "ko": {
-            "name": "단호박 치즈케이크",
-            "description": "부드러운 단호박 치즈케이크에 단호박 토핑과 크림 장식을 더했습니다. 한 조각 기준 가격입니다."
-          }
-        },
-        "price": 28,
-        "image": "./assets/halloween-pumpkin-cheesecake-doodle-cfcfda45e5678e3c.webp",
-        "available": true
-      },
-      {
         "id": "acb11030-2026-4000-8000-000000000002",
         "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & NutsHoney",
         "description": "A Roman pizza slice topped with pumpkin, gorgonzola and a crunchy mix of super seeds. Price per slice.",
@@ -1727,58 +1435,6 @@
         },
         "price": 35,
         "image": "./assets/halloween-pumpkin-gorgonzola-seeds-doodle-bcf6235068b177df.webp",
-        "available": true
-      },
-      {
-        "id": "acb11030-2026-4000-8000-000000000003",
-        "name": "Roman Pizza Slice – Pumpkin, Sesame & White Miso",
-        "description": "A Roman pizza slice with pumpkin, gorgonzola and white miso, balancing gentle sweetness with rich savoury flavour. Price per slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨 – 南瓜、奶酪与白味噌芝麻",
-            "description": "罗马方形披萨，搭配南瓜、奶酪与芝麻白味噌酱，香甜交融。按块计价。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Zucca, gorgonzola e miso bianco",
-            "description": "Trancio di pizza romana con zucca, gorgonzola e miso bianco, tra dolcezza delicata e sapidità avvolgente. Prezzo al trancio."
-          },
-          "ja": {
-            "name": "ローマ風ピッツァ – かぼちゃ・ゴルゴンゾーラ・白味噌",
-            "description": "かぼちゃ、ゴルゴンゾーラと白味噌を合わせた、甘みと旨みを楽しむローマ風ピッツァ。1切れの価格です。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 – 단호박, 고르곤졸라와 시로미소",
-            "description": "단호박, 고르곤졸라와 시로미소의 은은한 단맛과 풍부한 감칠맛이 어우러진 로마식 피자입니다. 한 조각 기준 가격입니다."
-          }
-        },
-        "price": 35,
-        "image": "./assets/halloween-pumpkin-gorgonzola-miso-doodle-63030cd08de03af2.webp",
-        "available": true
-      },
-      {
-        "id": "acb11030-2026-4000-8000-000000000004",
-        "name": "Roman Pizza Slice – Caramel Apple & Maple Bacon",
-        "description": "A Roman pizza slice with Caramel Apple and Maple Bacon.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨 – 枫糖培根与焦糖苹果甜咸披萨",
-            "description": "罗马方形披萨，精心制作的焦糖苹果与脆培根，再淋上枫糖浆甜咸交加。按块计价。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Mele caramellate e bacon all’acero",
-            "description": "Trancio di pizza romana con mele caramellate, bacon croccante e un filo di sciroppo d’acero. Un incontro di dolce e salato. Prezzo al trancio."
-          },
-          "ja": {
-            "name": "ローマ風ピッツァ – キャラメリゼりんごとメープルベーコン",
-            "description": "キャラメリゼしたりんごとカリカリのベーコンに、メープルシロップをかけたローマ風ピッツァ。甘みと塩味の組み合わせを楽しめます。1切れの価格です。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 – 캐러멜라이즈드 사과와 메이플 베이컨",
-            "description": "캐러멜라이즈드 사과와 바삭한 베이컨에 메이플 시럽을 더한 로마식 피자입니다. 달콤함과 짭짤함이 어우러집니다. 한 조각 기준 가격입니다."
-          }
-        },
-        "price": 35,
-        "image": "./assets/halloween-caramel-apple-maple-bacon-doodle-84ae4b64a9aa390c.webp",
         "available": true
       },
       {
