@@ -910,6 +910,110 @@
         "price": 20,
         "image": "./assets/molecola-glass-bottle-doodle-285450a24923ad0b.webp",
         "available": true
+      },
+      {
+        "id": "1a6045a6-e7f8-48c6-932c-46e4a5ab9c55",
+        "name": "Hot Wine",
+        "description": "Hot red wine infused with cloves, orange and cinnamon, served in a transparent glass mug.",
+        "translations": {
+          "zh": {
+            "name": "香料热红酒",
+            "description": "以丁香、橙子和肉桂调制的热红葡萄酒，盛于透明玻璃杯中。"
+          },
+          "it": {
+            "name": "Vino caldo speziato",
+            "description": "Vino rosso caldo aromatizzato con chiodi di garofano, arancia e cannella, servito in una tazza di vetro trasparente."
+          },
+          "ja": {
+            "name": "ホットワイン",
+            "description": "クローブ、オレンジ、シナモンで香り付けした温かい赤ワイン。透明なガラスマグでご提供します。"
+          },
+          "ko": {
+            "name": "뱅쇼",
+            "description": "정향, 오렌지, 시나몬으로 향을 낸 따뜻한 레드 와인. 투명한 유리 머그에 담아 제공합니다."
+          }
+        },
+        "price": 25,
+        "image": "./assets/hot-wine-transparent-mug-doodle-bd929c07ba57e1fe.webp",
+        "available": true
+      },
+      {
+        "id": "3043a5c5-9726-46d1-a64d-769a6466e017",
+        "name": "Orange Juice – By the Glass",
+        "description": "Orange juice served by the glass.",
+        "translations": {
+          "zh": {
+            "name": "橙汁（杯装）",
+            "description": "橙汁，按杯供应。"
+          },
+          "it": {
+            "name": "Succo d’arancia – Al bicchiere",
+            "description": "Succo d’arancia servito al bicchiere."
+          },
+          "ja": {
+            "name": "オレンジジュース（グラス）",
+            "description": "オレンジジュースをグラスでご提供します。"
+          },
+          "ko": {
+            "name": "오렌지 주스 (글라스)",
+            "description": "유리잔에 담아 제공하는 오렌지 주스."
+          }
+        },
+        "price": 18,
+        "image": "./assets/orange-juice-glass-doodle-646f5e43f11ff716.webp",
+        "available": true
+      },
+      {
+        "id": "228f408e-4471-4b11-9226-8a1419e5620b",
+        "name": "Orange Coffee – Iced",
+        "description": "Orange juice topped with coffee and ice cubes, served cold in a glass.",
+        "translations": {
+          "zh": {
+            "name": "冰橙咖啡",
+            "description": "杯底是橙汁，上层倒入咖啡，再加入冰块，冰饮供应。"
+          },
+          "it": {
+            "name": "Caffè all’arancia – Freddo",
+            "description": "Succo d’arancia sul fondo, caffè versato sopra e cubetti di ghiaccio, servito freddo al bicchiere."
+          },
+          "ja": {
+            "name": "アイスオレンジコーヒー",
+            "description": "グラスの底にオレンジジュースを注ぎ、上からコーヒーと氷を加えた冷たいドリンク。"
+          },
+          "ko": {
+            "name": "아이스 오렌지 커피",
+            "description": "잔 아래에 오렌지 주스를 담고 위에 커피와 얼음을 더한 시원한 음료."
+          }
+        },
+        "price": 28,
+        "image": "./assets/iced-orange-coffee-layered-doodle-123ff55c239a7e74.webp",
+        "available": true
+      },
+      {
+        "id": "a45d0212-1d23-4100-af26-a9ac0b7603de",
+        "name": "Grape Juice – By the Glass",
+        "description": "Grape juice served by the glass.",
+        "translations": {
+          "zh": {
+            "name": "葡萄汁（杯装）",
+            "description": "葡萄汁，按杯供应。"
+          },
+          "it": {
+            "name": "Succo d’uva – Al bicchiere",
+            "description": "Succo d’uva servito al bicchiere."
+          },
+          "ja": {
+            "name": "ぶどうジュース（グラス）",
+            "description": "ぶどうジュースをグラスでご提供します。"
+          },
+          "ko": {
+            "name": "포도 주스 (글라스)",
+            "description": "유리잔에 담아 제공하는 포도 주스."
+          }
+        },
+        "price": 20,
+        "image": "./assets/grape-juice-glass-doodle-75cf9c54569c36f5.webp",
+        "available": true
       }
     ],
     "desserts": [
@@ -963,6 +1067,32 @@
         },
         "price": 32,
         "image": "./assets/carrot-walnut-cake-flat-doodle-9e3b55010d5a2fbb.webp",
+        "available": true
+      },
+      {
+        "id": "dae977d6-667d-4933-88c5-f928c4a337b8",
+        "name": "Mini Berry Cheesecake",
+        "description": "A small, round berry cheesecake topped with two blueberries.",
+        "translations": {
+          "zh": {
+            "name": "迷你莓果芝士蛋糕",
+            "description": "小巧的圆形莓果芝士蛋糕，顶部点缀两颗蓝莓。"
+          },
+          "it": {
+            "name": "Cheesecake ai frutti di bosco",
+            "description": "Piccola cheesecake rotonda ai frutti di bosco, guarnita con due mirtilli."
+          },
+          "ja": {
+            "name": "ミニベリーチーズケーキ",
+            "description": "ベリーの小さな丸いチーズケーキ。ブルーベリーを2粒トッピング。"
+          },
+          "ko": {
+            "name": "미니 베리 치즈케이크",
+            "description": "블루베리 두 알을 올린 작고 동그란 베리 치즈케이크."
+          }
+        },
+        "price": 28,
+        "image": "./assets/mini-berry-cheesecake-doodle-c58e08cdc164e445.webp",
         "available": true
       }
     ],

@@ -281,3 +281,17 @@ Exact edit prompts, input references, generated sources and final saved paths ar
 `public/christmas.js` contains original code-native SVG illustrations of decorated trees, coloured baubles, fairy lights, snowflakes, Santa's sleigh, gifts and three reindeer. They extend the existing SVG interface artwork and need no external image service or raster downloads. `public/christmas.css` supplies the layout and occasional animations. These are decorative UI assets, not product photographs. They are only displayed when the saved menu theme is Christmas.
 
 The icon paths, wordmark, placeholder and interface graphics are included as application source. Fonts use the operating system's local Georgia and Segoe UI/Arial fonts. The portable Node.js runtime's license is included at `.runtime/LICENSE`.
+
+## 5 November 2026 ? Berry cheesecake and four drinks
+
+Five original PNG illustrations generated with the built-in image_gen tool, using `public/assets/leone-menu.png` as the style reference: simple flat painted doodles on white.
+
+- `public/assets/mini-berry-cheesecake-doodle.png` ? mini-berry-cheesecake.
+- `public/assets/hot-wine-transparent-mug-doodle.png` ? hot-wine.
+- `public/assets/orange-juice-glass-doodle.png` ? orange-juice.
+- `public/assets/iced-orange-coffee-layered-doodle.png` ? iced-orange-coffee.
+- `public/assets/grape-juice-glass-doodle.png` ? grape-juice.
+
+The cheesecake is a small whole round cake with exactly two blueberries. Hot wine is in a transparent handled mug with orange, cinnamon and cloves. Orange juice and grape juice are served in tumblers. Iced orange coffee has orange juice below the coffee layer and visible ice cubes.
+
+Exact prompts and generated-source paths are recorded locally in `output/imagegen/november-5-products-prompts.json` and `output/imagegen/november-5-products-manifest.json`. The source PNGs remain in `public/assets/`; the exporter creates optimized, content-versioned WebP delivery files.
