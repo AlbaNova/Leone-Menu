@@ -295,3 +295,8 @@ Five original PNG illustrations generated with the built-in image_gen tool, usin
 The cheesecake is a small whole round cake with exactly two blueberries. Hot wine is in a transparent handled mug with orange, cinnamon and cloves. Orange juice and grape juice are served in tumblers. Iced orange coffee has orange juice below the coffee layer and visible ice cubes.
 
 Exact prompts and generated-source paths are recorded locally in `output/imagegen/november-5-products-prompts.json` and `output/imagegen/november-5-products-manifest.json`. The source PNGs remain in `public/assets/`; the exporter creates optimized, content-versioned WebP delivery files.
+
+
+## 5 November 2026 - Hot chocolate
+
+`public/assets/hot-chocolate-cup-doodle.png` is an original illustration created with the built-in image_gen tool, matching the flat painted doodle style of `public/assets/leone-menu.png`. It shows hot milk chocolate in a cream ceramic mug with a green rim and gentle steam, on white. Exact prompt and source path: `output/imagegen/hot-chocolate-prompt.json` (local record). The public exporter creates an optimized WebP delivery copy.

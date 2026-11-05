@@ -987,6 +987,32 @@
         "price": 20,
         "image": "./assets/grape-juice-glass-doodle-75cf9c54569c36f5.webp",
         "available": true
+      },
+      {
+        "id": "50418395-a73e-4044-b825-57002401d6f2",
+        "name": "Hot Chocolate",
+        "description": "Warm milk and chocolate, served in a cup.",
+        "translations": {
+          "zh": {
+            "name": "热巧克力",
+            "description": "牛奶与巧克力调制的温热饮品，杯装供应。"
+          },
+          "it": {
+            "name": "Latte e cioccolato caldo",
+            "description": "Latte caldo e cioccolato, serviti in tazza."
+          },
+          "ja": {
+            "name": "ホットチョコレート",
+            "description": "ミルクとチョコレートの温かいドリンク。カップでご提供します。"
+          },
+          "ko": {
+            "name": "핫초코",
+            "description": "따뜻한 우유와 초콜릿으로 만든 음료. 컵에 담아 제공합니다."
+          }
+        },
+        "price": 28,
+        "image": "./assets/hot-chocolate-cup-doodle-1246bfc94078f136.webp",
+        "available": true
       }
     ],
     "desserts": [
