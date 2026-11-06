@@ -106,18 +106,18 @@
             "description": "원하는 맛을 고를 수 있는 로마식 핀사입니다. 준비 시간은 10분이며, 전체 또는 절반으로 주문할 수 있습니다."
           }
         },
-        "price": 39,
+        "price": 42,
         "image": "./assets/pinsa-whole-half-combined-doodle-43f67ff3b155c4ee.webp",
         "available": true,
         "variants": [
           {
             "format": "whole",
-            "price": 76,
+            "price": 86,
             "available": true
           },
           {
             "format": "half",
-            "price": 39,
+            "price": 42,
             "available": true
           }
         ],
@@ -151,7 +151,7 @@
         "variants": [
           {
             "format": "whole",
-            "price": 46,
+            "price": 48,
             "available": true
           },
           {
@@ -184,7 +184,7 @@
             "description": "토마토, 모차렐라와 바질을 올린 로마식 피자입니다. 한 조각씩 제공합니다."
           }
         },
-        "price": 28,
+        "price": 30,
         "image": "./assets/leone-menu-0577a9e69a629677.webp#margherita",
         "available": true,
         "section": "pizza_classic"
@@ -211,62 +211,35 @@
             "description": "토마토소스, 모차렐라와 살라미를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
           }
         },
-        "price": 30,
+        "price": 32,
         "image": "./assets/tomato-mozzarella-salami-pizza-doodle-be71db451a4139f5.webp",
         "available": true,
         "section": "pizza_classic"
       },
       {
-        "id": "666e7ba9-cf35-4e08-84ee-9f52c414fc6f",
-        "name": "Pizza Rossa – Roman Slice",
-        "description": "A slice of Roman-style pizza with tomato sauce.",
+        "id": "2913a8a9-13e1-43f5-b434-6243ca834588",
+        "name": "Roman Pizza Slice – Potato & Rosemary",
+        "description": "A slice of Roman-style pizza with potatoes and rosemary.",
         "translations": {
           "zh": {
-            "name": "罗马番茄披萨（单块）",
-            "description": "罗马风味方形披萨，搭配番茄酱，按块供应。"
+            "name": "罗马方形披萨（单块）· 土豆与迷迭香",
+            "description": "罗马风味方形披萨，搭配土豆和迷迭香，按块供应。"
           },
           "it": {
-            "name": "Trancio di pizza rossa",
-            "description": "Trancio di pizza romana con salsa di pomodoro."
+            "name": "Trancio di pizza romana – Patate e rosmarino",
+            "description": "Trancio di pizza romana con patate e rosmarino."
           },
           "ja": {
-            "name": "ローマ風ピッツァ・ロッサ（1切れ）",
-            "description": "トマトソースをのせたローマ風ピッツァ。1切れずつのご提供です。"
+            "name": "ローマ風カットピザ · じゃがいもとローズマリー",
+            "description": "じゃがいもとローズマリーをのせたローマ風ピザ。1ピースでご提供します。"
           },
           "ko": {
-            "name": "피자 로사 · 로마식 한 조각",
-            "description": "토마토소스를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
-          }
-        },
-        "price": 25,
-        "image": "./assets/pizza-rossa-doodle-4e66e5d9f8a6514a.webp",
-        "available": true,
-        "section": "pizza_classic"
-      },
-      {
-        "id": "8adf60a6-0306-4877-8470-8cd3f063c331",
-        "name": "Roman Pizza Slice – Cherry Tomatoes & Rocket",
-        "description": "A slice of Roman-style pizza with cherry tomatoes, rocket and organic extra virgin olive oil, served by the slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨（单块）· 小番茄与芝麻菜",
-            "description": "罗马风味方形披萨，搭配小番茄、芝麻菜和有机特级初榨橄榄油，按块供应。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Pomodorini e rucola",
-            "description": "Trancio di pizza romana con pomodorini, rucola e olio extravergine d’oliva biologico, servito al pezzo."
-          },
-          "ja": {
-            "name": "ローマ風カットピザ · ミニトマトとルッコラ",
-            "description": "ミニトマトとルッコラをのせ、有機エキストラバージンオリーブオイルで仕上げたローマ風ピザ。1ピースでご提供します。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 · 방울토마토와 루콜라",
-            "description": "방울토마토와 루콜라를 올리고 유기농 엑스트라 버진 올리브 오일로 마무리한 로마식 피자입니다. 한 조각씩 제공합니다."
+            "name": "로마식 조각 피자 · 감자와 로즈메리",
+            "description": "감자와 로즈메리를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
           }
         },
         "price": 28,
-        "image": "./assets/cherry-tomato-rocket-flat-doodle-f923ff9fe5104c22.webp",
+        "image": "./assets/leone-menu-0577a9e69a629677.webp#potato-rosemary",
         "available": true,
         "section": "pizza_classic"
       },
@@ -346,8 +319,62 @@
             "description": "트러플, 버섯과 모차렐라를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
           }
         },
-        "price": 33,
+        "price": 35,
         "image": "./assets/leone-menu-0577a9e69a629677.webp#truffle",
+        "available": true,
+        "section": "pizza_special"
+      },
+      {
+        "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
+        "name": "Roman Pizza Slice – Cooked Ham & Mozzarella",
+        "description": "A slice of Roman-style pizza with cooked ham and mozzarella.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨（单块）· 熟火腿与马苏里拉",
+            "description": "罗马风味方形披萨，搭配熟火腿和马苏里拉奶酪，按块供应。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Prosciutto cotto e mozzarella",
+            "description": "Trancio di pizza romana con prosciutto cotto e mozzarella."
+          },
+          "ja": {
+            "name": "ローマ風カットピザ · 加熱ハムとモッツァレラ",
+            "description": "加熱ハムとモッツァレラをのせたローマ風ピザ。1ピースでご提供します。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 · 익힌 햄과 모차렐라",
+            "description": "익힌 햄과 모차렐라를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/ham-mozzarella-flat-doodle-f75007c244162b9b.webp",
+        "available": true,
+        "section": "pizza_classic"
+      },
+      {
+        "id": "acb11030-2026-4000-8000-000000000002",
+        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & Nuts",
+        "description": "A Roman pizza slice topped with pumpkin, gorgonzola and a crunchy mix of super seeds. Price per slice.",
+        "translations": {
+          "zh": {
+            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与坚果蜂蜜",
+            "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪及香脆混合籽。按块计价。"
+          },
+          "it": {
+            "name": "Trancio di pizza romana – Zucca, gorgonzola e super seed",
+            "description": "Trancio di pizza romana con zucca, gorgonzola e un croccante mix di semi. Prezzo al trancio."
+          },
+          "ja": {
+            "name": "ローマ風ピッツァ – かぼちゃ・ゴルゴンゾーラ・ミックスシード",
+            "description": "かぼちゃ、ゴルゴンゾーラと香ばしいミックスシードをのせたローマ風ピッツァ。1切れの価格です。"
+          },
+          "ko": {
+            "name": "로마식 조각 피자 – 단호박, 고르곤졸라와 믹스 시드",
+            "description": "단호박, 고르곤졸라와 바삭한 믹스 시드를 올린 로마식 피자입니다. 한 조각 기준 가격입니다."
+          }
+        },
+        "price": 40,
+        "image": "./assets/halloween-pumpkin-gorgonzola-seeds-doodle-bcf6235068b177df.webp",
         "available": true,
         "section": "pizza_special"
       },
@@ -1043,6 +1070,32 @@
         "available": true
       },
       {
+        "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
+        "name": "Tiramisu",
+        "description": "An Italian dessert with coffee-soaked sponge biscuits, mascarpone cream and a dusting of cocoa.",
+        "translations": {
+          "zh": {
+            "name": "提拉米苏",
+            "description": "经典意式甜点：咖啡浸润的手指饼干，搭配马斯卡彭奶酪奶油，表面轻撒可可粉。"
+          },
+          "it": {
+            "name": "Tiramisù",
+            "description": "Dolce italiano con savoiardi al caffè, crema al mascarpone e una spolverata di cacao."
+          },
+          "ja": {
+            "name": "ティラミス",
+            "description": "コーヒーをしみ込ませたフィンガービスケットにマスカルポーネクリームを重ね、ココアをふったイタリアのデザート。"
+          },
+          "ko": {
+            "name": "티라미수",
+            "description": "커피에 적신 레이디핑거 비스킷에 마스카르포네 크림을 겹겹이 올리고 코코아를 뿌린 이탈리아 디저트입니다."
+          }
+        },
+        "price": 35,
+        "image": "./assets/tiramisu-doodle-166965b612efe2c4.webp",
+        "available": true
+      },
+      {
         "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
         "name": "Carrot and Nuts Cake",
         "description": "A slice of Carrot and Nuts Cake made with extra virgin olive oil.",
@@ -1070,20 +1123,20 @@
       },
       {
         "id": "dae977d6-667d-4933-88c5-f928c4a337b8",
-        "name": "Mini Berry Cheesecake",
-        "description": "A small, round berry cheesecake topped with two blueberries.",
+        "name": "Blueberry Cheesecake",
+        "description": "A round blueberry cheesecake topped with blueberries.",
         "translations": {
           "zh": {
-            "name": "迷你莓果芝士蛋糕",
-            "description": "小巧的圆形莓果芝士蛋糕，顶部点缀两颗蓝莓。"
+            "name": "莓果芝士蛋糕",
+            "description": "圆形蓝莓芝士蛋糕，顶部点缀新鲜蓝莓。"
           },
           "it": {
-            "name": "Cheesecake ai frutti di bosco",
-            "description": "Piccola cheesecake rotonda ai frutti di bosco, guarnita con due mirtilli."
+            "name": "Cheesecake ai mirtilli",
+            "description": "Piccola cheesecake rotonda ai frutti di bosco, guarnita con mirtilli."
           },
           "ja": {
-            "name": "ミニベリーチーズケーキ",
-            "description": "ベリーの小さな丸いチーズケーキ。ブルーベリーを2粒トッピング。"
+            "name": "ベリーチーズケーキ",
+            "description": "ベリーの丸いチーズケーキ。ブルーベリーを2粒トッピング。"
           },
           "ko": {
             "name": "미니 베리 치즈케이크",
