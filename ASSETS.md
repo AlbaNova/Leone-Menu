@@ -305,3 +305,8 @@ Exact prompts and generated-source paths are recorded locally in `output/imagege
 ## 7 November 2026 - Avocado and ragu pizza toast
 
 `public/assets/avocado-pizza-toast-doodle.png` and `public/assets/ragu-pizza-toast-doodle.png` were created with the built-in image_gen tool, using the original printed menu as a flat painted doodle reference. Both show a rectangular pizza bianca toast; avocado has mashed avocado, extra virgin olive oil and spice flecks, and ragu has minced-meat sauce. Exact prompts, source paths and final files: `output/imagegen/pizza-toasts-2026-11-07-prompts.json` (local record). Original PNGs stay local; publication uses optimized WebP copies. Translated Vegan/Vegetarian badges are rendered above the artwork by the menu, so changing language keeps them legible without modifying the original images.
+
+
+## 7 November 2026 - Remy's Birthday interface artwork
+
+The Remy's Birthday theme uses original code-native SVG doodles written directly into `index.html`: three walking Bernese Mountain Dogs (one with a party hat, one carrying a bone, one with a balloon), falling bones and stylised T-bone steaks, paw prints, a two-tier birthday cake with a large 1 and a lit candle, and a Bernese keychain for the gift banner. `remy.css` supplies the black, white and hazel palette and the looping animations. No raster images, external services or downloads are used. These are decorative interface assets, displayed only when the saved menu theme is Remy's Birthday.

@@ -1,14 +1,16 @@
-import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=4cc6e96bda10121e';
-import { languages, translate, productText } from './i18n.js?v=4cc6e96bda10121e';
-import { groupedFood, isPizzaSection } from './food-sections.js?v=4cc6e96bda10121e';
-import { hasVariants, portionPrices } from './product-variants.js?v=4cc6e96bda10121e';
-import { setupHalloween } from './halloween.js?v=4cc6e96bda10121e';
-import { setupChristmas } from './christmas.js?v=4cc6e96bda10121e';
-import { productPrice, hasDiscount } from './product-pricing.js?v=4cc6e96bda10121e';
-import { dietaryBadge } from './dietary.js?v=4cc6e96bda10121e';
+import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=567a8f644ad0f096';
+import { languages, translate, productText } from './i18n.js?v=567a8f644ad0f096';
+import { groupedFood, isPizzaSection } from './food-sections.js?v=567a8f644ad0f096';
+import { hasVariants, portionPrices } from './product-variants.js?v=567a8f644ad0f096';
+import { setupHalloween } from './halloween.js?v=567a8f644ad0f096';
+import { setupChristmas } from './christmas.js?v=567a8f644ad0f096';
+import { setupRemy } from './remy.js?v=567a8f644ad0f096';
+import { productPrice, hasDiscount } from './product-pricing.js?v=567a8f644ad0f096';
+import { dietaryBadge } from './dietary.js?v=567a8f644ad0f096';
 hydrateIcons();
 const halloween = setupHalloween();
 const christmas = setupChristmas();
+const remy = setupRemy();
 const languageKey = 'leone-menu-language';
 const menuSource = document.querySelector('meta[name="menu-source"]')?.content || '/api/menu';
 function initialLanguage() {
@@ -49,6 +51,7 @@ function details(p) {
 function render() {
   halloween.setTheme(menu?.theme||'classic');
   christmas.setEnabled(menu?.theme==='christmas');
+  remy.setEnabled(menu?.theme==='remy');
   document.querySelector('#christmas-specials').hidden=menu?.theme!=='christmas';
   if(category==='halloween'&&menu?.theme!=='halloween') {
     category='food';

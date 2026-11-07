@@ -15,7 +15,7 @@ export function setupHalloween() {
   reduced.addEventListener('change', clear);
   return {
     setTheme(value) {
-      const next=['classic','halloween','christmas'].includes(value)?value:'classic';
+      const next=['classic','halloween','christmas','remy'].includes(value)?value:'classic';
       const changed=theme!==next;theme=next;
       document.body.classList.toggle('christmas-mode',theme==='christmas');
       document.querySelector('#christmas-greeting').hidden=theme!=='christmas';

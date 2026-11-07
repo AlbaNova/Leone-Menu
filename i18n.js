@@ -123,6 +123,16 @@ const setCopy = {
 };
 for (const [language, copy] of Object.entries(setCopy)) Object.assign(messages[language], copy);
 
+// Remy's Birthday theme: greeting, gift banner and the cake's accessible description.
+const remyCopy = {
+  zh: { remyGreeting: 'Remy，生日快乐！', remyPromoTitle: '生日礼物', remyPromo: '购买 2 块罗马方形披萨，即赠伯恩山犬造型钥匙扣一个。', remyCakeLabel: '写着数字 1 的生日蛋糕' },
+  en: { remyGreeting: 'Happy birthday, Remy!', remyPromoTitle: 'Birthday gift', remyPromo: 'Buy 2 pizza slices and get a Bernese Mountain Dog keychain as a gift.', remyCakeLabel: 'Birthday cake with the number 1' },
+  it: { remyGreeting: 'Buon compleanno, Remy!', remyPromoTitle: 'Regalo di compleanno', remyPromo: 'Acquista 2 tranci di pizza: in regalo un portachiavi a forma di bovaro del Bernese.', remyCakeLabel: 'Torta di compleanno con il numero 1' },
+  ja: { remyGreeting: 'Remy、お誕生日おめでとう！', remyPromoTitle: 'バースデープレゼント', remyPromo: 'ローマ風カットピザを2切れお買い上げで、バーニーズ・マウンテン・ドッグのキーホルダーをプレゼント。', remyCakeLabel: '数字の1が描かれたバースデーケーキ' },
+  ko: { remyGreeting: '생일 축하해, Remy!', remyPromoTitle: '생일 선물', remyPromo: '로마식 조각 피자 2조각을 구매하시면 버니즈 마운틴 도그 모양 키링을 선물로 드려요.', remyCakeLabel: '숫자 1이 적힌 생일 케이크' }
+};
+for (const [language, copy] of Object.entries(remyCopy)) Object.assign(messages[language], copy);
+
 export function translate(language, key, values = {}) {
   const template = messages[language]?.[key] ?? messages.zh[key] ?? key;
   return template.replace(/\{(\w+)\}/g, (_, token) => String(values[token] ?? `{${token}}`));

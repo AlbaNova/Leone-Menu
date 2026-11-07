@@ -1,0 +1,148 @@
+/* Remy's Birthday: the Bernese Mountain Dog palette (black coat, white blaze, hazel markings).
+   Every decoration is inline SVG in index.html; nothing here downloads an image or intercepts taps. */
+.remy-defs { position:absolute; width:0; height:0; overflow:hidden; }
+.remy-parade,.remy-treats,.remy-cake-seal,.remy-banner-paws { pointer-events:none; }
+
+body.remy-mode { --cream:#faf7f2; --paper:#fffefb; --olive:#1f1a17; --olive-dark:#1f1a17; --olive-light:#f3e8db; --ink:#1f1a17; --muted:#6e6259; --line:#e6dbce; --red:#a5522a; background:var(--cream); color:var(--ink); }
+.remy-mode :is(button,a,input,select,textarea):focus-visible { outline-color:#c47a3c; }
+
+/* Header: the wordmark stripe becomes the Bernese tricolour. */
+.remy-mode .site-header { border-bottom:2px solid #1f1a17; }
+.remy-mode .italian-stripe i:nth-child(1) { background:#1f1a17; }
+.remy-mode .italian-stripe i:nth-child(2) { background:#fffaf2; border-block-color:#d9cdbf; }
+.remy-mode .italian-stripe i:nth-child(3) { background:#c47a3c; }
+.remy-mode .header-caption { color:#7a6a5d; }
+.remy-mode .language-switch { background:#f3ebe1; border-color:#e2d5c6; }
+.remy-mode .language-switch button { color:#1f1a17; }
+.remy-mode .language-switch button[aria-pressed=true] { background:#1f1a17; color:#fffaf2; }
+.remy-mode .language-switch button:hover:not([aria-pressed=true]) { background:#ecdccb; }
+
+/* Small gift banner. */
+.remy-banner { display:flex; align-items:center; gap:16px; margin-block:6px 22px; padding:12px 20px 12px 14px; border:2px solid #1f1a17; border-radius:12px; background:#fffaf2; box-shadow:5px 5px 0 #c47a3c; }
+.remy-keychain { flex-shrink:0; display:grid; place-items:center; width:62px; height:62px; border-radius:50%; background:#f3e8db; }
+.remy-keychain svg { width:54px; height:54px; }
+.remy-banner-copy { min-width:0; }
+.remy-banner strong { display:block; font:700 11px/1.4 var(--sans); letter-spacing:.14em; text-transform:uppercase; color:#94511f; }
+.remy-banner p { margin-top:3px; font:400 clamp(16px,1.9vw,19px)/1.45 var(--serif); color:#1f1a17; overflow-wrap:anywhere; }
+.remy-banner-paws { margin-left:auto; display:flex; align-items:center; gap:8px; flex-shrink:0; color:#c47a3c; }
+.remy-banner-paws svg { width:22px; height:22px; }
+.remy-banner-paws svg:nth-child(2) { width:16px; height:16px; color:#1f1a17; transform:translateY(-9px) rotate(18deg); }
+
+/* Hero: a black coat with white and hazel accents, and the birthday cake in place of the seal. */
+.remy-mode .hero { background:#1f1a17; box-shadow:0 12px 34px #1f1a1724; }
+.remy-greeting { display:inline-flex; align-items:center; gap:10px; margin-bottom:20px; padding:6px 16px 6px 12px; border-radius:999px; background:#c47a3c; color:#1f1a17; font:400 clamp(17px,2vw,21px)/1.3 var(--serif); }
+.remy-greeting svg { width:17px; height:17px; }
+.remy-mode .hero-copy .eyebrow { color:#e0a467; }
+.remy-mode .tiny-line { background:#e0a467; }
+.remy-mode .hero h1 { color:#fffaf2; }
+.remy-mode .hero h1 em { color:#e0a467; }
+.remy-mode .hero-copy>p { color:#e8ddd0; }
+.remy-mode .hero-footnote { color:#cdbfb1; }
+.remy-mode .little-sun { color:#e0a467; }
+.remy-mode .button.primary:hover { background:#3a312b; border-color:#3a312b; }
+.remy-mode .hero-copy>.button.primary { background:#fffaf2; border-color:#fffaf2; color:#1f1a17; }
+.remy-mode .hero-copy>.button.primary:hover { background:#f1dfc9; border-color:#f1dfc9; }
+.remy-mode .hero-photo .photo-shade { background:linear-gradient(0deg,#1f1a17d6,transparent 30%); }
+.remy-mode .round-seal { display:none; }
+.remy-cake-seal { position:absolute; top:20px; right:22px; z-index:2; display:grid; place-items:center; width:138px; height:138px; border-radius:50%; background:#fffaf2; box-shadow:0 0 0 3px #1f1a17,0 0 0 9px #c47a3c,0 8px 22px #1f1a1733; transform:rotate(-6deg); }
+.remy-cake { width:104px; height:104px; }
+.remy-flame { transform-box:fill-box; transform-origin:50% 100%; animation:remy-flicker 1.1s ease-in-out infinite alternate; }
+
+/* Menu, cards and footer. */
+.remy-mode .values-strip { color:#5c4f45; }
+.remy-mode .values-strip span:nth-child(even) { color:#c47a3c; }
+.remy-mode .eyebrow { color:#94511f; }
+.remy-mode .serif-dot { color:#c47a3c; }
+.remy-mode .category-tabs { background:#f3ebe1; border-color:#e2d5c6; }
+.remy-mode .category-tab { color:#6e6259; }
+.remy-mode .category-tab.active { background:#1f1a17; color:#fffaf2; box-shadow:0 2px 0 #c47a3c; }
+.remy-mode .category-tab:not(.active):hover { background:#ecdccb; }
+.remy-mode .category-tab[data-category="sets"]:not(.active) { color:#a5401f; }
+.remy-mode .search-box { background:#fffdf9; border-color:#e2d5c6; color:#8a7a6c; }
+.remy-mode .search-box:focus-within { box-shadow:0 0 0 2px #d9a66f; }
+.remy-mode .category-heading>span { color:#7a6a5d; }
+.remy-mode .product-card { border-color:#e8dccd; }
+.remy-mode .product-card:hover { border-color:#c47a3c; box-shadow:0 10px 25px #1f1a1714; }
+.remy-mode .product-price,.remy-mode .detail-bottom strong { color:#94511f; }
+.remy-mode .card-bottom { color:#7a6a5d; border-top-color:#f0e7dc; }
+.remy-mode .available-dot { background:#c47a3c; }
+.remy-mode :is(.empty-state,.loading-state) { background:#f3ebe1; }
+.remy-mode .hospitality { background:#1f1a17; color:#fffaf2; }
+.remy-mode .hospitality p { color:#e2d6c9; }
+.remy-mode .hospitality-flower,.remy-mode .hospitality-signature { color:#e0a467; }
+.remy-mode .site-footer { border-top:2px solid #1f1a17; }
+.remy-mode .site-footer p,.remy-mode .footer-note>span { color:#6e6259; }
+.remy-mode .product-dialog { background:#fffaf2; box-shadow:0 0 0 2px #1f1a17; }
+.remy-mode .available-note { background:#f3e8db; color:#5e3613; }
+.remy-mode .unavailable-note { background:#ede6dd; color:#6e6259; }
+
+/* Three Bernese doodles walk along the bottom edge, then the loop starts again. */
+.remy-parade { position:fixed; left:0; right:0; bottom:0; z-index:34; height:118px; overflow:hidden; contain:strict; }
+.remy-pack { position:absolute; left:0; bottom:calc(2px + env(safe-area-inset-bottom,0px)); display:flex; align-items:flex-end; gap:22px; animation:remy-pack-walk 30s linear -4s infinite; }
+.remy-dog { flex-shrink:0; width:118px; filter:drop-shadow(0 0 1.5px #fffaf2); }
+.remy-dog-balloon { width:96px; }
+.remy-dog svg { display:block; width:100%; height:auto; overflow:visible; animation:remy-bob .7s ease-in-out infinite alternate; }
+.remy-leg { transform-box:fill-box; transform-origin:50% 8%; animation:remy-step .7s ease-in-out infinite alternate; }
+.remy-leg.leg-b,.remy-leg.leg-c { animation-delay:-.7s; }
+.remy-dog-bone .remy-leg { animation-delay:-.23s; }
+.remy-dog-bone .leg-b,.remy-dog-bone .leg-c { animation-delay:-.93s; }
+.remy-dog-balloon .remy-leg { animation-delay:-.46s; }
+.remy-dog-balloon .leg-b,.remy-dog-balloon .leg-c { animation-delay:-1.16s; }
+.remy-tail { transform-box:fill-box; transform-origin:100% 100%; animation:remy-wag .45s ease-in-out infinite alternate; }
+.remy-ear { transform-box:fill-box; transform-origin:60% 0; animation:remy-ear .7s ease-in-out infinite alternate; }
+.remy-balloon { transform-box:fill-box; transform-origin:80% 100%; animation:remy-balloon 2.6s ease-in-out infinite alternate; }
+
+/* Bones and steaks drift down slowly, like snow. */
+.remy-treats { position:fixed; inset:0; z-index:33; overflow:hidden; contain:strict; }
+.remy-treat { position:absolute; top:-56px; left:0; width:28px; animation:remy-fall 18s linear infinite; }
+.remy-treat svg { display:block; width:100%; height:auto; animation:remy-sway 3.4s ease-in-out infinite alternate; }
+.remy-treat:nth-child(3n) svg { animation-duration:4.2s; animation-delay:-1.3s; }
+.remy-treat:nth-child(3n+1) svg { animation-duration:2.9s; animation-delay:-.6s; }
+.treat-0{left:3%;width:32px;animation-duration:19s;animation-delay:-1s}
+.treat-1{left:10%;width:38px;animation-duration:22s;animation-delay:-9s}
+.treat-2{left:17%;width:28px;animation-duration:16s;animation-delay:-5s}
+.treat-3{left:24%;width:40px;animation-duration:20s;animation-delay:-14s}
+.treat-4{left:31%;width:34px;animation-duration:18s;animation-delay:-11s}
+.treat-5{left:38%;width:34px;animation-duration:15s;animation-delay:-3s}
+.treat-6{left:45%;width:30px;animation-duration:21s;animation-delay:-17s}
+.treat-7{left:52%;width:40px;animation-duration:17s;animation-delay:-7s}
+.treat-8{left:59%;width:32px;animation-duration:19s;animation-delay:-13s}
+.treat-9{left:66%;width:36px;animation-duration:16s;animation-delay:-1.5s}
+.treat-10{left:73%;width:36px;animation-duration:22s;animation-delay:-19s}
+.treat-11{left:80%;width:38px;animation-duration:18s;animation-delay:-8s}
+.treat-12{left:87%;width:28px;animation-duration:15s;animation-delay:-10s}
+.treat-13{left:92%;width:40px;animation-duration:20s;animation-delay:-4s}
+
+@keyframes remy-pack-walk { 0%{transform:translateX(-100%)} 74%,100%{transform:translateX(100vw)} }
+@keyframes remy-step { from{transform:rotate(-17deg)} to{transform:rotate(17deg)} }
+@keyframes remy-bob { from{transform:translateY(0)} to{transform:translateY(-2.5px)} }
+@keyframes remy-wag { from{transform:rotate(-10deg)} to{transform:rotate(14deg)} }
+@keyframes remy-ear { from{transform:rotate(-4deg)} to{transform:rotate(5deg)} }
+@keyframes remy-balloon { from{transform:rotate(-6deg)} to{transform:rotate(5deg)} }
+@keyframes remy-flicker { from{transform:scale(1) rotate(-3deg)} to{transform:scale(.86,1.08) rotate(4deg)} }
+@keyframes remy-fall { 0%{transform:translate(0,-10px) rotate(0deg);opacity:0} 7%{opacity:.95} 90%{opacity:.9} 100%{transform:translate(26px,calc(100vh + 120px)) rotate(210deg);opacity:0} }
+@keyframes remy-sway { from{transform:translateX(-9px) rotate(-14deg)} to{transform:translateX(9px) rotate(14deg)} }
+
+/* Hidden tabs pause every Remy animation. */
+.remy-paused :is(.remy-pack,.remy-dog svg,.remy-leg,.remy-tail,.remy-ear,.remy-balloon,.remy-treat,.remy-treat svg,.remy-flame) { animation-play-state:paused; }
+
+@media(max-width:600px){
+  .remy-banner { gap:12px; margin-block:2px 18px; padding:10px 12px; box-shadow:3px 3px 0 #c47a3c; }
+  .remy-keychain { width:48px; height:48px; }
+  .remy-keychain svg { width:42px; height:42px; }
+  .remy-banner strong { font-size:10px; }
+  .remy-banner p { font-size:15px; }
+  .remy-banner-paws { display:none; }
+  .remy-greeting { margin-bottom:16px; font-size:16px; }
+  .remy-cake-seal { top:14px; right:16px; width:92px; height:92px; box-shadow:0 0 0 2px #1f1a17,0 0 0 6px #c47a3c,0 6px 16px #1f1a1733; }
+  .remy-cake { width:70px; height:70px; }
+  .remy-parade { height:88px; }
+  .remy-pack { gap:12px; animation-duration:22s; }
+  .remy-dog { width:84px; }
+  .remy-dog-balloon { width:68px; }
+  .remy-treat:nth-child(n+11) { display:none; }
+}
+@media(prefers-reduced-motion:reduce){
+  .remy-parade,.remy-treats { display:none!important; }
+  .remy-flame { animation:none!important; }
+}
