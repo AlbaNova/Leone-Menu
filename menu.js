@@ -1,9 +1,10 @@
-import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=d9d415774cfe156e';
-import { languages, translate, productText } from './i18n.js?v=d9d415774cfe156e';
-import { groupedFood, isPizzaSection } from './food-sections.js?v=d9d415774cfe156e';
-import { hasVariants, portionPrices } from './product-variants.js?v=d9d415774cfe156e';
-import { setupHalloween } from './halloween.js?v=d9d415774cfe156e';
-import { setupChristmas } from './christmas.js?v=d9d415774cfe156e';
+import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=15f95f717c35bbc7';
+import { languages, translate, productText } from './i18n.js?v=15f95f717c35bbc7';
+import { groupedFood, isPizzaSection } from './food-sections.js?v=15f95f717c35bbc7';
+import { hasVariants, portionPrices } from './product-variants.js?v=15f95f717c35bbc7';
+import { setupHalloween } from './halloween.js?v=15f95f717c35bbc7';
+import { setupChristmas } from './christmas.js?v=15f95f717c35bbc7';
+import { dietaryBadge } from './dietary.js?v=15f95f717c35bbc7';
 hydrateIcons();
 const halloween = setupHalloween();
 const christmas = setupChristmas();
@@ -41,7 +42,7 @@ document.querySelectorAll('[data-language]').forEach(button => button.addEventLi
 }));
 function details(p) {
   const text = productText(p, language);
-  document.querySelector('#product-detail').innerHTML = `${productImage(p.image, text.name, `detail-photo ${!p.available ? "muted-image" : ""}`, "eager")}<div class="detail-copy"><div class="eyebrow">${esc(t('detailEyebrow'))}</div><h2 id="detail-title" lang="${text.nameLang}">${esc(text.name)}</h2><p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="detail-bottom"><strong class="${hasVariants(p) ? 'portion-prices' : ''}">${displayedPrice(p)}</strong><span class="${p.available ? 'available-note' : 'unavailable-note'}">${esc(t(p.available ? 'available' : 'unavailable'))}</span></div><p class="detail-note">${esc(t('orderNote'))}</p></div>`;
+  document.querySelector('#product-detail').innerHTML = `<div class="detail-visual">${productImage(p.image, text.name, `detail-photo ${!p.available ? "muted-image" : ""}`, "eager")}${dietaryBadge(p.dietary, language)}</div><div class="detail-copy"><div class="eyebrow">${esc(t('detailEyebrow'))}</div><h2 id="detail-title" lang="${text.nameLang}">${esc(text.name)}</h2><p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="detail-bottom"><strong class="${hasVariants(p) ? 'portion-prices' : ''}">${displayedPrice(p)}</strong><span class="${p.available ? 'available-note' : 'unavailable-note'}">${esc(t(p.available ? 'available' : 'unavailable'))}</span></div><p class="detail-note">${esc(t('orderNote'))}</p></div>`;
   dialog.setAttribute('aria-labelledby', 'detail-title');
 }
 function render() {
@@ -70,7 +71,7 @@ function render() {
   const renderProduct = p => {
     const text = productText(p, language);
     const titleTag = !query && !festiveIds.has(p.id) && category === 'food' && isPizzaSection(p.section) ? 'h6' : 'h4';
-    return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><${titleTag} lang="${text.nameLang}">${esc(text.name)}</${titleTag}>${hasVariants(p) ? '' : `<span class="product-price">${price(p.price)}</span>`}</div>${hasVariants(p) ? `<div class="product-price portion-prices">${displayedPrice(p)}</div>` : ''}<p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
+    return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${dietaryBadge(p.dietary, language)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><${titleTag} lang="${text.nameLang}">${esc(text.name)}</${titleTag}>${hasVariants(p) ? '' : `<span class="product-price">${price(p.price)}</span>`}</div>${hasVariants(p) ? `<div class="product-price portion-prices">${displayedPrice(p)}</div>` : ''}<p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
   };
   const useSections = !query && category === 'food' && source.some(p => p.section);
   const festiveMatches=festive.filter(matches);

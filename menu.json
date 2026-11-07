@@ -148,6 +148,7 @@
         "price": 25,
         "image": "./assets/pizza-bianca-whole-half-combined-doodle-bf8d48d5192bd9f6.webp",
         "available": true,
+        "dietary": "vegetarian",
         "variants": [
           {
             "format": "whole",
@@ -187,6 +188,7 @@
         "price": 30,
         "image": "./assets/leone-menu-0577a9e69a629677.webp#margherita",
         "available": true,
+        "dietary": "vegetarian",
         "section": "pizza_classic"
       },
       {
@@ -241,6 +243,7 @@
         "price": 28,
         "image": "./assets/leone-menu-0577a9e69a629677.webp#potato-rosemary",
         "available": true,
+        "dietary": "vegetarian",
         "section": "pizza_classic"
       },
       {
@@ -295,6 +298,7 @@
         "price": 30,
         "image": "./assets/pumpkin-mozzarella-super-seed-flat-doodle-f8f481439d001073.webp",
         "available": true,
+        "dietary": "vegetarian",
         "section": "pizza_special"
       },
       {
@@ -322,6 +326,7 @@
         "price": 35,
         "image": "./assets/leone-menu-0577a9e69a629677.webp#truffle",
         "available": true,
+        "dietary": "vegetarian",
         "section": "pizza_special"
       },
       {
@@ -376,6 +381,7 @@
         "price": 40,
         "image": "./assets/halloween-pumpkin-gorgonzola-seeds-doodle-bcf6235068b177df.webp",
         "available": true,
+        "dietary": "vegetarian",
         "section": "pizza_special"
       },
       {
@@ -404,6 +410,61 @@
         "image": "./assets/couscous-salad-doodle-54a87dbaab8d899d.webp",
         "available": true,
         "section": "first_courses"
+      },
+      {
+        "id": "47561169-97d2-48d8-822b-e313be373ab3",
+        "name": "Avocado Pizza Toast",
+        "description": "Mashed avocado on toasted pizza bianca, with Quattrociocchi extra virgin olive oil and spices.",
+        "translations": {
+          "zh": {
+            "name": "牛油果披萨吐司",
+            "description": "将牛油果泥铺在烤香的白披萨吐司上，佐以 Quattrociocchi 特级初榨橄榄油和香料。"
+          },
+          "it": {
+            "name": "Avocado Pizza Toast",
+            "description": "Avocado schiacciato su un letto di pizza bianca tostata, con olio extravergine d’oliva Quattrociocchi e spezie."
+          },
+          "ja": {
+            "name": "アボカドピッツァトースト",
+            "description": "トーストしたピッツァ・ビアンカにマッシュしたアボカドをのせ、Quattrociocchiのエキストラバージンオリーブオイルとスパイスで仕上げました。"
+          },
+          "ko": {
+            "name": "아보카도 피자 토스트",
+            "description": "바삭하게 구운 피자 비앙카 위에 으깬 아보카도를 올리고 Quattrociocchi 엑스트라 버진 올리브 오일과 향신료로 마무리했습니다."
+          }
+        },
+        "price": 25,
+        "image": "./assets/avocado-pizza-toast-doodle-3f87c9a68163b4d9.webp",
+        "available": true,
+        "dietary": "vegan",
+        "section": "pizza_special"
+      },
+      {
+        "id": "38517255-96bc-430a-a41b-5e745ff86520",
+        "name": "Ragù Pizza Toast",
+        "description": "Toasted pizza bianca topped with a rich meat ragù.",
+        "translations": {
+          "zh": {
+            "name": "意式肉酱披萨吐司",
+            "description": "烤香的白披萨吐司，铺上浓郁的意式肉酱。"
+          },
+          "it": {
+            "name": "Ragù Pizza Toast",
+            "description": "Pizza bianca tostata, ricoperta da un ricco ragù di carne."
+          },
+          "ja": {
+            "name": "ラグーピッツァトースト",
+            "description": "トーストしたピッツァ・ビアンカに、コクのあるお肉のラグーソースをのせました。"
+          },
+          "ko": {
+            "name": "라구 피자 토스트",
+            "description": "바삭하게 구운 피자 비앙카 위에 진한 고기 라구 소스를 올렸습니다."
+          }
+        },
+        "price": 40,
+        "image": "./assets/ragu-pizza-toast-doodle-f3e2877916ba07a8.webp",
+        "available": true,
+        "section": "pizza_special"
       }
     ],
     "drinks": [

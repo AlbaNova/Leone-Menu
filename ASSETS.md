@@ -300,3 +300,8 @@ Exact prompts and generated-source paths are recorded locally in `output/imagege
 ## 5 November 2026 - Hot chocolate
 
 `public/assets/hot-chocolate-cup-doodle.png` is an original illustration created with the built-in image_gen tool, matching the flat painted doodle style of `public/assets/leone-menu.png`. It shows hot milk chocolate in a cream ceramic mug with a green rim and gentle steam, on white. Exact prompt and source path: `output/imagegen/hot-chocolate-prompt.json` (local record). The public exporter creates an optimized WebP delivery copy.
+
+
+## 7 November 2026 - Avocado and ragu pizza toast
+
+`public/assets/avocado-pizza-toast-doodle.png` and `public/assets/ragu-pizza-toast-doodle.png` were created with the built-in image_gen tool, using the original printed menu as a flat painted doodle reference. Both show a rectangular pizza bianca toast; avocado has mashed avocado, extra virgin olive oil and spice flecks, and ragu has minced-meat sauce. Exact prompts, source paths and final files: `output/imagegen/pizza-toasts-2026-11-07-prompts.json` (local record). Original PNGs stay local; publication uses optimized WebP copies. Translated Vegan/Vegetarian badges are rendered above the artwork by the menu, so changing language keeps them legible without modifying the original images.
