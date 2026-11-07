@@ -28,6 +28,7 @@
         "price": 48,
         "image": "./assets/spaghetti-aglio-olio-doodle-e7d1c54dbe5ca9ef.webp",
         "available": true,
+        "dietary": "vegan",
         "section": "first_courses"
       },
       {
@@ -55,6 +56,7 @@
         "price": 48,
         "image": "./assets/fusilli-tomato-basil-doodle-9833f460bab0ebda.webp",
         "available": true,
+        "dietary": "vegan",
         "section": "first_courses"
       },
       {
@@ -82,6 +84,7 @@
         "price": 18,
         "image": "./assets/onion-frittata-doodle-43ab52e0e38ce36e.webp",
         "available": true,
+        "dietary": "vegetarian",
         "section": "sides"
       },
       {
@@ -148,7 +151,7 @@
         "price": 25,
         "image": "./assets/pizza-bianca-whole-half-combined-doodle-bf8d48d5192bd9f6.webp",
         "available": true,
-        "dietary": "vegetarian",
+        "dietary": "vegan",
         "variants": [
           {
             "format": "whole",
@@ -243,7 +246,7 @@
         "price": 28,
         "image": "./assets/leone-menu-0577a9e69a629677.webp#potato-rosemary",
         "available": true,
-        "dietary": "vegetarian",
+        "dietary": "vegan",
         "section": "pizza_classic"
       },
       {
@@ -409,6 +412,7 @@
         "price": 28,
         "image": "./assets/couscous-salad-doodle-54a87dbaab8d899d.webp",
         "available": true,
+        "dietary": "vegan",
         "section": "first_courses"
       },
       {
@@ -544,7 +548,8 @@
         },
         "price": 29,
         "image": "./assets/pumpkin-spice-latte-doodle-d126ce4fc4b36326.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       },
       {
         "id": "91502d7c-362d-43e9-ac57-9302ff3a7dd6",
@@ -570,7 +575,8 @@
         },
         "price": 29,
         "image": "./assets/black-sesame-latte-doodle-0dee2c0a1ca09b0b.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       },
       {
         "id": "5af0aa05-2864-4ed1-ac99-91b4849c5a92",
@@ -596,7 +602,8 @@
         },
         "price": 29,
         "image": "./assets/chai-latte-doodle-bd3e9d950063fff1.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       },
       {
         "id": "ed336ed6-d3f7-4505-bd0d-a818afc1f7af",
@@ -622,7 +629,8 @@
         },
         "price": 29,
         "image": "./assets/hojicha-latte-doodle-209b76ca01768b47.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       },
       {
         "id": "720b4c52-a34d-4c51-8c8e-11997a3f424e",
@@ -648,7 +656,8 @@
         },
         "price": 29,
         "image": "./assets/matcha-latte-doodle-81a9a36a17081693.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       },
       {
         "id": "21a725e7-d7f5-4313-b753-5d4c00484f6d",
@@ -675,6 +684,7 @@
         "price": 20,
         "image": "./assets/green-tea-pot-mug-doodle-17f5c33510f20034.webp",
         "available": true,
+        "dietary": "vegan",
         "variants": [
           {
             "format": "pot",
@@ -713,6 +723,7 @@
         "price": 20,
         "image": "./assets/black-tea-pot-mug-doodle-4d2121c5a769078f.webp",
         "available": true,
+        "dietary": "vegan",
         "variants": [
           {
             "format": "pot",
@@ -751,6 +762,7 @@
         "price": 20,
         "image": "./assets/hojicha-pot-mug-doodle-ac58bd1e278d920e.webp",
         "available": true,
+        "dietary": "vegan",
         "variants": [
           {
             "format": "pot",
@@ -788,7 +800,8 @@
         },
         "price": 29,
         "image": "./assets/zuegg-blood-orange-bottle-doodle-8f69d87faeb81e37.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "0e9ef9f9-58de-4120-ae9c-9e7e287adb24",
@@ -814,7 +827,8 @@
         },
         "price": 29,
         "image": "./assets/zuegg-sweet-orange-bottle-doodle-ec770dc37bdc1cdd.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "19e65ed8-e83c-4121-b6ff-b921e50fa59b",
@@ -840,7 +854,8 @@
         },
         "price": 29,
         "image": "./assets/zuegg-apricot-bottle-doodle-472c6b7e6b1828b0.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "f1b7321e-20fc-4fb0-aab4-010859495a80",
@@ -866,7 +881,8 @@
         },
         "price": 29,
         "image": "./assets/zuegg-clear-apple-bottle-doodle-78094846608ba9c2.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "5098df2a-2cd5-43cb-a9dc-da7203baed4d",
@@ -892,7 +908,8 @@
         },
         "price": 28,
         "image": "./assets/pomegranate-soda-doodle-bfcee749bfb39686.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "018680e9-9c54-441a-9ae4-e3b2eca13722",
@@ -918,7 +935,8 @@
         },
         "price": 12,
         "image": "./assets/sanpellegrino-aranciata-can-doodle-ca594eb35956eaff.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "541f1aac-b3a2-4aa9-bec5-b0b3e016d4f7",
@@ -944,7 +962,8 @@
         },
         "price": 12,
         "image": "./assets/sanpellegrino-aranciata-rossa-can-doodle-7f0f59c61f83706a.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "b30cd4da-3bed-4fef-a930-2aa9ab4d651a",
@@ -970,7 +989,8 @@
         },
         "price": 20,
         "image": "./assets/molecola-glass-bottle-doodle-285450a24923ad0b.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "1a6045a6-e7f8-48c6-932c-46e4a5ab9c55",
@@ -1022,7 +1042,8 @@
         },
         "price": 18,
         "image": "./assets/orange-juice-glass-doodle-646f5e43f11ff716.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "228f408e-4471-4b11-9226-8a1419e5620b",
@@ -1048,7 +1069,8 @@
         },
         "price": 28,
         "image": "./assets/iced-orange-coffee-layered-doodle-123ff55c239a7e74.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "a45d0212-1d23-4100-af26-a9ac0b7603de",
@@ -1074,7 +1096,8 @@
         },
         "price": 20,
         "image": "./assets/grape-juice-glass-doodle-75cf9c54569c36f5.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "50418395-a73e-4044-b825-57002401d6f2",
@@ -1100,7 +1123,8 @@
         },
         "price": 28,
         "image": "./assets/hot-chocolate-cup-doodle-1246bfc94078f136.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       }
     ],
     "desserts": [
@@ -1128,7 +1152,8 @@
         },
         "price": 48,
         "image": "./assets/acai-bowl-doodle-24cd8721cf0e9794.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "a4dee904-e064-428a-8ac5-ce6665bd279a",
@@ -1154,7 +1179,8 @@
         },
         "price": 35,
         "image": "./assets/tiramisu-doodle-166965b612efe2c4.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       },
       {
         "id": "98575e77-77e3-4720-b7ae-81fc95382d08",
@@ -1180,7 +1206,8 @@
         },
         "price": 32,
         "image": "./assets/carrot-walnut-cake-flat-doodle-9e3b55010d5a2fbb.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       },
       {
         "id": "dae977d6-667d-4933-88c5-f928c4a337b8",
@@ -1206,7 +1233,8 @@
         },
         "price": 28,
         "image": "./assets/mini-berry-cheesecake-doodle-c58e08cdc164e445.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegetarian"
       }
     ],
     "products": [
@@ -1234,7 +1262,8 @@
         },
         "price": 20,
         "image": "./assets/molecola-glass-bottle-doodle-285450a24923ad0b.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "c70af430-3e10-4804-ad35-d57751f164f6",
@@ -1260,7 +1289,8 @@
         },
         "price": 88,
         "image": "./assets/giusti-truffle-glaze-doodle-251d9f8d4bb03c8d.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "e9f9b3c6-3565-403e-bb01-c63f26a14fe8",
@@ -1286,7 +1316,8 @@
         },
         "price": 88,
         "image": "./assets/giusti-raspberry-glaze-doodle-53947adecb59796e.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "3cdc72c4-136d-442b-80c7-67261a4e0eec",
@@ -1312,7 +1343,8 @@
         },
         "price": 88,
         "image": "./assets/giusti-fig-glaze-doodle-acda9bc88b338c1d.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "669b6084-d26f-475d-938a-e11c3be832d0",
@@ -1338,7 +1370,8 @@
         },
         "price": 248,
         "image": "./assets/quattrociocchi-superbo-500ml-doodle-1c51e889b64e9277.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "6c633383-24d0-4671-b598-7033989ecb66",
@@ -1364,7 +1397,8 @@
         },
         "price": 248,
         "image": "./assets/quattrociocchi-olivastro-500ml-doodle-c9598c293d5634f4.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "0117acd5-6734-48f7-8273-a4d88d45c288",
@@ -1390,7 +1424,8 @@
         },
         "price": 268,
         "image": "./assets/quattrociocchi-primolio-2025-500ml-doodle-fa23fe0eea14e3d8.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "85edf8f7-1931-4b94-b181-0b424ed13d1f",
@@ -1416,7 +1451,8 @@
         },
         "price": 88,
         "image": "./assets/quattrociocchi-olivastro-gift-100ml-doodle-ba20845105fd3ebd.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "7df50e50-ae97-4df2-ae1b-853f6c254c81",
@@ -1442,7 +1478,8 @@
         },
         "price": 88,
         "image": "./assets/quattrociocchi-truffle-gift-100ml-doodle-1beb6beccd3ec8b6.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "e246171c-ea68-4193-8ae0-01775ed8321c",
@@ -1468,7 +1505,8 @@
         },
         "price": 88,
         "image": "./assets/quattrociocchi-orange-gift-100ml-doodle-ecbd19f0f9f2bf32.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "3d5e898c-61c9-4341-80b6-9758c3f4be37",
@@ -1494,7 +1532,8 @@
         },
         "price": 88,
         "image": "./assets/quattrociocchi-lemon-gift-100ml-doodle-f3659ee1f96e2f0c.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "fad5c4dc-6497-483d-aa77-9c0bb7514925",
@@ -1520,7 +1559,8 @@
         },
         "price": 88,
         "image": "./assets/quattrociocchi-basil-gift-100ml-doodle-bbfd681d24c890b7.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "d704449c-cb62-4d23-b3bd-0883f0273856",
@@ -1546,7 +1586,8 @@
         },
         "price": 88,
         "image": "./assets/quattrociocchi-garlic-chili-gift-100ml-doodle-bc86bf500b9dbc60.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "77503c5a-9250-41aa-a4c9-eb5660af2bb0",
@@ -1572,7 +1613,8 @@
         },
         "price": 26,
         "image": "./assets/torres-iberian-ham-doodle-0d4b3a773e170109.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       },
       {
         "id": "df5cda8a-c160-436c-b289-2fbd6f4a587c",
@@ -1598,7 +1640,8 @@
         },
         "price": 26,
         "image": "./assets/torres-black-truffle-doodle-4c0f659bc097f6a8.webp",
-        "available": true
+        "available": true,
+        "dietary": "vegan"
       }
     ],
     "halloween": [],
