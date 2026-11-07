@@ -114,6 +114,15 @@ export const messages = {
   },
 };
 
+const setCopy = {
+  zh: { sets: '套餐', setsTitle: '精选优惠套餐', setsDescription: '罗马切片披萨搭配饮品，以优惠价格享受意式好滋味。', originalPrice: '原价', salePrice: '优惠价', saveAmount: '立省 {amount}' },
+  en: { sets: 'Sets', setsTitle: 'Better together', setsDescription: 'Roman pizza slices paired with your favourite drinks, at a special set price.', originalPrice: 'Original price', salePrice: 'Set price', saveAmount: 'Save {amount}' },
+  it: { sets: 'Set', setsTitle: 'Il gusto di stare insieme', setsDescription: 'Tranci di pizza romana abbinati alle tue bevande preferite, a un prezzo speciale.', originalPrice: 'Prezzo originale', salePrice: 'Prezzo del set', saveAmount: 'Risparmi {amount}' },
+  ja: { sets: 'セット', setsTitle: 'お得なセットメニュー', setsDescription: 'ローマ風カットピザとお好きなドリンクを、お得なセット価格で。', originalPrice: '通常価格', salePrice: 'セット価格', saveAmount: '{amount} お得' },
+  ko: { sets: '세트', setsTitle: '함께 즐기는 세트 메뉴', setsDescription: '로마식 조각 피자와 좋아하는 음료를 특별한 세트 가격으로 즐겨보세요.', originalPrice: '정상가', salePrice: '세트 가격', saveAmount: '{amount} 할인' }
+};
+for (const [language, copy] of Object.entries(setCopy)) Object.assign(messages[language], copy);
+
 export function translate(language, key, values = {}) {
   const template = messages[language]?.[key] ?? messages.zh[key] ?? key;
   return template.replace(/\{(\w+)\}/g, (_, token) => String(values[token] ?? `{${token}}`));

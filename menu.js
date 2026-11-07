@@ -1,10 +1,11 @@
-import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=d2ca55fade95d06a';
-import { languages, translate, productText } from './i18n.js?v=d2ca55fade95d06a';
-import { groupedFood, isPizzaSection } from './food-sections.js?v=d2ca55fade95d06a';
-import { hasVariants, portionPrices } from './product-variants.js?v=d2ca55fade95d06a';
-import { setupHalloween } from './halloween.js?v=d2ca55fade95d06a';
-import { setupChristmas } from './christmas.js?v=d2ca55fade95d06a';
-import { dietaryBadge } from './dietary.js?v=d2ca55fade95d06a';
+import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=4cc6e96bda10121e';
+import { languages, translate, productText } from './i18n.js?v=4cc6e96bda10121e';
+import { groupedFood, isPizzaSection } from './food-sections.js?v=4cc6e96bda10121e';
+import { hasVariants, portionPrices } from './product-variants.js?v=4cc6e96bda10121e';
+import { setupHalloween } from './halloween.js?v=4cc6e96bda10121e';
+import { setupChristmas } from './christmas.js?v=4cc6e96bda10121e';
+import { productPrice, hasDiscount } from './product-pricing.js?v=4cc6e96bda10121e';
+import { dietaryBadge } from './dietary.js?v=4cc6e96bda10121e';
 hydrateIcons();
 const halloween = setupHalloween();
 const christmas = setupChristmas();
@@ -16,11 +17,11 @@ function initialLanguage() {
   try { const saved = localStorage.getItem(languageKey); if (Object.hasOwn(languages, saved)) return saved; } catch {}
   return 'zh';
 }
-let language = initialLanguage(), category = 'food', menu = null, query = '', lastPayload = '', openedId = null, connectionFailed = false;
+let language = initialLanguage(), category = 'sets', menu = null, query = '', lastPayload = '', openedId = null, connectionFailed = false;
 const grid = document.querySelector('#products'), dialog = document.querySelector('#product-dialog');
 const t = (key, values) => translate(language, key, values);
 const price = value => money(value, menu.currency, languages[language].locale);
-const displayedPrice = p => hasVariants(p) ? portionPrices(p, menu.currency, language, t('unavailable')) : price(p.price);
+const displayedPrice = p => hasVariants(p) ? portionPrices(p, menu.currency, language, t('unavailable')) : productPrice(p, menu.currency, language);
 const allProducts = () => [...new Map(Object.entries(menu?.groups || {}).filter(([key])=>!['halloween','christmas'].includes(key)||menu?.theme===key).flatMap(([,items])=>items).map(p => [p.id, p])).values()];
 const normalize = text => text.normalize('NFKC').toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 function applyLanguage() {
@@ -58,6 +59,8 @@ function render() {
     document.querySelector('#category-description').textContent = t(`${category}Description`);
     return;
   }
+  if (category === 'sets' && !menu.groups.sets?.length) category = 'food';
+  document.querySelectorAll('[data-category]').forEach(b => { const active = b.dataset.category === category; b.classList.toggle('active', active); b.setAttribute('aria-pressed', String(active)); });
   const matches=p=>!query||normalize([p.name,p.description,...Object.values(p.translations||{}).flatMap(text=>[text.name,text.description])].join(' ')).includes(query);
   const festive=menu.theme==='christmas'?(menu.groups.christmas||[]):[];
   const festiveIds=new Set(festive.map(p=>p.id));
@@ -66,12 +69,12 @@ function render() {
   document.querySelector('#category-title').textContent = query ? t('searchTitle') : t(`${category}Title`);
   document.querySelector('#category-description').textContent = query ? t('searchResults', { query: document.querySelector('#menu-search').value.trim() }) : t(`${category}Description`);
   document.querySelector('#result-count').textContent = t(source.length === 1 ? 'itemCountOne' : 'itemCount', { count: source.length });
-  for (const key of ['food', 'drinks', 'desserts', 'products', 'halloween']) document.querySelector(`#${key}-count`).textContent = ordinary(menu.groups[key] || []).length;
+  for (const key of ['sets', 'food', 'drinks', 'desserts', 'products', 'halloween']) document.querySelector(`#${key}-count`).textContent = ordinary(menu.groups[key] || []).length;
   document.querySelector('#christmas-count').textContent=t(festive.length===1?'itemCountOne':'itemCount',{count:festive.length});
   const renderProduct = p => {
     const text = productText(p, language);
     const titleTag = !query && !festiveIds.has(p.id) && category === 'food' && isPizzaSection(p.section) ? 'h6' : 'h4';
-    return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${dietaryBadge(p.dietary, language)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><${titleTag} lang="${text.nameLang}">${esc(text.name)}</${titleTag}>${hasVariants(p) ? '' : `<span class="product-price">${price(p.price)}</span>`}</div>${hasVariants(p) ? `<div class="product-price portion-prices">${displayedPrice(p)}</div>` : ''}<p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
+    return `<button class="product-card ${p.available ? '' : 'unavailable'}" data-id="${p.id}" aria-label="${esc(t('viewProduct', { name: text.name }))}${p.available ? '' : ', ' + esc(t('unavailable'))}"><div class="product-photo">${productImage(p.image, text.name)}${dietaryBadge(p.dietary, language)}${!p.available ? `<span class="sold-out-badge">${esc(t('unavailable'))}</span>` : ''}<span class="card-open" aria-hidden="true">↗</span></div><div class="product-copy"><div class="product-title-row"><${titleTag} lang="${text.nameLang}">${esc(text.name)}</${titleTag}>${hasVariants(p) || hasDiscount(p) ? '' : `<span class="product-price">${displayedPrice(p)}</span>`}</div>${hasVariants(p) || hasDiscount(p) ? `<div class="product-price ${hasVariants(p) ? 'portion-prices' : 'discount-price'}">${displayedPrice(p)}</div>` : ''}<p lang="${text.descriptionLang}">${esc(text.description)}</p><div class="card-bottom">${p.available ? `<span class="available-dot"></span>${esc(t('cardNote'))}` : esc(t('backSoon'))}</div></div></button>`;
   };
   const useSections = !query && category === 'food' && source.some(p => p.section);
   const festiveMatches=festive.filter(matches);

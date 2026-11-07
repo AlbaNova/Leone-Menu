@@ -8,4 +8,4 @@ This repository contains only the exported public site. Product editing and data
 
 GitHub Pages settings: Deploy from a branch → main → / (root). Custom domain: leonecaffecucina.net. Enable **Enforce HTTPS** after the certificate is available.
 
-Generated: 2026-11-07T11:41:58.349Z
+Generated: 2026-11-07T13:41:36.374Z
