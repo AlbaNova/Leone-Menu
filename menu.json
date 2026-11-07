@@ -201,7 +201,7 @@
         "translations": {
           "zh": {
             "name": "罗马方形披萨（单块）·马苏里拉与萨拉米",
-            "description": "罗马方形披萨，搭配番茄酱、马苏里拉奶酪和萨拉米香肠，按块供应。"
+            "description": "罗马方形披萨，搭配意大利进口番茄、马苏里拉奶酪和萨拉米香肠，按块供应。"
           },
           "it": {
             "name": "Pizza rossa con mozzarella e salame",
@@ -216,7 +216,7 @@
             "description": "토마토소스, 모차렐라와 살라미를 올린 로마식 피자입니다. 한 조각씩 제공합니다."
           }
         },
-        "price": 32,
+        "price": 35,
         "image": "./assets/tomato-mozzarella-salami-pizza-doodle-be71db451a4139f5.webp",
         "available": true,
         "section": "pizza_classic"
@@ -256,7 +256,7 @@
         "translations": {
           "zh": {
             "name": "意式夹心佛卡夏",
-            "description": "意式佛卡夏搭配当日夹馅，按块供应。今日夹馅请咨询店员。"
+            "description": "使用现烤白披萨搭配当日夹馅，按块供应。今日夹馅请咨询店员。"
           },
           "it": {
             "name": "Focaccia ripiena",
@@ -271,7 +271,7 @@
             "description": "오늘의 속 재료를 넣은 이탈리아 포카치아입니다. 한 조각씩 제공하며, 오늘의 속 재료는 직원에게 문의해 주세요."
           }
         },
-        "price": 35,
+        "price": 38,
         "image": "./assets/leone-menu-0577a9e69a629677.webp#focaccia",
         "available": true,
         "section": "pizza_special"
@@ -421,7 +421,7 @@
         "description": "Mashed avocado on toasted pizza bianca, with Quattrociocchi extra virgin olive oil and spices.",
         "translations": {
           "zh": {
-            "name": "牛油果披萨吐司",
+            "name": "牛油果白披萨吐司",
             "description": "将牛油果泥铺在烤香的白披萨吐司上，佐以 Quattrociocchi 特级初榨橄榄油和香料。"
           },
           "it": {
@@ -450,7 +450,7 @@
         "translations": {
           "zh": {
             "name": "意式肉酱披萨吐司",
-            "description": "烤香的白披萨吐司，铺上浓郁的意式肉酱。"
+            "description": "烤香的白披萨吐司，铺上浓郁的意式肉酱 , 使用有机蔬菜与新鲜牛肉加入红酒和香料精心制作三小时以上，每一口香浓醇厚。"
           },
           "it": {
             "name": "Ragù Pizza Toast",
@@ -465,7 +465,7 @@
             "description": "바삭하게 구운 피자 비앙카 위에 진한 고기 라구 소스를 올렸습니다."
           }
         },
-        "price": 40,
+        "price": 35,
         "image": "./assets/ragu-pizza-toast-doodle-f3e2877916ba07a8.webp",
         "available": true,
         "section": "pizza_special"
@@ -505,7 +505,7 @@
         "translations": {
           "zh": {
             "name": "阿斯蒂莫斯卡托葡萄酒 · 杯装",
-            "description": "Moscato d’Asti 葡萄酒，按杯供应。含酒精。"
+            "description": "Moscato d’Asti 葡萄酒，香甜口味，按杯供应。含酒精。"
           },
           "it": {
             "name": "Moscato d’Asti – Alla mescita",
@@ -520,7 +520,7 @@
             "description": "한 잔씩 제공하는 모스카토 다스티 와인입니다. 알코올이 들어 있습니다."
           }
         },
-        "price": 32,
+        "price": 36,
         "image": "./assets/moscato-doodle-4eb450c107e2c54d.webp",
         "available": true
       },
@@ -1105,8 +1105,8 @@
         "description": "Warm milk and chocolate, served in a cup.",
         "translations": {
           "zh": {
-            "name": "热巧克力",
-            "description": "牛奶与巧克力调制的温热饮品，杯装供应。"
+            "name": "法芙娜热巧克力",
+            "description": "牛奶与法国法芙娜巧克力调制的温热饮品，杯装供应。"
           },
           "it": {
             "name": "Latte e cioccolato caldo",
