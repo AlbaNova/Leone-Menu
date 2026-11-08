@@ -56,6 +56,87 @@
         "image": "./assets/margherita-spritz-set-doodle-66bfdcee3756c5e4.webp",
         "available": true,
         "originalPrice": 68
+      },
+      {
+        "id": "6751b9cf-c5fb-42c5-b206-9e7d8bc40f9e",
+        "name": "Half Roman Pinsa + Grape or Orange Juice",
+        "description": "Half a Roman pinsa in your choice of flavour, plus one glass of grape juice or orange juice. Pinsa ready in 10 minutes.",
+        "translations": {
+          "zh": {
+            "name": "半份罗马披萨 + 葡萄汁或橙汁",
+            "description": "半份罗马椭圆披萨，口味自选，搭配一杯葡萄汁或橙汁，二选一。披萨10分钟即可做好。"
+          },
+          "it": {
+            "name": "Mezza pinsa romana + succo d’uva o d’arancia",
+            "description": "Mezza pinsa romana, gusto a scelta, più un bicchiere di succo d’uva oppure di succo d’arancia. Pinsa pronta in 10 minuti."
+          },
+          "ja": {
+            "name": "ハーフピンサ + ぶどうまたはオレンジジュース",
+            "description": "お好みの味のローマ風ハーフピンサと、ぶどうジュースまたはオレンジジュース1杯のセット。ピンサは10分でご用意します。"
+          },
+          "ko": {
+            "name": "하프 핀사 + 포도 또는 오렌지 주스",
+            "description": "원하는 맛의 로마식 핀사 반 판과 포도 주스 또는 오렌지 주스 한 잔 중 하나를 선택하는 세트. 핀사는 10분이면 준비됩니다."
+          }
+        },
+        "price": 58,
+        "image": "./assets/half-pinsa-juice-set-doodle-199b93631b0f8f98.webp",
+        "available": true,
+        "originalPrice": 62
+      },
+      {
+        "id": "9359710c-ed2f-4de7-a31e-909786ef2484",
+        "name": "Salami Pizza + Grape or Orange Juice",
+        "description": "One Roman pizza slice with tomato, mozzarella and salami, plus one glass of your choice: grape juice or orange juice.",
+        "translations": {
+          "zh": {
+            "name": "萨拉米披萨 + 葡萄汁或橙汁",
+            "description": "一片罗马式披萨，配番茄、马苏里拉奶酪和萨拉米香肠，搭配一杯葡萄汁或橙汁，二选一。"
+          },
+          "it": {
+            "name": "Pizza al salame + succo d’uva o d’arancia",
+            "description": "Un trancio di pizza romana con pomodoro, mozzarella e salame, più un bicchiere a scelta: succo d’uva oppure succo d’arancia."
+          },
+          "ja": {
+            "name": "サラミピザ + ぶどうまたはオレンジジュース",
+            "description": "トマト、モッツァレラ、サラミのローマ風ピザ1切れと、ぶどうジュースまたはオレンジジュースから選べる1杯のセット。"
+          },
+          "ko": {
+            "name": "살라미 피자 + 포도 또는 오렌지 주스",
+            "description": "토마토, 모차렐라, 살라미를 올린 로마식 피자 한 조각과 주스 한 잔. 포도 주스 또는 오렌지 주스 중 하나를 선택해 주세요."
+          }
+        },
+        "price": 50,
+        "image": "./assets/salami-juice-set-doodle-4d1d7d8650a0fb1b.webp",
+        "available": true,
+        "originalPrice": 55
+      },
+      {
+        "id": "6c135bff-1f63-4999-a1f6-0f1973367271",
+        "name": "Whole Roman Pinsa + MoleCola or Beer",
+        "description": "One whole Roman pinsa in your choice of flavour, plus one MoleCola or one beer. Pinsa ready in 10 minutes.",
+        "translations": {
+          "zh": {
+            "name": "整份罗马披萨 + MoleCola 或啤酒",
+            "description": "一整份罗马椭圆披萨，口味自选，搭配一瓶 MoleCola 可乐或一份啤酒，二选一。披萨10分钟即可做好。"
+          },
+          "it": {
+            "name": "Pinsa romana intera + MoleCola o birra",
+            "description": "Una pinsa romana intera, gusto a scelta, più una MoleCola oppure una birra. Pinsa pronta in 10 minuti."
+          },
+          "ja": {
+            "name": "ホールピンサ + MoleCola またはビール",
+            "description": "お好みの味のローマ風ピンサ1枚と、MoleCola 1本またはビール1杯のセット。ピンサは10分でご用意します。"
+          },
+          "ko": {
+            "name": "핀사 한 판 + MoleCola 또는 맥주",
+            "description": "원하는 맛의 로마식 핀사 한 판과 MoleCola 한 병 또는 맥주 하나를 선택하는 세트. 핀사는 10분이면 준비됩니다."
+          }
+        },
+        "price": 99,
+        "image": "./assets/whole-pinsa-molecola-or-beer-set-doodle-dd21d7eb72f88f48.webp",
+        "available": true,
+        "originalPrice": 106
       }
     ],
     "food": [
@@ -1096,7 +1177,7 @@
             "description": "유리잔에 담아 제공하는 오렌지 주스."
           }
         },
-        "price": 18,
+        "price": 20,
         "image": "./assets/orange-juice-glass-doodle-646f5e43f11ff716.webp",
         "available": true,
         "dietary": "vegan"

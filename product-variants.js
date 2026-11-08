@@ -1,4 +1,4 @@
-import { escapeHTML as esc, money } from './shared.js?v=ceef2160f074877a';
+import { escapeHTML as esc, money } from './shared.js?v=514177d369c91e9b';
 
 export const portionLabels = {
   en: { pot: 'Pot', mug: 'Mug', whole: 'Whole', half: 'Half' },

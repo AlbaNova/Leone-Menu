@@ -310,3 +310,16 @@ Exact prompts and generated-source paths are recorded locally in `output/imagege
 ## 7 November 2026 - Remy's Birthday interface artwork
 
 The Remy's Birthday theme uses original code-native SVG doodles written directly into `index.html`: three walking Bernese Mountain Dogs (one with a party hat, one carrying a bone, one with a balloon), falling bones and stylised T-bone steaks, paw prints, a two-tier birthday cake with a large 1 and a lit candle, and a Bernese keychain for the gift banner. `remy.css` supplies the black, white and hazel palette and the looping animations. No raster images, external services or downloads are used. These are decorative interface assets, displayed only when the saved menu theme is Remy's Birthday.
+
+
+## 9 November 2026 - Pizza and pinsa combo illustrations
+
+The built-in image_gen tool created five flat painted doodle combo illustrations, using `public/assets/leone-menu.png` as the style reference. All use a white background and retain the original Roman slice or oval pinsa shape. A slash separates alternative drinks; each combo includes only one drink.
+
+- `public/assets/margherita-spritz-set-doodle.png`
+- `public/assets/salami-cola-or-beer-set-doodle.png`
+- `public/assets/half-pinsa-juice-set-doodle.png`
+- `public/assets/salami-juice-set-doodle.png`
+- `public/assets/whole-pinsa-molecola-or-beer-set-doodle.png`
+
+Exact prompts, references, generated-source paths and final saved paths are recorded locally in `output/imagegen/pizza-sets-2026-11-07-prompts.json` and `output/imagegen/pinsa-juice-sets-2026-11-09-prompts.json`. Source PNGs stay local; the public exporter generates optimized, content-versioned WebP files. Price labels are rendered by the site, not embedded in the images.
