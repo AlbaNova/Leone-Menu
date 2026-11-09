@@ -274,7 +274,7 @@
             "available": true
           }
         ],
-        "section": "pizza_classic"
+        "section": "pizza_special"
       },
       {
         "id": "d6f2a38b-07e3-4308-9e4f-3742b3071096",
@@ -412,7 +412,7 @@
         "image": "./assets/pumpkin-mozzarella-super-seed-flat-doodle-f8f481439d001073.webp",
         "available": true,
         "dietary": "vegetarian",
-        "section": "pizza_special"
+        "section": "pizza_classic"
       },
       {
         "id": "85274e3d-1d86-44d7-ab4d-1b44e7571d46",
@@ -440,7 +440,7 @@
         "image": "./assets/leone-menu-0577a9e69a629677.webp#truffle",
         "available": true,
         "dietary": "vegetarian",
-        "section": "pizza_special"
+        "section": "pizza_classic"
       },
       {
         "id": "697025b6-16e2-4e91-a047-8fcef9cff85a",
@@ -468,34 +468,6 @@
         "image": "./assets/ham-mozzarella-flat-doodle-f75007c244162b9b.webp",
         "available": true,
         "section": "pizza_classic"
-      },
-      {
-        "id": "acb11030-2026-4000-8000-000000000002",
-        "name": "Roman Pizza Slice – Pumpkin, Gorgonzola & Nuts",
-        "description": "A Roman pizza slice topped with pumpkin, gorgonzola and a crunchy mix of super seeds. Price per slice.",
-        "translations": {
-          "zh": {
-            "name": "罗马方形披萨 – 南瓜、戈尔贡佐拉蓝纹奶酪与坚果蜂蜜",
-            "description": "罗马方形披萨，搭配南瓜、戈尔贡佐拉蓝纹奶酪及香脆混合籽。按块计价。"
-          },
-          "it": {
-            "name": "Trancio di pizza romana – Zucca, gorgonzola e super seed",
-            "description": "Trancio di pizza romana con zucca, gorgonzola e un croccante mix di semi. Prezzo al trancio."
-          },
-          "ja": {
-            "name": "ローマ風ピッツァ – かぼちゃ・ゴルゴンゾーラ・ミックスシード",
-            "description": "かぼちゃ、ゴルゴンゾーラと香ばしいミックスシードをのせたローマ風ピッツァ。1切れの価格です。"
-          },
-          "ko": {
-            "name": "로마식 조각 피자 – 단호박, 고르곤졸라와 믹스 시드",
-            "description": "단호박, 고르곤졸라와 바삭한 믹스 시드를 올린 로마식 피자입니다. 한 조각 기준 가격입니다."
-          }
-        },
-        "price": 40,
-        "image": "./assets/halloween-pumpkin-gorgonzola-seeds-doodle-bcf6235068b177df.webp",
-        "available": true,
-        "dietary": "vegetarian",
-        "section": "pizza_special"
       },
       {
         "id": "acb11030-2026-4000-8000-000000000005",
