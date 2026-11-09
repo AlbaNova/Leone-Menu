@@ -280,6 +280,8 @@ Exact edit prompts, input references, generated sources and final saved paths ar
 
 `public/christmas.js` contains original code-native SVG illustrations of decorated trees, coloured baubles, fairy lights, snowflakes, Santa's sleigh, gifts and three reindeer. They extend the existing SVG interface artwork and need no external image service or raster downloads. `public/christmas.css` supplies the layout and occasional animations. These are decorative UI assets, not product photographs. They are only displayed when the saved menu theme is Christmas.
 
+Redrawn on 9 November 2026: Santa now sits inside a carved red sleigh with gold trim, a scrolled front and gold runners fixed by struts, holding the reins in green mittens, with a sack of wrapped gifts behind him. Gold traces with bells connect the sleigh to three new flying reindeer (tucked front legs, stretched back legs, branched antlers, harness band and collar bell); the lead reindeer has a glowing red nose. The legs gallop gently in flight and a short trail of gold sparkles follows the sleigh. The previous artwork is kept locally in `backups/before-christmas-sleigh-redesign-2026-11-09`.
+
 The icon paths, wordmark, placeholder and interface graphics are included as application source. Fonts use the operating system's local Georgia and Segoe UI/Arial fonts. The portable Node.js runtime's license is included at `.runtime/LICENSE`.
 
 ## 5 November 2026 ? Berry cheesecake and four drinks
