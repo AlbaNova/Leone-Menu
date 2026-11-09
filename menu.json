@@ -1,88 +1,34 @@
 {
-  "theme": "remy",
+  "theme": "christmas",
   "currency": "CNY",
   "groups": {
     "sets": [
       {
-        "id": "980ce10a-9780-43e1-8c90-a083fe9db4a7",
-        "name": "Salami Pizza + Cola or Beer",
-        "description": "One Roman pizza slice with tomato, mozzarella and salami, plus one drink of your choice: cola or beer.",
+        "id": "6c135bff-1f63-4999-a1f6-0f1973367271",
+        "name": "Whole Roman Pinsa + MoleCola or Beer",
+        "description": "One whole Roman pinsa in your choice of flavour, plus one MoleCola or one beer. Pinsa ready in 10 minutes.",
         "translations": {
           "zh": {
-            "name": "萨拉米披萨 + 可乐或啤酒",
-            "description": "一片罗马式披萨，配番茄、马苏里拉奶酪和萨拉米香肠，搭配一杯自选饮品：可乐或啤酒，二选一。"
+            "name": "整份罗马披萨 + MoleCola 或啤酒",
+            "description": "一整份罗马椭圆披萨，口味自选，搭配一瓶 MoleCola 可乐或一份啤酒，二选一。披萨10分钟即可做好。"
           },
           "it": {
-            "name": "Pizza al salame + cola o birra",
-            "description": "Un trancio di pizza romana con pomodoro, mozzarella e salame, più una bevanda a scelta: cola oppure birra."
+            "name": "Pinsa romana intera + MoleCola o birra",
+            "description": "Una pinsa romana intera, gusto a scelta, più una MoleCola oppure una birra. Pinsa pronta in 10 minuti."
           },
           "ja": {
-            "name": "サラミピザ + コーラまたはビール",
-            "description": "トマト、モッツァレラ、サラミのローマ風ピザ1切れと、コーラまたはビールから選べるドリンク1杯のセット。"
+            "name": "ホールピンサ + MoleCola またはビール",
+            "description": "お好みの味のローマ風ピンサ1枚と、MoleCola 1本またはビール1杯のセット。ピンサは10分でご用意します。"
           },
           "ko": {
-            "name": "살라미 피자 + 콜라 또는 맥주",
-            "description": "토마토, 모차렐라, 살라미를 올린 로마식 피자 한 조각과 음료 한 잔. 콜라 또는 맥주 중 하나를 선택해 주세요."
+            "name": "핀사 한 판 + MoleCola 또는 맥주",
+            "description": "원하는 맛의 로마식 핀사 한 판과 MoleCola 한 병 또는 맥주 하나를 선택하는 세트. 핀사는 10분이면 준비됩니다."
           }
         },
-        "price": 50,
-        "image": "./assets/salami-cola-or-beer-set-doodle-1caf728e812e92bf.webp",
+        "price": 99,
+        "image": "./assets/whole-pinsa-molecola-or-beer-set-doodle-dd21d7eb72f88f48.webp",
         "available": true,
-        "originalPrice": 55
-      },
-      {
-        "id": "5a0ecb0e-5f6d-471a-8dc6-a406d0d3baca",
-        "name": "Margherita + Aperol Spritz",
-        "description": "One Roman Margherita pizza slice with tomato, mozzarella and basil, paired with an Aperol Spritz.",
-        "translations": {
-          "zh": {
-            "name": "玛格丽特披萨 + Aperol Spritz",
-            "description": "一片罗马式玛格丽特披萨，配番茄、马苏里拉奶酪和罗勒，搭配一杯 Aperol Spritz 鸡尾酒。"
-          },
-          "it": {
-            "name": "Margherita + Aperol Spritz",
-            "description": "Un trancio di pizza romana Margherita con pomodoro, mozzarella e basilico, accompagnato da un Aperol Spritz."
-          },
-          "ja": {
-            "name": "マルゲリータ + アペロール・スプリッツ",
-            "description": "トマト、モッツァレラ、バジルのローマ風マルゲリータピザ1切れと、アペロール・スプリッツ1杯のセット。"
-          },
-          "ko": {
-            "name": "마르게리타 + 아페롤 스프리츠",
-            "description": "토마토, 모차렐라, 바질을 올린 로마식 마르게리타 피자 한 조각과 아페롤 스프리츠 한 잔을 함께 즐기는 세트."
-          }
-        },
-        "price": 62,
-        "image": "./assets/margherita-spritz-set-doodle-66bfdcee3756c5e4.webp",
-        "available": true,
-        "originalPrice": 68
-      },
-      {
-        "id": "6751b9cf-c5fb-42c5-b206-9e7d8bc40f9e",
-        "name": "Half Roman Pinsa + Grape or Orange Juice",
-        "description": "Half a Roman pinsa in your choice of flavour, plus one glass of grape juice or orange juice. Pinsa ready in 10 minutes.",
-        "translations": {
-          "zh": {
-            "name": "半份罗马披萨 + 葡萄汁或橙汁",
-            "description": "半份罗马椭圆披萨，口味自选，搭配一杯葡萄汁或橙汁，二选一。披萨10分钟即可做好。"
-          },
-          "it": {
-            "name": "Mezza pinsa romana + succo d’uva o d’arancia",
-            "description": "Mezza pinsa romana, gusto a scelta, più un bicchiere di succo d’uva oppure di succo d’arancia. Pinsa pronta in 10 minuti."
-          },
-          "ja": {
-            "name": "ハーフピンサ + ぶどうまたはオレンジジュース",
-            "description": "お好みの味のローマ風ハーフピンサと、ぶどうジュースまたはオレンジジュース1杯のセット。ピンサは10分でご用意します。"
-          },
-          "ko": {
-            "name": "하프 핀사 + 포도 또는 오렌지 주스",
-            "description": "원하는 맛의 로마식 핀사 반 판과 포도 주스 또는 오렌지 주스 한 잔 중 하나를 선택하는 세트. 핀사는 10분이면 준비됩니다."
-          }
-        },
-        "price": 58,
-        "image": "./assets/half-pinsa-juice-set-doodle-199b93631b0f8f98.webp",
-        "available": true,
-        "originalPrice": 62
+        "originalPrice": 106
       },
       {
         "id": "9359710c-ed2f-4de7-a31e-909786ef2484",
@@ -112,31 +58,58 @@
         "originalPrice": 55
       },
       {
-        "id": "6c135bff-1f63-4999-a1f6-0f1973367271",
-        "name": "Whole Roman Pinsa + MoleCola or Beer",
-        "description": "One whole Roman pinsa in your choice of flavour, plus one MoleCola or one beer. Pinsa ready in 10 minutes.",
+        "id": "6751b9cf-c5fb-42c5-b206-9e7d8bc40f9e",
+        "name": "Half Roman Pinsa + Grape or Orange Juice",
+        "description": "Half a Roman pinsa in your choice of flavour, plus one glass of grape juice or orange juice. Pinsa ready in 10 minutes.",
         "translations": {
           "zh": {
-            "name": "整份罗马披萨 + MoleCola 或啤酒",
-            "description": "一整份罗马椭圆披萨，口味自选，搭配一瓶 MoleCola 可乐或一份啤酒，二选一。披萨10分钟即可做好。"
+            "name": "半份罗马披萨 + 葡萄汁或橙汁",
+            "description": "半份罗马椭圆披萨，口味自选，搭配一杯葡萄汁或橙汁，二选一。披萨10分钟即可做好。"
           },
           "it": {
-            "name": "Pinsa romana intera + MoleCola o birra",
-            "description": "Una pinsa romana intera, gusto a scelta, più una MoleCola oppure una birra. Pinsa pronta in 10 minuti."
+            "name": "Mezza pinsa romana + succo d’uva o d’arancia",
+            "description": "Mezza pinsa romana, gusto a scelta, più un bicchiere di succo d’uva oppure di succo d’arancia. Pinsa pronta in 10 minuti."
           },
           "ja": {
-            "name": "ホールピンサ + MoleCola またはビール",
-            "description": "お好みの味のローマ風ピンサ1枚と、MoleCola 1本またはビール1杯のセット。ピンサは10分でご用意します。"
+            "name": "ハーフピンサ + ぶどうまたはオレンジジュース",
+            "description": "お好みの味のローマ風ハーフピンサと、ぶどうジュースまたはオレンジジュース1杯のセット。ピンサは10分でご用意します。"
           },
           "ko": {
-            "name": "핀사 한 판 + MoleCola 또는 맥주",
-            "description": "원하는 맛의 로마식 핀사 한 판과 MoleCola 한 병 또는 맥주 하나를 선택하는 세트. 핀사는 10분이면 준비됩니다."
+            "name": "하프 핀사 + 포도 또는 오렌지 주스",
+            "description": "원하는 맛의 로마식 핀사 반 판과 포도 주스 또는 오렌지 주스 한 잔 중 하나를 선택하는 세트. 핀사는 10분이면 준비됩니다."
           }
         },
-        "price": 99,
-        "image": "./assets/whole-pinsa-molecola-or-beer-set-doodle-dd21d7eb72f88f48.webp",
+        "price": 58,
+        "image": "./assets/half-pinsa-juice-set-doodle-199b93631b0f8f98.webp",
         "available": true,
-        "originalPrice": 106
+        "originalPrice": 62
+      },
+      {
+        "id": "5a0ecb0e-5f6d-471a-8dc6-a406d0d3baca",
+        "name": "Margherita + Aperol Spritz",
+        "description": "One Roman Margherita pizza slice with tomato, mozzarella and basil, paired with an Aperol Spritz.",
+        "translations": {
+          "zh": {
+            "name": "玛格丽特披萨 + Aperol Spritz",
+            "description": "一片罗马式玛格丽特披萨，配番茄、马苏里拉奶酪和罗勒，搭配一杯 Aperol Spritz 鸡尾酒。"
+          },
+          "it": {
+            "name": "Margherita + Aperol Spritz",
+            "description": "Un trancio di pizza romana Margherita con pomodoro, mozzarella e basilico, accompagnato da un Aperol Spritz."
+          },
+          "ja": {
+            "name": "マルゲリータ + アペロール・スプリッツ",
+            "description": "トマト、モッツァレラ、バジルのローマ風マルゲリータピザ1切れと、アペロール・スプリッツ1杯のセット。"
+          },
+          "ko": {
+            "name": "마르게리타 + 아페롤 스프리츠",
+            "description": "토마토, 모차렐라, 바질을 올린 로마식 마르게리타 피자 한 조각과 아페롤 스프리츠 한 잔을 함께 즐기는 세트."
+          }
+        },
+        "price": 62,
+        "image": "./assets/margherita-spritz-set-doodle-66bfdcee3756c5e4.webp",
+        "available": true,
+        "originalPrice": 68
       }
     ],
     "food": [

@@ -1,5 +1,5 @@
-import { escapeHTML as esc, money } from './shared.js?v=514177d369c91e9b';
-import { translate, languages } from './i18n.js?v=514177d369c91e9b';
+import { escapeHTML as esc, money } from './shared.js?v=89f602b11b24f1fb';
+import { translate, languages } from './i18n.js?v=89f602b11b24f1fb';
 
 export const hasDiscount = p => !(p.variants?.length) && Number.isFinite(p.originalPrice) &&
   Number.isFinite(p.price) && p.price >= 0 && p.originalPrice > p.price;
