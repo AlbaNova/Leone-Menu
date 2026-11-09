@@ -133,6 +133,15 @@ const remyCopy = {
 };
 for (const [language, copy] of Object.entries(remyCopy)) Object.assign(messages[language], copy);
 
+const christmasCarouselCopy = {
+  zh: { christmasPrevious: '上一款圣诞限定', christmasNext: '下一款圣诞限定', christmasPause: '暂停自动滚动', christmasPlay: '继续自动滚动' },
+  en: { christmasPrevious: 'Previous Christmas special', christmasNext: 'Next Christmas special', christmasPause: 'Pause automatic scrolling', christmasPlay: 'Resume automatic scrolling' },
+  it: { christmasPrevious: 'Specialità natalizia precedente', christmasNext: 'Specialità natalizia successiva', christmasPause: 'Metti in pausa lo scorrimento', christmasPlay: 'Riprendi lo scorrimento' },
+  ja: { christmasPrevious: '前のクリスマスメニュー', christmasNext: '次のクリスマスメニュー', christmasPause: '自動スクロールを一時停止', christmasPlay: '自動スクロールを再開' },
+  ko: { christmasPrevious: '이전 크리스마스 메뉴', christmasNext: '다음 크리스마스 메뉴', christmasPause: '자동 스크롤 일시 정지', christmasPlay: '자동 스크롤 재개' }
+};
+for (const [language, copy] of Object.entries(christmasCarouselCopy)) Object.assign(messages[language], copy);
+
 export function translate(language, key, values = {}) {
   const template = messages[language]?.[key] ?? messages.zh[key] ?? key;
   return template.replace(/\{(\w+)\}/g, (_, token) => String(values[token] ?? `{${token}}`));

@@ -1,12 +1,13 @@
-import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=243f4b4f06e3bdef';
-import { languages, translate, productText } from './i18n.js?v=243f4b4f06e3bdef';
-import { groupedFood, isPizzaSection } from './food-sections.js?v=243f4b4f06e3bdef';
-import { hasVariants, portionPrices } from './product-variants.js?v=243f4b4f06e3bdef';
-import { setupHalloween } from './halloween.js?v=243f4b4f06e3bdef';
-import { setupChristmas } from './christmas.js?v=243f4b4f06e3bdef';
-import { setupRemy } from './remy.js?v=243f4b4f06e3bdef';
-import { productPrice, hasDiscount } from './product-pricing.js?v=243f4b4f06e3bdef';
-import { dietaryBadge } from './dietary.js?v=243f4b4f06e3bdef';
+import { hydrateIcons, escapeHTML as esc, money, request, icon, placeholderURL, productImage } from './shared.js?v=043ae1a66eb7691c';
+import { languages, translate, productText } from './i18n.js?v=043ae1a66eb7691c';
+import { groupedFood, isPizzaSection } from './food-sections.js?v=043ae1a66eb7691c';
+import { hasVariants, portionPrices } from './product-variants.js?v=043ae1a66eb7691c';
+import { setupHalloween } from './halloween.js?v=043ae1a66eb7691c';
+import { setupChristmas } from './christmas.js?v=043ae1a66eb7691c';
+import { setupChristmasCarousel } from './christmas-carousel.js?v=043ae1a66eb7691c';
+import { setupRemy } from './remy.js?v=043ae1a66eb7691c';
+import { productPrice, hasDiscount } from './product-pricing.js?v=043ae1a66eb7691c';
+import { dietaryBadge } from './dietary.js?v=043ae1a66eb7691c';
 hydrateIcons();
 const halloween = setupHalloween();
 const christmas = setupChristmas();
@@ -22,6 +23,7 @@ function initialLanguage() {
 let language = initialLanguage(), category = 'sets', menu = null, query = '', lastPayload = '', openedId = null, connectionFailed = false;
 const grid = document.querySelector('#products'), dialog = document.querySelector('#product-dialog');
 const t = (key, values) => translate(language, key, values);
+const christmasCarousel = setupChristmasCarousel(document.querySelector('#christmas-specials'), t);
 const price = value => money(value, menu.currency, languages[language].locale);
 const displayedPrice = p => hasVariants(p) ? portionPrices(p, menu.currency, language, t('unavailable')) : productPrice(p, menu.currency, language);
 const allProducts = () => [...new Map(Object.entries(menu?.groups || {}).filter(([key])=>!['halloween','christmas'].includes(key)||menu?.theme===key).flatMap(([,items])=>items).map(p => [p.id, p])).values()];
@@ -81,7 +83,7 @@ function render() {
   };
   const useSections = !query && category === 'food' && source.some(p => p.section);
   const festiveMatches=festive.filter(matches);
-  document.querySelector('#christmas-products').innerHTML=menu.theme!=='christmas'?'':festiveMatches.length?festiveMatches.map(renderProduct).join(''):`<div class="empty-state"><h3>${esc(t(query?'emptySearchTitle':'christmasEmptyTitle'))}</h3><p>${esc(t(query?'emptySearchHint':'christmasEmptyHint'))}</p></div>`;
+  christmasCarousel.render(menu.theme!=='christmas'?'':festiveMatches.length?festiveMatches.map(renderProduct).join(''):`<div class="empty-state"><h3>${esc(t(query?'emptySearchTitle':'christmasEmptyTitle'))}</h3><p>${esc(t(query?'emptySearchHint':'christmasEmptyHint'))}</p></div>`, festiveMatches.length);
   let pizzaHeadingShown = false;
   const renderGroup = group => {
     const pizza = isPizzaSection(group.section);
