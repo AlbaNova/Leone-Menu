@@ -5,28 +5,28 @@
     "sets": [
       {
         "id": "6c135bff-1f63-4999-a1f6-0f1973367271",
-        "name": "Whole Roman Pinsa + MoleCola or Beer",
-        "description": "One whole Roman pinsa in your choice of flavour, plus one MoleCola or one beer. Pinsa ready in 10 minutes.",
+        "name": "Whole Roman Pinsa + MoleCola or Warsteiner",
+        "description": "One whole Roman pinsa with a choice of classic flavours, plus one MoleCola or a 330 ml can of Warsteiner Winter beer. Pinsa ready in 10 minutes.",
         "translations": {
           "zh": {
-            "name": "整份罗马披萨 + MoleCola 或啤酒",
-            "description": "一整份罗马椭圆披萨，口味自选，搭配一瓶 MoleCola 可乐或一份啤酒，二选一。披萨10分钟即可做好。"
+            "name": "整份罗马 Pinsa + MoleCola 或 Warsteiner",
+            "description": "一整份罗马 Pinsa，经典口味任选，搭配一瓶 MoleCola 可乐或一罐330毫升的 Warsteiner Winter 冬季啤酒，二选一。Pinsa 10分钟即可做好。"
           },
           "it": {
-            "name": "Pinsa romana intera + MoleCola o birra",
-            "description": "Una pinsa romana intera, gusto a scelta, più una MoleCola oppure una birra. Pinsa pronta in 10 minuti."
+            "name": "Pinsa romana intera + MoleCola o Warsteiner",
+            "description": "Una pinsa romana intera, a scelta tra i gusti classici, più una MoleCola oppure una lattina di birra Warsteiner Winter da 330 ml. Pinsa pronta in 10 minuti."
           },
           "ja": {
-            "name": "ホールピンサ + MoleCola またはビール",
-            "description": "お好みの味のローマ風ピンサ1枚と、MoleCola 1本またはビール1杯のセット。ピンサは10分でご用意します。"
+            "name": "ホールピンサ + MoleCola または Warsteiner",
+            "description": "クラシックな味から選べるローマ風ピンサ1枚と、MoleCola 1本または Warsteiner Winter ビール330ml缶1本のセット。ピンサは10分でご用意します。"
           },
           "ko": {
-            "name": "핀사 한 판 + MoleCola 또는 맥주",
-            "description": "원하는 맛의 로마식 핀사 한 판과 MoleCola 한 병 또는 맥주 하나를 선택하는 세트. 핀사는 10분이면 준비됩니다."
+            "name": "핀사 한 판 + MoleCola 또는 Warsteiner",
+            "description": "클래식 메뉴의 맛 중에서 고르는 로마식 핀사 한 판과 MoleCola 한 병 또는 Warsteiner Winter 맥주 330ml 한 캔을 선택하는 세트. 핀사는 10분이면 준비됩니다."
           }
         },
         "price": 99,
-        "image": "./assets/whole-pinsa-molecola-or-beer-set-doodle-dd21d7eb72f88f48.webp",
+        "image": "./assets/whole-pinsa-molecola-or-warsteiner-set-doodle-bf33a3b91faf0437.webp",
         "available": true,
         "originalPrice": 106
       },
@@ -1207,6 +1207,32 @@
         "image": "./assets/hot-chocolate-cup-doodle-1246bfc94078f136.webp",
         "available": true,
         "dietary": "vegetarian"
+      },
+      {
+        "id": "73f75a14-59fd-40b6-a7ad-e18a5fdb031c",
+        "name": "Warsteiner Winter – 330 ml",
+        "description": "Warsteiner Winter beer, served in a 330 ml can. Contains alcohol.",
+        "translations": {
+          "zh": {
+            "name": "Warsteiner 冬季啤酒 · 330毫升",
+            "description": "Warsteiner Winter 冬季啤酒，330毫升罐装。含酒精。"
+          },
+          "it": {
+            "name": "Warsteiner Winter – 330 ml",
+            "description": "Birra Warsteiner Winter in lattina da 330 ml. Bevanda alcolica."
+          },
+          "ja": {
+            "name": "Warsteiner Winter ビール · 330ml",
+            "description": "Warsteiner Winter ビール、330ml缶。アルコールを含みます。"
+          },
+          "ko": {
+            "name": "Warsteiner Winter 맥주 · 330ml",
+            "description": "330ml 캔으로 제공하는 Warsteiner Winter 맥주. 알코올이 들어 있습니다."
+          }
+        },
+        "price": 20,
+        "image": "./assets/warsteiner-winter-can-doodle-c192e0ba2d14da9e.webp",
+        "available": true
       }
     ],
     "desserts": [
@@ -1727,6 +1753,60 @@
       }
     ],
     "halloween": [],
-    "christmas": []
+    "christmas": [
+      {
+        "id": "1a6045a6-e7f8-48c6-932c-46e4a5ab9c55",
+        "name": "Hot Wine",
+        "description": "Hot red wine infused with cloves, orange and cinnamon, served in a transparent glass mug.",
+        "translations": {
+          "zh": {
+            "name": "香料热红酒",
+            "description": "以丁香、橙子和肉桂调制的热红葡萄酒，盛于透明玻璃杯中。"
+          },
+          "it": {
+            "name": "Vino caldo speziato",
+            "description": "Vino rosso caldo aromatizzato con chiodi di garofano, arancia e cannella, servito in una tazza di vetro trasparente."
+          },
+          "ja": {
+            "name": "ホットワイン",
+            "description": "クローブ、オレンジ、シナモンで香り付けした温かい赤ワイン。透明なガラスマグでご提供します。"
+          },
+          "ko": {
+            "name": "뱅쇼",
+            "description": "정향, 오렌지, 시나몬으로 향을 낸 따뜻한 레드 와인. 투명한 유리 머그에 담아 제공합니다."
+          }
+        },
+        "price": 25,
+        "image": "./assets/hot-wine-transparent-mug-doodle-bd929c07ba57e1fe.webp",
+        "available": true
+      },
+      {
+        "id": "50418395-a73e-4044-b825-57002401d6f2",
+        "name": "Hot Chocolate",
+        "description": "Warm milk and chocolate, served in a cup.",
+        "translations": {
+          "zh": {
+            "name": "法芙娜热巧克力",
+            "description": "牛奶与法国法芙娜巧克力调制的温热饮品，杯装供应。"
+          },
+          "it": {
+            "name": "Latte e cioccolato caldo",
+            "description": "Latte caldo e cioccolato, serviti in tazza."
+          },
+          "ja": {
+            "name": "ホットチョコレート",
+            "description": "ミルクとチョコレートの温かいドリンク。カップでご提供します。"
+          },
+          "ko": {
+            "name": "핫초코",
+            "description": "따뜻한 우유와 초콜릿으로 만든 음료. 컵에 담아 제공합니다."
+          }
+        },
+        "price": 28,
+        "image": "./assets/hot-chocolate-cup-doodle-1246bfc94078f136.webp",
+        "available": true,
+        "dietary": "vegetarian"
+      }
+    ]
   }
 }

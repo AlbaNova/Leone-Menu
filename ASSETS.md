@@ -325,3 +325,8 @@ The built-in image_gen tool created five flat painted doodle combo illustrations
 - `public/assets/whole-pinsa-molecola-or-beer-set-doodle.png`
 
 Exact prompts, references, generated-source paths and final saved paths are recorded locally in `output/imagegen/pizza-sets-2026-11-07-prompts.json` and `output/imagegen/pinsa-juice-sets-2026-11-09-prompts.json`. Source PNGs stay local; the public exporter generates optimized, content-versioned WebP files. Price labels are rendered by the site, not embedded in the images.
+
+
+## 9 November 2026 - Warsteiner Winter can and combo updates
+
+Original flat painted doodle of the red Warsteiner Winter 330 ml can, based on the owner-supplied pack photograph: `public/assets/warsteiner-winter-can-doodle.png`. The built-in image_gen tool also edited the two existing beer combos, replacing only the beer mugs with that can: `public/assets/salami-cola-or-warsteiner-set-doodle.png` and `public/assets/whole-pinsa-molecola-or-warsteiner-set-doodle.png`. The other drink, pizza or pinsa, and drink-choice slash were retained. Original files remain saved separately. Exact prompts, sources and final paths: `output/imagegen/warsteiner-2026-11-09-prompts.json` (local record). Published images use optimized WebP copies; unavailable products keep their art locally until published again as available.
