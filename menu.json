@@ -63,8 +63,8 @@
         "description": "Half a Roman pinsa in your choice of flavour, plus one glass of grape juice or orange juice. Pinsa ready in 10 minutes.",
         "translations": {
           "zh": {
-            "name": "半份罗马披萨 + 葡萄汁或橙汁",
-            "description": "半份罗马椭圆披萨，口味自选，搭配一杯葡萄汁或橙汁，二选一。披萨10分钟即可做好。"
+            "name": "半份罗马拼萨Pinsa + 葡萄汁或橙汁",
+            "description": "半份罗马椭圆拼萨，口味自选，搭配一杯葡萄汁或橙汁，二选一。披萨10分钟即可做好。"
           },
           "it": {
             "name": "Mezza pinsa romana + succo d’uva o d’arancia",
@@ -113,62 +113,6 @@
       }
     ],
     "food": [
-      {
-        "id": "5d0ca02f-448d-4891-937c-ba7ffab75f05",
-        "name": "Spaghetti with Garlic, Extra Virgin Olive Oil, Chili & Parsley",
-        "description": "Spaghetti with extra virgin olive oil, garlic, chili and parsley.",
-        "translations": {
-          "zh": {
-            "name": "蒜香辣椒欧芹意大利长面",
-            "description": "意大利长面，搭配特级初榨橄榄油、大蒜、辣椒和欧芹。"
-          },
-          "it": {
-            "name": "Spaghetti aglio, olio extravergine d’oliva, peperoncino e prezzemolo",
-            "description": "Spaghetti con olio extravergine d’oliva, aglio, peperoncino e prezzemolo."
-          },
-          "ja": {
-            "name": "にんにく、エキストラバージンオリーブオイル、唐辛子とパセリのスパゲッティ",
-            "description": "エキストラバージンオリーブオイル、にんにく、唐辛子、パセリで仕上げたスパゲッティ。"
-          },
-          "ko": {
-            "name": "마늘, 엑스트라 버진 올리브 오일, 고추와 파슬리 스파게티",
-            "description": "엑스트라 버진 올리브 오일, 마늘, 고추와 파슬리로 만든 스파게티입니다."
-          }
-        },
-        "price": 48,
-        "image": "./assets/spaghetti-aglio-olio-doodle-e7d1c54dbe5ca9ef.webp",
-        "available": true,
-        "dietary": "vegan",
-        "section": "first_courses"
-      },
-      {
-        "id": "0c6ff1ba-b67a-46b3-80bf-92b1b4b531e7",
-        "name": "Fusilli with Tomato & Basil",
-        "description": "Fusilli pasta with tomato sauce and basil.",
-        "translations": {
-          "zh": {
-            "name": "番茄罗勒螺旋意面",
-            "description": "螺旋意大利面，搭配番茄酱和罗勒。"
-          },
-          "it": {
-            "name": "Fusilli al pomodoro e basilico",
-            "description": "Fusilli con sugo di pomodoro e basilico."
-          },
-          "ja": {
-            "name": "トマトとバジルのフジッリ",
-            "description": "らせん状のパスタ、フジッリにトマトソースとバジルを合わせました。"
-          },
-          "ko": {
-            "name": "토마토와 바질 푸실리",
-            "description": "토마토소스와 바질을 곁들인 푸실리 파스타입니다."
-          }
-        },
-        "price": 48,
-        "image": "./assets/fusilli-tomato-basil-doodle-9833f460bab0ebda.webp",
-        "available": true,
-        "dietary": "vegan",
-        "section": "first_courses"
-      },
       {
         "id": "a9666780-b690-4406-820a-03ae819c0c11",
         "name": "Onion Frittata",
@@ -1096,7 +1040,7 @@
             "description": "정향, 오렌지, 시나몬으로 향을 낸 따뜻한 레드 와인. 투명한 유리 머그에 담아 제공합니다."
           }
         },
-        "price": 25,
+        "price": 35,
         "image": "./assets/hot-wine-transparent-mug-doodle-bd929c07ba57e1fe.webp",
         "available": true
       },
@@ -1776,7 +1720,7 @@
             "description": "정향, 오렌지, 시나몬으로 향을 낸 따뜻한 레드 와인. 투명한 유리 머그에 담아 제공합니다."
           }
         },
-        "price": 25,
+        "price": 35,
         "image": "./assets/hot-wine-transparent-mug-doodle-bd929c07ba57e1fe.webp",
         "available": true
       },
