@@ -330,3 +330,14 @@ Exact prompts, references, generated-source paths and final saved paths are reco
 ## 9 November 2026 - Warsteiner Winter can and combo updates
 
 Original flat painted doodle of the red Warsteiner Winter 330 ml can, based on the owner-supplied pack photograph: `public/assets/warsteiner-winter-can-doodle.png`. The built-in image_gen tool also edited the two existing beer combos, replacing only the beer mugs with that can: `public/assets/salami-cola-or-warsteiner-set-doodle.png` and `public/assets/whole-pinsa-molecola-or-warsteiner-set-doodle.png`. The other drink, pizza or pinsa, and drink-choice slash were retained. Original files remain saved separately. Exact prompts, sources and final paths: `output/imagegen/warsteiner-2026-11-09-prompts.json` (local record). Published images use optimized WebP copies; unavailable products keep their art locally until published again as available.
+
+## 19 November 2026 - Alcohol-free mojito and homemade egg pasta
+
+Four original illustrations were generated with the built-in image_gen tool, using `public/assets/leone-menu.png` as the reference for simple flat painted doodles on white:
+
+- `public/assets/mojito-alcohol-free-doodle.png`: one clear highball glass with lime, mint, ice and a sparkling alcohol-free drink.
+- `public/assets/homemade-egg-lasagna-ragu-doodle.png`: a layered portion of egg-pasta lasagna with meat ragu on an ivory plate.
+- `public/assets/homemade-egg-finifini-tomato-basil-doodle.png`: thin egg-pasta strands with tomato sauce and basil.
+- `public/assets/homemade-egg-fettuccine-truffle-mushrooms-doodle.png`: broad egg-pasta ribbons with smooth truffle cream and mushroom slices. The illustration contains no truffle shavings, slices or chunks.
+
+Exact prompts, reference, generated-source paths and final paths are recorded locally in `output/imagegen/homemade-pasta-mojito-2026-11-19-prompts.json`. Original PNGs remain local; the public exporter supplies optimized, content-hashed WebP copies. Prices and translated dietary badges are rendered by the menu, not embedded in the art.

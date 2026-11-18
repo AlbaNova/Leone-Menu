@@ -495,6 +495,89 @@
         "image": "./assets/ragu-pizza-toast-doodle-f3e2877916ba07a8.webp",
         "available": true,
         "section": "pizza_special"
+      },
+      {
+        "id": "3695a134-5dec-4f05-a3ee-3e6ac14b938a",
+        "name": "Homemade Egg Lasagna with Meat Ragù",
+        "description": "Lasagna made with homemade egg-pasta sheets, layered with meat ragù and baked until golden.",
+        "translations": {
+          "zh": {
+            "name": "家制鸡蛋面皮肉酱千层面",
+            "description": "以家制鸡蛋面皮与肉酱层层叠制，烘烤至表面金黄的意式千层面。"
+          },
+          "it": {
+            "name": "Lasagna al ragù con pasta all’uovo fatta in casa",
+            "description": "Lasagna con sfoglia all’uovo fatta in casa, a strati con ragù di carne e cotta al forno fino a doratura."
+          },
+          "ja": {
+            "name": "自家製卵パスタのラグーラザニア",
+            "description": "自家製の卵入りパスタを肉のラグーと重ね、表面がこんがりするまで焼き上げたラザニア。"
+          },
+          "ko": {
+            "name": "수제 에그 파스타 라구 라자냐",
+            "description": "직접 만든 달걀 파스타 시트와 고기 라구를 층층이 쌓아 노릇하게 구운 라자냐."
+          }
+        },
+        "price": 78,
+        "image": "./assets/homemade-egg-lasagna-ragu-doodle-42ea64641c93e330.webp",
+        "available": true,
+        "section": "first_courses"
+      },
+      {
+        "id": "6f36982e-ef28-4dad-932e-de6aea948db6",
+        "name": "Homemade Egg Finifini with Tomato & Basil",
+        "description": "Homemade finifini, delicate thin egg-pasta strands, served with tomato and basil sauce.",
+        "translations": {
+          "zh": {
+            "name": "手工鸡蛋细面（Finifini）配番茄罗勒酱",
+            "description": "手工制作的纤细鸡蛋面 Finifini，搭配番茄与罗勒酱。"
+          },
+          "it": {
+            "name": "Finifini all’uovo fatti in casa al pomodoro e basilico",
+            "description": "Finifini all’uovo fatti in casa, sottili e delicati, con sugo di pomodoro e basilico."
+          },
+          "ja": {
+            "name": "自家製卵麺フィニフィニ トマト＆バジル",
+            "description": "自家製の細い卵入りパスタ「フィニフィニ」に、トマトとバジルのソースを合わせました。"
+          },
+          "ko": {
+            "name": "수제 에그 피니피니 토마토 & 바질",
+            "description": "직접 만든 가늘고 섬세한 달걀 파스타 피니피니에 토마토와 바질 소스를 곁들였습니다."
+          }
+        },
+        "price": 48,
+        "image": "./assets/homemade-egg-finifini-tomato-basil-doodle-d2e97dce4b8064e3.webp",
+        "available": true,
+        "dietary": "vegetarian",
+        "section": "first_courses"
+      },
+      {
+        "id": "a3c5b681-0a24-452b-bef5-281e8c44093a",
+        "name": "Homemade Egg Fettuccine with Truffle Cream & Mushrooms",
+        "description": "Homemade egg fettuccine with smooth truffle cream and mushrooms.",
+        "translations": {
+          "zh": {
+            "name": "手工鸡蛋宽面配松露酱和蘑菇",
+            "description": "手工鸡蛋宽面，搭配细腻松露酱和蘑菇。"
+          },
+          "it": {
+            "name": "Fettuccine all’uovo fatte in casa al tartufo e funghi",
+            "description": "Fettuccine all’uovo fatte in casa con crema di tartufo e funghi."
+          },
+          "ja": {
+            "name": "自家製卵フェットチーネ トリュフ＆きのこ",
+            "description": "自家製の卵入りフェットチーネに、なめらかなトリュフクリームときのこを合わせました。"
+          },
+          "ko": {
+            "name": "수제 에그 페투치네 트러플 크림 & 버섯",
+            "description": "직접 만든 달걀 페투치네에 부드러운 트러플 크림과 버섯을 곁들였습니다."
+          }
+        },
+        "price": 58,
+        "image": "./assets/homemade-egg-fettuccine-truffle-mushrooms-doodle-db6c35f720239aa8.webp",
+        "available": true,
+        "dietary": "vegetarian",
+        "section": "first_courses"
       }
     ],
     "drinks": [
@@ -1177,6 +1260,33 @@
         "price": 20,
         "image": "./assets/warsteiner-winter-can-doodle-c192e0ba2d14da9e.webp",
         "available": true
+      },
+      {
+        "id": "1c3d0726-deda-404e-ab3b-34921992c440",
+        "name": "Alcohol-Free Mojito",
+        "description": "A refreshing alcohol-free mojito with lime, fresh mint and sparkling water, served over ice.",
+        "translations": {
+          "zh": {
+            "name": "无酒精莫吉托",
+            "description": "青柠、新鲜薄荷与气泡水调制的无酒精莫吉托，加冰供应，清爽怡人。"
+          },
+          "it": {
+            "name": "Mojito analcolico",
+            "description": "Mojito analcolico con lime, menta fresca e acqua frizzante, servito con ghiaccio."
+          },
+          "ja": {
+            "name": "ノンアルコール・モヒート",
+            "description": "ライム、フレッシュミント、炭酸水で作る爽やかなノンアルコール・モヒート。氷を入れてご提供します。"
+          },
+          "ko": {
+            "name": "논알코올 모히토",
+            "description": "라임, 신선한 민트와 탄산수로 만든 상큼한 무알코올 모히토. 얼음을 넣어 시원하게 제공합니다."
+          }
+        },
+        "price": 28,
+        "image": "./assets/mojito-alcohol-free-doodle-3ad33e514db689d0.webp",
+        "available": true,
+        "dietary": "vegan"
       }
     ],
     "desserts": [
